@@ -1,6 +1,6 @@
 # 레브잇 Problem Solver (AI Agent) 과제 — 최종 구현 계획서
 
-> **최종 기준일: 2026-09-01**
+> **최종 기준일: 2026-09-02**
 >
 > **제품 한 문장:**  
 > 35~50세 여성이 원하는 의류 조건을 입력하면 여러 쇼핑몰의 실제 상품을 대신 탐색해 후보를 좁히고, 상품 정보와 실제 구매후기를 함께 분석해 **“왜 조건에 맞는지”와 “구매 전에 무엇을 조심해야 하는지”**까지 알려주는 AI Shopping Agent를 구현한다.
@@ -13,8 +13,8 @@
 
 ```text
 1. 원하는 조건에 맞는 상품을 여러 쇼핑몰에서 찾아 후보를 압축한다.
-2. 상품 상세정보와 실제 구매후기를 분석해 구매 불확실성을 줄인다.
-3. 최종 1~3개 상품에 대해 추천 근거와 구매 리스크를 함께 보여준다.
+2. 상품 상세정보와 실제 구매후기를 분석해 사진·실물, 사이즈·핏, 소재·품질의 구매 불확실성을 줄인다.
+3. 최종 1~3개 상품에 대해 추천 근거, 구매 리스크와 후보 간 핵심 차이를 함께 보여준다.
 ```
 
 즉 제품의 중심은 **Review Agent**도, 단순한 **AI 상품 추천 챗봇**도 아니다.
@@ -43,9 +43,13 @@
 
 2026-09-01 진행한 탐색적 설문에서:
 
-- 전체 응답: 18명
+- 전체 응답: 22명
 - 타깃 범위 외 `그 외`: 1명 제외
-- **35~50세 유효 응답: 17명**
+- **35~50세 유효 응답: 21명**
+
+원본 응답은 `docs/설문결과.csv`에 보존한다.
+
+복수선택 문항은 각 선택지를 고른 응답자 수로 집계하므로 비율 합계가 100%가 아닐 수 있다. Q8, Q12와 Q15에는 설문에 표시된 최대 선택 수보다 많은 응답도 있어 원문을 임의로 수정하지 않고 그대로 집계했다.
 
 표본이 작기 때문에 이 결과를 시장 전체를 대표하는 통계로 주장하지 않는다.
 
@@ -57,28 +61,29 @@
 
 ## 1.2 가장 반복적으로 나타난 불편
 
-35~50세 유효 응답 17명 기준:
+35~50세 유효 응답 21명 기준:
 
 | 불편 | 응답 |
 |---|---:|
-| 상품 사진과 실제 모습이 다를까 걱정 | **13/17 (76%)** |
-| 비슷한 상품이 너무 많아 무엇을 골라야 할지 모르겠음 | **8/17 (47%)** |
-| 소재·품질을 사진만 보고 판단하기 어려움 | **7/17 (41%)** |
-| 원하는 스타일의 상품을 찾는 데 오래 걸림 | **6/17 (35%)** |
-| 광고성/협찬성 후기인지 구분하기 어려움 | **5/17 (29%)** |
-| 내 체형에 맞을지 판단하기 어려움 | **4/17 (24%)** |
-| 사이즈를 결정하기 어려움 | **4/17 (24%)** |
+| 상품 사진과 실제 모습이 다를까 걱정 | **15/21 (71%)** |
+| 비슷한 상품이 너무 많아 무엇을 골라야 할지 모르겠음 | **9/21 (43%)** |
+| 소재·품질을 사진만 보고 판단하기 어려움 | **9/21 (43%)** |
+| 사이즈를 결정하기 어려움 | **8/21 (38%)** |
+| 원하는 스타일의 상품을 찾는 데 오래 걸림 | **7/21 (33%)** |
+| 내 체형에 맞을지 판단하기 어려움 | **7/21 (33%)** |
+| 광고성/협찬성 후기인지 구분하기 어려움 | **6/21 (29%)** |
 
 `가장 불편한 한 가지` 역시 다음과 같이 분산되어 있다.
 
 - 상품 사진 ↔ 실제 모습 차이: 4명
+- 사이즈 결정: 4명
 - 소재·품질 판단: 3명
 - 원하는 스타일 탐색: 3명
-- 사이즈 결정: 2명
 - 비슷한 상품이 너무 많음: 2명
+- 반품 부담: 2명
 - 검색어 설정: 1명
 - 나에게 어울릴지 판단: 1명
-- 반품 부담: 1명
+- 내 체형에 맞을지 판단: 1명
 
 따라서 단일 세부 문제 하나보다는 아래의 공통된 상위 문제로 묶는 것이 적절하다.
 
@@ -90,12 +95,12 @@
 
 온라인 구매 후 교환/반품 또는 불만의 대표 원인:
 
-- 사이즈가 맞지 않음: **9/17**
-- 생각했던 핏과 다름: **9/17**
-- 나에게 어울리지 않음: **6/17**
-- 소재·품질이 기대와 다름: **6/17**
+- 사이즈가 맞지 않음: **12/21 (57%)**
+- 생각했던 핏과 다름: **12/21 (57%)**
+- 나에게 어울리지 않음: **6/21 (29%)**
+- 소재·품질이 기대와 다름: **6/21 (29%)**
 
-또한 **12/17**이 옷 하나를 결정하는 데 `여러 날에 걸쳐 고민한다`고 응답했다.
+또한 **15/21 (71%)**이 옷 하나를 결정하는 데 `여러 날에 걸쳐 고민한다`고 응답했다.
 
 따라서 문제는 단순한 검색 편의성이 아니다.
 
@@ -115,13 +120,14 @@
 
 구매 결정을 위해 응답자들은 이미:
 
-- 여러 쇼핑몰/앱 비교
-- 사이즈표 확인
-- 구매후기 읽기
-- 사진 후기 확인
-- 나와 비슷한 체형/연령 후기 찾기
-- 검색어를 반복 변경
-- SNS/블로그/유튜브 추가 검색
+- 구매후기 읽기: **12/21**
+- 사진 후기 확인: **11/21**
+- 여러 쇼핑몰/앱 비교: **10/21**
+- 사이즈표 확인: **10/21**
+- 나와 비슷한 체형/연령 후기 찾기: **7/21**
+- 상세페이지 확인: **7/21**
+- 상품 목록을 오래 탐색: **7/21**
+- 검색어를 반복 변경: **6/21**
 
 등을 수행하고 있다.
 
@@ -139,11 +145,13 @@
 
 | 원하는 도움 | 응답 |
 |---|---:|
-| 내가 말한 조건에 맞는 상품만 골라주기 | **9/17** |
-| 나와 비슷한 체형/연령의 후기만 찾아주기 | **7/17** |
-| 비슷한 상품끼리 차이점을 비교 | **6/17** |
-| 여러 쇼핑몰 상품을 한 번에 찾기 | **5/17** |
-| 수많은 리뷰에서 중요한 내용만 정리 | **3/17** |
+| 내가 말한 조건에 맞는 상품만 골라주기 | **12/21 (57%)** |
+| 나와 비슷한 체형/연령의 후기만 찾아주기 | **9/21 (43%)** |
+| 비슷한 상품끼리 차이점을 비교 | **8/21 (38%)** |
+| 여러 쇼핑몰 상품을 한 번에 찾기 | **5/21 (24%)** |
+| 나에게 맞는 사이즈를 추천해주기 | **4/21 (19%)** |
+| 내 체형에 잘 맞을 상품인지 알려주기 | **4/21 (19%)** |
+| 수많은 리뷰에서 중요한 내용만 정리 | **4/21 (19%)** |
 
 여기서 제품 우선순위를 결정한다.
 
@@ -162,10 +170,10 @@
 설문에서 선호 방식:
 
 - 일반 쇼핑앱처럼 조건 선택: 7명
-- 여러 상품을 선택해 비교: 3명
-- 원하는 것을 자연어로 설명해 추천: 3명
+- 여러 상품을 선택해 비교: 5명
+- 원하는 것을 자연어로 설명해 추천: 4명
 - 보고 있는 상품에 대해 질문: 1명
-- 잘 모르겠다: 2명
+- 잘 모르겠다: 3명
 - 무응답: 1명
 
 따라서 UI는 ChatGPT형 빈 대화창이 아니다.
@@ -210,6 +218,7 @@ Agent는:
    - 소재/품질 관련 우려가 있는지
    - 구매 전 확인해야 할 점
    을 제공한다.
+8. 추천 상품이 2개 이상이면 각 후보가 누구에게 더 적합한지와 핵심 trade-off를 자동 비교한다.
 
 ---
 
@@ -218,9 +227,10 @@ Agent는:
 ```text
 1. 실제 상품 정보
 2. 왜 내 조건에 맞는지
-3. 실제 구매후기 요약
-4. 구매 전 리스크 / 확인할 점
-5. 원본 상품 페이지 링크
+3. 사이즈·핏 참고
+4. 실제 구매후기 요약
+5. 구매 전 리스크 / 확인할 점
+6. 원본 상품 페이지 링크
 ```
 
 예:
@@ -237,8 +247,13 @@ Agent는:
 │ ✓ 출근용으로 활용 가능          │
 │ ✓ 여유 있는 실루엣              │
 │                                │
+│ 사이즈·핏 참고                  │
+│ · 판매 사이즈: M / L            │
+│ · 정사이즈 의견이 우세           │
+│ · 사이즈표 정보가 없으면         │
+│   판단할 정보가 부족해요 표시     │
+│                                │
 │ 실제 구매한 사람들은?           │
-│ · 정사이즈라는 의견이 우세       │
 │ · 실제 색상이 사진과 비슷하다는  │
 │   의견이 많음                   │
 │                                │
@@ -251,6 +266,13 @@ Agent는:
 ```
 
 근거 없는 `92% 적합` 같은 숫자는 사용하지 않는다.
+
+추천 상품이 2개 이상이면 카드 위에 자동 비교 요약을 제공한다.
+
+```text
+상품 A: 여유 있는 핏을 우선할 때 적합 / 소재가 얇다는 의견 일부
+상품 B: 가격을 우선할 때 적합 / 사이즈 관련 후기 부족
+```
 
 ---
 
@@ -270,6 +292,9 @@ Agent는:
 - 조건 기반 검색
 - LLM final ranking
 - 리뷰 기반 구매 위험 요약
+- 실제 판매 사이즈와 확보 가능한 사이즈표 정보 표시
+- 사이즈·핏 근거가 없을 때 정보 부족 상태 표시
+- 추천 상품 2~3개의 자동 비교 요약
 - 최대 3개의 실제 상품 추천
 - 상품 원본 링크
 - 후속 conversation refinement
@@ -296,6 +321,9 @@ Agent는:
 - 사용자 행동 로그 저장
 - 리뷰 이미지 Vision 분석
 - 가상 피팅
+- 확정적인 개인 사이즈 추천
+- 키·체형 정보를 저장하는 사용자 프로필
+- 사용자가 상품을 선택하는 별도 비교 화면
 - 보유 옷장 기능
 - 코디 recommendation system
 - 근거 없는 적합도 %
@@ -636,6 +664,15 @@ HTTP fetch
 
 과제에서 크롤링 양 자체는 평가 핵심이 아니므로 수량 경쟁을 하지 않는다.
 
+## 8.6 사이즈표 수집
+
+상품 상세페이지에서 실제 판매 사이즈와 사이즈표 원문을 확보한다.
+
+- `sizes`: 판매 옵션에서 확인되는 사이즈 목록
+- `sizeGuideText`: 상품 상세페이지에서 확인되는 사이즈표 또는 치수 안내 원문
+
+`sizeGuideText`는 nullable이다. 쇼핑몰별 사이즈표 구조를 완전히 정규화하는 데 과투자하지 않고, 크롤러가 실제로 읽은 원문만 저장한다. 사이즈표가 이미지로만 제공되고 텍스트를 안전하게 추출할 수 없으면 `null`로 둔다.
+
 ---
 
 # 9. Review Crawling
@@ -691,7 +728,9 @@ Playwright fallback
 ```text
 텍스트 리뷰
 >
-구매 옵션/체형 metadata
+구매 옵션
+>
+공개된 체형 metadata
 >
 리뷰 이미지
 ```
@@ -722,6 +761,7 @@ Playwright fallback
 
   colors: [],
   sizes: [],
+  sizeGuideText: null,
   material: null,
 
   description: '원문 상품 설명',
@@ -757,6 +797,7 @@ Nullable 허용:
 - originalPrice
 - colors
 - sizes
+- sizeGuideText
 - material
 - rating
 - reviewCount
@@ -883,6 +924,7 @@ Enrichment LLM은 다음 factual field를 생성하지 않는다.
 - brand
 - colors
 - actual sizes
+- size guide text / measurements
 - material
 - rating
 - review count
@@ -1021,6 +1063,7 @@ CREATE TABLE products (
 
   colors_json TEXT,
   sizes_json TEXT,
+  size_guide_text TEXT,
 
   material TEXT,
   description TEXT,
@@ -1222,6 +1265,8 @@ sessionStorage.setItem(
 12. 사이즈/핏/소재 결과를 확정적으로 보장하지 않는다.
 13. 실제 reviewer metadata가 있을 때만 유사 체형 후기라고 표현한다.
 14. 장점과 함께 구매 전 concern을 반드시 고려한다.
+15. 판매 사이즈나 사이즈표가 없으면 이를 생성하지 않고 정보 부족으로 표현한다.
+16. 추천이 2개 이상이면 동일한 기준으로 핵심 차이와 trade-off를 비교한다.
 ```
 
 ---
@@ -1290,6 +1335,8 @@ search_products
 > "너무 결혼식 하객처럼 차려입은 느낌은 싫어"
 
 같은 nuanced intent가 structured tags에서 손실되지 않도록 final ranking에 원문도 제공한다.
+
+키·체형을 저장하는 별도 사용자 프로필이나 `fitContext`는 추가하지 않는다. 사용자가 현재 질의에 평소 사이즈나 체형 고민을 적으면 원문 `query`와 기존 `sizes`, `fitTags`, `keywords` 안에서만 soft context로 해석한다.
 
 ---
 
@@ -1425,6 +1472,7 @@ UI에는 노출하지 않는다.
 
   colors: ['black', 'navy'],
   sizes: ['M', 'L'],
+  sizeGuideText: 'M 허리 70cm / L 허리 74cm',
   material: '...',
 
   summary: '...',
@@ -1508,10 +1556,50 @@ LLM이 반환:
       "concerns": [
         "허벅지 부분이 예상보다 붙는다는 의견이 일부 있음"
       ]
+    },
+    {
+      "productId": "shop-b:5678",
+      "reason":
+        "요청 가격 범위 안에서 소재 관련 긍정 후기가 확인된 출근용 바지입니다.",
+      "evidence": [
+        {
+          "type": "occasion",
+          "value": "office"
+        },
+        {
+          "type": "review_material_quality",
+          "value": "positive"
+        }
+      ],
+      "strengths": [
+        "소재가 괜찮다는 구매후기가 확인됨"
+      ],
+      "concerns": [
+        "사이즈 관련 후기가 부족함"
+      ]
+    }
+  ],
+  "comparison": [
+    {
+      "productId": "shop-a:1234",
+      "bestFor": "여유 있는 출근용 핏을 우선하는 경우",
+      "tradeoff": "허벅지가 붙는다는 의견이 일부 있음"
+    },
+    {
+      "productId": "shop-b:5678",
+      "bestFor": "소재 관련 구매후기를 우선하는 경우",
+      "tradeoff": "사이즈 관련 후기가 부족함"
     }
   ]
 }
 ```
+
+`comparison` 규칙:
+
+- 추천이 1개면 빈 배열
+- 추천이 2~3개면 각 추천 상품마다 최대 한 개 항목
+- `productId`는 recommendations와 동일한 candidate set만 허용
+- `bestFor`와 `tradeoff`는 실제 상품·리뷰 근거 안에서만 작성
 
 ---
 
@@ -1534,6 +1622,7 @@ LLM이 직접 생성:
 - URL
 - color
 - size
+- size guide text
 - rating
 - review summary
 - review count
@@ -1544,6 +1633,7 @@ LLM은 존재하지 않는 상품/가격/링크/사이즈를 만들 수 없다.
 
 ```text
 recommendation.productId가 candidate set에 존재하는지 확인
+comparison.productId가 recommendation set에 존재하는지 확인
 ```
 
 가능하다면 evidence도 실제 candidate data와 일치 여부 검증.
@@ -1633,7 +1723,8 @@ Error는 `type: error`의 200 응답이 아니라 HTTP status code로 처리한�
   "responseId": "resp_xxx",
   "message": "조건에 맞는 상품을 골랐어요.",
   "criteria": {},
-  "products": []
+  "products": [],
+  "comparison": []
 }
 ```
 
@@ -1704,12 +1795,28 @@ ChatGPT blank chat 형태를 사용하지 않는다.
 
 AI가 찾은 결과
 
+[후보 간 핵심 차이 자동 비교]
+
 [Product 1] [Product 2] [Product 3]
 
 [조금 더 저렴한 걸로 찾아줘                ]
 ```
 
 Conversation은 검색 이후 refinement 수단.
+
+각 Product Card는 같은 순서로 다음 정보를 표시한다.
+
+```text
+가격
+→ 핏
+→ 소재
+→ 판매 사이즈 / 사이즈표
+→ 사진·실물 후기 신호
+→ 사이즈·핏 후기 신호
+→ 핵심 우려
+```
+
+사이즈표 또는 관련 후기가 없으면 빈 영역을 숨기지 않고 `판단할 정보가 부족해요`라고 표시한다.
 
 예:
 
@@ -1753,12 +1860,14 @@ Zustand/Redux 등 외부 state library 미사용.
 Desktop:
 
 ```text
+[후보 간 핵심 차이]
 [Product 1] [Product 2] [Product 3]
 ```
 
 Mobile:
 
 ```text
+[후보 간 핵심 차이]
 [Product 1]
 [Product 2]
 [Product 3]
@@ -1905,6 +2014,7 @@ Ignore:
 - price parsing
 - URL normalization
 - nullable handling
+- sizeGuideText extraction / nullable fallback
 - review normalization
 
 ### DB
@@ -1919,6 +2029,7 @@ Ignore:
 - category filter
 - min/max price
 - conditional size/color filtering
+- sizeGuideText pass-through
 - null review behavior
 - retrieval score
 
@@ -1931,6 +2042,8 @@ Ignore:
 - structured output parsing
 - response types
 - factual data merge
+- comparison productId validation
+- recommendation 1개일 때 빈 comparison
 
 ---
 
@@ -1946,8 +2059,11 @@ Ignore:
 3. 사이즈가 작다는 후기가 적은 바지
 4. 소재가 괜찮다는 평가가 있는 상의
 5. 사진과 실제 색상이 비슷하다는 후기가 있는 옷
-6. 조건이 거의 없는 "예쁜 옷 추천해줘"
-7. 조건이 너무 좁아 결과가 없는 query
+6. 평소 66인데 허벅지가 너무 붙지 않는 바지
+7. 사이즈표나 사이즈 후기가 없는 상품
+8. 후보 2~3개의 핵심 차이 자동 비교
+9. 조건이 거의 없는 "예쁜 옷 추천해줘"
+10. 조건이 너무 좁아 결과가 없는 query
 ```
 
 ---
@@ -1976,6 +2092,16 @@ Ignore:
     "query": "사진이랑 실제 색상이 비슷하다는 후기가 있는 옷",
     "reviewExpectation": {
       "appearanceMatch": "similar"
+    }
+  },
+  {
+    "query": "평소 66인데 허벅지가 너무 붙지 않는 출근용 바지",
+    "semanticExpectations": [
+      "office",
+      "relaxed"
+    ],
+    "reviewExpectation": {
+      "sizeFit": "not_unknown_when_supported"
     }
   }
 ]
@@ -2046,16 +2172,18 @@ GET /api/health → 200
 1. Cafe24 쇼핑몰 1개 선정
 2. 카테고리 product URL 10개 discovery
 3. 상세상품 parsing
-4. `data/raw` 저장
-5. fallback 구조
-6. shop config
-7. 두 번째 쇼핑몰 연결
-8. 최대 50개로 확대
+4. 판매 사이즈와 nullable `sizeGuideText` parsing
+5. `data/raw` 저장
+6. fallback 구조
+7. shop config
+8. 두 번째 쇼핑몰 연결
+9. 최대 50개로 확대
 
 ### DoD
 
 ```text
 여러 Cafe24 쇼핑몰의 실제 상품이
+판매 사이즈와 nullable sizeGuideText를 포함해
 data/raw/*.json에 존재
 ```
 
@@ -2069,7 +2197,7 @@ data/raw/*.json에 존재
 2. HTML/embedded JSON/API 중 가장 단순한 방법 선택
 3. 상품당 10~20개 리뷰
 4. option metadata
-5. 공개된 reviewer metadata
+5. 공개된 reviewer metadata가 있으면 수집
 6. raw JSON에 포함
 
 ### DoD
@@ -2150,8 +2278,9 @@ review appearance/size/material summary
 3. retrieval scoring
 4. review signals
 5. compact DTO
-6. unit tests
-7. eval cases
+6. sizeGuideText pass-through
+7. unit tests
+8. eval cases
 
 ### DoD
 
@@ -2170,9 +2299,10 @@ review appearance/size/material summary
 5. clarification
 6. final ranking
 7. Structured Output
-8. no_result
-9. factual data merge
-10. hallucination validation
+8. 자동 comparison summary
+9. no_result
+10. factual data merge
+11. hallucination validation
 
 ### DoD
 
@@ -2202,11 +2332,13 @@ natural language
 6. result grid
 7. Product Card
 8. condition match section
-9. real review section
-10. risk section
-11. refinement
-12. reset
-13. mobile responsive
+9. size / fit evidence section
+10. automatic comparison summary
+11. real review section
+12. risk section
+13. refinement
+14. reset
+15. mobile responsive
 
 ### DoD
 
@@ -2235,7 +2367,7 @@ natural language
 
 # 46. 최종 Definition of Done
 
-> **배포된 웹에서 35~50세 여성 사용자가 원하는 의류 조건을 입력하면, GPT Agent가 `search_products`를 호출하고 여러 Cafe24 쇼핑몰에서 크롤링한 실제 상품 중 후보를 찾아 최대 3개를 추천한다. 결과에는 조건 적합 이유가 가장 먼저 표시되고, 실제 구매후기가 있는 경우 사진/실물·사이즈/핏·소재/품질 관련 핵심 의견과 구매 전 확인할 리스크가 함께 제공된다.**
+> **배포된 웹에서 35~50세 여성 사용자가 원하는 의류 조건을 입력하면, GPT Agent가 `search_products`를 호출하고 여러 Cafe24 쇼핑몰에서 크롤링한 실제 상품 중 후보를 찾아 최대 3개를 추천한다. 결과에는 조건 적합 이유가 가장 먼저 표시되고, 판매 사이즈와 확보 가능한 사이즈표, 사진/실물·사이즈/핏·소재/품질 관련 실제 후기, 구매 전 확인할 리스크가 제공된다. 추천이 2개 이상이면 후보 간 핵심 차이도 자동 비교한다.**
 
 반드시:
 
@@ -2244,6 +2376,8 @@ natural language
 - 실제 가격/이미지 사용
 - LLM이 상품 factual data 생성하지 않음
 - 리뷰가 없으면 추론하지 않음
+- 사이즈표가 없으면 생성하지 않고 정보 부족 표시
+- 추천이 2개 이상이면 자동 비교 요약 제공
 - 최대 3개
 - 후속 conversation 가능
 - 새로 찾기 가능
@@ -2265,7 +2399,7 @@ natural language
 - 왜 의류인가
 
 ## Survey
-- 17명 탐색적 설문
+- 21명 유효 응답의 탐색적 설문
 - 표본 한계
 - 주요 결과
 - 결과가 MVP에 미친 영향
@@ -2293,6 +2427,7 @@ natural language
 - max 15
 - LLM final ranking
 - review evidence
+- automatic comparison summary
 
 ## Trust / Hallucination Prevention
 - DB = 사실
@@ -2363,7 +2498,7 @@ docs: document problem solving and architecture
 >
 후보 비교
 >
-후기로 구매 위험 검증
+사진·실물 / 사이즈·핏 / 소재·품질 위험 검증
 ```
 
 ## Crawler
@@ -2501,6 +2636,12 @@ Crawler + DB = 사실
 | 66 | data pipeline npm scripts |
 | 67 | Render build phase DB 생성 |
 | 68 | React shopping feature 구조 |
+| 69 | 설문 기준 전체 22명, 35~50세 유효 응답 21명 |
+| 70 | 사이즈·핏을 사진·실물, 소재·품질과 같은 핵심 구매위험 축으로 취급 |
+| 71 | nullable sizeGuideText를 crawler/DB의 factual data로 저장 |
+| 72 | 키·체형 사용자 프로필과 확정적 개인 사이즈 추천은 MVP에서 제외 |
+| 73 | 별도 compare_products tool 없이 최종 2~3개 후보 자동 비교 |
+| 74 | 선택형 비교 UI는 제외하고 기존 검색 결과에서 comparison summary 제공 |
 
 ---
 
