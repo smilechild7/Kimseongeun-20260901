@@ -1,0 +1,587 @@
+[
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "11284",
+      "productUrl": "https://graychic.co.kr/product/%EB%8B%A83%EC%9D%BC%EA%B0%84-%ED%83%80%EC%9E%84%EC%84%B8%EC%9D%BC-gc-made-%EC%89%AC%EB%A6%AC%EB%B0%B4%EB%94%A9%EC%8A%AC%EB%9E%99%EC%8A%A4sml/11284/category/12/display/2/"
+    },
+    "name": "[단3일간! 타임세일] [GC MADE] 쉬리밴딩슬랙스[S,M,L]",
+    "brand": "GRAYCHIC",
+    "category": "pants",
+    "price": 39900,
+    "originalPrice": 57000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202607/35a349303e8409ecf38576743b875fe9.jpg",
+    "colors": [],
+    "sizes": [
+      "S(모델착용)",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 허리단면 ② 밑위 ③ 허벅지단면 ④ 힙단면 ⑤ 밑단 ⑥ 총장 S 32 26 26 44 24 96 M 34 26.5 27 46 25 97 L 36 27 28 48 26 98",
+    "material": "폴리95%, 스판5%",
+    "description": "군더더기 없이 떨어지는 세미 부츠컷 디자인~ 움직임에도 자유롭고 구김이 적어 활동시 편안하게 입기 좋아요",
+    "rating": 4.9,
+    "reviewCount": 758,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:23:30.143Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "13254",
+      "productUrl": "https://graychic.co.kr/product/%EB%AF%B8%EB%8B%88%EB%A9%80%EB%9D%BC%EC%9D%B8%EC%8A%AC%EB%9E%99%EC%8A%A4sml/13254/category/12/display/2/"
+    },
+    "name": "미니멀라인슬랙스[S,M,L]",
+    "brand": "GRAYCHIC",
+    "category": "pants",
+    "price": 45600,
+    "originalPrice": 55000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202506/4fd51f6e0bd1a4eb680d22f5d6b36195.jpg",
+    "colors": [
+      "카키브라운",
+      "다크브라운",
+      "블랙"
+    ],
+    "sizes": [
+      "S(모델착용)",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 허리단면 ② 밑위 ③ 허벅지단면 ④ 힙단면 ⑤ 밑단 ⑥ 총장 S 32.5 30 31 46.5 24 102 M 34.5 30.5 32 48.5 25 103 L 36.5 31 33 50.5 26 104",
+    "material": "폴리95%, 스판5%",
+    "description": "하체가 탄탄해 보이는 레긱기 주름 포인트~ 군더더기 없는 절제미가 돋보이는 일자핏이에요",
+    "rating": 4.9,
+    "reviewCount": 113,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:23:31.951Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "11135",
+      "productUrl": "https://graychic.co.kr/product/gc-made-jean-303%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90sml/11135/category/12/display/2/"
+    },
+    "name": "[GC MADE] JEAN 303(오리지널)[S,M,L]",
+    "brand": "GRAYCHIC",
+    "category": "pants",
+    "price": 55800,
+    "originalPrice": 69000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202506/b39a251dea58c9f1b5d21d65d20b41d3.jpg",
+    "colors": [],
+    "sizes": [
+      "S(모델착용)",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 허리단면 ② 밑위 ③ 허벅지단면 ④ 힙단면 ⑤ 밑단 ⑥ 총장 S 33 28 28 48 23 100 M 35.5 29 29 50.5 24 101 L 38 30 30 53 25 102",
+    "material": "코튼97%, 폴리우레탄3%",
+    "description": "꾸준히 사랑받는 그레이시크 스테디셀러~ 높은 판매 수량과 리뷰가 증명하는 베스트 상품이에요",
+    "rating": 4.9,
+    "reviewCount": 2994,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:23:33.896Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "15143",
+      "productUrl": "https://graychic.co.kr/product/gc-made-jean-303%EB%8B%A4%ED%81%AC%EB%B8%94%EB%A3%A8sml/15143/category/12/display/2/"
+    },
+    "name": "[GC MADE] JEAN 303(다크블루)[S,M,L]",
+    "brand": "GRAYCHIC",
+    "category": "pants",
+    "price": 62300,
+    "originalPrice": 76000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202608/f2ef593943aa84c15e5a6cae37b26de8.jpg",
+    "colors": [],
+    "sizes": [
+      "S(모델착용)",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 허리단면 ② 밑위 ③ 허벅지단면 ④ 힙단면 ⑤ 밑단 ⑥ 총장 S 33 31 27.5 45 22.5 100 M 35 31.5 28.5 47 23.5 101 L 37 32 29.5 49 24.5 102",
+    "material": "코튼58%, 텐셀21%, 폴리18%, 스판3%",
+    "description": "차분한 딥블루 컬러의 그레이시크 시그니처 데님 힘을 빼고 툭, 자연스럽게 떨어지는 스트레이트 핏이에요",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:23:35.635Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "15094",
+      "productUrl": "https://graychic.co.kr/product/%EB%A6%AC%EB%B3%BC%ED%8E%80%EC%B9%AD%EC%88%8F%ED%8C%AC%EC%B8%A0%EB%A6%B0%EB%84%A8%ED%85%90%EC%85%80%ED%98%BC%EB%B0%A9free55-66/15094/category/12/display/2/"
+    },
+    "name": "리볼펀칭숏팬츠(린넨/텐셀혼방)[FREE(55-66)]",
+    "brand": "GRAYCHIC",
+    "category": "pants",
+    "price": 32700,
+    "originalPrice": 39000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202607/1859d67061948e1847109a536d505fe3.jpg",
+    "colors": [
+      "브라운",
+      "네이비"
+    ],
+    "sizes": [
+      "FREE(55-66)"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 허리단면 ② 밑위 ③ 허벅지단면 ④ 힙단면 ⑤ 밑단 ⑥ 총장 Free 32 36 35 52 35 37",
+    "material": "코튼50%, 텐셀40%, 린넨10%",
+    "description": "섬세한 펀칭 디테일의 은은한 포인트~ 내추럴한 무드의 데일리 밴딩 팬츠예요",
+    "rating": 5,
+    "reviewCount": 4,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:23:37.478Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "14607",
+      "productUrl": "https://graychic.co.kr/product/%EB%B9%85%EB%B0%B4%EB%94%A9%EC%9D%BC%EC%9E%90%EC%8A%AC%EB%9E%99%EC%8A%A4sml/14607/category/12/display/1/"
+    },
+    "name": "빅밴딩일자슬랙스[S,M,L]",
+    "brand": "GRAYCHIC",
+    "category": "pants",
+    "price": 41100,
+    "originalPrice": 49000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202509/2cdd34f8568188a87a3e715d48af15dd.jpg",
+    "colors": [
+      "연베이지",
+      "블랙"
+    ],
+    "sizes": [
+      "S(모델착용)",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 허리단면 ② 밑위 ③ 허벅지단면 ④ 힙단면 ⑤ 밑단 ⑥ 총장 S 34 31 26 41 19 94 M 36 31.5 27 43 20 95 L 38 32 28 45 21 96",
+    "material": "폴리90%, 스판10%",
+    "description": "레깅스처럼 편하게 입을 수 있는 슬랙스~ 원단 자체가 쫀쫀하고 탄탄해 다리 라인을 예쁘게 잡아줘요",
+    "rating": 5,
+    "reviewCount": 4,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:23:39.016Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "11621",
+      "productUrl": "https://graychic.co.kr/product/gc-made-%EC%BD%94%EC%BD%94%EB%B0%B4%EB%94%A9%ED%8C%AC%EC%B8%A0%EA%B0%80%EC%9D%84%EB%B2%84%EC%A0%84sml/11621/category/12/display/1/"
+    },
+    "name": "[GC MADE] 코코밴딩팬츠(가을버전)[S,M,L]",
+    "brand": "GRAYCHIC",
+    "category": "pants",
+    "price": 43700,
+    "originalPrice": 54000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202508/d8bdff0ed9870ce167d8ad54380f441f.jpg",
+    "colors": [
+      "베이지",
+      "브라운",
+      "차콜",
+      "블랙"
+    ],
+    "sizes": [
+      "S(모델착용)",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 허리단면 ② 밑위 ③ 허벅지단면 ④ 힙단면 ⑤ 밑단 ⑥ 총장 S 33 29 27 44 23 96 M 35 29.5 28 46 24 97 L 37 30 29 48 25 98",
+    "material": "폴리90%, 스판10%",
+    "description": "필링에도 강하고 쾌적하게 입기 좋은 편안한 코코밴딩 시리즈 ! 가을 분위기에 잘 어울리는 컬러 라인업으로 만나보세요",
+    "rating": 4.9,
+    "reviewCount": 1675,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:23:40.873Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "13168",
+      "productUrl": "https://graychic.co.kr/product/%ED%97%A4%EC%9D%B4%EC%A6%90%EC%9B%90%ED%95%80%ED%84%B1%EC%8A%AC%EB%9E%99%EC%8A%A4sml/13168/category/12/display/1/"
+    },
+    "name": "헤이즐원핀턱슬랙스[S,M,L]",
+    "brand": "GRAYCHIC",
+    "category": "pants",
+    "price": 43900,
+    "originalPrice": 53000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202608/a9c9b024f61c7c87d92fb37718220ce2.jpg",
+    "colors": [
+      "베이지",
+      "브라운",
+      "차콜",
+      "블랙"
+    ],
+    "sizes": [
+      "S(모델착용)",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 허리단면 ② 밑위 ③ 허벅지단면 ④ 힙단면 ⑤ 밑단 ⑥ 총장 S 29 30.5 30 45.5 25 99.5 M 31 31 31 47.5 26 100.5 L 33 31.5 32 49.5 27 101.5",
+    "material": "폴리95%, 스판5%",
+    "description": "툭 떨어지는 여유로운 와이드 일자핏~ 어디에나 잘 어울리는 베이직한 디자인이에요",
+    "rating": 5,
+    "reviewCount": 15,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:23:42.638Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "15132",
+      "productUrl": "https://graychic.co.kr/product/%ED%8E%98%EC%96%BC%ED%9E%88%EB%93%A0%EB%B0%B4%EB%94%A9%EC%8A%AC%EB%9E%99%EC%8A%A4sml/15132/category/12/display/1/"
+    },
+    "name": "페얼히든밴딩슬랙스[S,M,L]",
+    "brand": "GRAYCHIC",
+    "category": "pants",
+    "price": 41500,
+    "originalPrice": 50000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202608/72d4b03672b04342865193ad151abe4b.jpg",
+    "colors": [
+      "베이지",
+      "차콜",
+      "블랙"
+    ],
+    "sizes": [
+      "S(모델착용)",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 허리단면 ② 밑위 ③ 허벅지단면 ④ 힙단면 ⑤ 밑단 ⑥ 총장 S 30 34 29.5 46 29 103 M 32 34.5 30.5 48 30 104 L 34 35 31.5 50 31 105",
+    "material": "폴리96%, 스판4%",
+    "description": "히든밴딩의 깔끔하고 편안한 팬츠 넉넉한 와이드 핏으로 하체 군살을 자연스럽게 커버해 줘요",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:23:44.235Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "14955",
+      "productUrl": "https://graychic.co.kr/product/gc-made-jean-303%EB%8B%A4%ED%81%AC%EA%B7%B8%EB%A0%88%EC%9D%B4sml/14955/category/12/display/1/"
+    },
+    "name": "[GC MADE] JEAN 303(다크그레이)[S,M,L]",
+    "brand": "GRAYCHIC",
+    "category": "pants",
+    "price": 58200,
+    "originalPrice": 71000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202605/995b15ad9cd9eb8b749f850e002245fd.jpg",
+    "colors": [],
+    "sizes": [
+      "S(모델착용)",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 허리단면 ② 밑위 ③ 허벅지단면 ④ 힙단면 ⑤ 밑단 ⑥ 총장 S 32 29 26 44 21 100 M 34 29.5 27 46 22 101 L 36 30 28 48 23 102",
+    "material": "코튼98%, 스판2%",
+    "description": "고급스러운 다크그레이 색감의 제작 데님~ 라인감을 탄탄하게 잡아주는 일자핏이에요",
+    "rating": 4.9,
+    "reviewCount": 24,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:23:45.839Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "14214",
+      "productUrl": "https://graychic.co.kr/product/gc-made-jean-303%EC%B9%B4%ED%82%A4%EA%B7%B8%EB%A0%88%EC%9D%B4sml/14214/category/12/display/1/"
+    },
+    "name": "[GC MADE] JEAN 303(카키그레이)[S,M,L]",
+    "brand": "GRAYCHIC",
+    "category": "pants",
+    "price": 62300,
+    "originalPrice": 76000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202506/bac3fd4eae05510583f6ad16b3391179.jpg",
+    "colors": [],
+    "sizes": [
+      "S(모델착용)",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 허리단면 ② 밑위 ③ 허벅지단면 ④ 힙단면 ⑤ 밑단 ⑥ 총장 S 32 27 28 46 22 101 M 34 27.5 29 48 23 103 L 36 28 30 50 24 105",
+    "material": "코튼97%, 폴리우레탄3%",
+    "description": "어디서도 볼 수 없는 독보적인 카키 컬러워너비 303 진 핏으로 워싱만 다르게 즐겨보세요~",
+    "rating": 4.9,
+    "reviewCount": 227,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:23:47.621Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "14387",
+      "productUrl": "https://graychic.co.kr/product/%EB%B0%94%EC%8A%A4%EB%9D%BD%ED%9E%88%EB%93%A0%EB%B0%B4%EB%94%A9%EC%8A%AC%EB%9E%99%EC%8A%A4sml/14387/category/12/display/1/"
+    },
+    "name": "바스락히든밴딩슬랙스[S,M,L]",
+    "brand": "GRAYCHIC",
+    "category": "pants",
+    "price": 55700,
+    "originalPrice": 68000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202506/02d3b62b898f324021fe2a78715e81a4.jpg",
+    "colors": [
+      "크림",
+      "베이지"
+    ],
+    "sizes": [
+      "S(모델착용)",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 허리단면 ② 밑위 ③ 허벅지단면 ④ 힙단면 ⑤ 밑단 ⑥ 총장 S 34 33 31 47 29 95 M 36 33.5 32 49 30 96 L 38 34 33 51 31 97",
+    "material": "나일론55%, 레이온37%, 스판8%",
+    "description": "두껍고 튼튼한 허리 밴딩으로 안정적이고 편안한 착용감~ 세미 와이드 슬랙스로 힙과 골반이 자연스레 커버돼요",
+    "rating": 4.9,
+    "reviewCount": 59,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:23:49.463Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "12198",
+      "productUrl": "https://graychic.co.kr/product/gc-made-%EC%BD%94%EC%BD%94%EB%B0%B4%EB%94%A9%ED%8C%AC%EC%B8%A0%EC%97%AC%EB%A6%84versml/12198/category/12/display/1/"
+    },
+    "name": "[GC MADE] 코코밴딩팬츠(여름ver.)[S,M,L]",
+    "brand": "GRAYCHIC",
+    "category": "pants",
+    "price": 38100,
+    "originalPrice": 46000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202506/13deb7c91e82c32e7fa83d721a010c88.jpg",
+    "colors": [
+      "연그레이",
+      "차콜",
+      "블랙"
+    ],
+    "sizes": [
+      "S(모델착용)",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 허리단면 ② 밑위 ③ 허벅지단면 ④ 힙단면 ⑤ 밑단 ⑥ 총장 S 34 30 26.5 44 22 98 M 36 30.5 27.5 46 23 99 L 38 31 28.5 48 24 100",
+    "material": "폴리95%, 스판5%",
+    "description": "와이드한 허리 밴드선과 구김없는 링클프리 원단! 깔끔하게 딱 떨어지는 핏이에요",
+    "rating": 4.9,
+    "reviewCount": 1051,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:23:51.349Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "12325",
+      "productUrl": "https://graychic.co.kr/product/%EB%A6%AC%EC%8A%A4%ED%8E%99%ED%95%80%ED%84%B1%EC%8A%AC%EB%9E%99%EC%8A%A4sml/12325/category/12/display/1/"
+    },
+    "name": "리스펙핀턱슬랙스[S,M,L]",
+    "brand": "GRAYCHIC",
+    "category": "pants",
+    "price": 49400,
+    "originalPrice": 61000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202506/7526bf56282d56a4617e44b17b530c1d.jpg",
+    "colors": [
+      "진베이지",
+      "브라운",
+      "차콜",
+      "블랙"
+    ],
+    "sizes": [
+      "S(모델착용)",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 허리단면 ② 밑위 ③ 허벅지단면 ④ 힙단면 ⑤ 밑단 ⑥ 총장 S 32 30 31 48 26 100 M 34 30.5 32 50 27 101 L 36 31 33 52 28 102",
+    "material": "폴리98%, 스판2%",
+    "description": "베스트 슬랙스! 뒷밴딩으로 허리조임없는 편안한 착용감 ! 여유있는 아웃핏이 하체 커버까지 완벽해요",
+    "rating": 4.9,
+    "reviewCount": 638,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:23:53.229Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "15101",
+      "productUrl": "https://graychic.co.kr/product/%EB%AC%B4%ED%81%AC%EB%B0%B4%EB%94%A9%EB%81%88%ED%8C%AC%EC%B8%A0free55-66/15101/category/12/display/1/"
+    },
+    "name": "무크밴딩끈팬츠[FREE(55-66)]",
+    "brand": "GRAYCHIC",
+    "category": "pants",
+    "price": 64700,
+    "originalPrice": 79000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202608/20b17710b1068a9c4823eeb3b561df0f.jpg",
+    "colors": [
+      "아이보리",
+      "다크브라운",
+      "블랙"
+    ],
+    "sizes": [
+      "FREE(55-66)"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 허리단면 ② 밑위 ③ 허벅지단면 ④ 힙단면 ⑤ 밑단 ⑥ 총장 Free 33 32.5 31 50 25.5 105",
+    "material": "레이온65%, 나일론35%",
+    "description": "내추럴하게 흐르는 멋스러운 무드~ 편안해서 매일 손이 가는 데일리 팬츠예요",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:23:54.883Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "14546",
+      "productUrl": "https://graychic.co.kr/product/%EC%8B%B1%EA%B8%80%EC%9B%90%ED%84%B1%EC%8A%AC%EB%9E%99%EC%8A%A4sml/14546/category/12/display/1/"
+    },
+    "name": "싱글원턱슬랙스[S,M,L]",
+    "brand": "GRAYCHIC",
+    "category": "pants",
+    "price": 50600,
+    "originalPrice": 61000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202508/be9a605edd7d9e2ceca6104d13fd982e.jpg",
+    "colors": [
+      "크림",
+      "베이지",
+      "차콜",
+      "블랙"
+    ],
+    "sizes": [
+      "S(모델착용)",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 허리단면 ② 밑위 ③ 허벅지단면 ④ 힙단면 ⑤ 밑단 ⑥ 총장 S 36 33 32 49 26 102 M 38 33.5 33 51 27 103 L 40 34 34 53 28 104",
+    "material": "폴리96%, 스판4%",
+    "description": "복부가 커버되는 원턱 포인트 디테일! 가볍게 찰랑이는 소재라서 편하게 입을 수 있어요",
+    "rating": 4.9,
+    "reviewCount": 7,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:23:56.435Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "9876",
+      "productUrl": "https://graychic.co.kr/product/%EB%B0%B4%EB%94%A9%EC%8A%A4%ED%8A%B8%EB%9E%A9%ED%8C%AC%EC%B8%A0%EB%A6%B0%EB%84%A834freel/9876/category/12/display/1/"
+    },
+    "name": "밴딩스트랩팬츠(린넨34%)[FREE,L]",
+    "brand": "GRAYCHIC",
+    "category": "pants",
+    "price": 50600,
+    "originalPrice": 61000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202506/88d0e47e1a1fc0a729d5af65b90997b4.jpg",
+    "colors": [
+      "블랙",
+      "카키",
+      "오트밀"
+    ],
+    "sizes": [
+      "FREE(모델착용)",
+      "L"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 허리단면 ② 밑위 ③ 허벅지단면 ④ 힙단면 ⑤ 밑단 ⑥ 총장 Free 31 30.5 31 49 24.5 94 L 33 31 32 51 25.5 95",
+    "material": "텐셀66%, 린넨34%",
+    "description": "일자로 뚝 떨어지는 핏이에요~ 편하게 슥 올려입는 허리밴딩 디자인입니다",
+    "rating": 4.9,
+    "reviewCount": 213,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:23:58.064Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "14375",
+      "productUrl": "https://graychic.co.kr/product/gc-made-jean-303%EB%9D%BC%EC%9D%B4%ED%8A%B8%EB%B8%94%EB%A3%A8sml/14375/category/12/display/1/"
+    },
+    "name": "[GC MADE] JEAN 303(라이트블루)[S,M,L]",
+    "brand": "GRAYCHIC",
+    "category": "pants",
+    "price": 62300,
+    "originalPrice": 76000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202506/20756f5990a07f8c6245828348a1e2fe.jpg",
+    "colors": [],
+    "sizes": [
+      "S(모델착용)",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 허리단면 ② 밑위 ③ 허벅지단면 ④ 힙단면 ⑤ 밑단 ⑥ 총장 S 32 28 27 44 20 100.5 M 34 28.5 28 46 21 101.5 L 36 29 29 48 22 102.5",
+    "material": "코튼97%, 스판3%",
+    "description": "탄탄한 두께의 짱짱한 스판 데님~ 누런빛이 은은하게 가미돼 흔하지 않은 고급스러운 색감이에요",
+    "rating": 5,
+    "reviewCount": 57,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:23:59.689Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "13723",
+      "productUrl": "https://graychic.co.kr/product/%EB%B0%94%EC%8A%A4%EB%9D%BD%EB%B9%84%EC%A1%B0%ED%8C%AC%EC%B8%A0free55-66/13723/category/12/display/1/"
+    },
+    "name": "바스락비조팬츠[FREE(55-66)]",
+    "brand": "GRAYCHIC",
+    "category": "pants",
+    "price": 62300,
+    "originalPrice": 76000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202506/630ef66a49deb2aee967b0980e91cf20.jpg",
+    "colors": [
+      "아이보리",
+      "블랙"
+    ],
+    "sizes": [
+      "FREE(55-66)"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 허리단면 ② 밑위 ③ 허벅지단면 ④ 힙단면 ⑤ 밑단 ⑥ 총장 Free 37 34 34 51 27 105",
+    "material": "나일론98%, 스판2%",
+    "description": "미세하게 지글지글한 요철감이 느껴지는 바스락 원단~ 대충 입어도 추레한 느낌 없이 차려입은듯한 아웃핏이에요",
+    "rating": 4.9,
+    "reviewCount": 155,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:01.444Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "12344",
+      "productUrl": "https://graychic.co.kr/product/gc-made-jean-303%EC%83%9D%EC%A7%80sml/12344/category/12/display/1/"
+    },
+    "name": "[GC MADE] JEAN 303(생지)[S,M,L]",
+    "brand": "GRAYCHIC",
+    "category": "pants",
+    "price": 58300,
+    "originalPrice": 72000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202506/c282f9f86dea5390d0119a3cc5cbb4b3.jpg",
+    "colors": [],
+    "sizes": [
+      "S(모델착용)",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 허리단면 ② 밑위 ③ 허벅지단면 ④ 힙단면 ⑤ 밑단 ⑥ 총장 S 33 28 28 48 23 100 M 35.5 29 29 50.5 24 101 L 38 30 30 53 25 102",
+    "material": "코튼97%, 폴리우레탄3%",
+    "description": "그레이시크 명불허전 BEST MADE JEAN! 꼼꼼한 배색 스티치와 세련된 디테일 스트레이트 핏까지 완벽!",
+    "rating": 4.9,
+    "reviewCount": 690,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:03.206Z"
+  }
+]

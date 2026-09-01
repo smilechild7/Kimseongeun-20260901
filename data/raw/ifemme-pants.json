@@ -1,0 +1,596 @@
+[
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33169",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33169&cate_no=93"
+    },
+    "name": "소프트 데님 일자팬츠",
+    "brand": "(주)마주",
+    "category": "pants",
+    "price": 38000,
+    "originalPrice": 40000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/d99d8a7712b6aa576b50da9c2da810af.jpg",
+    "colors": [
+      "진청",
+      "흑청"
+    ],
+    "sizes": [
+      "Free(26~28)",
+      "L(29~31)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "데님 텍스처의 슬랙스 원단으로 가볍고~ 뒷밴딩과 버튼 디테일로 편안함과 스타일을 모두 잡은 일자핏 팬츠[2C][Free/L]",
+    "rating": null,
+    "reviewCount": null,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:05.229Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33167",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33167&cate_no=93"
+    },
+    "name": "초가을 심플 슬림통팬츠",
+    "brand": "(주)마주",
+    "category": "pants",
+    "price": 34200,
+    "originalPrice": 36000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/508706bef8e7b043276dd89026443287.jpg",
+    "colors": [
+      "블랙",
+      "카키톤",
+      "베이지톤"
+    ],
+    "sizes": [
+      "S(26~28)",
+      "M(28~30)",
+      "L(30~31)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "차르르한 유연함과 스판의 편안함을 담아 다리 라인을 길어 보이게 완성해 주는 데일리 세미 와이드 슬랙스^^ [3C][S~L]",
+    "rating": 5,
+    "reviewCount": 1,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:06.644Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "31358",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=31358&cate_no=93"
+    },
+    "name": "어텀 배기통 청바지",
+    "brand": "(주)마주",
+    "category": "pants",
+    "price": 46000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/6d1c8cfe749d6859a2d7d24d2e4f51af.jpg",
+    "colors": [
+      "회색",
+      "중청",
+      "블랙청",
+      "연청"
+    ],
+    "sizes": [
+      "S(25~27)",
+      "M(28~29)",
+      "L(29~31)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "입체감 느껴지는 절개 디테일과 허벅지, 힙부분 워싱~ 아방한 실루엣과 워싱으로 멋스러운 배기핏 청바지[3C][S~L]",
+    "rating": 4.9,
+    "reviewCount": 13,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:08.196Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33100",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33100&cate_no=93"
+    },
+    "name": "정말 편안한 6부팬츠",
+    "brand": "(주)마주",
+    "category": "pants",
+    "price": 42000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202607/b13c8036eb5a1c31e77c7c6a9ef7982b.jpg",
+    "colors": [
+      "오트밀",
+      "밤색",
+      "블랙"
+    ],
+    "sizes": [
+      "Free(27~30)",
+      "L(31~33)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "잔잔한 조직감이 느껴지는 소재! 무릎을 덮는 기장에 안입은듯 착용감이 정말 편하고 시원한 6부 팬츠[3C][Free/L]",
+    "rating": 4.8,
+    "reviewCount": 45,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:09.622Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33106",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33106&cate_no=93"
+    },
+    "name": "[당일발송]차르르 6~7부 팬츠-먹색L/밤색free",
+    "brand": "(주)마주",
+    "category": "pants",
+    "price": 38000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202607/5c3c54f21169fc7ef236758120ce556b.jpg",
+    "colors": [
+      "먹색",
+      "블랙",
+      "밤색"
+    ],
+    "sizes": [
+      "Free(27~29)",
+      "L(30~32)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "차르르하게 떨어지는 소재감이 매력적인, 단정하고 세련된 6~7부 슬랙스[3C][Free/L]",
+    "rating": 4.8,
+    "reviewCount": 22,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:11.041Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33134",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33134&cate_no=93"
+    },
+    "name": "소프트 시원한 데님팬츠",
+    "brand": "(주)마주",
+    "category": "pants",
+    "price": 38000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202607/a37989a32101e74dc3d351bb28c8a669.jpg",
+    "colors": [
+      "연청",
+      "진청"
+    ],
+    "sizes": [
+      "S(25~27)",
+      "M(27~28)",
+      "L(29~30)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "차르르 자연스럽게 떨어지는 핏~ 부드럽고 가벼운 데님 소재로 여름에도 편하게 입기 좋은 팬츠[2C][S~L]",
+    "rating": 5,
+    "reviewCount": 3,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:12.483Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "32927",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=32927&cate_no=93"
+    },
+    "name": "[20%세일]라이트 버뮤다 팬츠-회베이지M/카키베이지L",
+    "brand": "(주)마주",
+    "category": "pants",
+    "price": 32000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202606/cec5d6931a198dd6bc1c8b3bc7b60c61.jpg",
+    "colors": [
+      "회베이지",
+      "카키베이지",
+      "블랙"
+    ],
+    "sizes": [
+      "S(26~28)",
+      "M(28~30)",
+      "L(31~34)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "깔끔한 버뮤다 기장에 여유로운 A라인 실루엣을 더해 편안하면서도 세련되게 입어지는 팬츠[3C][S~L]",
+    "rating": 5,
+    "reviewCount": 17,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:14.035Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "32845",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=32845&cate_no=93"
+    },
+    "name": "[당일발송]8부 볼륨 면바지-XL",
+    "brand": "(주)마주",
+    "category": "pants",
+    "price": 32000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202606/d72d2be2a68a3af6a78d4de4241a6f9b.jpg",
+    "colors": [],
+    "sizes": [
+      "L(26~28)",
+      "XL(29~31)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "워싱으로 더욱 부드럽고 내추럴한 느낌~ 허리전체 밴딩 + 낙낙한 바지통으로 하체있으신분들도 입기 좋은 팬츠[L/XL]",
+    "rating": 4.9,
+    "reviewCount": 26,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:15.454Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "29474",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=29474&cate_no=93"
+    },
+    "name": "COOL 가슬한 심플팬츠",
+    "brand": "(주)마주",
+    "category": "pants",
+    "price": 35000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202406/90bda2b2c88721b6f3e2db3bda7935a7.jpg",
+    "colors": [
+      "블랙",
+      "크림톤",
+      "베이지톤",
+      "회색톤"
+    ],
+    "sizes": [
+      "S(25~27)",
+      "M(27~28)",
+      "L(29~31)",
+      "XL(32~34)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "얇은 폴리스판 소재로 차르르하게 떨어져 시원하면서도 가볍게 입기좋은 일자통팬츠[4C][S~XL]",
+    "rating": 4.8,
+    "reviewCount": 63,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:16.948Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33194",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33194&cate_no=93"
+    },
+    "name": "메르 일자 밴딩팬츠",
+    "brand": "(주)마주",
+    "category": "pants",
+    "price": 45600,
+    "originalPrice": 48000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/126fd0c28b535931f2527fb5fc23febf.jpg",
+    "colors": [
+      "연베이지",
+      "차콜",
+      "검정"
+    ],
+    "sizes": [
+      "Free(26~29)",
+      "L(29~31)",
+      "XL(31~33)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "은은한 일자핏과 허리 전체 밴딩으로 편안하면서도 출근룩까지^^ 깔끔하게 연출되는 데일리 슬랙스 팬츠[FREE/L/XL]",
+    "rating": null,
+    "reviewCount": null,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:18.353Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33181",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33181&cate_no=93"
+    },
+    "name": "모먼트 단정한 청통바지",
+    "brand": "(주)마주",
+    "category": "pants",
+    "price": 38000,
+    "originalPrice": 40000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/e5379c7b35c538cb99b76ea38f76d6b5.jpg",
+    "colors": [],
+    "sizes": [
+      "S(25~27)",
+      "M(27~29)",
+      "L(30~32)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "탄탄한 면 100% 데님 소재~ 와이드 일자 핏이 부해 보이지 않고 다리라인을 길어 보이게 해 다양한 상의와 매치하기 좋은 기본 청통바지[S~L]",
+    "rating": null,
+    "reviewCount": null,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:19.757Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33198",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33198&cate_no=93"
+    },
+    "name": "워크포켓 면 통바지",
+    "brand": "(주)마주",
+    "category": "pants",
+    "price": 49400,
+    "originalPrice": 52000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/c6f56f30d5aa0547d730bcadd627f81e.jpg",
+    "colors": [
+      "카키브라운",
+      "연베이지"
+    ],
+    "sizes": [
+      "S(25~27)",
+      "M(28~30)",
+      "L(30~32)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "와이드 일자 핏에 납작한 아웃포켓과 은은한 워싱 디테일을 더해 과하지 않은 멋스러운 포인트로 데일리하게 입기 좋은 코튼 팬츠[2C][S~L]",
+    "rating": null,
+    "reviewCount": null,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:21.407Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33206",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33206&cate_no=93"
+    },
+    "name": "메르 슬림일자 청바지",
+    "brand": "(주)마주",
+    "category": "pants",
+    "price": 48450,
+    "originalPrice": 51000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/952870d92cb80472ddf435b4f368df55.jpg",
+    "colors": [
+      "진청",
+      "그레이청",
+      "블랙청"
+    ],
+    "sizes": [
+      "S(25~27)",
+      "M(28~29)",
+      "L(30~31)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "탄탄한 면에 스판 3%가 더해져 편안한 착용감~ 허리 히든밴딩과 허벅지부터 밑단까지 자연스럽게 떨어지는 일자 핏[3C]{S~L]",
+    "rating": null,
+    "reviewCount": null,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:22.804Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33208",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33208&cate_no=93"
+    },
+    "name": "토템 은은한 면통바지",
+    "brand": "(주)마주",
+    "category": "pants",
+    "price": 38000,
+    "originalPrice": 40000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/84ccb0ebd049c37aa72bfd52b1bf8e2f.jpg",
+    "colors": [
+      "베이지카키",
+      "브라운"
+    ],
+    "sizes": [
+      "S(25~27)",
+      "M(27~28)",
+      "L(29~30)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "적당히 탄탄한 면 100% 소재로 깔끔한 바지 핏을 잡아주며, 허리와 힙은 잡아주고 아래로 반듯하게 떨어지는 세미 와이드 핏[2C][S~L]",
+    "rating": null,
+    "reviewCount": null,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:24.479Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33210",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33210&cate_no=93"
+    },
+    "name": "탄탄한 코튼 통바지",
+    "brand": "(주)마주",
+    "category": "pants",
+    "price": 45600,
+    "originalPrice": 48000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/9acc34d6d2ad495f7c17488cccbb1a4e.jpg",
+    "colors": [
+      "밤색",
+      "진베이지"
+    ],
+    "sizes": [
+      "M(27~29)",
+      "L(30~32)",
+      "XL(32~33)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "적당한 힘이 있는 면스판 소재로 실루엣을 탄탄하고 편안하게 잡아주며, 허리 뒷밴딩과 반듯하게 떨어지는 세미 와이드 핏 팬츠[3C][M/L/XL]",
+    "rating": null,
+    "reviewCount": null,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:26.015Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33215",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33215&cate_no=93"
+    },
+    "name": "가을용 단정한 일자팬츠",
+    "brand": "(주)마주",
+    "category": "pants",
+    "price": 39900,
+    "originalPrice": 42000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/de5069ec78199eb0e2f14f585356690b.jpg",
+    "colors": [
+      "진밤색",
+      "크림",
+      "블랙"
+    ],
+    "sizes": [
+      "S(25~27)",
+      "M(28~30)",
+      "L(30~32)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "적당히 탄탄한 폴리 소재로 깔끔한 일자 실루엣을 잡아주며, 허리 히든밴딩과 여유 있는 핏으로 하체를 편안하게 커버^^[3C][S~L}",
+    "rating": null,
+    "reviewCount": null,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:27.550Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33218",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33218&cate_no=93"
+    },
+    "name": "가을 찰랑 밴드 통바지",
+    "brand": "(주)마주",
+    "category": "pants",
+    "price": 50350,
+    "originalPrice": 53000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/6c4f65cdda0df2cbdc87391465657488.jpg",
+    "colors": [],
+    "sizes": [
+      "S(25~27)",
+      "M(28~30)",
+      "L(30~32)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "찰랑하게 차르르 떨어지는 적당한 무게감의 폴리 소재~ 편안한 허리 밴딩과 아래로 길고 반듯하게 떨어지는 여유 있는 와이드 핏[S~L]",
+    "rating": null,
+    "reviewCount": null,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:29.085Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33223",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33223&cate_no=93"
+    },
+    "name": "데일리 절개 배기팬츠",
+    "brand": "(주)마주",
+    "category": "pants",
+    "price": 43700,
+    "originalPrice": 46000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/91cc494e50a002277486e620d8b6be98.jpg",
+    "colors": [
+      "먹색",
+      "블랙",
+      "카키베이지",
+      "밤색"
+    ],
+    "sizes": [
+      "Free(27~30)",
+      "L(31~32)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "적당한 두께의 면스판 소재로 배기 핏을 탄탄하고 편안하게 잡아주며, 허벅지는 여유 있고 아래로 깔끔하게 좁아지는 절개 디테일 핏[4C][FREE/L]",
+    "rating": null,
+    "reviewCount": null,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:30.464Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33224",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33224&cate_no=93"
+    },
+    "name": "워싱 세미 부츠컷 데님",
+    "brand": "(주)마주",
+    "category": "pants",
+    "price": 43700,
+    "originalPrice": 46000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/a02378580724648fae5a461a171fe746.jpg",
+    "colors": [],
+    "sizes": [
+      "S(24~25)",
+      "M(26~27)",
+      "L(28~30)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "슬림하게 잡아주는 세미 부츠컷 핏과 입체적인 워싱으로 다리가 길고 날씬해 보이며, 편안하면서도 핏을 잡아주는 면 100% 소재[S~L}",
+    "rating": null,
+    "reviewCount": null,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:32.158Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33226",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33226&cate_no=93"
+    },
+    "name": "컴포트 핏좋은 팬츠",
+    "brand": "(주)마주",
+    "category": "pants",
+    "price": 36100,
+    "originalPrice": 38000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/9a00e479f1730d27e31f7feb7179257a.jpg",
+    "colors": [],
+    "sizes": [
+      "S(25~27)",
+      "M(28~30)",
+      "L(30~32)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "뛰어난 신축성과 체형을 깔끔하게 커버하는 반듯한 일자 핏~ 정하면서도 하루 종일 편안한 데일리 히든밴딩 팬츠[S~L}",
+    "rating": null,
+    "reviewCount": null,
+    "reviews": [],
+    "crawledAt": "2026-09-01T23:24:33.545Z"
+  }
+]

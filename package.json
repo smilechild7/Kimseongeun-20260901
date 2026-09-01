@@ -11,10 +11,12 @@
     "dev:server": "node --watch server/index.js",
     "dev:client": "vite --config client/vite.config.js",
     "build": "vite build --config client/vite.config.js",
+    "crawl:products": "node crawler/cli/crawl-products.js",
     "start": "node server/index.js",
     "test": "node --test"
   },
   "dependencies": {
+    "cheerio": "^1.2.0",
     "express": "^5.2.1",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
