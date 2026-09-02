@@ -14,6 +14,9 @@ export const SHOPS = {
       productLinkSelectors: ['a[id^="anchorBoxName_"]'],
       includeProductPattern: /(팬츠|슬랙스|청바지|데님|jean|pants)/i,
     },
+    reviews: {
+      type: 'cafe24-html',
+    },
   },
   ifemme: {
     id: 'ifemme',
@@ -28,6 +31,12 @@ export const SHOPS = {
     ],
     discovery: {
       productLinkSelectors: ['a[name^="anchorBoxName_"]'],
+    },
+    reviews: {
+      type: 'crema-api',
+      apiBaseUrl: 'https://review9.cre.ma',
+      brandCode: 'ifemme.co.kr',
+      widgetId: 2,
     },
   },
 };

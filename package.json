@@ -12,6 +12,7 @@
     "dev:client": "vite --config client/vite.config.js",
     "build": "vite build --config client/vite.config.js",
     "crawl:products": "node crawler/cli/crawl-products.js",
+    "crawl:reviews": "node crawler/cli/crawl-reviews.js",
     "start": "node server/index.js",
     "test": "node --test"
   },

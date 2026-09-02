@@ -3,7 +3,7 @@
 > 기준 계획: `docs/levit_problem_solver_FINAL_PLAN.md`  
 > 작업 규칙: `AGENT.md`  
 > 마지막 업데이트: 2026-09-02 (KST)
-> 현재 단계: Phase 1 — Cafe24 Product Crawler 완료 (쇼핑몰별 20개)
+> 현재 단계: Phase 2 — Review Crawling 완료
 
 이 문서는 구현 진행 상태, 검증 결과, 결정 사항과 blocker를 계속 기록하는 단일 상태 로그다. 작업을 시작하거나 완료할 때마다 같은 파일을 갱신한다.
 
@@ -21,7 +21,7 @@
 |---:|---|---|
 | 0 | Skeleton / Deployment | 완료 |
 | 1 | Cafe24 Product Crawler | 완료 — 쇼핑몰별 20개, 총 40개 |
-| 2 | Review Crawling | 대기 |
+| 2 | Review Crawling | 완료 — 40개 상품에서 실제 리뷰 406개 수집 |
 | 3 | SQLite | 대기 |
 | 4 | Offline Enrichment | 대기 |
 | 5 | Search | 대기 |
@@ -47,6 +47,7 @@
 | DEC-012 | 2026-09-02 | 추가 설문 반영 범위 | 유효 응답 21명으로 통계를 갱신하고 사이즈·핏 근거와 자동 상품 비교를 MVP에 강화하되 사용자 프로필·확정적 사이즈 추천·선택형 비교 화면은 제외 | 조건 기반 탐색은 여전히 1위지만 사이즈 결정 8/21, 사이즈·핏 구매 실패 각각 12/21, 상품 비교 요구 8/21로 중요도가 상승했으며 2일 MVP 범위는 유지해야 함 |
 | DEC-013 | 2026-09-02 | HTML parser dependency | production dependency로 `cheerio` 사용 | 정규식 기반 분석보다 Cafe24 DOM 변화에 견고하고 공통 parser·selector override·fixture 테스트 구현에 적합 |
 | DEC-014 | 2026-09-02 | Phase 1 초기 상품 수 확대 | 그레이시크·아이팜므의 바지 상품을 각각 10개에서 20개로 확대 | 두 쇼핑몰 모두 후보가 충분하고, 상의 확장 전에 더 다양한 가격·옵션·치수표 구조로 공통 parser를 검증 |
+| DEC-015 | 2026-09-02 | Phase 2 리뷰 수집 범위 | 그레이시크와 아이팜므 모두 20개 상품에서 상품당 최근 리뷰 최대 20개 수집 | 최종 제품의 여러 쇼핑몰 비교에서 리뷰 evidence 편중을 줄이고, 아이팜므 Crema 공개 API를 우선 조사하되 Playwright가 필요하면 도입 전에 다시 결정 |
 
 ## Phase 1 시작 준비
 
@@ -141,9 +142,69 @@
 
 ### 다음 작업
 
-1. 확정 설문·계획서와 Phase 1 구현을 구분해 commit한다.
-2. Phase 2 시작 전 사용자 작업과 리뷰 수집 방식을 안내한다.
-3. 그레이시크의 정적 HTML 리뷰 구조를 기준으로 수집 방법을 확정한다.
+1. Phase 2에서 두 쇼핑몰의 상품당 최근 리뷰 최대 20개를 수집한다.
+2. raw review schema와 PII 제외 여부를 자동·수동 검증한다.
+
+## Phase 2 — Review Crawling
+
+### 목표
+
+- 그레이시크 20개 상품에서 상품당 최근 실제 텍스트 리뷰를 최대 20개 수집한다.
+- 아이팜므 20개 상품의 Crema 리뷰도 상품당 최대 20개 수집한다.
+- 평점·구매 옵션·작성일과 공개된 체형 metadata를 가능한 범위에서 저장한다.
+- 작성자 이름·ID 등 개인 식별정보를 raw data에 저장하지 않는다.
+- 리뷰가 없거나 수집할 수 없는 상품도 정상 상품으로 유지한다.
+
+### 체크리스트
+
+- [x] 그레이시크 HTML 리뷰 목록·상세 구조 조사
+- [x] 아이팜므 Crema 공개 API/embedded data 구조 조사
+- [x] review parser와 normalization 구현
+- [x] PII 제외 및 최대 20개 제한 테스트
+- [x] 그레이시크 20개 상품 리뷰 수집
+- [x] 아이팜므 20개 상품 리뷰 수집
+- [x] raw JSON review schema 검증
+- [x] 사용자 실제 리뷰 표본 검증
+
+### 사용자 수동 작업
+
+- Phase 2 구현 전 추가 작업 없음.
+- 구현 후 원본 상품 리뷰와 raw JSON의 텍스트·평점·작성일·옵션 표본 비교가 필요하다.
+
+### 구현 및 검증 기록
+
+| 시각 (KST) | 항목 | 결과 |
+|---|---|---|
+| 2026-09-02 | 그레이시크 구조 조사 | 상품 상세 `#prdReview`에 최근순 리뷰 본문·별점·작성일이 서버 HTML로 노출되며 리뷰 상세 JSON-LD의 본문과 목록 본문이 일치함을 확인 |
+| 2026-09-02 | 아이팜므 구조 조사 | Crema v2 widget이 사용하는 공개 `/api/ifemme.co.kr/reviews` JSON endpoint 확인; 최근순 `sort=20`, `per=20`과 본문·옵션·공개 profile·이미지·작성일 응답 검증 |
+| 2026-09-02 | 수집 방식 | 두 쇼핑몰 모두 HTTP만 사용하며 Playwright dependency 불필요 |
+| 2026-09-02 | parser unit test | 두 source normalization, 작성자명·내부 ID 제외, 상품당 최대 20개 제한 검증 |
+| 2026-09-02 | 실제 응답 parser 표본 | 그레이시크 20개 및 아이팜므 20개 응답을 각각 parse하고 review schema 확인 |
+| 2026-09-02 | 중간 자동 테스트 | `npm test` — 8 tests, 8 passed |
+| 2026-09-02 | 실제 리뷰 수집 | 그레이시크 20개 + 아이팜므 20개 상품 요청 완료, 실패 0건 |
+| 2026-09-02 | 리뷰 coverage | 그레이시크 17/20개 상품 290개, 아이팜므 8/20개 상품 116개로 총 406개 실제 텍스트 리뷰 저장 |
+| 2026-09-02 | metadata coverage | 아이팜므 리뷰 중 공개 체형 metadata 93개, 구매 옵션 93개, 이미지 URL 34개; 그레이시크 source는 해당 metadata를 목록에서 제공하지 않아 nullable 유지 |
+| 2026-09-02 | raw review schema | 상품당 최대 20개, 최근순, 필수 key·nullable profile·HTTPS image·ISO 작성일 오류 0건; 작성자명·작성자 ID key 0건 |
+| 2026-09-02 | 리뷰 집계 정합성 | Phase 1 이후 추가된 아이팜므 리뷰를 반영해 Crema의 현재 `total_reviews_count`로 상품 review count 갱신; 저장 리뷰 수가 총 리뷰 수를 초과하는 상품 0건 |
+| 2026-09-02 | 최종 자동 테스트 | `npm test` — 9 tests, 9 passed |
+| 2026-09-02 | production build | `npm run build` — Vite build 성공 |
+| 2026-09-02 | 변경 검사 | `git diff --check` 통과 |
+| 2026-09-02 | 사용자 표본 검증 | 그레이시크·아이팜므 원본 리뷰와 raw JSON의 본문·별점·작성일·구매 옵션 및 작성자 식별정보 미저장 확인 완료 |
+
+### Blocker / 미해결
+
+- Phase 2 blocker 없음. 두 쇼핑몰 모두 공개 HTTP/JSON으로 수집 가능하다.
+
+### 다음 작업
+
+1. Phase 2 변경사항을 commit한다.
+2. Phase 3에서 SQLite migration, raw product/review import와 repository를 구현한다.
+3. DB 생성·상품 수·review relation·UPSERT를 자동 검증한다.
+
+### Phase 3 사전 사용자 작업
+
+- 사용자 수동 작업 없음. 로컬 SQLite 파일은 repository에 commit하지 않고 raw JSON에서 재생성한다.
+- SQLite 구현 방식이나 dependency에 의미 있는 선택지가 생기면 구현 전에 사용자 결정을 받는다.
 
 ## Phase 0 — Skeleton / Deployment
 
@@ -246,3 +307,7 @@
 | 2026-09-02 | 사용자 요청으로 Phase 1을 다시 열고 쇼핑몰별 바지 상품을 20개로 확대 시작 |
 | 2026-09-02 | 쇼핑몰별 20개, 총 40개 수집과 자동 검증 완료; 추가 상품 사용자 표본 확인 대기 |
 | 2026-09-02 | 확대 후 사용자 표본 검증 이상 없음 확인; 쇼핑몰별 20개 기준 Phase 1 완료 처리 |
+| 2026-09-02 | Phase 2는 그레이시크와 아이팜므 모두 상품당 최대 20개 리뷰를 수집하기로 확정하고 구조 조사 시작 |
+| 2026-09-02 | 그레이시크 서버 HTML과 아이팜므 Crema 공개 JSON API 구조 확인; Playwright 없이 두 source parser 및 PII 제외 테스트 구현 |
+| 2026-09-02 | 두 쇼핑몰 40개 상품에서 실제 리뷰 406개 수집, raw schema·PII 제외·자동 테스트·production build 검증 완료; 사용자 표본 검증 대기 |
+| 2026-09-02 | 사용자 실제 리뷰 표본 검증 완료; Phase 2 DoD 충족 및 완료 처리 |

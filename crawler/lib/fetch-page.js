@@ -12,6 +12,7 @@ export async function fetchPage(
     retries = 2,
     retryDelayMs = 500,
     userAgent = DEFAULT_USER_AGENT,
+    accept = 'text/html,application/xhtml+xml',
   } = {},
 ) {
   let lastError;
@@ -20,7 +21,7 @@ export async function fetchPage(
     try {
       const response = await fetch(url, {
         headers: {
-          accept: 'text/html,application/xhtml+xml',
+          accept,
           'user-agent': userAgent,
         },
         redirect: 'follow',

@@ -24,7 +24,7 @@
     "material": null,
     "description": "데님 텍스처의 슬랙스 원단으로 가볍고~ 뒷밴딩과 버튼 디테일로 편안함과 스타일을 모두 잡은 일자핏 팬츠[2C][Free/L]",
     "rating": null,
-    "reviewCount": null,
+    "reviewCount": 0,
     "reviews": [],
     "crawledAt": "2026-09-01T23:24:05.229Z"
   },
@@ -56,7 +56,21 @@
     "description": "차르르한 유연함과 스판의 편안함을 담아 다리 라인을 길어 보이게 완성해 주는 데일리 세미 와이드 슬랙스^^ [3C][S~L]",
     "rating": 5,
     "reviewCount": 1,
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "키 158에, 체중 65kg에 M사이즈 편하게 잘 맞아요.\n밑위 길이는 좀 긴편이라 조금 짧게 하고 싶긴 하네요\n원단이나 신축성 좋고 감촉도 좋은 느김이며 편해요\n신장이 더 크신 분이라면 충분히 만족 할듯요^^",
+        "optionText": "color: 카키톤 / size: M(28~30)",
+        "reviewerProfile": {
+          "heightCm": 157,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-28T09:27:51+09:00"
+      }
+    ],
     "crawledAt": "2026-09-01T23:24:06.644Z"
   },
   {
@@ -87,8 +101,200 @@
     "material": null,
     "description": "입체감 느껴지는 절개 디테일과 허벅지, 힙부분 워싱~ 아방한 실루엣과 워싱으로 멋스러운 배기핏 청바지[3C][S~L]",
     "rating": 4.9,
-    "reviewCount": 13,
-    "reviews": [],
+    "reviewCount": 14,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "원단이 생각보다 두껍고 늘어나지 않아 당황스러웠지만 핏이 예뻐서 좋았어요",
+        "optionText": "color: 연청 / size: L(29~31)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "31",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-09-01T23:41:17+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "바지 후기 핏 보고 구입했는데 역시나 맘에 듭니다 두께가 적당히 두꺼워서 지금도 충분히 착용가능하고 길이도 너무 잘 맞아서 만족합니다",
+        "optionText": "color: 블랙청 / size: M(28~29)",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-22T12:38:09+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "와~\n그레이 색감이랑 핏이 너무 맘에 들어요.\n바지가 탄탄하고 통이라 편해요.\n배 부분은 살짝 쪼이네요 ㅜ\n같이 산 스니커즈랑 너무 잘 어울려요",
+        "optionText": "color: 회색 / size: M(28~29)",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/19/51/51/image1/e9147031d2ccb393.webp"
+        ],
+        "createdAt": "2025-10-17T14:00:02+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "입어보니 넘 편하고 핏도 예빠서 블랙도 구해했어요",
+        "optionText": "color: 블랙청 / size: L(29~31)",
+        "reviewerProfile": {
+          "heightCm": 152,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-10T12:01:33+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 편한데 힙한 핏\n아주 자주 입게\n됩니당\n다른 컬러 로 맹글어 주세여",
+        "optionText": "color: 중청 / size: L(29~31)",
+        "reviewerProfile": {
+          "heightCm": 168,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/19/48/91/image1/6154505d991f0057.webp"
+        ],
+        "createdAt": "2025-10-06T16:28:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "바지가\n색상도잘빠지고핏도너무좋습니다\n사이즈도잘맞고만족합니다!!",
+        "optionText": "color: 중청 / size: S(25~27)",
+        "reviewerProfile": {
+          "heightCm": 157,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-30T12:11:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "핏이 이쁜 배기 바지입니다. 두께가 있어서 조금 더 있다가 입으면 딱일것 같아요.",
+        "optionText": "color: 중청 / size: M(28~29)",
+        "reviewerProfile": {
+          "heightCm": 164,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-25T09:03:41+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "두께가 좀 두꺼워 10월말이나 돼야 입을수 있겠어요ㅠㅠ\n디자인도 예쁘고 색상은 완전 맘에듭니다\n조금 얇은 원단으로 봄 가을제품도 있으면 좋겠어요",
+        "optionText": "color: 중청 / size: M(28~29)",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/19/44/52/image1/7f0521bf81a7944d.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/19/44/52/image2/355c7fec69519975.webp"
+        ],
+        "createdAt": "2025-09-21T20:20:31+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "예뻐서 컬러별로 구매했어요 사진과 같은 핏이에요\n캐쥬얼하게 잘입을수 잇을거 같아요 깔별로 쟁이고 싶은 바지네요",
+        "optionText": "color: 중청 / size: S(25~27)",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "26",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-19T14:45:43+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "와 이거 진짜 예뻐요^^ 사진과 같은 핏이에요\n캐쥬얼하게 잘입을수 잇을거 같아요 깔별로 쟁이고 싶은 바지네요",
+        "optionText": "color: 블랙청 / size: S(25~27)",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "26",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-19T14:45:08+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "생각보다 좀 무거워요\n두께가 있어서 초겨울에 입어도 될듯\n길이는 줄여야 되겠네요",
+        "optionText": "color: 회색 / size: M(28~29)",
+        "reviewerProfile": {
+          "heightCm": 155,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-18T15:01:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "생각보다 천이 두꺼워 놀랬습니다\n아직 입기 전이고 천이 두꺼운만큼 옷이 무겁습니다\n화면보다 덜 고급스러워 보이네요",
+        "optionText": "color: 블랙청 / size: L(29~31)",
+        "reviewerProfile": {
+          "heightCm": 166,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-14T15:34:19+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "키 160에 복숭아뼈까지 옵니다 신축성은 없지만 착용감은 편안합니다 약간 무거운감이 있어 별하나 뺐습니다\n(2025-09-10 12:28:40 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/19/42/25/image1/a6e9c5ba47c093f7.webp"
+        ],
+        "createdAt": "2025-09-11T02:53:41+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "디자인이 원하던거예요.편하게 잘입을거 같아요.여름에 입기에는 덥고 봄.가을에입으면 됄거같아요.",
+        "optionText": "color: 중청 / size: M(28~29)",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-10T08:36:37+09:00"
+      }
+    ],
     "crawledAt": "2026-09-01T23:24:08.196Z"
   },
   {
@@ -118,7 +324,280 @@
     "description": "잔잔한 조직감이 느껴지는 소재! 무릎을 덮는 기장에 안입은듯 착용감이 정말 편하고 시원한 6부 팬츠[3C][Free/L]",
     "rating": 4.8,
     "reviewCount": 45,
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 4,
+        "text": "시원한 재질에 무난하네요\n(2026-08-31 16:31:41 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-09-01T02:46:28+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "적잖은 금액의 반바지라 한참 고민하다 주문했어요~ 옷도 예쁘고 사이즈도 넉넉하니 좋아요~ 다만 올이 티어서 교환할까 고민을 했어요~ 배송전에 한번 더 검사후 보내시면 좋을거 같네요",
+        "optionText": "color: 오트밀 / size: L(31~33)",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/82/88/image1/26e935c7b8d38155.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/82/88/image2/6b092482c1cd7380.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/82/88/image3/45dd33c27db576a1.webp"
+        ],
+        "createdAt": "2026-08-25T19:36:42+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이번 여름 이 제품으로 보내고 있습니다~^^\n여유있는 핏 부담스럽지 않은 길이~ 검은색도 고민중입니다~^^",
+        "optionText": "color: 밤색 / size: Free(27~30)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-24T23:18:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무~ 좋아요^^\n*고객님 키:\n*고객님 사이즈:\n*구입상품 색상 및 사이즈:\n*전체적인 착용후기:\n배송된 이후 계~속 입고 있습니다~^^\n뜨거운 여름 이 제품으로 여름 을 보내고 있는것 같아요^^\n검은색 고민중 입니다~^^",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-24T23:15:37+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "추가구매입니다. 밤색을 입었는데 가볍고 시원하고 정말좋아요. 휘뚜루마뚜루 너무좋아 또 구매~~~",
+        "optionText": "color: 오트밀 / size: Free(27~30)",
+        "reviewerProfile": {
+          "heightCm": 154,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-23T09:27:02+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "진짜 너무너무 좋아요 밤색으로\n재구매 합니다\n(2026-08-22 16:25:38 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-23T02:48:20+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "네이비 니트에 잘 어울리고 넉넉하니 시원합니다\n물빨래 손세탁 해보니 변함도 없고 괜찮습니다",
+        "optionText": "color: 오트밀 / size: Free(27~30)",
+        "reviewerProfile": {
+          "heightCm": 157,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-21T15:18:04+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사이즈 넉넉한데 조금 큰것같기도해요 그냥 편한데 핏이 좋진않네오ㅓ",
+        "optionText": "color: 오트밀 / size: Free(27~30)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-20T20:40:52+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "​오트밀이랑 밤색 사서 입어보고 너무 만족스러워서 결국 블랙까지 추가 구매했어요! 6부 길이감이라 부담 없고 무엇보다 정말 편해요. 데일리로 입기 딱이라 완전 강추합니다.",
+        "optionText": "color: 블랙 / size: Free(27~30)",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/81/39/image1/cc64a8c88a2a0dbe.webp"
+        ],
+        "createdAt": "2026-08-20T18:11:31+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "핏도이뿌고좋은데의외로무게감은좀있습니다\n(2026-08-19 18:38:04 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-20T02:46:57+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "바지길이도 적당하고 옷감재질 또한 입으면 시원하여 이번 더운 여름 잘 입었습니다.",
+        "optionText": "color: 오트밀 / size: Free(27~30)",
+        "reviewerProfile": {
+          "heightCm": 154,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-18T14:40:34+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 좋아요~ 이바지만 입게 되네요. 가볍고 시원하고 원단도 부들부들 좋아요. 아이보리 추가주문합니다~~",
+        "optionText": "color: 밤색 / size: Free(27~30)",
+        "reviewerProfile": {
+          "heightCm": 154,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-17T16:24:38+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "원단이 힘이 있어 차르르 떨어지면서도 시원해요.\n바람 솔솔 잘 들어오고 편안해서 자주 입어져요.",
+        "optionText": "color: 오트밀 / size: Free(27~30)",
+        "reviewerProfile": {
+          "heightCm": 164,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/80/30/image1/69f4fcb0782d63bb.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/80/30/image2/aa9d46edeea39095.webp"
+        ],
+        "createdAt": "2026-08-13T10:15:35+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "배송이 빠르고 팬츠는 원단이 부드럽고 두껍지 않고 괜찮네요. 주름이 좀 생기네요.",
+        "optionText": "color: 오트밀 / size: Free(27~30)",
+        "reviewerProfile": {
+          "heightCm": 150,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-10T09:06:53+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "제 바지는 거의 아이팜므서 주문해서 입고 있는거 같아요\n살짝 넉넉한 사이즈제품이 올라올땐 항시요ㅋ\n이 팬츠도 계속 눈팅하다\n결국 주문했는데\n번개배송 해주셔서 감사합니다\n밤색이 은근히 흔치 않은데 진하고 않고 은은한 색감에\n찰랑찰랑 너무 편하겠어요\n길이도 딱 좋습니다\n주문하길 잘 한거같아요ㅋ",
+        "optionText": "color: 밤색 / size: L(31~33)",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-08T13:01:42+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "배송이 빠르고 팬츠도 편하고 마음에 듭니다. 옷감도 부드럽네요. 무게감은 있는데 시원합니다.",
+        "optionText": "color: 밤색 / size: Free(27~30)",
+        "reviewerProfile": {
+          "heightCm": 150,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/78/04/image1/649d135627f83783.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/78/04/image2/46e8ccb98c074096.webp"
+        ],
+        "createdAt": "2026-08-05T15:30:50+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "핏도 예쁘고 편하고 맘 쏙들어요\n(2026-08-04 12:49:39 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-05T02:44:42+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "오늘 받아서 입고 외출했는데 치마처럼 시원하고 핏도 예쁘고 기장도 좋네요\n너무 편해요, 후기가 좋고 왜 깔별로 사는지 알겠네요. 블랙.브라운도 주문해서 올여름 이 반바지 세개로 보내애겠네요",
+        "optionText": "color: 오트밀 / size: Free(27~30)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-04T13:45:44+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "좀 크긴 한데 나쁘지 않아요\n(2026-08-02 22:25:24 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-03T02:48:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "블랙도 아주 시원한 감이예요 너무 좋은데요 편해서요. ㅠ 막 살찔듯한 느낌이네요. 반바지이지만 차려 입은듯ㅎㅎ 좋으네요.",
+        "optionText": "color: 블랙 / size: L(31~33)",
+        "reviewerProfile": {
+          "heightCm": 167,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-02T15:42:52+09:00"
+      }
+    ],
     "crawledAt": "2026-09-01T23:24:09.622Z"
   },
   {
@@ -148,7 +627,282 @@
     "description": "차르르하게 떨어지는 소재감이 매력적인, 단정하고 세련된 6~7부 슬랙스[3C][Free/L]",
     "rating": 4.8,
     "reviewCount": 22,
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "소재가 찰랑찰랑하고 진짜 시원해요! 아무 옷에 잘 어울리면서도 차려입은 느낌이 나서 만족합니다",
+        "optionText": "color: 먹색 / size: Free(27~29)",
+        "reviewerProfile": {
+          "heightCm": 170,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/83/40/image1/c4c1b8fc7f14f290.webp"
+        ],
+        "createdAt": "2026-08-28T08:48:07+09:00"
+      },
+      {
+        "rating": 3,
+        "text": "바지는 편안하고 좋아요\n통통66인데 사이즈도 충분해요.\n아주 시원하고 그렇지는 않아요\n구김이 많이 안가서 편안하게는 입을수 있을거 같아요.",
+        "optionText": "color: 블랙 / size: Free(27~29)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-22T13:34:41+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "아주 편한바지예요 정장으로도 케쥬얼하게도 입을수 있어서 좋아요 77시이즈까지는 프리사이즈 입을수 있을거 같아요~",
+        "optionText": "color: 블랙 / size: Free(27~29)",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/81/59/image1/e3d213539027e151.webp"
+        ],
+        "createdAt": "2026-08-21T13:37:40+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "길이감도 너무 길지 않고 시원해요\n차르르 아래로 떨어지는 느낌의 핏이에요\n프리사이즈로 구매했는데 사이즈 작게 나온거 같고 허리 고무줄인데 쫄리네요",
+        "optionText": "color: 먹색 / size: Free(27~29)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/81/33/image1/dc136b140a09a375.webp"
+        ],
+        "createdAt": "2026-08-20T06:57:30+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "블랙 컬러지만 깔끔하고 단정하네요 가볍고 달라붙지 않는 소재라 좋아요",
+        "optionText": "color: 블랙 / size: Free(27~29)",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "26",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-15T15:04:43+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 맘에 드는 디자인 바지라 컬러별로 다 구매했답니다^^\n길이감 착용감 모두 너무 맘에 들어요",
+        "optionText": "color: 먹색 / size: Free(27~29)",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "26",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-15T15:03:51+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "요거 정말 맘에 들어서 컬러별로 모두 구매했어요\n길이감도 딱 적당하고 말그대로 차르르해서\n입을때 느낌이 좋아요",
+        "optionText": "color: 밤색 / size: Free(27~29)",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "26",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-15T15:03:16+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "요바지 대박입니다.ㅎㅎ\n종일 입었는데 구김 걱정 없어서 너무 좋았어요.\n찰랑찰랑 소재도 시원해요.\n키작녀라 종아리 절반 오지만\n원래 8부바지 같이 나쁘지않아요.",
+        "optionText": "color: 블랙 / size: Free(27~29)",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/79/97/image1/ce24c6bb886d321e.webp"
+        ],
+        "createdAt": "2026-08-11T14:19:34+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "고급스런 색상이에요 어떤색상과도 어울립니다. 강추드려요",
+        "optionText": "color: 밤색 / size: Free(27~29)",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-09T14:54:30+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "먹색 구입후 디자인이나 사이즈 만족해서 나머지 색상들도 다 구입했습니다. 가격대비 고급지고 좋습니다",
+        "optionText": "color: 블랙 / size: Free(27~29)",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-09T14:53:23+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "요즘 매일 입습니다\n편하고 달라붙지 않고 적당히 클래식합니다",
+        "optionText": "color: 먹색 / size: Free(27~29)",
+        "reviewerProfile": {
+          "heightCm": 167,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-06T12:12:31+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "원단이 너무시원하고\n군살도 가려주는 마법같은 팬츠네요\n여름지나고 초가을까지도 잘입을거같네요",
+        "optionText": "color: 블랙 / size: Free(27~29)",
+        "reviewerProfile": {
+          "heightCm": 157,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/77/39/image1/4f2013894496ef7b.webp"
+        ],
+        "createdAt": "2026-08-03T23:53:25+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "블랙 주문 후 좋아서 먹색 구매 했어요. 올여름은 이 바지로 나겠어요. 다크 그레이 예요 .톤다운 무광 블랙 같은 느낌요",
+        "optionText": "color: 먹색 / size: Free(27~29)",
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/75/55/image1/3bb8d88a4445c5cf.webp"
+        ],
+        "createdAt": "2026-07-29T14:41:32+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "찰랑찰랑해서 좋아요\n시원한 느낌도 있고\n올 여름 잘입을 듯요\n빠른 배송도 감사해요\n(2026-07-28 15:10:23 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-29T02:46:09+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "까슬한 원단이고 꽉찬 66 잘 맞아요. 가격대비 고급집니다 너무 잘 산 것 같아요~\n(2026-07-28 10:54:37 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-29T02:43:02+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "더운여름에 입기에 참좋아요. 달라붙지않고 찰랑거리고 기장도 길어서 더좋아요 적극 추천합니다",
+        "optionText": "color: 밤색 / size: Free(27~29)",
+        "reviewerProfile": {
+          "heightCm": 155,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-28T17:53:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "얇고 텁텁하게 휘감기는 레이온 바지가 아니예요. 적당히 톡톡하니 고슬고슬 땀나도 들러붙지 않고\n무릎 덮히는 고무줄 바지라 좋습니다",
+        "optionText": "color: 블랙 / size: Free(27~29)",
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/75/22/image1/07373205e77d563c.webp"
+        ],
+        "createdAt": "2026-07-28T17:11:24+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "먹색 입어보고 가볍고 시원해서 블랙도 구매했어요 사이즈L했더니 여유있고 길이도 무릎 덮어요 장마철에 잘 입었어요 163cm 55kg",
+        "optionText": "color: 블랙 / size: L(30~32)",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-26T21:42:39+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "디자인고급스럽습니다. 검정색으로 재구매 예정이에요 가격대비 좋네요",
+        "optionText": "color: 먹색 / size: Free(27~29)",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-25T16:12:45+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "바지가참예뻐요~출근룩으로 넘좋아요\n(2026-07-24 14:39:15 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-25T02:47:07+09:00"
+      }
+    ],
     "crawledAt": "2026-09-01T23:24:11.041Z"
   },
   {
@@ -178,7 +932,51 @@
     "description": "차르르 자연스럽게 떨어지는 핏~ 부드럽고 가벼운 데님 소재로 여름에도 편하게 입기 좋은 팬츠[2C][S~L]",
     "rating": 5,
     "reviewCount": 3,
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "티셔츠가 특히 만족스럽네요\n(2026-08-28 06:39:48 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/83/79/image1/2726dde37f3363eb.webp"
+        ],
+        "createdAt": "2026-08-29T02:34:46+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "무~~더위가 무섭지 않을 만큼 시원합니다.\n기장~좋고 색상~좋고~~~\n허리에 밴딩이 있어 착용감은 물로 이후 어느정도의 변동ㅋㅋ도 커버될것 같네요~^^",
+        "optionText": "color: 연청 / size: M(27~28)",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/77/54/image1/56f8825ed0d80800.webp"
+        ],
+        "createdAt": "2026-08-04T10:01:23+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "완죠니 여름 청바지에요. 화면이 다 나타내지는 못하지만 아주 얇고 부드러워요. 후들거리는 원단이에요. 굳",
+        "optionText": "color: 연청 / size: L(29~30)",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-28T09:31:10+09:00"
+      }
+    ],
     "crawledAt": "2026-09-01T23:24:12.483Z"
   },
   {
@@ -208,8 +1006,259 @@
     "material": null,
     "description": "깔끔한 버뮤다 기장에 여유로운 A라인 실루엣을 더해 편안하면서도 세련되게 입어지는 팬츠[3C][S~L]",
     "rating": 5,
-    "reviewCount": 17,
-    "reviews": [],
+    "reviewCount": 18,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "허릿단이 일부 튿어져서 교환 요청했는데\n아주 빨리 처리해주셨어요. 환불받고 싶지 않을 만큼 저는 마음에 들었어요. 시원하고, 원단은 후들거림 없이 힘있고 기장도 적당하고\n잘 보관했다가 내년에 다시 입고 싶을 만큼 저는 마음에 듭니다.",
+        "optionText": "color: 회베이지 / size: L(31~34)",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/84/59/image1/939436e69b5a9097.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/84/59/image2/02a52f051dc0226e.webp"
+        ],
+        "createdAt": "2026-09-02T07:31:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "두껍지않은 두께라 가볍게 입기 좋고 전체밴딩이라 허리 너무 편하고요. 통이 넓어서 하비에게 딱이예요.다리얇아보이는 착시효과!",
+        "optionText": "color: 회베이지 / size: L(31~34)",
+        "reviewerProfile": {
+          "heightCm": 164,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/81/64/image1/ea498a76b91ac8fc.webp"
+        ],
+        "createdAt": "2026-08-21T17:52:31+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "재질이 여름에 입기 아주 좋고 편해요\nS사이즈인데 55사이즈인 제가 입으니 넉넉하게 편하게 맞아요\n(2026-08-04 22:53:48 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/78/06/image1/52b3f36e30df994e.webp"
+        ],
+        "createdAt": "2026-08-05T04:01:26+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "바지가 참 괜찮네요. 원단이 얇은데도 힘이 있고, 앉았다 일어나면 주름이야 생기기 마련인데, 잘 포개서 걸어두었더니 금새 펴지네요.\n약간 정장 바지 느낌도 나고 배, 허리도 꽉 끼지않아 편하게 잘 입고 있습니다. 가격대비 아주 좋아요..",
+        "optionText": "color: 회베이지 / size: L(31~34)",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/77/84/image1/17281ef5679dd751.webp"
+        ],
+        "createdAt": "2026-08-04T20:42:30+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "길이감이랑 정장 스타일에 감이예요. 출근한때도 가능하네요. 조싸요",
+        "optionText": "color: 카키베이지 / size: L(31~34)",
+        "reviewerProfile": {
+          "heightCm": 167,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-02T15:41:20+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 가볍고 조아요~~ 더운 요즘 교복으로 입고 있습니다\n평삼시 29사이즈 입는 저에게 적당히 딱 맞습니다\n제거 사면서 친구도 사주었는데 친구도 주위에서 예쁘다고 한다며 좋아 하네요\n아이팜므에서 바지를 사면 실패가 없어서 늘 찾곤 합니다",
+        "optionText": "color: 회베이지 / size: M(28~30)",
+        "reviewerProfile": {
+          "heightCm": 164,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/75/59/image1/fec0ffaa23e4ecb7.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/75/59/image2/a346a769867bf7d6.webp"
+        ],
+        "createdAt": "2026-07-29T15:02:32+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "정말 시원한 질감으로 핏도 이쁩니다 올 여름 시원하게 입을게요 만족합니다",
+        "optionText": "color: 회베이지 / size: M(28~30)",
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-23T14:36:29+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "주름 많이 가지 않고 기장도 적당한게 자주 입어질 팬츠입니다. 니트나 셔츠 어디에도 잘 어울립니다.",
+        "optionText": "color: 회베이지 / size: M(28~30)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-22T16:57:06+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색상이 고급지고 예뻐요~ 허리 및 엉덩이 둘레도 편하고 여름에 시원하게 입기 좋습니다. 적당히 주름은 가지만 엄청 심한건 아니라 괜찮네요",
+        "optionText": "color: 회베이지 / size: S(26~28)",
+        "reviewerProfile": {
+          "heightCm": 161,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-22T10:55:02+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "66 입는데 허리 편안하고 살짝여유있네요.\n재질좋고 색감도 맘에들어요\n차려입은 느낌도 나네요\n(2026-07-07 18:45:53 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-08T02:48:19+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "세상편해요\n신기하게. 천이 달라붓지 않으면서도 가볍고. 핏도 예뻐요\n제가 하체 뚱인데 잘맞아요 굿굿",
+        "optionText": "color: 카키베이지 / size: L(31~34)",
+        "reviewerProfile": {
+          "heightCm": 166,
+          "weightKg": null,
+          "usualSize": "33",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-07T08:11:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가성비 좋고 천이 질이좋고 길이 디자인 키작녀에도 딱이네요\n(2026-07-05 09:36:59 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-06T02:42:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "원단이 생각과 조금 다르구요\n너무 A라인이어서 밑단이 너무 넓습니다\n반품 귀찮아서 그냥 품습니다",
+        "optionText": "color: 블랙 / size: M(28~30)",
+        "reviewerProfile": {
+          "heightCm": 156,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-05T11:44:15+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "소재가 좋고 허리가 밴딩처리되서 편해요 다른색 구매하려고요\n(2026-07-03 16:30:46 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/64/48/image1/f37d1a4559665d2d.webp"
+        ],
+        "createdAt": "2026-07-04T03:28:48+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "외출용으로 입기엔 저렴해보여 동네에서 입고다녀야할듯\n통이 넓어 편해요",
+        "optionText": "color: 블랙 / size: L(31~34)",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-01T18:39:56+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "한 사이즈 크게 주문했는데 넉넉하니 편합니다\n엄청 얇아서 시원하고 가벼워요\n세탁후 변형 되지 않았으면 좋겠네요",
+        "optionText": "color: 회베이지 / size: M(28~30)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-01T13:49:40+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "반바지가 이렇게 잘어울릴줄 몰랐어요\n색깔도 예쁘고 멋스럽고 편안해요",
+        "optionText": "color: 회베이지 / size: M(28~30)",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-27T23:56:19+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "길이도 적당하고 바지핏도 괜찮고 시원한 느낌 나요 구김은 좀 있어요",
+        "optionText": "color: 카키베이지 / size: M(28~30)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/59/93/image1/14c869dbf2c21720.webp"
+        ],
+        "createdAt": "2026-06-26T17:53:53+09:00"
+      }
+    ],
     "crawledAt": "2026-09-01T23:24:14.035Z"
   },
   {
@@ -235,7 +1284,278 @@
     "description": "워싱으로 더욱 부드럽고 내추럴한 느낌~ 허리전체 밴딩 + 낙낙한 바지통으로 하체있으신분들도 입기 좋은 팬츠[L/XL]",
     "rating": 4.9,
     "reviewCount": 26,
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "허리는 밴딩이라 뱃살이 있어도 크게 상관없을듯한데 바지통은 디자인상 엄청 넓고 디자인이 노멀하진않아 잘 입어질지는 모르겠어요 사그락 가벼운 재질입니다",
+        "optionText": "size: L(26~28)",
+        "reviewerProfile": {
+          "heightCm": 170,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-24T13:32:45+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "모델보다 키가 작아서 그런지 내가 생각했던 핏이 안나요\n(2026-08-05 09:42:38 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-06T02:42:12+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사그락 하는 원단이라 시원한 감은 있지만\n한여름에는 조금 더울것 같아요\n편안하게 입을것 같아요.",
+        "optionText": "size: XL(29~31)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-01T14:58:24+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이거 저한테는 살짝 애매하네요. 키가 작아서 길이도 살짝 어색하고 생각보다 통이 넖어서 좀 뚱뚱해보이긴 하네요. 반품은 귀찮고 걍 입기로 합니다",
+        "optionText": "size: XL(29~31)",
+        "reviewerProfile": {
+          "heightCm": 157,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-01T00:08:07+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "재질도 좋고 핏도 예쁜데 저한테는 기장이 3센티만 길었으면 어땠을까 싶어요",
+        "optionText": "size: XL(29~31)",
+        "reviewerProfile": {
+          "heightCm": 167,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-26T00:09:10+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사진에는 톡톡해보였는데 얇고 시원해요. 허리짱짱하고 스타일이 좋습니다. 보송한 면 재질이라 상의에 무얼 걸쳐도 좋겠습니다.",
+        "optionText": "size: XL(29~31)",
+        "reviewerProfile": {
+          "heightCm": 161,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/73/88/image1/91edc74dfde6afb8.webp"
+        ],
+        "createdAt": "2026-07-25T19:56:53+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "얇고 가볍고 하비 커버 매우 만족합니다 ㆍ\n길이도 155 키작인 제가입어도 예쁜 길이입니다ㆍ",
+        "optionText": "size: L(26~28)",
+        "reviewerProfile": {
+          "heightCm": 155,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/73/76/image1/251eede2f6483370.webp"
+        ],
+        "createdAt": "2026-07-25T14:09:35+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "하의 28-29 입는데 잘맞아요 다만 77분들은 허리 밴드가 좀 작을거 같아요. 크림니 아님 민트 한방울 들어간\n은은한 컬러라서 가볍고 얇고 맘에\n듭니다.",
+        "optionText": "size: L(26~28)",
+        "reviewerProfile": {
+          "heightCm": 167,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/73/63/image1/2ae0eeeac85395e5.webp"
+        ],
+        "createdAt": "2026-07-25T08:14:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "오늘 입고 출근 했는데 통이 넓어 활동 하기도 펀하고\n시원 합니다ㆍ",
+        "optionText": "size: L(26~28)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-24T17:34:16+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "입어보고 생각보다 사이즈가 커서 놀랐어요~ 그래도 편하고 시원하고 멋스럽게 입을 것 같아서 좋아요~ 구김은 좀 많이 갈 것 같네요~",
+        "optionText": "size: L(26~28)",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-22T11:30:07+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "편하고, 통기성이 좋아 시원해서 좋은 것도 있지만 달라 붙지 않아서 넘 좋아요.~\n(2026-07-21 20:46:03 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-22T02:48:52+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "편하게 입기 좋아요^^\n(2026-07-15 07:28:38 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-16T02:41:29+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "원단도좋고 면이라서 너무괜찮아요 통넓이도 150키에 만족해요~~\n(2026-07-07 16:52:11 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-08T02:47:01+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이런 디자인 바지는 처음 입어요\n하체 부실인 제겐 더 괜찮아요\n이뻐요\n원단 가볍고 좋아요",
+        "optionText": "size: L(26~28)",
+        "reviewerProfile": {
+          "heightCm": 154,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/65/74/image1/372af144ba3754fa.webp"
+        ],
+        "createdAt": "2026-07-07T20:39:28+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색깔 디자인이 너무 예뻐요\n시원한 천이 더운 날씨에 딱입니다\n키가 작아서 길이 조금 수선했어요.",
+        "optionText": "size: L(26~28)",
+        "reviewerProfile": {
+          "heightCm": 154,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-07T09:10:27+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "시원하고 편한한바지예요\n(2026-07-05 13:22:15 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-06T02:44:42+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "일단 가볍고 비치지 않는 얇음입니다\n들어붙지 않은 바지라서 시원하게 잘입을거 같아요",
+        "optionText": "size: L(26~28)",
+        "reviewerProfile": {
+          "heightCm": 155,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-03T15:13:22+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "푹푹찌는 이 더위에 시원하게 입고다녀요\n하체통통분에게 달라붇지않아서권하고싶네요",
+        "optionText": "size: L(26~28)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-03T10:53:22+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "바지 마음에 듭니다. 일단 편하고 가벼워요.\n저는 키가 159정도 되는대 모델분처럼 입으려고\n세탁소에 수선 맡길까하다가 안했어요\n사진상으론 좀 긴거 같긴한데 그래도 실상 또\n그러지도 않은거 같아서, 그냥 예쁘게 입고 있어요",
+        "optionText": "size: XL(29~31)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "31",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/60/89/image1/28a855b882299704.webp"
+        ],
+        "createdAt": "2026-06-28T12:16:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "최근들어 산옷중 죄고로 맘에들어요 이뻐요 저렴하게 득템했어요",
+        "optionText": "size: XL(29~31)",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-27T18:17:18+09:00"
+      }
+    ],
     "crawledAt": "2026-09-01T23:24:15.454Z"
   },
   {
@@ -268,7 +1588,278 @@
     "description": "얇은 폴리스판 소재로 차르르하게 떨어져 시원하면서도 가볍게 입기좋은 일자통팬츠[4C][S~XL]",
     "rating": 4.8,
     "reviewCount": 63,
-    "reviews": [],
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "바지 딱 예쁘네요 잘 입겠습니다\n엉큰 골큰 아줌마 에게 딱 ㅋㅋ",
+        "optionText": "color: 블랙 / size: XL(32~34)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/79/63/image1/00661e1cadaef74f.webp"
+        ],
+        "createdAt": "2026-08-10T08:05:54+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "바지는 편하고 원단도 시원한해서 마음에 드는데\n색상이 생각한것과 조금 다르네요\n잘 입겠습니다.",
+        "optionText": "color: 회색톤 / size: L(29~31)",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-09T08:36:04+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "길이나 핏 맘에 들어요. 사진이 잘 안나왔지만… 작년 아이팜므에서 구매한 블라우스랑 매치해봤어오~ 시원하고 편해요.",
+        "optionText": "color: 블랙 / size: L(29~31)",
+        "reviewerProfile": {
+          "heightCm": 164,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/74/55/image1/b976cb3c3edd7929.webp"
+        ],
+        "createdAt": "2026-07-27T13:41:27+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "시원하고 군더더기없이 깔끔해요. 너무 맘에 듭니다. 상의 어느것과도 매치가 잘 돼서 두루두루 입기 좋습니다.",
+        "optionText": "color: 블랙 / size: M(27~28)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-18T21:08:49+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "몸에 붙지 않아서 시원하고 색감도 좋아요 . 길이를 수선하지 않아도 되고요. 핏도 예뻐요 ~",
+        "optionText": "color: 회색톤 / size: M(27~28)",
+        "reviewerProfile": {
+          "heightCm": 154,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-18T08:56:56+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 시원한 바지네요. 다른 색상도 구매하고 싶어요. 바지길이는 키에 따라 조금은 어중간해 보일 수 있는데 신발 디자인을 잘 골라 신으면 괜찮아요.",
+        "optionText": "color: 회색톤 / size: L(29~31)",
+        "reviewerProfile": {
+          "heightCm": 166,
+          "weightKg": null,
+          "usualSize": "31",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-17T17:40:32+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이 재질로 만든 배기핏바지 3가지색 다갖고 있어요\n편하고 주름 안지고 세탁기에 돌리면 되고요\n시원하고요\n통바지가 유행이라 샀는데 이뿌고 편해요",
+        "optionText": "color: 크림톤 / size: M(27~28)",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/67/83/image1/46063b9e354eef1c.webp"
+        ],
+        "createdAt": "2026-07-12T16:41:54+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "길이도 적당히 잘 맞고 시원한 원단이라 좋네요\n(2026-07-10 09:01:52 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-11T02:41:55+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "시원한소재여서 습하고 더운 날씨에 잘 입을수있을거 같고 착용감에도 불편함이 없습니다.",
+        "optionText": "color: 크림톤 / size: L(29~31)",
+        "reviewerProfile": {
+          "heightCm": 164,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-10T22:20:57+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "상품평이 많은 제품은 실패가 없네요 밝은 그레이색상 여름 바지가 없고 가격대도 저렴해 충동 구매했는데 사이즈도 잘맞고 좋으네요 상의 잘 맞춰 입으면 차려입은 느낌도 줘요",
+        "optionText": "color: 회색톤 / size: M(27~28)",
+        "reviewerProfile": {
+          "heightCm": 161,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-04T11:01:11+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가볍고 시원하고 구김이 안가서 편합니다\n가성비도 좋구요",
+        "optionText": "color: 회색톤 / size: L(29~31)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-02T10:42:45+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가볍고 시원하고 구김이 안가서 평소편하게 입기 편리합니다",
+        "optionText": "color: 크림톤 / size: L(29~31)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-02T10:40:54+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "회색톤 다시 구매했어요\n블랙톤도 입어봤고\n올해는 크림톤,.회색톤 샀습니다\n시원하고 예뻐요",
+        "optionText": "color: 회색톤 / size: M(27~28)",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-16T15:50:47+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "화색톤.블랙톤 몇년 입어보고\n너무 시원하고 코디하기 좋아서\n크림톤 샀는데 만족합니다",
+        "optionText": "color: 크림톤 / size: M(27~28)",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-16T15:49:30+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "무난하니 이뻐요^^\n제가조아라 하는 스타일 이에요\n만족 빵빵",
+        "optionText": "color: 회색톤 / size: M(27~28)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-15T16:43:54+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "배송 잘 왔고 핏이 예쁘고 편해요\n(2025-09-09 16:45:05 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-10T02:46:56+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "시원하고 이뻐요 사이즈도 넉넉하지 좋습니다\n(2025-08-05 13:50:52 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/19/33/70/image1/03e63e844e526897.webp"
+        ],
+        "createdAt": "2025-08-06T02:58:15+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "감이 시원하고 구김이 적어 괜찮은데 회색보다는 살짝 중량감이 있어서 무거운 느낌이 있네요",
+        "optionText": "color: 블랙 / size: XL(32~34)",
+        "reviewerProfile": {
+          "heightCm": 157,
+          "weightKg": null,
+          "usualSize": "33",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-07-28T15:01:28+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "베이지로 구매했는데요\n시원해보이고 의외로 카키셔츠랑도 예쁘게 잘 어울려서 오늘 하루가 기분이 좋네요~~^^",
+        "optionText": "color: 회색톤 / size: L(29~31)",
+        "reviewerProfile": {
+          "heightCm": 155,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/19/19/85/image1/1690fa7c5c9bab06.webp"
+        ],
+        "createdAt": "2025-07-13T16:06:18+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "오랫만에 팬츠가 XL 사이즈가 있어서 냉큼 구입했는데 잘 맞네요 통이 좀 넓은 감이 있긴 합니다 뭐 그런대로 괜찮습니다\n내가 좋아하는 회색이라 잘입을거 같아요",
+        "optionText": "color: 회색톤 / size: XL(32~34)",
+        "reviewerProfile": {
+          "heightCm": 157,
+          "weightKg": null,
+          "usualSize": "33",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-07-10T15:11:09+09:00"
+      }
+    ],
     "crawledAt": "2026-09-01T23:24:16.948Z"
   },
   {
@@ -298,7 +1889,7 @@
     "material": null,
     "description": "은은한 일자핏과 허리 전체 밴딩으로 편안하면서도 출근룩까지^^ 깔끔하게 연출되는 데일리 슬랙스 팬츠[FREE/L/XL]",
     "rating": null,
-    "reviewCount": null,
+    "reviewCount": 0,
     "reviews": [],
     "crawledAt": "2026-09-01T23:24:18.353Z"
   },
@@ -325,7 +1916,7 @@
     "material": null,
     "description": "탄탄한 면 100% 데님 소재~ 와이드 일자 핏이 부해 보이지 않고 다리라인을 길어 보이게 해 다양한 상의와 매치하기 좋은 기본 청통바지[S~L]",
     "rating": null,
-    "reviewCount": null,
+    "reviewCount": 0,
     "reviews": [],
     "crawledAt": "2026-09-01T23:24:19.757Z"
   },
@@ -355,7 +1946,7 @@
     "material": null,
     "description": "와이드 일자 핏에 납작한 아웃포켓과 은은한 워싱 디테일을 더해 과하지 않은 멋스러운 포인트로 데일리하게 입기 좋은 코튼 팬츠[2C][S~L]",
     "rating": null,
-    "reviewCount": null,
+    "reviewCount": 0,
     "reviews": [],
     "crawledAt": "2026-09-01T23:24:21.407Z"
   },
@@ -386,7 +1977,7 @@
     "material": null,
     "description": "탄탄한 면에 스판 3%가 더해져 편안한 착용감~ 허리 히든밴딩과 허벅지부터 밑단까지 자연스럽게 떨어지는 일자 핏[3C]{S~L]",
     "rating": null,
-    "reviewCount": null,
+    "reviewCount": 0,
     "reviews": [],
     "crawledAt": "2026-09-01T23:24:22.804Z"
   },
@@ -416,7 +2007,7 @@
     "material": null,
     "description": "적당히 탄탄한 면 100% 소재로 깔끔한 바지 핏을 잡아주며, 허리와 힙은 잡아주고 아래로 반듯하게 떨어지는 세미 와이드 핏[2C][S~L]",
     "rating": null,
-    "reviewCount": null,
+    "reviewCount": 0,
     "reviews": [],
     "crawledAt": "2026-09-01T23:24:24.479Z"
   },
@@ -446,7 +2037,7 @@
     "material": null,
     "description": "적당한 힘이 있는 면스판 소재로 실루엣을 탄탄하고 편안하게 잡아주며, 허리 뒷밴딩과 반듯하게 떨어지는 세미 와이드 핏 팬츠[3C][M/L/XL]",
     "rating": null,
-    "reviewCount": null,
+    "reviewCount": 0,
     "reviews": [],
     "crawledAt": "2026-09-01T23:24:26.015Z"
   },
@@ -477,7 +2068,7 @@
     "material": null,
     "description": "적당히 탄탄한 폴리 소재로 깔끔한 일자 실루엣을 잡아주며, 허리 히든밴딩과 여유 있는 핏으로 하체를 편안하게 커버^^[3C][S~L}",
     "rating": null,
-    "reviewCount": null,
+    "reviewCount": 0,
     "reviews": [],
     "crawledAt": "2026-09-01T23:24:27.550Z"
   },
@@ -504,7 +2095,7 @@
     "material": null,
     "description": "찰랑하게 차르르 떨어지는 적당한 무게감의 폴리 소재~ 편안한 허리 밴딩과 아래로 길고 반듯하게 떨어지는 여유 있는 와이드 핏[S~L]",
     "rating": null,
-    "reviewCount": null,
+    "reviewCount": 0,
     "reviews": [],
     "crawledAt": "2026-09-01T23:24:29.085Z"
   },
@@ -535,7 +2126,7 @@
     "material": null,
     "description": "적당한 두께의 면스판 소재로 배기 핏을 탄탄하고 편안하게 잡아주며, 허벅지는 여유 있고 아래로 깔끔하게 좁아지는 절개 디테일 핏[4C][FREE/L]",
     "rating": null,
-    "reviewCount": null,
+    "reviewCount": 0,
     "reviews": [],
     "crawledAt": "2026-09-01T23:24:30.464Z"
   },
@@ -562,7 +2153,7 @@
     "material": null,
     "description": "슬림하게 잡아주는 세미 부츠컷 핏과 입체적인 워싱으로 다리가 길고 날씬해 보이며, 편안하면서도 핏을 잡아주는 면 100% 소재[S~L}",
     "rating": null,
-    "reviewCount": null,
+    "reviewCount": 0,
     "reviews": [],
     "crawledAt": "2026-09-01T23:24:32.158Z"
   },
@@ -589,7 +2180,7 @@
     "material": null,
     "description": "뛰어난 신축성과 체형을 깔끔하게 커버하는 반듯한 일자 핏~ 정하면서도 하루 종일 편안한 데일리 히든밴딩 팬츠[S~L}",
     "rating": null,
-    "reviewCount": null,
+    "reviewCount": 0,
     "reviews": [],
     "crawledAt": "2026-09-01T23:24:33.545Z"
   }
