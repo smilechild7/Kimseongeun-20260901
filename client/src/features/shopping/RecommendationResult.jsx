@@ -46,7 +46,7 @@ function ProductSummaryRow({ controlsId, expanded, onToggle, product, rank }) {
 
   return (
     <div
-      className={`grid w-full cursor-pointer grid-cols-[4rem_minmax(0,1fr)_auto] items-center gap-3 p-2.5 text-left transition sm:grid-cols-[4.5rem_minmax(0,1fr)_auto] sm:p-3 ${expanded ? 'bg-orange-50' : 'bg-white hover:bg-stone-50'}`}
+      className="grid w-full cursor-pointer grid-cols-[4rem_minmax(0,1fr)_auto] items-center gap-3 bg-white p-2.5 text-left transition hover:bg-stone-50 sm:grid-cols-[4.5rem_minmax(0,1fr)_auto] sm:p-3"
       onClick={onToggle}
     >
       <a

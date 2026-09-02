@@ -75,6 +75,8 @@
 | DEC-040 | 2026-09-02 | AI 응답·상품 accordion 밀도 | 사용자 피드백에 따라 AI 답변을 일반 채팅 수준의 14px semibold로 낮추고, 선택한 상품 상세를 해당 요약 카드 내부에서 펼치며 최하단에 `카드 접기`를 제공 | 답변의 시각적 무게를 줄이고 선택 항목과 상세 정보의 공간적 연결을 유지; 긴 상세를 읽은 뒤 상단으로 돌아가지 않고 닫을 수 있음 |
 | DEC-041 | 2026-09-02 | 주요 surface 색상 | 사용자 지시에 따라 진한 검정 배경의 사용자 말풍선·검색/외부 이동 버튼·선택 control·순위 배지·header mark를 연한 stone 회색으로 전환하고 진한 글자로 대비 유지 | 전체 화면의 시각적 무게와 검정 면적을 줄이되 주황색 AI identity·focus state는 유지 |
 | DEC-042 | 2026-09-02 | 부족한 review 정보 표시 | 사용자 지시에 따라 `unknown` 후기 signal 카드는 렌더링하지 않고 세 signal이 모두 unknown이면 후기 섹션 전체를 숨김; size guide 부재 placeholder도 제거 | 정보가 없는 카드로 상세 화면이 길어지는 문제를 제거; 정보 부재는 별도 카드 대신 해당 항목의 omission으로 표현 |
+| DEC-043 | 2026-09-02 | 결과·채팅 surface 범위 | 사용자 선택 1A — 상품 summary·확장 영역과 사용자 말풍선의 surface를 white로 통일하고 선택 상품은 orange border로만 구분; 후기·evidence의 의미별 tint는 유지 | 전체 카드 면을 가볍게 만들면서도 근거 종류와 후기 신호의 빠른 구분은 보존 |
+| DEC-044 | 2026-09-02 | 모바일 조건 입력 구조 | 사용자 선택 2A — 단일 선택지인 category UI를 제거하고 `pants`를 모든 요청에 자동 포함; query 입력 후 가격 select와 사이즈 input을 모바일 2열로 직접 표시하고 submit은 모바일 전체 폭 사용 | 불필요한 category fieldset과 여러 가격 chip을 제거해 높이·복잡도를 줄이고 추가 tap 없이 조건을 편집 가능하게 유지 |
 
 ## Phase 1 시작 준비
 
@@ -556,7 +558,8 @@
 - [x] refinement 입력과 conversation reset
 - [x] frontend 단위 테스트 및 production build
 - [x] 사용자 로컬 UI·모바일·interaction 검증
-- [ ] commit/push 및 Render end-to-end 검증
+- [x] commit/push 및 Render frontend·health 검증
+- [ ] 배포 URL 실제 shopping flow 사용자 검증
 
 ### 구현 및 검증 기록
 
@@ -589,6 +592,18 @@
 | 2026-09-02 | UI 피드백 회귀 검증 | 대화형 말풍선·compact summary row·선택 상세·response fold 반영 후 전체 test 68/68 및 Vite production build 통과; 실제 API 재호출 없음 |
 | 2026-09-02 | 사용자 최종 UI 조정 | `상세보기` control을 최종 `text-xs`·medium으로 직접 조정한 상태를 확인하고 보존; 사용자가 추가 UI polish는 이후로 미루고 Phase 7 마감을 승인 |
 | 2026-09-02 | Phase 7 배포 전 검증 | 전체 tests 68/68, Vite production build, `git diff --check`, `.env` ignore와 repository API key pattern 검사 통과; dependency·DB·Render 설정 변경 없음 |
+| 2026-09-02 | Phase 7 구현 commit/push | `eacfeae feat: add conversational shopping frontend`를 GitHub `main`에 push하고 Render 자동 배포 시작 |
+| 2026-09-02 | Render static 배포 검증 | 외부 root·`/api/health` 200, 배포 HTML이 local build와 동일한 JS/CSS asset hash를 참조하고 두 asset 200 확인; JS에서 Phase 7 핵심 UI 문구 확인 |
+| 2026-09-02 | 배포 후 UI polish 재개 | 사용자 요청으로 Phase 7 완료를 보류; result/user surface white 전환, active CTA orange 전환과 mobile filter 구조 개선안을 결정한 뒤 추가 구현·배포 예정 |
+| 2026-09-02 | mobile filter 재설계 | DEC-043~044에 따라 white result/user surface, active orange submit·condition control, implicit pants category, 2열 price select·size input 구조 구현 |
+| 2026-09-02 | mobile filter 자동 검증 | 변경 후 전체 tests 68/68, Vite production build 및 `git diff --check` 통과; 실제 API 호출 없음 |
+| 2026-09-02 | refinement search 밀도 개선 | 최초 hero search는 유지하고 이후 compact search만 max-w-2xl·단일 border·40px input/button·36px condition control·작은 padding으로 축소해 결과 왼쪽 정렬선에 배치 |
+| 2026-09-02 | UI polish 재검증 | mobile filter·white surface·compact refinement 변경 후 frontend tests 6/6, Vite production build 및 `git diff --check` 통과; 실제 API 호출 없음 |
+| 2026-09-02 | refinement flow 정리 | 조건 다듬기 heading·form 전체를 max-w-2xl 좌우 중앙 정렬; follow-up에서는 가격·사이즈 UI와 명시 조건 조합을 제거하고 입력 문장만 전송하며 submit 즉시 input clear·실패 시 복구하도록 변경 |
+| 2026-09-02 | refinement flow 검증 | frontend tests 6/6, Vite production build 및 `git diff --check` 통과; 첫 검색 조건 계약은 유지하고 실제 API 호출 없음 |
+| 2026-09-02 | refinement 노출 시점 수정 | `조건 다듬기` section을 Agent 응답이 준비된 `ready` 상태에서만 렌더링; 최초·후속 loading 및 error 중에는 숨기고 새 결과와 함께 다시 표시 |
+| 2026-09-02 | 최종 UI 사용자 승인 | 사용자가 white surface·mobile initial filter·compact centered refinement와 ready-only 노출 상태를 확인하고 현 상태로 반영·마감 승인 |
+| 2026-09-02 | UI polish 배포 전 최종 검증 | 전체 tests 68/68, Vite production build, `git diff --check`, `.env` ignore와 frontend/docs API key pattern 검사 통과; 실제 API 호출 없음 |
 
 ### 사용자 수동 작업
 
@@ -598,13 +613,13 @@
 
 ### Blocker / 미해결
 
-- Phase 7 구현 blocker 없음. commit/push 후 Render 배포와 외부 end-to-end 확인 대기.
+- 배포 후 추가 UI 변경의 자동·로컬 검증과 commit/push 필요. 이후 배포 URL 실제 `/api/chat` shopping flow 사용자 확인 대기.
 
 ### 다음 작업
 
-1. Phase 7 변경을 commit/push한다.
-2. Render 자동 배포 후 external frontend와 `/api/health`를 확인한다.
-3. 배포된 핵심 shopping flow의 사용자 최종 확인 후 Phase 7을 완료한다.
+1. 사용자가 새 대화 상태에서 배포 URL의 recommendation flow 1회를 확인한다.
+2. 결과 확인 후 Phase 7 완료 로그를 commit/push한다.
+3. Phase 8 Final Validation / Polish를 시작한다.
 
 ## Phase 0 — Skeleton / Deployment
 

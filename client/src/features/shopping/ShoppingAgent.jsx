@@ -185,7 +185,7 @@ export default function ShoppingAgent() {
             <section className="mb-6 flex justify-end" aria-label="내 메시지">
               <div className="max-w-[88%] sm:max-w-2xl">
                 <p className="mb-2 text-right text-xs font-semibold text-stone-500">나</p>
-                <p className="rounded-2xl rounded-tr-sm border border-stone-200 bg-stone-200 px-4 py-3 text-sm font-medium leading-6 text-stone-900 shadow-sm sm:px-5">
+                <p className="rounded-2xl rounded-tr-sm border border-stone-200 bg-white px-4 py-3 text-sm font-medium leading-6 text-stone-900 shadow-sm sm:px-5">
                   {lastUserMessage.content}
                 </p>
               </div>
@@ -198,12 +198,15 @@ export default function ShoppingAgent() {
           )}
           {state.status === 'ready' && <AssistantResult message={lastAssistantMessage} />}
 
-          <section className="mt-8" aria-label="검색 조건 다듬기">
-            <div className="mb-3 flex items-center justify-between gap-4">
-              <div><p className="text-xs font-semibold uppercase tracking-[0.18em] text-stone-500">조건 다듬기</p><h2 className="mt-1 font-bold text-stone-950">원하는 방향을 이어서 말씀해주세요</h2></div>
-            </div>
-            <SearchInput compact disabled={state.status === 'loading'} onSubmit={submit} />
-          </section>
+          {state.status === 'ready' && (
+            <section className="mx-auto mt-8 max-w-2xl text-center" aria-label="검색 조건 다듬기">
+              <div className="mb-3">
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-stone-500">조건 다듬기</p>
+                <h2 className="mt-1 font-bold text-stone-950">원하는 방향을 이어서 말씀해주세요</h2>
+              </div>
+              <SearchInput compact onSubmit={submit} />
+            </section>
+          )}
         </div>
       )}
 
