@@ -3,7 +3,7 @@ services:
     name: levit-problem-solver
     runtime: node
     plan: free
-    buildCommand: npm ci && npm run build
+    buildCommand: npm ci && npm run build && npm run db:build
     startCommand: npm start
     healthCheckPath: /api/health
     envVars:

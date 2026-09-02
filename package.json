@@ -13,10 +13,14 @@
     "build": "vite build --config client/vite.config.js",
     "crawl:products": "node crawler/cli/crawl-products.js",
     "crawl:reviews": "node crawler/cli/crawl-reviews.js",
+    "db:build": "node scripts/buildDatabase.js",
+    "db:inspect": "node scripts/inspectDatabase.js",
+    "db:migrate": "node scripts/runMigrations.js",
     "start": "node server/index.js",
     "test": "node --test"
   },
   "dependencies": {
+    "better-sqlite3": "^13.0.3",
     "cheerio": "^1.2.0",
     "express": "^5.2.1",
     "react": "^19.2.8",

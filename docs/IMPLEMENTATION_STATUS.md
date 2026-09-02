@@ -3,7 +3,7 @@
 > 기준 계획: `docs/levit_problem_solver_FINAL_PLAN.md`  
 > 작업 규칙: `AGENT.md`  
 > 마지막 업데이트: 2026-09-02 (KST)
-> 현재 단계: Phase 2 — Review Crawling 완료
+> 현재 단계: Phase 3 — SQLite 완료
 
 이 문서는 구현 진행 상태, 검증 결과, 결정 사항과 blocker를 계속 기록하는 단일 상태 로그다. 작업을 시작하거나 완료할 때마다 같은 파일을 갱신한다.
 
@@ -22,7 +22,7 @@
 | 0 | Skeleton / Deployment | 완료 |
 | 1 | Cafe24 Product Crawler | 완료 — 쇼핑몰별 20개, 총 40개 |
 | 2 | Review Crawling | 완료 — 40개 상품에서 실제 리뷰 406개 수집 |
-| 3 | SQLite | 대기 |
+| 3 | SQLite | 완료 — deterministic rebuild 및 40 products·406 reviews relation 검증 |
 | 4 | Offline Enrichment | 대기 |
 | 5 | Search | 대기 |
 | 6 | Agent | 대기 |
@@ -48,6 +48,7 @@
 | DEC-013 | 2026-09-02 | HTML parser dependency | production dependency로 `cheerio` 사용 | 정규식 기반 분석보다 Cafe24 DOM 변화에 견고하고 공통 parser·selector override·fixture 테스트 구현에 적합 |
 | DEC-014 | 2026-09-02 | Phase 1 초기 상품 수 확대 | 그레이시크·아이팜므의 바지 상품을 각각 10개에서 20개로 확대 | 두 쇼핑몰 모두 후보가 충분하고, 상의 확장 전에 더 다양한 가격·옵션·치수표 구조로 공통 parser를 검증 |
 | DEC-015 | 2026-09-02 | Phase 2 리뷰 수집 범위 | 그레이시크와 아이팜므 모두 20개 상품에서 상품당 최근 리뷰 최대 20개 수집 | 최종 제품의 여러 쇼핑몰 비교에서 리뷰 evidence 편중을 줄이고, 아이팜므 Crema 공개 API를 우선 조사하되 Playwright가 필요하면 도입 전에 다시 결정 |
+| DEC-016 | 2026-09-02 | Phase 3 DB 동기화 방식 | `data/products.db`를 매 build마다 새로 만들고 raw JSON 전체를 import | raw JSON을 source of truth로 유지하고 stale 상품·중복 리뷰를 방지한다. runtime DB 변경 보존과 review row ID 안정성은 MVP 범위에서 필요하지 않음 |
 
 ## Phase 1 시작 준비
 
@@ -206,6 +207,65 @@
 - 사용자 수동 작업 없음. 로컬 SQLite 파일은 repository에 commit하지 않고 raw JSON에서 재생성한다.
 - SQLite 구현 방식이나 dependency에 의미 있는 선택지가 생기면 구현 전에 사용자 결정을 받는다.
 
+## Phase 3 — SQLite
+
+### 목표
+
+- commit된 raw JSON을 source of truth로 사용해 `data/products.db`를 재현 가능하게 생성한다.
+- migration과 foreign key를 적용하고 상품 40개·리뷰 406개의 관계를 보존한다.
+- 상위 search/agent layer가 SQLite driver에 직접 의존하지 않도록 Product Repository를 제공한다.
+- build를 반복해도 stale 상품이나 중복 리뷰가 생기지 않게 한다.
+
+### 체크리스트
+
+- [x] `better-sqlite3` 설치
+- [x] `001_initial.sql` 작성
+- [x] `schema_migrations` 기반 migration runner 구현
+- [x] migration transaction rollback 테스트
+- [x] deterministic `npm run db:build` 구현
+- [x] raw product/review import 구현
+- [x] Product Repository 구현
+- [x] 상품 UPSERT·리뷰 snapshot 교체 테스트
+- [x] foreign key·cascade delete 테스트
+- [x] Render build의 DB 재생성 연결
+- [x] DB count·relation·integrity 자동 검증
+- [x] 사용자 반복 build·표본 relation 검증
+
+### 구현 및 검증 기록
+
+| 시각 (KST) | 항목 | 결과 |
+|---|---|---|
+| 2026-09-02 | SQLite dependency | `better-sqlite3` `13.0.3`, Node `>=22` 호환, npm audit 취약점 0개 |
+| 2026-09-02 | migration | `shops`, `products`, `reviews`, `product_enrichments`, index와 foreign key 생성; 두 번째 실행 미적용 0개 확인 |
+| 2026-09-02 | migration rollback | 실패 migration의 schema 변경과 version 기록이 모두 rollback됨을 자동 테스트로 확인 |
+| 2026-09-02 | DB build | `npm run db:build` — `shops=2`, `products=40`, `reviews=406`, `enrichments=0` |
+| 2026-09-02 | deterministic rebuild | 동일 명령 두 번 실행 후 count 동일, 중복 상품·리뷰 0건 |
+| 2026-09-02 | repository | save/search/get/getMany/getReviews 구현; deterministic product ID `shopId:sourceProductId` 사용 |
+| 2026-09-02 | relation 표본 | `ifemme:31358` → 어텀 배기통 청바지 → 리뷰 14개 연결 및 최신 리뷰 본문 일치 |
+| 2026-09-02 | DB integrity | `PRAGMA integrity_check = ok`, foreign keys 활성화 확인 |
+| 2026-09-02 | read-only inspect | `npm run db:inspect` — 전체 count, integrity와 `ifemme:31358` 상품·리뷰 14개 relation 출력 확인 |
+| 2026-09-02 | 자동 테스트 | `npm test` — 14 tests, 14 passed |
+| 2026-09-02 | production build | `npm run build` 성공 |
+| 2026-09-02 | Render config | `npm ci && npm run build && npm run db:build`; build 중 crawling/OpenAI 호출 없음 |
+| 2026-09-02 | 변경 검사 | `git diff --check` 통과 |
+| 2026-09-02 | 사용자 수동 검증 | `npm run db:build` 실행 완료 및 Phase 3 결과 이상 없음 확인 |
+
+### 사용자 수동 작업
+
+- 구현 전 추가 작업 없음.
+- 구현 후 `npm run db:build`을 두 번 실행해 두 번 모두 `shops=2`, `products=40`, `reviews=406`, `enrichments=0`인지 확인한다.
+- read-only `npm run db:inspect`로 `ifemme:31358`의 상품명과 리뷰 14개 relation을 확인한다.
+- 현재는 push하지 않으므로 Render 작업 없음. 추후 push하면 자동 배포의 DB build 성공 로그를 확인한다.
+
+### Blocker / 미해결
+
+- Phase 3 blocker 없음.
+
+### 다음 작업
+
+1. Phase 3 변경사항을 commit한다.
+2. Phase 4 Offline Enrichment 시작 전 사용자 작업·AI 비용과 검증 범위를 안내한다.
+
 ## Phase 0 — Skeleton / Deployment
 
 ### 목표
@@ -311,3 +371,6 @@
 | 2026-09-02 | 그레이시크 서버 HTML과 아이팜므 Crema 공개 JSON API 구조 확인; Playwright 없이 두 source parser 및 PII 제외 테스트 구현 |
 | 2026-09-02 | 두 쇼핑몰 40개 상품에서 실제 리뷰 406개 수집, raw schema·PII 제외·자동 테스트·production build 검증 완료; 사용자 표본 검증 대기 |
 | 2026-09-02 | 사용자 실제 리뷰 표본 검증 완료; Phase 2 DoD 충족 및 완료 처리 |
+| 2026-09-02 | DEC-016에 따라 raw JSON 기반 deterministic SQLite rebuild 방식으로 Phase 3 시작 |
+| 2026-09-02 | migration·DB build·raw import·repository·Render build 연결 구현; 2 shops·40 products·406 reviews와 14/14 tests 검증, 사용자 반복 build 확인 대기 |
+| 2026-09-02 | 사용자 DB build 검증 완료; Phase 3 DoD 충족 및 완료 처리 |
