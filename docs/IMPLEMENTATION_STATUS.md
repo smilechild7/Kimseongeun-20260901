@@ -3,7 +3,7 @@
 > 기준 계획: `docs/levit_problem_solver_FINAL_PLAN.md`  
 > 작업 규칙: `AGENT.md`  
 > 마지막 업데이트: 2026-09-02 (KST)
-> 현재 단계: Phase 6 — Agent 진행 중
+> 현재 단계: Phase 6 — Agent 완료 / Phase 7 시작 대기
 
 이 문서는 구현 진행 상태, 검증 결과, 결정 사항과 blocker를 계속 기록하는 단일 상태 로그다. 작업을 시작하거나 완료할 때마다 같은 파일을 갱신한다.
 
@@ -25,7 +25,7 @@
 | 3 | SQLite | 완료 — deterministic rebuild 및 40 products·406 reviews relation 검증 |
 | 4 | Offline Enrichment | 완료 — 전체 40개 v2 enrichment·strict signal·DB import 검증 |
 | 5 | Search | 완료 — hard filter·retrieval·compact DTO·실제 DB 검증 |
-| 6 | Agent | 진행 중 — 로컬·실제 API 검증 완료, commit/push 및 Render 외부 검증 대기 |
+| 6 | Agent | 완료 — 실제 세 응답 분기·Render 전체 경로 검증 통과 |
 | 7 | Frontend | 대기 |
 | 8 | Final Validation / Polish | 대기 |
 
@@ -458,7 +458,7 @@
 - [x] `POST /api/chat`·`previous_response_id` 구현
 - [x] mock unit/integration tests
 - [x] 실제 API 표본 평가와 사용자 검증
-- [ ] Render 배포 및 외부 Agent 검증
+- [x] Render 배포 및 외부 Agent 검증
 
 ### 구현 및 검증 기록
 
@@ -497,23 +497,29 @@
 | 2026-09-02 | 세 응답 분기 사용자 검증 | recommendation에 이어 clarification·no_result 실제 출력도 사용자가 수동 확인하고 이상 없음 승인; Phase 6 로컬·실제 API 검증 완료 |
 | 2026-09-02 | Render 검증 방식 결정 | 사용자 선택 B — commit/push 후 외부 health와 `office-black`을 실행하며, 예상 논리 호출 2회·앞선 표본 기준 약 $0.076 승인 |
 | 2026-09-02 | 배포 전 최종 검증 | 전체 테스트 62/62, production build 성공, deterministic DB rebuild shops=2/products=40/reviews=406/enrichments=40, `git diff --check` 통과; secret 값·raw query 저장 없음 확인 |
+| 2026-09-02 | Phase 6 commit/push | `3a5a698 feat: add evidence-based shopping agent`를 GitHub `main`에 push하고 Render 자동 배포 시작 |
+| 2026-09-02 | Render route 검증 | 외부 `/api/health` 200, 비용 없는 빈 `/api/chat` 요청 400 `invalid_request`; IP 10/10분·Service 30/시간 rate-limit header 확인 |
+| 2026-09-02 | Render `office-black` 전체 경로 | 외부 `/api/chat` 200; required pants·10만원·검정 유지, 실제 후보 3개와 factual DB merge·canonical evidence·unknown concerns·3개 comparison 반환 |
+| 2026-09-02 | External frontend | `https://levit-problem-solver.onrender.com/` 200 `text/html` 확인 |
+| 2026-09-02 | Phase 6 완료 | Agent DoD, 전체 테스트, 로컬 실제 eval, 사용자 검증, Render 배포와 외부 end-to-end 검증 모두 충족 |
 
 ### 사용자 수동 작업
 
 - 구현 전: Render `OPENAI_API_KEY` 등록 완료. 추가 계정 작업 없음.
 - 실제 API 표본 실행 전: 호출 수와 예상 비용을 확인하고 실행 승인한다.
 - 구현 후: `office-black` 결과의 추천 적합성, 상품 사실값, 후기 근거, concern과 comparison 사용자 검증 완료.
-- Phase 6 완료 전: 추가로 clarification·no_result 표본의 자연스러움과 안전성을 검증한다.
+- Phase 6 완료 전: clarification·no_result 표본의 자연스러움과 안전성 사용자 검증 완료.
+- 배포 후: 필수 사용자 작업 없음. Render Dashboard에서 implementation commit `3a5a698` 이상 최신 deploy가 Live인지 확인하는 것은 선택 사항.
 
 ### Blocker / 미해결
 
-- 로컬 blocker 없음. Phase 6 commit/push 및 Render 외부 전체 경로 검증 진행 중.
+- Phase 6 blocker 없음.
 
 ### 다음 작업
 
-1. Phase 6 변경사항을 commit하고 GitHub `main`에 push한다.
-2. Render 자동 배포 성공과 외부 `/api/health`를 확인한다.
-3. 외부 `/api/chat` 표본을 검증하고 Phase 6을 완료 처리한다.
+1. Phase 7 시작 전 사용자 작업과 UI 구현 범위를 안내한다.
+2. 의미 있는 UI·state·interaction 트레이드오프를 사용자에게 결정받는다.
+3. 배포 URL에서 end-to-end shopping flow를 구현한다.
 
 ## Phase 0 — Skeleton / Deployment
 
