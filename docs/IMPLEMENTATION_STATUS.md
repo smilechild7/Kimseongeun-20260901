@@ -3,7 +3,7 @@
 > 기준 계획: `docs/levit_problem_solver_FINAL_PLAN.md`  
 > 작업 규칙: `AGENT.md`  
 > 마지막 업데이트: 2026-09-02 (KST)
-> 현재 단계: Phase 4 — Offline Enrichment 완료, commit 대기
+> 현재 단계: Phase 4 — Offline Enrichment 완료 및 GitHub push
 
 이 문서는 구현 진행 상태, 검증 결과, 결정 사항과 blocker를 계속 기록하는 단일 상태 로그다. 작업을 시작하거나 완료할 때마다 같은 파일을 갱신한다.
 
@@ -343,6 +343,8 @@
 | 2026-09-02 | override 최종 검증 | 감사 대상 4개 signal이 `graychic:12325=different`, `graychic:14387=mixed`, `ifemme:31358=mixed`, `ifemme:33134=different`로 확인됨 |
 | 2026-09-02 | 최종 자동 검증 | `npm test` — 27 tests, 27 passed; `npm run build` 성공; DB `shops=2/products=40/reviews=406/enrichments=40`; `git diff --check` 통과 |
 | 2026-09-02 | 사용자 최종 검증 | 감사 대상 4개 appearance signal, no-review unknown, DB enrichment 40개와 표본 요약·concern에 이상 없음 확인 |
+| 2026-09-02 | 구현 commit | `f318435 feat: add offline product enrichment pipeline` — 코드·테스트·enriched 40개·DB import와 상태 로그 포함 |
+| 2026-09-02 | GitHub push | Phase 4 구현 및 완료 상태 로그 commit을 `origin/main`에 push |
 | 2026-09-02 | production build | `npm run build` 성공 |
 | 2026-09-02 | 변경 검사 | `git diff --check` 통과 |
 
@@ -359,9 +361,8 @@
 
 ### 다음 작업
 
-1. Phase 4 변경사항을 commit한다.
-2. push 후 Render가 committed enriched JSON으로 DB를 rebuild하는지 확인한다.
-3. Phase 5 Search 시작 전 구현 범위와 사용자 작업을 안내한다.
+1. Render가 committed enriched JSON으로 DB를 rebuild하는지 확인한다.
+2. Phase 5 Search 시작 전 구현 범위와 사용자 작업을 안내한다.
 
 ## Phase 0 — Skeleton / Deployment
 
