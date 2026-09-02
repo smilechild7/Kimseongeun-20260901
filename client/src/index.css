@@ -20,5 +20,97 @@ body {
 
 button,
 input {
-  font: inherit;
+  font-family: inherit;
+}
+
+button:not(:disabled),
+summary,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: #fed7aa;
+  color: #431407;
+}
+
+@keyframes filter-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-0.4rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.filter-reveal {
+  animation: filter-reveal 180ms ease-out;
+}
+
+@keyframes detail-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-0.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.detail-reveal {
+  animation: detail-reveal 220ms ease-out;
+}
+
+@keyframes response-fold {
+  from {
+    grid-template-rows: 1fr;
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    grid-template-rows: 0fr;
+    opacity: 0;
+    transform: scale(0.985) translateY(-0.5rem);
+  }
+}
+
+@keyframes summary-enter {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.previous-response-content {
+  display: grid;
+  grid-template-rows: 1fr;
+  transform-origin: top;
+  animation: response-fold 420ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.previous-response-content > div {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.previous-response-summary-enter {
+  animation: summary-enter 180ms ease-out 300ms both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

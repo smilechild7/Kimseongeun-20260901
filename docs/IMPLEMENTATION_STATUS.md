@@ -3,7 +3,7 @@
 > 기준 계획: `docs/levit_problem_solver_FINAL_PLAN.md`  
 > 작업 규칙: `AGENT.md`  
 > 마지막 업데이트: 2026-09-02 (KST)
-> 현재 단계: Phase 6 — Agent 완료 / Phase 7 시작 대기
+> 현재 단계: Phase 7 — Frontend 진행 중
 
 이 문서는 구현 진행 상태, 검증 결과, 결정 사항과 blocker를 계속 기록하는 단일 상태 로그다. 작업을 시작하거나 완료할 때마다 같은 파일을 갱신한다.
 
@@ -26,7 +26,7 @@
 | 4 | Offline Enrichment | 완료 — 전체 40개 v2 enrichment·strict signal·DB import 검증 |
 | 5 | Search | 완료 — hard filter·retrieval·compact DTO·실제 DB 검증 |
 | 6 | Agent | 완료 — 실제 세 응답 분기·Render 전체 경로 검증 통과 |
-| 7 | Frontend | 대기 |
+| 7 | Frontend | 진행 중 — UI 계약 확정, 구현 시작 |
 | 8 | Final Validation / Polish | 대기 |
 
 ## 결정 로그
@@ -64,6 +64,17 @@
 | DEC-029 | 2026-09-02 | 추천 evidence value 계약 | 사용자 선택 A — evidence type별 nested `anyOf`와 canonical value를 Structured Output에서 강제하고 `unknown` review signal은 evidence에서 제외해 `concerns`로만 표현 | 임의 문장·잘못된 enum 값을 생성 단계에서 차단하고, 서버 factual validation을 이중 방어로 유지; `mixed`·부정 signal은 실제 불확실성/위험 근거로 허용 |
 | DEC-030 | 2026-09-02 | Phase 6 남은 실제 eval 범위 | 사용자 선택 A — `vague` clarification과 `no-result`만 추가 실행하고 나머지 품질 표본은 Frontend 이후 Phase 8의 7개 이상 최종 eval에서 수행 | Phase 6에서 recommendation 포함 세 응답 분기의 실제 동작을 확인하면서 API 비용과 Phase 8 중복을 제한 |
 | DEC-031 | 2026-09-02 | Render 외부 Agent 검증 범위 | 사용자 선택 B — Phase 6 변경을 commit/push한 뒤 외부 `/api/health`와 `office-black` recommendation 전체 경로를 검증 | 단순 clarification보다 비용은 높지만 Render→Agent→SQLite→실제 상품 추천까지 배포 환경의 핵심 DoD를 직접 확인 |
+| DEC-032 | 2026-09-02 | Product Card 외부 링크 클릭 범위 | 사용자 선택 A — 상품 이미지·상품명·`상품 보러가기` CTA만 실제 쇼핑몰 `productUrl`을 새 탭으로 연결 | 카드 본문의 후기·사이즈 정보를 읽거나 텍스트를 선택할 때 의도치 않은 이동을 막고, 명시적인 외부 이동과 안전한 `rel` 속성을 제공 |
+| DEC-033 | 2026-09-02 | Frontend 선택 조건 전달 방식 | 사용자 선택 A — 자연어와 선택한 카테고리·가격·사이즈를 명시적 조건 문장으로 합쳐 기존 `/api/chat`의 `message`로 전달 | 검증된 backend 계약을 유지하고 Phase 7 범위를 줄임; 자연어와 UI 선택값이 충돌할 때 선택값을 우선 조건으로 명시하고 화면에 최종 조건을 표시 |
+| DEC-034 | 2026-09-02 | Phase 7 선택 조건 UI 범위 | 사용자 선택 A — 현재 지원 category를 바지로 명시하고 가격 상한 5만·7만·10만원 preset과 자유 사이즈 입력을 제공 | 실제 DB의 pants 40개 범위와 UI 기대를 일치시키고 결과 없는 category 선택을 방지; 향후 데이터 추가 시 category 옵션만 확장 가능하게 구성 |
+| DEC-035 | 2026-09-02 | Product Card 정보 밀도 | 사용자 선택 A — 추천 이유·색상/사이즈·후기 신호·구매 전 확인사항은 항상 표시하고 긴 원문 사이즈표만 접기 | 사이즈·핏·후기 확인 부담을 줄이는 제품 목표에 맞춰 핵심 판단 근거와 불확실성을 숨기지 않으면서 긴 원문으로 인한 카드 과밀만 완화 |
+| DEC-036 | 2026-09-02 | Progressive search form | 사용자 피드백에 따라 첫 화면은 자연어 검색창 중심으로 단순화하고, 문자를 입력한 뒤에만 카테고리·가격·사이즈 필터를 표시 | 첫 진입의 정보량과 실수 가능성을 줄이고 자연어 입력을 primary interaction으로 유지; query를 지우면 선택 조건도 초기화 |
+| DEC-037 | 2026-09-02 | 결과 header·comparison 표현 | 사용자 피드백에 따라 `AI가 찾은 결과` 본문을 작은 semibold typography로 낮추고, 후보 비교를 개별 card가 아닌 연속된 추천 코멘트로 표시 | 결과 header의 시각적 과장을 줄이고 Product Card 위에 중복되는 card container를 제거해 비교를 빠르게 읽도록 개선 |
+| DEC-038 | 2026-09-02 | 검색 결과 대화 표현 | 사용자 지시에 따라 사용자 검색 조건은 우측 말풍선, AI의 recommendation·clarification·no-result 응답은 좌측 말풍선으로 표시하고 상품 목록은 말풍선 밖의 전체 폭을 유지 | 질문과 답변의 흐름을 채팅처럼 즉시 인지시키면서 상세 상품 정보가 좁은 말풍선 폭에 갇히는 문제를 방지 |
+| DEC-039 | 2026-09-02 | 모바일 추천 상품 구조 | 사용자 선택 B — 세 후보를 이미지·상품명·가격 중심의 세로 요약 행으로 한 화면에서 조망하고, 선택한 한 상품의 전체 정보만 아래에 펼침; 후속 질문 시 기존 AI 결과를 요약 말풍선으로 접고 실패 시 복구 | DEC-035의 핵심 정보 상시 노출을 사용자 선택으로 대체; 모바일 가독성과 비교 가능성을 확보하면서 상세 evidence·후기·위험 정보는 명시적 선택 후 그대로 제공 |
+| DEC-040 | 2026-09-02 | AI 응답·상품 accordion 밀도 | 사용자 피드백에 따라 AI 답변을 일반 채팅 수준의 14px semibold로 낮추고, 선택한 상품 상세를 해당 요약 카드 내부에서 펼치며 최하단에 `카드 접기`를 제공 | 답변의 시각적 무게를 줄이고 선택 항목과 상세 정보의 공간적 연결을 유지; 긴 상세를 읽은 뒤 상단으로 돌아가지 않고 닫을 수 있음 |
+| DEC-041 | 2026-09-02 | 주요 surface 색상 | 사용자 지시에 따라 진한 검정 배경의 사용자 말풍선·검색/외부 이동 버튼·선택 control·순위 배지·header mark를 연한 stone 회색으로 전환하고 진한 글자로 대비 유지 | 전체 화면의 시각적 무게와 검정 면적을 줄이되 주황색 AI identity·focus state는 유지 |
+| DEC-042 | 2026-09-02 | 부족한 review 정보 표시 | 사용자 지시에 따라 `unknown` 후기 signal 카드는 렌더링하지 않고 세 signal이 모두 unknown이면 후기 섹션 전체를 숨김; size guide 부재 placeholder도 제거 | 정보가 없는 카드로 상세 화면이 길어지는 문제를 제거; 정보 부재는 별도 카드 대신 해당 항목의 omission으로 표현 |
 
 ## Phase 1 시작 준비
 
@@ -520,6 +531,80 @@
 1. Phase 7 시작 전 사용자 작업과 UI 구현 범위를 안내한다.
 2. 의미 있는 UI·state·interaction 트레이드오프를 사용자에게 결정받는다.
 3. 배포 URL에서 end-to-end shopping flow를 구현한다.
+
+## Phase 7 — Frontend
+
+### 목표
+
+- 자연어와 optional 조건을 기존 `/api/chat`에 연결한다.
+- clarification·recommendation·no_result와 loading·error 상태를 명확히 표시한다.
+- 실제 상품 정보, 조건 적합 이유, 사이즈·핏, 후기 근거, 구매 위험과 자동 비교를 모바일 대응 카드로 제공한다.
+- `previousResponseId` 기반 refinement와 `새로 찾기`를 지원한다.
+
+### 체크리스트
+
+- [x] Phase 7 범위와 사용자 작업 사전 안내
+- [x] 조건 전달 방식·selector 범위·링크 범위·카드 정보 밀도 결정
+- [x] `useReducer` 대화 상태와 `sessionStorage` conversation ID 구현
+- [x] 자연어·바지·가격 상한·사이즈 입력 및 명시적 조건 조합
+- [x] `/api/chat` client와 timeout·429·conversation error 처리
+- [x] 단계형 non-streaming loading 상태
+- [x] clarification·recommendation·no_result rendering
+- [x] 조건 요약·자동 comparison·반응형 1~3개 Product Card
+- [x] 실제 상품·사이즈표·후기 신호·정보 부족·구매 위험 표시
+- [x] 이미지·상품명·CTA 외부 링크와 image fallback
+- [x] refinement 입력과 conversation reset
+- [x] frontend 단위 테스트 및 production build
+- [x] 사용자 로컬 UI·모바일·interaction 검증
+- [ ] commit/push 및 Render end-to-end 검증
+
+### 구현 및 검증 기록
+
+| 시각 (KST) | 항목 | 결과 |
+|---|---|---|
+| 2026-09-02 | Phase 7 시작 | 사용자 사전 작업 없음; 실제 UI 평가 전 OpenAI 호출 범위를 별도 승인받기로 하고 mock 자동 검증부터 진행 |
+| 2026-09-02 | UI 계약 | DEC-032~035에 따라 부분 외부 링크, 기존 message 계약 조합, pants-only selector, 핵심 정보 상시 노출·긴 사이즈표만 접기로 확정 |
+| 2026-09-02 | 상태·API | `useReducer` actions, response ID session 유지, reset, request 취소·110초 timeout·429 retry 안내·오류 mapping 구현 |
+| 2026-09-02 | 검색 UI | 자연어와 optional 바지·5/7/10만원 상한·자유 사이즈를 조합하고 선택 조건 우선순위를 Agent message에 명시 |
+| 2026-09-02 | 결과 UI | 세 응답 분기, 해석 조건, 자동 비교, 추천 수별 1~3열 카드, factual 정보·후기 3축·unknown·concerns·외부 CTA 구현 |
+| 2026-09-02 | 자동 검증 | 신규 frontend pure unit tests 6/6, 전체 회귀 tests 68/68, Vite production build 성공 |
+| 2026-09-02 | local production | Express static root 200·health 200 확인; 시각 검증과 OpenAI 호출은 아직 수행하지 않음 |
+| 2026-09-02 | 첫 화면 사용자 피드백 | 사용자가 초기 조건 필터를 검색어 입력 이후에 노출하도록 요청; 첫 화면 sidebar·예시 chip을 제거하고 centered search-first layout으로 변경 |
+| 2026-09-02 | 실제 UI 요청 관찰 | 사용자의 실수 입력 요청은 server에서 search와 2-round recommendation을 정상 완료(input=10,954/output=1,306/total=12,260 tokens); non-streaming 대기 시간이 무한 로딩처럼 인식됨 |
+| 2026-09-02 | loading 피드백 반영 | 단계 메시지와 함께 실제 경과 초·일반적인 20~60초 안내를 표시해 진행 상태를 명확히 함 |
+| 2026-09-02 | 결과 밀도 피드백 | 결과 headline 축소·semibold와 비교 코멘트 전환은 즉시 반영; 후속 질문 시 이전 결과 collapse 및 모바일 3개 동시 조망 구조는 사용자 설계 결정 대기 |
+| 2026-09-02 | 대화형 결과 표현 | 사용자 메시지를 우측, AI 요약·조건·clarification·no-result를 좌측 말풍선으로 통일하고 상세 상품 목록은 독립 영역으로 유지 |
+| 2026-09-02 | 모바일 결과 구조 | DEC-039에 따라 3개 compact summary row와 단일 선택 상세 영역을 구현; refinement 요청 중 이전 결과 fold animation·요약 유지·실패 시 복구를 구현 |
+| 2026-09-02 | 결과 accordion 개선 | AI 답변을 14px semibold로 축소하고 선택한 summary card 내부에서 상세를 펼치도록 변경; 상세 최하단에 `카드 접기` control 추가 |
+| 2026-09-02 | surface tone 개선 | 검정 배경의 사용자 말풍선·주요 버튼·선택 상태·순위 배지·header mark를 연한 stone 회색과 진한 text 조합으로 변경 |
+| 2026-09-02 | UI 회귀 검증 | accordion·14px AI 응답·light gray surface 변경 후 전체 tests 68/68 및 Vite production build 통과; `bg-stone-900/950` 잔존 없음 |
+| 2026-09-02 | 상품 summary control 개선 | 세로 `상세`/화살표 표시를 작은 회색 pill 버튼의 가로 `상세보기 ↓`로 변경하고, 확장 시 `상세접기 ↑`로 상태를 명시 |
+| 2026-09-02 | 상품 summary control 정렬 | 회전 glyph 대신 실제 `↓`/`↑` 문자를 고정 12px 영역에 중앙 정렬하고 label을 10px로 축소 |
+| 2026-09-02 | 배경 gradient 수정 | 38rem 고정 높이 absolute layer로 생긴 절단선을 제거하고, page surface 전체에 고정 반경 radial gradient를 적용해 자연스럽게 투명해지도록 변경 |
+| 2026-09-02 | 상품 summary typography 통일 | 사용자 최신 피드백에 따라 `상세보기` label을 제품명과 동일한 14px semibold·stone-950 스타일로 변경하고 중앙 정렬 유지 |
+| 2026-09-02 | unknown card 제거 | unknown 후기 signal을 개별 제외하고 모두 unknown이면 후기 섹션 자체를 제외; size guide 부재 안내 box도 숨김 |
+| 2026-09-02 | button typography override 수정 | 전역 `button, input { font: inherit; }` shorthand가 Tailwind `text-*`·font weight를 덮어쓰는 원인을 확인하고 `font-family: inherit`로 축소; `상세보기`의 `text-[5px]`를 포함한 component typography가 정상 적용되도록 수정 |
+| 2026-09-02 | 외부 이동 CTA 색상 | `상품 보러가기`를 stone gray에서 orange-100 배경·orange-200 border·orange-900 text로 변경하고 hover를 orange-200으로 적용 |
+| 2026-09-02 | header AI mark 통일 | header AI logo를 chat avatar와 동일한 orange-600 배경·white text로 변경 |
+| 2026-09-02 | UI 피드백 회귀 검증 | 대화형 말풍선·compact summary row·선택 상세·response fold 반영 후 전체 test 68/68 및 Vite production build 통과; 실제 API 재호출 없음 |
+| 2026-09-02 | 사용자 최종 UI 조정 | `상세보기` control을 최종 `text-xs`·medium으로 직접 조정한 상태를 확인하고 보존; 사용자가 추가 UI polish는 이후로 미루고 Phase 7 마감을 승인 |
+| 2026-09-02 | Phase 7 배포 전 검증 | 전체 tests 68/68, Vite production build, `git diff --check`, `.env` ignore와 repository API key pattern 검사 통과; dependency·DB·Render 설정 변경 없음 |
+
+### 사용자 수동 작업
+
+- 구현 전: 필수 작업 없음. Render key와 Service는 준비 완료.
+- 로컬 검증 전: 실제 UI API 호출 범위와 예상 비용을 확인하고 승인한다.
+- 구현 후: desktop/mobile, 검색·clarification·refinement·reset, 상품 정보·이미지·링크·정보 부족·오류 표시를 검증한다.
+
+### Blocker / 미해결
+
+- Phase 7 구현 blocker 없음. commit/push 후 Render 배포와 외부 end-to-end 확인 대기.
+
+### 다음 작업
+
+1. Phase 7 변경을 commit/push한다.
+2. Render 자동 배포 후 external frontend와 `/api/health`를 확인한다.
+3. 배포된 핵심 shopping flow의 사용자 최종 확인 후 Phase 7을 완료한다.
 
 ## Phase 0 — Skeleton / Deployment
 
