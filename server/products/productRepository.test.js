@@ -168,6 +168,18 @@ test('UPSERTs and hydrates product enrichments', async () => {
       ...enrichment,
       summary: '수정된 요약',
     });
+    const searchCandidates = repository.findSearchCandidates({
+      category: 'pants',
+      maxPrice: 60000,
+    });
+    assert.equal(searchCandidates.length, 1);
+    assert.deepEqual(searchCandidates[0].product, repository.getProductById(productId));
+    assert.equal(searchCandidates[0].enrichment.summary, '수정된 요약');
+    assert.deepEqual(searchCandidates[0].enrichment.fitTags, ['wide']);
+    assert.deepEqual(
+      searchCandidates[0].enrichment.reviewSummary,
+      enrichment.reviewSummary,
+    );
   } finally {
     database.close();
   }

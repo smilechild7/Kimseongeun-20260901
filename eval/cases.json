@@ -1,0 +1,31 @@
+[
+  {
+    "id": "office-black-under-100k",
+    "query": "10만원 이하 출근용 검정 바지",
+    "must": {
+      "category": "pants",
+      "maxPrice": 100000
+    },
+    "semanticExpectations": ["office", "black"]
+  },
+  {
+    "id": "casual-event",
+    "query": "친구 모임에 입을 옷인데 너무 꾸민 느낌은 싫어",
+    "semanticExpectations": ["casual", "event"]
+  },
+  {
+    "id": "appearance-similar",
+    "query": "사진이랑 실제 색상이 비슷하다는 후기가 있는 옷",
+    "reviewExpectation": {
+      "appearanceMatch": "similar"
+    }
+  },
+  {
+    "id": "relaxed-size-66",
+    "query": "평소 66인데 허벅지가 너무 붙지 않는 출근용 바지",
+    "semanticExpectations": ["office", "relaxed"],
+    "reviewExpectation": {
+      "sizeFit": "not_unknown_when_supported"
+    }
+  }
+]

@@ -3,7 +3,7 @@
 > 기준 계획: `docs/levit_problem_solver_FINAL_PLAN.md`  
 > 작업 규칙: `AGENT.md`  
 > 마지막 업데이트: 2026-09-02 (KST)
-> 현재 단계: Phase 4 — Offline Enrichment 완료 및 GitHub push
+> 현재 단계: Phase 5 — Search 완료, commit 대기
 
 이 문서는 구현 진행 상태, 검증 결과, 결정 사항과 blocker를 계속 기록하는 단일 상태 로그다. 작업을 시작하거나 완료할 때마다 같은 파일을 갱신한다.
 
@@ -24,7 +24,7 @@
 | 2 | Review Crawling | 완료 — 40개 상품에서 실제 리뷰 406개 수집 |
 | 3 | SQLite | 완료 — deterministic rebuild 및 40 products·406 reviews relation 검증 |
 | 4 | Offline Enrichment | 완료 — 전체 40개 v2 enrichment·strict signal·DB import 검증 |
-| 5 | Search | 대기 |
+| 5 | Search | 완료 — hard filter·retrieval·compact DTO·실제 DB 검증 |
 | 6 | Agent | 대기 |
 | 7 | Frontend | 대기 |
 | 8 | Final Validation / Polish | 대기 |
@@ -57,6 +57,7 @@
 | DEC-022 | 2026-09-02 | Strict signal prompt v2 재실행 범위 | 리뷰 유무와 무관하게 전체 40개를 prompt v2로 다시 실행 | 추가 논리 호출 40회와 예상 비용 약 $0.08~$0.14를 승인하고 모든 enrichment의 prompt version과 signal 검증 기준을 통일 |
 | DEC-023 | 2026-09-02 | 모델 tally/signal 불일치 처리 | evidence tally를 source of truth로 삼고 코드 결정표가 persisted signal을 확정 | strict mixed 정책을 deterministic하게 보장하고 모델의 label 실수로 batch가 중단되는 문제를 제거; 상품별 checkpoint로 성공 결과의 반복 호출 방지 |
 | DEC-024 | 2026-09-02 | Appearance evidence 경계 사례 보정 | 원문 감사로 확정한 2개 상품을 product ID 기반 deterministic override로 관리 | 추가 API 호출 없이 명시적 비교 원칙을 재현 가능하게 적용하며 source review 위치와 보정 근거를 코드에 함께 기록 |
+| DEC-025 | 2026-09-02 | Required color/size의 missing data | 상품 factual 값이 존재하면서 불일치할 때만 제외하고, 값이 없으면 unknown 후보로 유지 | 현재 color coverage 28/40에서 recall 손실을 막고 “신뢰 가능한 데이터가 있을 때만 hard filter” 원칙을 적용; unknown에는 retrieval 일치 가점을 주지 않으며 Agent가 충족으로 단정하지 않음 |
 
 ## Phase 1 시작 준비
 
@@ -363,6 +364,69 @@
 
 1. Render가 committed enriched JSON으로 DB를 rebuild하는지 확인한다.
 2. Phase 5 Search 시작 전 구현 범위와 사용자 작업을 안내한다.
+
+## Phase 5 — Search
+
+### 목표
+
+- 구조화된 required/preferred 조건을 받아 SQLite hard filter와 lightweight retrieval을 수행한다.
+- hard filter 결과가 15개를 넘을 때만 config 기반 score로 Agent 후보를 최대 15개로 줄인다.
+- factual product data와 enrichment를 compact DTO로 결합하되 image/source URL·raw description/reviews는 Agent에 전달하지 않는다.
+- 검색은 deterministic하게 구현하며 OpenAI API를 호출하지 않는다.
+
+### 체크리스트
+
+- [x] 최종 계획의 tool input·hard/preferred·retrieval score·compact DTO 계약 확인
+- [x] 현재 color/size/size guide 데이터 coverage 확인
+- [x] required color/size의 missing-data 처리 정책 확정
+- [x] retrieval config와 입력 validation 구현
+- [x] strict function-call input schema 구현
+- [x] repository hard filter 및 enrichment join 구현
+- [x] color/size normalization과 조건부 hard filter 구현
+- [x] lightweight retrieval score·deterministic tie-break 구현
+- [x] compact Product DTO 구현
+- [x] 최대 15개 candidate 제한 구현
+- [x] eval cases 작성
+- [x] unit/integration test
+- [x] 사용자 표본 검증
+
+### 구현 및 검증 기록
+
+| 시각 (KST) | 항목 | 결과 |
+|---|---|---|
+| 2026-09-02 | Phase 5 사전 상태 | local/remote `main` 동기화, working tree clean, Phase 4 DB build에서 products/enrichments 40개 확인 |
+| 2026-09-02 | 확정 검색 계약 | category·가격 always-hard, color·size conditional-hard, config weights `keyword=1/color=2/size=2/style=2/occasion=2/fit=3/season=1/reviewSignal=2`, candidate limit 15 |
+| 2026-09-02 | factual coverage | sizes 40/40, colors 28/40, text size guide 20/40; missing factual data를 생성하지 않음 |
+| 2026-09-02 | 값 형태 | colors는 한국어 32종, sizes는 영문 label과 숫자 범위가 혼재하므로 영문/한국어 color alias와 size range-aware normalization 필요 |
+| 2026-09-02 | Search input | required/preferred defaults·가격 범위·string arrays·controlled tags·review signal validation과 Responses function calling용 strict JSON schema 구현 |
+| 2026-09-02 | Hard filter | category·가격은 SQLite에서 처리하고 color·size는 공통 normalization으로 known mismatch만 제외; missing factual value는 unknown 후보 유지 |
+| 2026-09-02 | Color/size normalization | `black↔검정/블랙/흑청/블랙청`, 기타 색상 group과 복합 색상 처리; `M↔M(27~28)`, 숫자 단일값과 `26~28`, `55-66` 범위 교차 match 검증 |
+| 2026-09-02 | Retrieval | hard match가 15개 초과일 때만 확정 weights 적용; score 내림차순·가격 오름차순·product ID 오름차순 tie-break, unknown review 무감점 |
+| 2026-09-02 | Compact DTO | factual name/brand/category/price/colors/sizes/sizeGuide/material과 enrichment만 포함; image/source URL·raw description/reviews·내부 score 제외 |
+| 2026-09-02 | 실제 DB office-black | SQL 40 → required color의 known mismatch 제외 후 34 → retrieval 15; 최종 15개 모두 실제 black alias 색상 보유 및 10만원 이하 확인 |
+| 2026-09-02 | 실제 DB size-28 | hard match 20 → retrieval 15; 모든 후보의 실제 판매 숫자 범위에 28 포함 확인 |
+| 2026-09-02 | 실제 DB appearance | hard match 40 → retrieval 15; `appearanceMatch=similar`인 2개가 선두에 배치됨 확인 |
+| 2026-09-02 | no-result | 1천원 이하 조건에서 hard match 0, candidates 0 정상 반환 |
+| 2026-09-02 | DTO 크기 표본 | 15 candidates 기준 JSON 약 19~22KB, raw review 406개 미포함, structured reviewer note 보존 |
+| 2026-09-02 | inspect race 재검증 | local `db:build`와 inspect 병렬 실행 시 DB 교체 순간 0건을 읽은 뒤 build 완료 후 순차 재실행에서 40→34→15 정상; Render는 build 완료 후 start하므로 운영 경로 영향 없음 |
+| 2026-09-02 | 최종 자동 검증 | `npm test` — 39 tests, 39 passed; `npm run build`, `npm run db:build`, `git diff --check` 통과 |
+| 2026-09-02 | 사용자 표본 검증 | office-black·size-28·appearance-similar·no-result의 후보 수·순서·필수 조건·review signal에 이상 없음 확인 |
+
+### 사용자 수동 작업
+
+- 구현 전 계정·환경변수·Render 작업 없음.
+- 구현 후 대표 required/preferred 조건에서 후보 순서·누락·최대 15개와 factual DTO를 표본 검증한다.
+- Phase 5에서는 OpenAI API 호출과 비용이 없다.
+
+### Blocker / 미해결
+
+- Phase 5 blocker 없음.
+
+### 다음 작업
+
+1. Phase 5 변경사항을 commit한다.
+2. push 후 Render build와 외부 health를 확인한다.
+3. Phase 6 Agent 시작 전 OpenAI 호출 수·비용·사용자 작업과 구현 범위를 안내한다.
 
 ## Phase 0 — Skeleton / Deployment
 

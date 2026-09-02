@@ -82,6 +82,23 @@ function hydrateEnrichment(row) {
   };
 }
 
+function hydrateJoinedEnrichment(row) {
+  if (!row.enrichment_product_id) {
+    return null;
+  }
+
+  return {
+    productId: row.enrichment_product_id,
+    summary: row.enrichment_summary,
+    styleTags: parseJson(row.enrichment_style_tags_json, []),
+    occasionTags: parseJson(row.enrichment_occasion_tags_json, []),
+    fitTags: parseJson(row.enrichment_fit_tags_json, []),
+    seasonTags: parseJson(row.enrichment_season_tags_json, []),
+    extraTags: parseJson(row.enrichment_extra_tags_json, []),
+    reviewSummary: parseJson(row.enrichment_review_summary_json, null),
+  };
+}
+
 export function productIdForSource(shopId, sourceProductId) {
   return `${shopId}:${sourceProductId}`;
 }
@@ -93,6 +110,23 @@ export function createProductRepository(database) {
       shops.name AS shop_name
     FROM products
     JOIN shops ON shops.id = products.shop_id
+  `;
+  const selectSearchCandidateColumns = `
+    SELECT
+      products.*,
+      shops.name AS shop_name,
+      product_enrichments.product_id AS enrichment_product_id,
+      product_enrichments.summary AS enrichment_summary,
+      product_enrichments.style_tags_json AS enrichment_style_tags_json,
+      product_enrichments.occasion_tags_json AS enrichment_occasion_tags_json,
+      product_enrichments.fit_tags_json AS enrichment_fit_tags_json,
+      product_enrichments.season_tags_json AS enrichment_season_tags_json,
+      product_enrichments.extra_tags_json AS enrichment_extra_tags_json,
+      product_enrichments.review_summary_json AS enrichment_review_summary_json
+    FROM products
+    JOIN shops ON shops.id = products.shop_id
+    LEFT JOIN product_enrichments
+      ON product_enrichments.product_id = products.id
   `;
   const upsertShop = database.prepare(`
     INSERT INTO shops (id, name, base_url)
@@ -323,6 +357,37 @@ export function createProductRepository(database) {
         `)
         .all(parameters)
         .map(hydrateProduct);
+    },
+
+    findSearchCandidates({ category, minPrice, maxPrice } = {}) {
+      const conditions = [];
+      const parameters = {};
+
+      if (category) {
+        conditions.push('products.category = @category');
+        parameters.category = category;
+      }
+      if (Number.isSafeInteger(minPrice)) {
+        conditions.push('products.price >= @minPrice');
+        parameters.minPrice = minPrice;
+      }
+      if (Number.isSafeInteger(maxPrice)) {
+        conditions.push('products.price <= @maxPrice');
+        parameters.maxPrice = maxPrice;
+      }
+
+      const where = conditions.length > 0 ? `WHERE ${conditions.join(' AND ')}` : '';
+      return database
+        .prepare(`
+          ${selectSearchCandidateColumns}
+          ${where}
+          ORDER BY products.price ASC, products.id ASC
+        `)
+        .all(parameters)
+        .map((row) => ({
+          product: hydrateProduct(row),
+          enrichment: hydrateJoinedEnrichment(row),
+        }));
     },
 
     getProductById(id) {

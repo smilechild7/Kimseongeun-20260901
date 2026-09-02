@@ -18,6 +18,7 @@
     "db:build": "node scripts/buildDatabase.js",
     "db:inspect": "node scripts/inspectDatabase.js",
     "db:migrate": "node scripts/runMigrations.js",
+    "search:inspect": "node scripts/inspectSearch.js",
     "start": "node server/index.js",
     "test": "node --test"
   },
