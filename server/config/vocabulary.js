@@ -1,4 +1,11 @@
 export const CONTROLLED_VOCABULARY = Object.freeze({
+  productCategories: Object.freeze([
+    'pants',
+    'top',
+    'dress',
+    'skirt',
+    'outerwear',
+  ]),
   styleTags: Object.freeze([
     'minimal',
     'classic',

@@ -73,11 +73,18 @@ export function normalizeSearchInput(value) {
   ) {
     throw new Error('required.category must be a string or null');
   }
+  const category = required.category?.trim() || null;
+  if (
+    category !== null &&
+    !CONTROLLED_VOCABULARY.productCategories.includes(category)
+  ) {
+    throw new Error('required.category is outside the controlled vocabulary');
+  }
 
   return {
     query: value.query.trim(),
     required: {
-      category: required.category?.trim() || null,
+      category,
       minPrice,
       maxPrice,
       colors: stringArray(required.colors, 'required.colors'),

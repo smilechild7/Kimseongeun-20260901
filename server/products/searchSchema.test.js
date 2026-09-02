@@ -22,6 +22,10 @@ function assertStrictObjects(schema, path = 'root') {
 
 test('defines a strict function-call schema with controlled tag vocabulary', () => {
   assertStrictObjects(SEARCH_PRODUCTS_INPUT_SCHEMA);
+  assert.deepEqual(
+    SEARCH_PRODUCTS_INPUT_SCHEMA.properties.required.properties.category.enum,
+    ['pants', 'top', 'dress', 'skirt', 'outerwear', null],
+  );
   assert.equal(
     SEARCH_PRODUCTS_INPUT_SCHEMA.properties.preferred.properties.fitTags.items.enum.includes(
       'relaxed',

@@ -68,3 +68,15 @@ test('rejects invalid prices, arrays, and review signals', () => {
     /controlled vocabulary/u,
   );
 });
+
+test('accepts only canonical product categories', () => {
+  assert.equal(
+    normalizeSearchInput({ query: '상의', required: { category: 'top' } }).required
+      .category,
+    'top',
+  );
+  assert.throws(
+    () => normalizeSearchInput({ query: '바지', required: { category: '바지' } }),
+    /category is outside/u,
+  );
+});

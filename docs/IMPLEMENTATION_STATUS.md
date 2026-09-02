@@ -3,7 +3,7 @@
 > 기준 계획: `docs/levit_problem_solver_FINAL_PLAN.md`  
 > 작업 규칙: `AGENT.md`  
 > 마지막 업데이트: 2026-09-02 (KST)
-> 현재 단계: Phase 5 — Search 완료 및 GitHub push
+> 현재 단계: Phase 6 — Agent 진행 중
 
 이 문서는 구현 진행 상태, 검증 결과, 결정 사항과 blocker를 계속 기록하는 단일 상태 로그다. 작업을 시작하거나 완료할 때마다 같은 파일을 갱신한다.
 
@@ -25,7 +25,7 @@
 | 3 | SQLite | 완료 — deterministic rebuild 및 40 products·406 reviews relation 검증 |
 | 4 | Offline Enrichment | 완료 — 전체 40개 v2 enrichment·strict signal·DB import 검증 |
 | 5 | Search | 완료 — hard filter·retrieval·compact DTO·실제 DB 검증 |
-| 6 | Agent | 대기 |
+| 6 | Agent | 진행 중 — 로컬·실제 API 검증 완료, commit/push 및 Render 외부 검증 대기 |
 | 7 | Frontend | 대기 |
 | 8 | Final Validation / Polish | 대기 |
 
@@ -58,6 +58,12 @@
 | DEC-023 | 2026-09-02 | 모델 tally/signal 불일치 처리 | evidence tally를 source of truth로 삼고 코드 결정표가 persisted signal을 확정 | strict mixed 정책을 deterministic하게 보장하고 모델의 label 실수로 batch가 중단되는 문제를 제거; 상품별 checkpoint로 성공 결과의 반복 호출 방지 |
 | DEC-024 | 2026-09-02 | Appearance evidence 경계 사례 보정 | 원문 감사로 확정한 2개 상품을 product ID 기반 deterministic override로 관리 | 추가 API 호출 없이 명시적 비교 원칙을 재현 가능하게 적용하며 source review 위치와 보정 근거를 코드에 함께 기록 |
 | DEC-025 | 2026-09-02 | Required color/size의 missing data | 상품 factual 값이 존재하면서 불일치할 때만 제외하고, 값이 없으면 unknown 후보로 유지 | 현재 color coverage 28/40에서 recall 손실을 막고 “신뢰 가능한 데이터가 있을 때만 hard filter” 원칙을 적용; unknown에는 retrieval 일치 가점을 주지 않으며 Agent가 충족으로 단정하지 않음 |
+| DEC-026 | 2026-09-02 | 공개 `/api/chat` 비용 보호 | Phase 6에서 IP 기반 요청 제한과 입력 크기 제한을 구현한 뒤 Render Agent를 실제 검증 | 공개 endpoint의 무제한 OpenAI 비용 발생 위험을 줄이면서 Phase 6에서 배포 환경까지 확인; 무료 단일 instance의 in-memory 제한이므로 재시작 시 초기화되는 MVP 보호 수준 |
+| DEC-027 | 2026-09-02 | 공개 Agent 운영 한도 | IP당 10분 10회와 Service 전체 시간당 30회를 함께 적용하고 OpenAI transient retry는 최대 1회 | 연속 10개 평가를 허용하면서 분산 IP 호출도 전체 한도로 제한; raw IP·query는 영구 저장하지 않으며 in-memory counter는 재시작 시 초기화됨 |
+| DEC-028 | 2026-09-02 | Product category canonical vocabulary | `pants`, `top`, `dress`, `skirt`, `outerwear`를 tool schema와 서버 validation에서 강제 | 한국어 category가 DB hard filter에 직접 전달되는 오류를 차단하고, 현재 pants-only DB는 다른 유효 category에 정확히 0건을 반환하며 향후 상품 확장 시 계약을 유지 |
+| DEC-029 | 2026-09-02 | 추천 evidence value 계약 | 사용자 선택 A — evidence type별 nested `anyOf`와 canonical value를 Structured Output에서 강제하고 `unknown` review signal은 evidence에서 제외해 `concerns`로만 표현 | 임의 문장·잘못된 enum 값을 생성 단계에서 차단하고, 서버 factual validation을 이중 방어로 유지; `mixed`·부정 signal은 실제 불확실성/위험 근거로 허용 |
+| DEC-030 | 2026-09-02 | Phase 6 남은 실제 eval 범위 | 사용자 선택 A — `vague` clarification과 `no-result`만 추가 실행하고 나머지 품질 표본은 Frontend 이후 Phase 8의 7개 이상 최종 eval에서 수행 | Phase 6에서 recommendation 포함 세 응답 분기의 실제 동작을 확인하면서 API 비용과 Phase 8 중복을 제한 |
+| DEC-031 | 2026-09-02 | Render 외부 Agent 검증 범위 | 사용자 선택 B — Phase 6 변경을 commit/push한 뒤 외부 `/api/health`와 `office-black` recommendation 전체 경로를 검증 | 단순 clarification보다 비용은 높지만 Render→Agent→SQLite→실제 상품 추천까지 배포 환경의 핵심 DoD를 직접 확인 |
 
 ## Phase 1 시작 준비
 
@@ -428,6 +434,86 @@
 
 1. push 후 Render build와 외부 health를 확인한다.
 2. Phase 6 Agent 시작 전 OpenAI 호출 수·비용·사용자 작업과 구현 범위를 안내한다.
+
+## Phase 6 — Agent
+
+### 목표
+
+- `gpt-5.6-sol`과 Responses API function calling으로 자연어 조건을 `search_products`에 연결한다.
+- 최대 15개 실제 후보에서 1~3개를 선택하고 추천 이유·후기 evidence·concern·자동 comparison을 strict structured output으로 반환한다.
+- 추천·comparison ID를 서버에서 검증하고 factual product 정보는 DB에서 결합한다.
+- clarification·recommendation·no_result 응답과 `previous_response_id` 대화를 지원한다.
+- 공개 `/api/chat`의 입력 크기와 IP별 요청 수를 제한한다.
+
+### 체크리스트
+
+- [x] Phase 6 구현 범위·호출 흐름·예상 비용 안내
+- [x] 공개 `/api/chat` 보호 방식 결정
+- [x] Render `OPENAI_API_KEY` 등록 — 값은 확인하거나 기록하지 않음
+- [x] 요청 제한·OpenAI retry 운영 한도 확정
+- [x] Agent instructions·AI runtime config 구현
+- [x] `search_products` tool executor와 최대 3회 tool loop 구현
+- [x] final structured output·response type parsing 구현
+- [x] factual merge·candidate/recommendation/comparison 검증 구현
+- [x] `POST /api/chat`·`previous_response_id` 구현
+- [x] mock unit/integration tests
+- [x] 실제 API 표본 평가와 사용자 검증
+- [ ] Render 배포 및 외부 Agent 검증
+
+### 구현 및 검증 기록
+
+| 시각 (KST) | 항목 | 결과 |
+|---|---|---|
+| 2026-09-02 | Phase 6 시작 | Phase 5 Search와 Render health 정상 상태에서 Agent 구현 시작 |
+| 2026-09-02 | OpenAI 계약 확인 | 공식 문서 기준 `gpt-5.6-sol`의 Responses API·function calling·Structured Output·reasoning effort low 지원과 현재 가격 확인 |
+| 2026-09-02 | 예상 API 사용 | 일반 검색은 tool call+final 응답 2회, 재검색 시 최대 3회; mock 테스트는 과금 없음, 실제 표본은 실행 전 별도 승인 |
+| 2026-09-02 | 공개 API 보호 | 사용자 선택 A — Phase 6에서 IP 기반 rate limit과 입력 크기 제한을 포함하고 Render 실제 검증 진행 |
+| 2026-09-02 | Render 준비 | 사용자가 Service 환경변수에 `OPENAI_API_KEY` 등록 완료; secret 값은 repository·로그에 저장하지 않음 |
+| 2026-09-02 | 운영 한도 | IP당 10분 10회 + Service 전체 시간당 30회, OpenAI transient retry 최대 1회로 확정 |
+| 2026-09-02 | 공개 요청 보호 구현 | `express-rate-limit`으로 IPv4/IPv6 IP당 10분 10회와 Service 전체 시간당 30회, JSON 16KB·message 1,000자 제한 구현; raw IP·query 영구 저장 없음 |
+| 2026-09-02 | Agent runtime 구현 | `gpt-5.6-sol` low, strict `search_products`, 최대 3회 Responses loop, `previous_response_id`, clarification·recommendation·no_result output 구현 |
+| 2026-09-02 | hallucination guard | 최신 candidate set의 recommendation/comparison ID, machine-checkable evidence, DB factual product merge 검증 구현 |
+| 2026-09-02 | mock 자동 검증 | 실제 SQLite를 포함한 자연어→tool call→Search→candidate→추천→factual merge 통합 테스트와 API/rate limit·inspection CLI 테스트 포함 최종 62/62 통과 |
+| 2026-09-02 | build·DB | `npm run build` 성공; `npm run db:build`에서 shops=2/products=40/reviews=406/enrichments=40 확인 |
+| 2026-09-02 | local production | 실제 DB·환경변수로 서버 기동, `/api/health` 200 및 빈 chat 요청 400 확인; OpenAI 호출 없음 |
+| 2026-09-02 | 실제 표본 준비 | `office-black` 고정 평가 CLI 준비; 예상 논리 호출 2회(최대 3회), 사용자 비용 승인 전 실행하지 않음 |
+| 2026-09-02 | `office-black` 실제 표본 | 승인 후 `gpt-5.6-sol` 논리 호출 2회 성공, input=2,471/output=352/total=2,823 tokens·약 $0.017; Search SQL 0건으로 잘못된 no_result 반환 |
+| 2026-09-02 | 실제 표본 실패 원인 | 저장 응답을 추가 생성 없이 조회해 tool 인자 확인: `required.category="바지"`, maxPrice=100000, colors=["검정"], office·relaxed/wide 해석; DB category `pants`와 불일치 |
+| 2026-09-02 | category schema 결함 | strict schema가 category를 임의 문자열로 허용해 한국어→DB canonical value를 강제하지 못함; controlled category vocabulary 결정 후 schema·validation·instructions를 보강하고 재검증 필요 |
+| 2026-09-02 | category 계약 결정 | 사용자 선택 A — `pants/top/dress/skirt/outerwear` canonical vocabulary와 한국어 mapping을 schema·validation·Agent instructions에 적용 |
+| 2026-09-02 | category 보강 검증 | category enum·서버 validation·한국어 mapping 반영 후 59/59 테스트 통과; `office-black` 재실행에서 SQL 40건→hard filter 34건→candidate 15건으로 검색 정상화 |
+| 2026-09-02 | 실제 표본 evidence 차단 | 최종 추천의 `graychic:13254`가 `review_appearance_match` value에 canonical signal이 아닌 값을 반환해 factual validation이 응답을 차단; DB의 실제 signal은 `unknown` |
+| 2026-09-02 | evidence 계약 결함 | evidence `type`은 enum이나 `value`가 임의 문자열이어서 type별 canonical value를 Structured Output 단계에서 강제하지 못함; `unknown`을 추천 근거로 허용할지도 함께 결정 필요 |
+| 2026-09-02 | evidence 계약 결정 | 사용자 선택 A — type별 nested `anyOf` canonical schema와 서버 이중 검증 적용, `unknown` review signal은 evidence 금지·관련 정보 부족은 `concerns`에 표현 |
+| 2026-09-02 | evidence 계약 구현 | category·price·tag·review type은 canonical enum, color·size는 factual match 문자열로 분리; `unknown`은 schema·runtime validation·factual guard에서 차단하고 관련 정보 부족을 concerns로 지시 |
+| 2026-09-02 | evidence 보강 자동 검증 | 관련 계약 테스트 14/14, sandbox 외부 전체 테스트 62/62, production build 성공 |
+| 2026-09-02 | `office-black` 재검증 | 실제 `gpt-5.6-sol` 호출 2회 성공; SQL 40건→hard filter 34건→candidate 15건, 실제 상품 3개 추천, input=12,939/output=1,203/total=14,142 tokens |
+| 2026-09-02 | `unknown` 정책 실제 확인 | 리뷰 0건 상품은 review evidence 없이 정보 부족을 concerns에 표시; 다른 상품의 혼재 사이즈·외관 비교 부재도 concerns에 유지하고 factual merge 검증 통과 |
+| 2026-09-02 | `office-black` 사용자 검증 | 사용자가 상품 사실값·후기 근거·concerns·comparison 수동 검증을 완료하고 이상 없음 확인 |
+| 2026-09-02 | 실제 eval 범위 결정 | 사용자 선택 A — `vague`와 `no-result`를 실행해 핵심 세 응답 분기만 Phase 6에서 확인하고 나머지는 Phase 8 최종 eval로 이관 |
+| 2026-09-02 | `vague` 실제 표본 | 실제 `gpt-5.6-sol` 1회 호출로 검색 없이 clarification 반환: 의류 종류를 예시와 함께 한 문장으로 질문; input=1,644/output=60/total=1,704 tokens |
+| 2026-09-02 | `no-result` 실제 표본 | 실제 `gpt-5.6-sol` 2회 호출; SQL·hard filter·candidate 모두 0건, 1천원 required 상한을 임의 완화하지 않고 no_result와 가격 상향 suggestion 반환; input=3,429/output=175/total=3,604 tokens |
+| 2026-09-02 | 추가 실제 eval 비용 | 두 표본 합계 input=5,073/output=235/total=5,308 tokens; 공식 uncached 단가 상한 기준 약 $0.025, 실제 청구액은 cache 적용 여부에 따라 더 낮을 수 있음 |
+| 2026-09-02 | 세 응답 분기 사용자 검증 | recommendation에 이어 clarification·no_result 실제 출력도 사용자가 수동 확인하고 이상 없음 승인; Phase 6 로컬·실제 API 검증 완료 |
+| 2026-09-02 | Render 검증 방식 결정 | 사용자 선택 B — commit/push 후 외부 health와 `office-black`을 실행하며, 예상 논리 호출 2회·앞선 표본 기준 약 $0.076 승인 |
+| 2026-09-02 | 배포 전 최종 검증 | 전체 테스트 62/62, production build 성공, deterministic DB rebuild shops=2/products=40/reviews=406/enrichments=40, `git diff --check` 통과; secret 값·raw query 저장 없음 확인 |
+
+### 사용자 수동 작업
+
+- 구현 전: Render `OPENAI_API_KEY` 등록 완료. 추가 계정 작업 없음.
+- 실제 API 표본 실행 전: 호출 수와 예상 비용을 확인하고 실행 승인한다.
+- 구현 후: `office-black` 결과의 추천 적합성, 상품 사실값, 후기 근거, concern과 comparison 사용자 검증 완료.
+- Phase 6 완료 전: 추가로 clarification·no_result 표본의 자연스러움과 안전성을 검증한다.
+
+### Blocker / 미해결
+
+- 로컬 blocker 없음. Phase 6 commit/push 및 Render 외부 전체 경로 검증 진행 중.
+
+### 다음 작업
+
+1. Phase 6 변경사항을 commit하고 GitHub `main`에 push한다.
+2. Render 자동 배포 성공과 외부 `/api/health`를 확인한다.
+3. 외부 `/api/chat` 표본을 검증하고 Phase 6을 완료 처리한다.
 
 ## Phase 0 — Skeleton / Deployment
 

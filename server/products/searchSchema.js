@@ -17,7 +17,10 @@ export const SEARCH_PRODUCTS_INPUT_SCHEMA = Object.freeze({
     required: {
       type: 'object',
       properties: {
-        category: { type: ['string', 'null'] },
+        category: {
+          type: ['string', 'null'],
+          enum: [...CONTROLLED_VOCABULARY.productCategories, null],
+        },
         minPrice: { type: ['integer', 'null'], minimum: 0 },
         maxPrice: { type: ['integer', 'null'], minimum: 0 },
         colors: stringArray(),
