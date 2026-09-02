@@ -2,8 +2,8 @@
 
 > 기준 계획: `docs/levit_problem_solver_FINAL_PLAN.md`  
 > 작업 규칙: `AGENT.md`  
-> 마지막 업데이트: 2026-09-02 (KST)
-> 현재 단계: Phase 7 — Frontend 완료 / Phase 8 시작 대기
+> 마지막 업데이트: 2026-09-03 (KST)
+> 현재 단계: Phase 8 — Final Validation / Polish 진행 중
 
 이 문서는 구현 진행 상태, 검증 결과, 결정 사항과 blocker를 계속 기록하는 단일 상태 로그다. 작업을 시작하거나 완료할 때마다 같은 파일을 갱신한다.
 
@@ -27,7 +27,7 @@
 | 5 | Search | 완료 — hard filter·retrieval·compact DTO·실제 DB 검증 |
 | 6 | Agent | 완료 — 실제 세 응답 분기·Render 전체 경로 검증 통과 |
 | 7 | Frontend | 완료 — 사용자 UI 승인·전체 회귀·Render 최종 asset 검증 통과 |
-| 8 | Final Validation / Polish | 시작 대기 |
+| 8 | Final Validation / Polish | 진행 중 — 자동 검증 완료, catalog 확장 범위 결정 대기 |
 
 ## 결정 로그
 
@@ -77,6 +77,10 @@
 | DEC-042 | 2026-09-02 | 부족한 review 정보 표시 | 사용자 지시에 따라 `unknown` 후기 signal 카드는 렌더링하지 않고 세 signal이 모두 unknown이면 후기 섹션 전체를 숨김; size guide 부재 placeholder도 제거 | 정보가 없는 카드로 상세 화면이 길어지는 문제를 제거; 정보 부재는 별도 카드 대신 해당 항목의 omission으로 표현 |
 | DEC-043 | 2026-09-02 | 결과·채팅 surface 범위 | 사용자 선택 1A — 상품 summary·확장 영역과 사용자 말풍선의 surface를 white로 통일하고 선택 상품은 orange border로만 구분; 후기·evidence의 의미별 tint는 유지 | 전체 카드 면을 가볍게 만들면서도 근거 종류와 후기 신호의 빠른 구분은 보존 |
 | DEC-044 | 2026-09-02 | 모바일 조건 입력 구조 | 사용자 선택 2A — 단일 선택지인 category UI를 제거하고 `pants`를 모든 요청에 자동 포함; query 입력 후 가격 select와 사이즈 input을 모바일 2열로 직접 표시하고 submit은 모바일 전체 폭 사용 | 불필요한 category fieldset과 여러 가격 chip을 제거해 높이·복잡도를 줄이고 추가 tap 없이 조건을 편집 가능하게 유지 |
+| DEC-045 | 2026-09-03 | Phase 8 실제 Agent eval 범위 | 사용자 선택 A — Render `/api/chat`을 재시도 없이 순차 8회 호출: 독립 추천 5개, clarification 1개, no-result 1개, 첫 추천의 follow-up 1개 | 핵심 조건·review·대화 연속성과 세 응답 분기를 모두 검증하며 예상 비용 약 $0.45~$0.70 승인; 실제 응답 원문은 임시 경로에만 저장하고 repository에는 synthetic query·판정·상품 ID만 기록 |
+| DEC-046 | 2026-09-03 | 다중 category catalog 밀도 | 사용자 선택 1A — 총 10개 쇼핑몰에서 `pants`, `top`, `dress`, `skirt`, `outerwear` category별 약 10개 상품을 목표로 수집 | 기존 두 쇼핑몰의 바지 40개를 보존하면 최종 약 500개, 최대 예상 520개와 신규 enrichment 최대 약 480회; 10개 표본 비용을 먼저 측정하고 전체 실행은 별도 승인 |
+| DEC-047 | 2026-09-03 | 확장 쇼핑몰 platform·접근 조건 | 사용자 선택 2A — Cafe24 여성 의류몰만 총 10개 선정하고 상품과 review를 공개 HTTP로 안정적으로 수집할 수 없는 후보는 교체 | 기존 공통 parser와 shop config를 재사용하고 browser automation·platform별 parser 확장을 피하면서 review evidence 품질 유지 |
+| DEC-048 | 2026-09-03 | Phase 8 변경 기준선 | 사용자 선택 3A — 현재 검증 완료된 Phase 8 변경을 local commit하고 push 없이 Phase 9를 별도 이력으로 시작 | 불필요한 Render build를 발생시키지 않고 final validation 자산과 catalog 확장 변경을 분리해 복구·검토 가능성 확보 |
 
 ## Phase 1 시작 준비
 
@@ -625,6 +629,64 @@
 1. Phase 8 시작 전 사용자 작업·최종 검증 범위·실제 eval 비용을 안내한다.
 2. 7개 이상 eval query 범위와 실행 방식을 사용자에게 결정받는다.
 3. 링크·이미지·mobile·error·hallucination·README·secret·Git·Render 최종 검증을 수행한다.
+
+## Phase 8 — Final Validation / Polish
+
+### 목표
+
+- 새 기능을 최소화하고 실제 상품·UI·Agent·배포·문서·repository를 최종 검증한다.
+- 7개 이상 실제 eval로 recommendation·clarification·no-result·refinement와 hallucination 방지를 확인한다.
+- README와 최종 제출 상태를 정리한다.
+
+### 체크리스트
+
+- [x] Phase 8 범위와 사용자 작업 사전 안내
+- [x] 실제 eval query 수·실행 환경·비용 결정
+- [x] 실제 상품 링크·이미지 전수 검사
+- [ ] mobile·loading·error 최종 검사
+- [x] 7개 이상 실제 Agent eval 및 hallucination/factual audit
+- [x] README 완성
+- [x] `.env`·secret·Git status·commit history 검사
+- [ ] Render 최종 재검증
+- [ ] 사용자 collaborator 초대
+- [ ] 최종 commit/push 및 사용자 승인
+
+### 구현 및 검증 기록
+
+| 시각 (KST) | 항목 | 결과 |
+|---|---|---|
+| 2026-09-03 | Phase 8 시작 | 사용자 진행 승인; 즉시 필요한 사용자 작업 없음, 실제 eval 전 범위·비용 승인과 종료 전 collaborator 초대가 필요함을 사전 안내 |
+| 2026-09-03 | 기존 eval 자산 점검 | `eval/cases.json` 4개 case, `scripts/inspectAgent.js` 6개 case 확인; 최종 DoD의 7개 이상과 refinement를 충족하려면 case 확대 필요 |
+| 2026-09-03 | 실제 eval 범위 확정 | 사용자 A안 승인; Render에서 독립 case 7개와 conversation follow-up 1개를 순차 실행하고 client-side 재시도는 하지 않기로 결정 |
+| 2026-09-03 | eval 자동화 사전 검증 | 정확히 8개 요청만 허용하는 guarded runner, response type·hard filter·URL·comparison·public factual evidence audit 구현; 관련 4/4 tests 및 전체 71/71 tests·build 통과 |
+| 2026-09-03 | Render 실제 Agent eval | 논리 요청 8/8 실행, recommendation 6·clarification 1·no-result 1 및 conversation follow-up 1; 자동 audit 8/8, 수동 의미 audit 8/8 통과, HTTP 오류·timeout 0건 |
+| 2026-09-03 | hallucination/factual audit | public response에서 독립 검증 가능한 evidence 53/53 일치; 전체 124개 evidence는 server candidate factual validation을 통과, case별 판정과 상품 ID를 `docs/EVAL_REPORT.md`에 기록 |
+| 2026-09-03 | 상품 link·image 전수 검사 | `npm run catalog:validate` — raw 상품 40개 page 40/40, image 40/40이 HTTP 성공·HTTPS 최종 URL·expected content type 통과 |
+| 2026-09-03 | README 보강 | live demo, 문제·설문 한계·MVP·flow·architecture·crawler/data/Agent·hallucination 방지·결정·평가·난점·한계·개선·setup 문서화 |
+| 2026-09-03 | browser 자동 검증 시도 | 연결 가능한 browser backend가 없어 mobile 시각 검증을 자동 수행하지 못함; source/test 검증 후 사용자 수동 확인 항목으로 유지 |
+| 2026-09-03 | secret·repository 검사 | local `.env` 존재·Git ignore 확인, tracked `.env`·DB·dist·checkpoint 0건, API key pattern이 있는 tracked file 0건, `.env.example`은 빈 placeholder 유지 |
+| 2026-09-03 | Git 상태·history 검사 | Phase 0~7 문제 해결 순서가 commit history에 유지됨을 확인; Phase 8 변경 파일만 working tree에 있으며 `git diff --check` 통과 |
+| 2026-09-03 | Phase 8 최종 local 회귀 | `npm test` 71/71, `npm run build` 성공, `git diff --check` 통과 |
+| 2026-09-03 | catalog 확장 요청 | 사용자 요청으로 쇼핑몰을 총 10개로 늘리고 `pants` 외 대부분의 의류를 검색 가능하게 하는 후속 범위 검토 시작; mobile·세부 UI 최종 판단은 확장 이후로 보류 |
+| 2026-09-03 | catalog 확장 범위 결정 | 사용자 `1A / 2A / 3A` 선택; 5개 category·Cafe24 10개 shop·약 500개 상품을 목표로 하며 Phase 8 local commit 후 별도 Phase 9에서 구현 |
+
+### 사용자 수동 작업
+
+- 실제 eval 전: query 수·실행 환경·예상 OpenAI 비용 확인 및 A안 실행 승인 완료.
+- 최종 검증 중: mobile·loading·error 결과는 사용자 지시에 따라 catalog 확장 이후로 보류한다.
+- 종료 전: 지정 GitHub 계정을 repository collaborator로 초대한다.
+
+### Blocker / 미해결
+
+- 자동 browser backend가 없어 mobile·loading·error 시각 검증은 사용자 확인이 필요.
+- collaborator로 초대할 지정 GitHub 계정 정보와 초대 완료 확인이 필요.
+- catalog 확장 범위 결정 완료. 신규 8개 shop 후보와 category URL·공개 review 접근성을 실제 조사해야 함.
+
+### 다음 작업
+
+1. catalog 확장 범위를 사용자와 확정하고 후속 Phase의 DoD를 기록한다.
+2. 현재 검증 완료분의 commit 기준선을 확정한다.
+3. 10개 shop 후보 조사·parser 표본 검증 후 product/review/enrichment/DB/search/UI를 순서대로 확장한다.
 
 ## Phase 0 — Skeleton / Deployment
 

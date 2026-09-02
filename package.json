@@ -18,8 +18,10 @@
     "db:build": "node scripts/buildDatabase.js",
     "db:inspect": "node scripts/inspectDatabase.js",
     "db:migrate": "node scripts/runMigrations.js",
+    "catalog:validate": "node scripts/validateCatalogAssets.js",
     "search:inspect": "node scripts/inspectSearch.js",
     "agent:inspect": "node --env-file-if-exists=.env scripts/inspectAgent.js",
+    "eval:live": "node scripts/runFinalEval.js",
     "start": "node --env-file-if-exists=.env server/index.js",
     "test": "node --test"
   },

@@ -1,21 +1,36 @@
 [
   {
     "id": "office-black-under-100k",
-    "query": "10만원 이하 출근용 검정 바지",
+    "query": "10만원 이하 출근용 검정 바지. 너무 붙는 건 싫어요.",
+    "expectedType": "recommendation",
     "must": {
       "category": "pants",
       "maxPrice": 100000
     },
-    "semanticExpectations": ["office", "black"]
+    "semanticExpectations": ["office", "black", "relaxed"],
+    "followUp": {
+      "id": "office-black-evidence-follow-up",
+      "query": "그중에서 후기 근거가 더 분명하고 덜 붙는 후보로 다시 골라줘.",
+      "expectedType": "recommendation",
+      "semanticExpectations": ["conversation_continuity", "review_evidence", "relaxed"]
+    }
   },
   {
     "id": "casual-event",
-    "query": "친구 모임에 입을 옷인데 너무 꾸민 느낌은 싫어",
+    "query": "친구 모임에 입을 바지인데 너무 꾸민 느낌은 싫어.",
+    "expectedType": "recommendation",
+    "must": {
+      "category": "pants"
+    },
     "semanticExpectations": ["casual", "event"]
   },
   {
     "id": "appearance-similar",
-    "query": "사진이랑 실제 색상이 비슷하다는 후기가 있는 옷",
+    "query": "사진과 실제 색상이 비슷하다는 후기가 있는 바지 찾아줘.",
+    "expectedType": "recommendation",
+    "must": {
+      "category": "pants"
+    },
     "reviewExpectation": {
       "appearanceMatch": "similar"
     }
@@ -23,9 +38,39 @@
   {
     "id": "relaxed-size-66",
     "query": "평소 66인데 허벅지가 너무 붙지 않는 출근용 바지",
+    "expectedType": "recommendation",
+    "must": {
+      "category": "pants"
+    },
     "semanticExpectations": ["office", "relaxed"],
     "reviewExpectation": {
       "sizeFit": "not_unknown_when_supported"
     }
+  },
+  {
+    "id": "summer-size-28-under-50k",
+    "query": "5만원 이하 여름용 바지 중 28 사이즈가 있고 너무 짧지 않은 걸 추천해줘.",
+    "expectedType": "recommendation",
+    "must": {
+      "category": "pants",
+      "maxPrice": 50000
+    },
+    "semanticExpectations": ["summer", "size_28", "not_too_short"]
+  },
+  {
+    "id": "vague-needs-clarification",
+    "query": "예쁜 옷 추천해줘.",
+    "expectedType": "clarification",
+    "semanticExpectations": ["asks_for_missing_constraints"]
+  },
+  {
+    "id": "impossible-budget-no-result",
+    "query": "1천원 이하 바지 찾아줘.",
+    "expectedType": "no_result",
+    "must": {
+      "category": "pants",
+      "maxPrice": 1000
+    },
+    "semanticExpectations": ["actionable_relaxation_suggestion"]
   }
 ]
