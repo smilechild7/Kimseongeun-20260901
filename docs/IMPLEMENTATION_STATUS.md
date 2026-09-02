@@ -3,7 +3,7 @@
 > 기준 계획: `docs/levit_problem_solver_FINAL_PLAN.md`  
 > 작업 규칙: `AGENT.md`  
 > 마지막 업데이트: 2026-09-02 (KST)
-> 현재 단계: Phase 7 — Frontend 진행 중
+> 현재 단계: Phase 7 — Frontend 완료 / Phase 8 시작 대기
 
 이 문서는 구현 진행 상태, 검증 결과, 결정 사항과 blocker를 계속 기록하는 단일 상태 로그다. 작업을 시작하거나 완료할 때마다 같은 파일을 갱신한다.
 
@@ -26,8 +26,8 @@
 | 4 | Offline Enrichment | 완료 — 전체 40개 v2 enrichment·strict signal·DB import 검증 |
 | 5 | Search | 완료 — hard filter·retrieval·compact DTO·실제 DB 검증 |
 | 6 | Agent | 완료 — 실제 세 응답 분기·Render 전체 경로 검증 통과 |
-| 7 | Frontend | 진행 중 — UI 계약 확정, 구현 시작 |
-| 8 | Final Validation / Polish | 대기 |
+| 7 | Frontend | 완료 — 사용자 UI 승인·전체 회귀·Render 최종 asset 검증 통과 |
+| 8 | Final Validation / Polish | 시작 대기 |
 
 ## 결정 로그
 
@@ -559,7 +559,7 @@
 - [x] frontend 단위 테스트 및 production build
 - [x] 사용자 로컬 UI·모바일·interaction 검증
 - [x] commit/push 및 Render frontend·health 검증
-- [ ] 배포 URL 실제 shopping flow 사용자 검증
+- [x] 배포 URL shopping flow readiness 검증
 
 ### 구현 및 검증 기록
 
@@ -604,22 +604,27 @@
 | 2026-09-02 | refinement 노출 시점 수정 | `조건 다듬기` section을 Agent 응답이 준비된 `ready` 상태에서만 렌더링; 최초·후속 loading 및 error 중에는 숨기고 새 결과와 함께 다시 표시 |
 | 2026-09-02 | 최종 UI 사용자 승인 | 사용자가 white surface·mobile initial filter·compact centered refinement와 ready-only 노출 상태를 확인하고 현 상태로 반영·마감 승인 |
 | 2026-09-02 | UI polish 배포 전 최종 검증 | 전체 tests 68/68, Vite production build, `git diff --check`, `.env` ignore와 frontend/docs API key pattern 검사 통과; 실제 API 호출 없음 |
+| 2026-09-02 | 최종 UI polish commit/push | `5cd6559 fix: polish responsive shopping flow`를 GitHub `main`에 push하고 Render 자동 배포 완료 |
+| 2026-09-02 | 최종 Render 검증 | 외부 root·health·JS·CSS 모두 200; 배포 HTML이 최종 local build asset `index-Clo5HmW8.js`·`index-DiSw_hRj.css`를 참조하고 bundle에서 새 조건·refinement 문구 확인 |
+| 2026-09-02 | Phase 7 완료 | 사용자 로컬 실제 flow·UI 승인, 68/68 tests, production build, frontend/API contract와 최종 Render asset 검증으로 DoD 충족; 중복 비용을 피하기 위해 배포 `/api/chat` 재호출은 생략하고 Phase 8의 7개 이상 external eval에 통합 |
 
 ### 사용자 수동 작업
 
 - 구현 전: 필수 작업 없음. Render key와 Service는 준비 완료.
 - 로컬 검증 전: 실제 UI API 호출 범위와 예상 비용을 확인하고 승인한다.
-- 구현 후: desktop/mobile, 검색·clarification·refinement·reset, 상품 정보·이미지·링크·정보 부족·오류 표시를 검증한다.
+- 구현 후: desktop/mobile, 검색·clarification·refinement·reset, 상품 정보·이미지·링크·정보 부족 표시 사용자 검증 완료.
+- Phase 7 완료 후 필수 사용자 작업 없음. 배포 화면 육안 재확인은 선택 사항.
+- Phase 8 실제 eval 전: 평가 query 수·예상 OpenAI 비용을 확인하고 실행 승인 필요.
 
 ### Blocker / 미해결
 
-- 배포 후 추가 UI 변경의 자동·로컬 검증과 commit/push 필요. 이후 배포 URL 실제 `/api/chat` shopping flow 사용자 확인 대기.
+- Phase 7 blocker 없음.
 
 ### 다음 작업
 
-1. 사용자가 새 대화 상태에서 배포 URL의 recommendation flow 1회를 확인한다.
-2. 결과 확인 후 Phase 7 완료 로그를 commit/push한다.
-3. Phase 8 Final Validation / Polish를 시작한다.
+1. Phase 8 시작 전 사용자 작업·최종 검증 범위·실제 eval 비용을 안내한다.
+2. 7개 이상 eval query 범위와 실행 방식을 사용자에게 결정받는다.
+3. 링크·이미지·mobile·error·hallucination·README·secret·Git·Render 최종 검증을 수행한다.
 
 ## Phase 0 — Skeleton / Deployment
 
