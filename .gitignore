@@ -3,4 +3,5 @@
 node_modules/
 dist/
 data/products.db
+data/enriched/*.checkpoint
 npm-debug.log*

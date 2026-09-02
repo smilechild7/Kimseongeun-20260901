@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { mkdtemp, rm } from 'node:fs/promises';
+import { mkdtemp, readdir, readFile, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -13,6 +13,25 @@ const repositoryRoot = path.resolve(
   '..',
 );
 
+async function committedEnrichmentCount() {
+  const directory = path.join(repositoryRoot, 'data/enriched');
+  let fileNames;
+  try {
+    fileNames = await readdir(directory);
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      return 0;
+    }
+    throw error;
+  }
+
+  let count = 0;
+  for (const fileName of fileNames.filter((name) => name.endsWith('.json'))) {
+    count += JSON.parse(await readFile(path.join(directory, fileName), 'utf8')).length;
+  }
+  return count;
+}
+
 test('rebuilds a deterministic database from committed raw JSON', async () => {
   const temporaryDirectory = await mkdtemp(path.join(tmpdir(), 'levit-db-build-'));
   const databasePath = path.join(temporaryDirectory, 'products.db');
@@ -23,6 +42,7 @@ test('rebuilds a deterministic database from committed raw JSON', async () => {
   };
 
   try {
+    const enrichments = await committedEnrichmentCount();
     const firstBuild = await buildDatabase(buildOptions);
     const secondBuild = await buildDatabase(buildOptions);
 
@@ -30,7 +50,7 @@ test('rebuilds a deterministic database from committed raw JSON', async () => {
       shops: 2,
       products: 40,
       reviews: 406,
-      enrichments: 0,
+      enrichments,
     });
     assert.deepEqual(secondBuild.counts, firstBuild.counts);
 

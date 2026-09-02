@@ -123,3 +123,52 @@ test('enforces the product-review foreign key and cascade delete', async () => {
     database.close();
   }
 });
+
+test('UPSERTs and hydrates product enrichments', async () => {
+  const database = openDatabase(':memory:');
+
+  try {
+    await runMigrations(database, migrationsDirectory);
+    const repository = createProductRepository(database);
+    const productId = productIdForSource('fixture-shop', '1234');
+    repository.saveProducts([fixtureProduct()]);
+
+    const enrichment = {
+      productId,
+      summary: '편안한 데일리 팬츠',
+      styleTags: ['casual'],
+      occasionTags: ['daily'],
+      fitTags: ['wide'],
+      seasonTags: ['all_season'],
+      extraTags: ['편안한'],
+      reviewSummary: {
+        analyzedReviewCount: 1,
+        appearanceMatch: { signal: 'unknown', summary: '근거 없음' },
+        sizeFit: { signal: 'true_to_size', summary: '정사이즈 의견' },
+        materialQuality: { signal: 'positive', summary: '소재 만족 의견' },
+        positives: ['편안함'],
+        concerns: [],
+        similarReviewerNotes: [],
+      },
+      model: 'gpt-5.6-luna',
+      promptVersion: 'v1',
+      enrichedAt: '2026-09-02T12:00:00.000Z',
+    };
+
+    repository.saveProductEnrichments([enrichment]);
+    repository.saveProductEnrichments([
+      { ...enrichment, summary: '수정된 요약' },
+    ]);
+
+    assert.equal(
+      database.prepare('SELECT COUNT(*) count FROM product_enrichments').get().count,
+      1,
+    );
+    assert.deepEqual(repository.getProductEnrichment(productId), {
+      ...enrichment,
+      summary: '수정된 요약',
+    });
+  } finally {
+    database.close();
+  }
+});

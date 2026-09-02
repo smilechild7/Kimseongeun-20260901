@@ -62,6 +62,26 @@ function hydrateReview(row) {
   };
 }
 
+function hydrateEnrichment(row) {
+  if (!row) {
+    return null;
+  }
+
+  return {
+    productId: row.product_id,
+    summary: row.summary,
+    styleTags: parseJson(row.style_tags_json, []),
+    occasionTags: parseJson(row.occasion_tags_json, []),
+    fitTags: parseJson(row.fit_tags_json, []),
+    seasonTags: parseJson(row.season_tags_json, []),
+    extraTags: parseJson(row.extra_tags_json, []),
+    reviewSummary: parseJson(row.review_summary_json, null),
+    model: row.model,
+    promptVersion: row.prompt_version,
+    enrichedAt: row.enriched_at,
+  };
+}
+
 export function productIdForSource(shopId, sourceProductId) {
   return `${shopId}:${sourceProductId}`;
 }
@@ -153,6 +173,44 @@ export function createProductRepository(database) {
       created_at
     ) VALUES (?, ?, ?, ?, ?, ?, ?)
   `);
+  const upsertEnrichment = database.prepare(`
+    INSERT INTO product_enrichments (
+      product_id,
+      summary,
+      style_tags_json,
+      occasion_tags_json,
+      fit_tags_json,
+      season_tags_json,
+      extra_tags_json,
+      review_summary_json,
+      model,
+      prompt_version,
+      enriched_at
+    ) VALUES (
+      @productId,
+      @summary,
+      @styleTagsJson,
+      @occasionTagsJson,
+      @fitTagsJson,
+      @seasonTagsJson,
+      @extraTagsJson,
+      @reviewSummaryJson,
+      @model,
+      @promptVersion,
+      @enrichedAt
+    )
+    ON CONFLICT(product_id) DO UPDATE SET
+      summary = excluded.summary,
+      style_tags_json = excluded.style_tags_json,
+      occasion_tags_json = excluded.occasion_tags_json,
+      fit_tags_json = excluded.fit_tags_json,
+      season_tags_json = excluded.season_tags_json,
+      extra_tags_json = excluded.extra_tags_json,
+      review_summary_json = excluded.review_summary_json,
+      model = excluded.model,
+      prompt_version = excluded.prompt_version,
+      enriched_at = excluded.enriched_at
+  `);
   const saveProductsTransaction = database.transaction((products) => {
     for (const product of products) {
       const shopId = product.source.shopId;
@@ -200,11 +258,33 @@ export function createProductRepository(database) {
       }
     }
   });
+  const saveEnrichmentsTransaction = database.transaction((enrichments) => {
+    for (const enrichment of enrichments) {
+      upsertEnrichment.run({
+        productId: enrichment.productId,
+        summary: enrichment.summary,
+        styleTagsJson: JSON.stringify(enrichment.styleTags ?? []),
+        occasionTagsJson: JSON.stringify(enrichment.occasionTags ?? []),
+        fitTagsJson: JSON.stringify(enrichment.fitTags ?? []),
+        seasonTagsJson: JSON.stringify(enrichment.seasonTags ?? []),
+        extraTagsJson: JSON.stringify(enrichment.extraTags ?? []),
+        reviewSummaryJson: JSON.stringify(enrichment.reviewSummary),
+        model: enrichment.model,
+        promptVersion: enrichment.promptVersion,
+        enrichedAt: enrichment.enrichedAt,
+      });
+    }
+  });
 
   return {
     saveProducts(products) {
       saveProductsTransaction(products);
       return products.length;
+    },
+
+    saveProductEnrichments(enrichments) {
+      saveEnrichmentsTransaction(enrichments);
+      return enrichments.length;
     },
 
     searchProducts({ category, minPrice, maxPrice, shopIds, limit } = {}) {
@@ -282,6 +362,14 @@ export function createProductRepository(database) {
         `)
         .all(productId)
         .map(hydrateReview);
+    },
+
+    getProductEnrichment(productId) {
+      return hydrateEnrichment(
+        database
+          .prepare('SELECT * FROM product_enrichments WHERE product_id = ?')
+          .get(productId),
+      );
     },
   };
 }

@@ -13,6 +13,8 @@
     "build": "vite build --config client/vite.config.js",
     "crawl:products": "node crawler/cli/crawl-products.js",
     "crawl:reviews": "node crawler/cli/crawl-reviews.js",
+    "enrich": "node --env-file-if-exists=.env scripts/enrichProducts.js",
+    "enrich:sample": "node --env-file-if-exists=.env scripts/enrichProducts.js --product-ids=graychic:11284,graychic:11135,graychic:15143,ifemme:29474,ifemme:31358",
     "db:build": "node scripts/buildDatabase.js",
     "db:inspect": "node scripts/inspectDatabase.js",
     "db:migrate": "node scripts/runMigrations.js",
@@ -23,6 +25,7 @@
     "better-sqlite3": "^13.0.3",
     "cheerio": "^1.2.0",
     "express": "^5.2.1",
+    "openai": "^7.8.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },

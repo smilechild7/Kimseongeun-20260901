@@ -3,7 +3,7 @@
 > 기준 계획: `docs/levit_problem_solver_FINAL_PLAN.md`  
 > 작업 규칙: `AGENT.md`  
 > 마지막 업데이트: 2026-09-02 (KST)
-> 현재 단계: Phase 3 — SQLite 완료
+> 현재 단계: Phase 4 — Offline Enrichment 완료, commit 대기
 
 이 문서는 구현 진행 상태, 검증 결과, 결정 사항과 blocker를 계속 기록하는 단일 상태 로그다. 작업을 시작하거나 완료할 때마다 같은 파일을 갱신한다.
 
@@ -23,7 +23,7 @@
 | 1 | Cafe24 Product Crawler | 완료 — 쇼핑몰별 20개, 총 40개 |
 | 2 | Review Crawling | 완료 — 40개 상품에서 실제 리뷰 406개 수집 |
 | 3 | SQLite | 완료 — deterministic rebuild 및 40 products·406 reviews relation 검증 |
-| 4 | Offline Enrichment | 대기 |
+| 4 | Offline Enrichment | 완료 — 전체 40개 v2 enrichment·strict signal·DB import 검증 |
 | 5 | Search | 대기 |
 | 6 | Agent | 대기 |
 | 7 | Frontend | 대기 |
@@ -49,6 +49,14 @@
 | DEC-014 | 2026-09-02 | Phase 1 초기 상품 수 확대 | 그레이시크·아이팜므의 바지 상품을 각각 10개에서 20개로 확대 | 두 쇼핑몰 모두 후보가 충분하고, 상의 확장 전에 더 다양한 가격·옵션·치수표 구조로 공통 parser를 검증 |
 | DEC-015 | 2026-09-02 | Phase 2 리뷰 수집 범위 | 그레이시크와 아이팜므 모두 20개 상품에서 상품당 최근 리뷰 최대 20개 수집 | 최종 제품의 여러 쇼핑몰 비교에서 리뷰 evidence 편중을 줄이고, 아이팜므 Crema 공개 API를 우선 조사하되 Playwright가 필요하면 도입 전에 다시 결정 |
 | DEC-016 | 2026-09-02 | Phase 3 DB 동기화 방식 | `data/products.db`를 매 build마다 새로 만들고 raw JSON 전체를 import | raw JSON을 source of truth로 유지하고 stale 상품·중복 리뷰를 방지한다. runtime DB 변경 보존과 review row ID 안정성은 MVP 범위에서 필요하지 않음 |
+| DEC-017 | 2026-09-02 | Phase 4 OpenAI API client | 공식 `openai` npm SDK 사용 | Responses API의 Structured Output, incomplete/refusal/error 처리를 공식 interface에 맞추고 API 변경 대응 부담을 줄임 |
+| DEC-018 | 2026-09-02 | Phase 4 API 호출 단위 | 상품 이해와 리뷰 집계를 상품당 1회 통합 호출 | 표본 5개는 5회, 전체 40개는 40회로 제한해 입력 중복·비용·실행 시간을 줄이고 한 상품의 분석 결과 일관성을 유지 |
+| DEC-019 | 2026-09-02 | Phase 4 OpenAI retry 정책 | 공식 SDK의 transient 오류 재시도를 최대 2회 허용 | 정상 시 표본 5회이며 429·5xx·연결 오류에만 상품별 재시도해 atomic batch 전체를 다시 실행할 위험을 낮춤; 최악에는 최대 15회 HTTP 시도 가능 |
+| DEC-020 | 2026-09-02 | Phase 4 전체 enrichment 실행 방식 | 검증된 표본 5개를 재사용하지 않고 전체 40개를 같은 model·prompt로 다시 실행 | 추가 논리 호출 40회와 예상 비용 약 $0.06~$0.12를 승인하고 전체 결과의 실행 시점을 한 번으로 통일 |
+| DEC-021 | 2026-09-02 | Review signal 충돌 기준 | 같은 축에 상반된 명시적 evidence가 하나라도 함께 있으면 다수 비율과 무관하게 `mixed` | 계획과 prompt의 불확실성 원칙을 엄격히 적용하고 소수 의견이 dominant signal에서 사라지는 것을 방지 |
+| DEC-022 | 2026-09-02 | Strict signal prompt v2 재실행 범위 | 리뷰 유무와 무관하게 전체 40개를 prompt v2로 다시 실행 | 추가 논리 호출 40회와 예상 비용 약 $0.08~$0.14를 승인하고 모든 enrichment의 prompt version과 signal 검증 기준을 통일 |
+| DEC-023 | 2026-09-02 | 모델 tally/signal 불일치 처리 | evidence tally를 source of truth로 삼고 코드 결정표가 persisted signal을 확정 | strict mixed 정책을 deterministic하게 보장하고 모델의 label 실수로 batch가 중단되는 문제를 제거; 상품별 checkpoint로 성공 결과의 반복 호출 방지 |
+| DEC-024 | 2026-09-02 | Appearance evidence 경계 사례 보정 | 원문 감사로 확정한 2개 상품을 product ID 기반 deterministic override로 관리 | 추가 API 호출 없이 명시적 비교 원칙을 재현 가능하게 적용하며 source review 위치와 보정 근거를 코드에 함께 기록 |
 
 ## Phase 1 시작 준비
 
@@ -266,8 +274,94 @@
 
 ### 다음 작업
 
-1. Phase 3 변경사항을 commit한다.
-2. Phase 4 Offline Enrichment 시작 전 사용자 작업·AI 비용과 검증 범위를 안내한다.
+1. Phase 4의 실제 5개 상품 표본 enrichment를 실행한다.
+2. 표본 결과를 사용자와 검토한 뒤 전체 40개 상품을 실행한다.
+
+## Phase 4 — Offline Enrichment
+
+### 목표
+
+- GPT-5.6 Luna를 상품당 한 번 호출해 상품 속성과 저장 리뷰의 구매 위험 신호를 함께 구조화한다.
+- 상품 factual data는 raw JSON에 유지하고 AI 출력에는 해석 결과만 저장한다.
+- 리뷰 근거 부족은 `unknown`, 상충 의견은 `mixed`로 보존하며 structured reviewer profile이 없으면 유사 체형 후기를 생성하지 않는다.
+- 검증된 enriched JSON을 SQLite `product_enrichments`에 재현 가능하게 import한다.
+
+### 체크리스트
+
+- [x] 공식 `openai` SDK 설치 및 AI config 분리
+- [x] controlled vocabulary와 review signal 계약 구현
+- [x] 상품 요약·리뷰 집계 통합 prompt 구현
+- [x] Responses API strict Structured Output 요청 구현
+- [x] incomplete·refusal·invalid JSON·schema/evidence mismatch 차단
+- [x] 표본 5개 deterministic selection과 `--dry-run` 구현
+- [x] 전체 성공 후에만 enriched JSON을 교체하는 atomic write 구현
+- [x] DB build의 optional enriched JSON import와 repository UPSERT 구현
+- [x] mock 기반 자동 테스트·DB build·production build 검증
+- [x] 실제 5개 상품 API 표본 실행
+- [x] 표본 결과 사용자 검증
+- [x] 전체 40개 상품 enrichment 실행
+- [x] 전체 enriched JSON DB rebuild
+- [x] 소수 반대 evidence의 signal 정책 확정 및 결과 보정
+- [x] enriched JSON commit 대상 최종 확인
+- [x] 사용자 최종 수동 검증
+
+### 구현 및 검증 기록
+
+| 시각 (KST) | 항목 | 결과 |
+|---|---|---|
+| 2026-09-02 | OpenAI dependency | 공식 `openai` SDK `7.8.0`, npm audit 취약점 0개 |
+| 2026-09-02 | 모델 기능 확인 | 공식 문서에서 `gpt-5.6-luna`의 Responses API, Structured Output, reasoning effort `none` 지원 확인 |
+| 2026-09-02 | 출력 계약 | 요약·controlled tags·리뷰 3축 signal·장점·우려·structured profile 기반 note만 허용; ID·model·prompt version·시각은 코드에서 부착 |
+| 2026-09-02 | factual guard | 가격·브랜드·판매 색상/사이즈·치수·평점·URL·재고를 AI 출력 schema에서 제외하고, 리뷰 수·no-review·profile evidence를 로컬에서 재검증 |
+| 2026-09-02 | 표본 구성 | 양쪽 쇼핑몰, 리뷰 74개, 리뷰 없음 1개, structured profile 있음/없음, size guide 있음/없음을 포함한 5개 고정 |
+| 2026-09-02 | 표본 dry-run | 논리 API 호출 5회, 선택 상품 5개, 저장 리뷰 74개 확인; API 호출·과금·파일 생성 없음 |
+| 2026-09-02 | 자동 테스트 | `npm test` — 23 tests, 23 passed; 실제 OpenAI 대신 mock 사용 |
+| 2026-09-02 | 실패 안전성 | 2개 상품 중 두 번째 mock 실패 시 기존 output이 교체되지 않음을 자동 검증 |
+| 2026-09-02 | 실제 표본 실행 | 승인된 `gpt-5.6-luna` 논리 호출 5회가 모두 성공하고 `data/enriched/products.json`에 5개 결과 atomic write 완료 |
+| 2026-09-02 | 실제 표본 계약 검증 | product ID·model·prompt version·날짜·controlled tags·review count·no-review unknown·structured profile 제한 오류 0건 |
+| 2026-09-02 | 실제 표본 리뷰 대조 | 그레이시크는 structured profile note 0개, 아이팜므 2개 상품은 실제 profile이 있는 리뷰에서만 note 생성; appearance·size·material signal과 concern의 원문 근거 확인 |
+| 2026-09-02 | 자동 테스트 | 표본 파일 계약 테스트 추가 후 `npm test` — 24 tests, 24 passed |
+| 2026-09-02 | DB build | `npm run db:build` — `shops=2`, `products=40`, `reviews=406`, `enrichments=5` |
+| 2026-09-02 | DB hydration 표본 | 리뷰 없는 `graychic:15143`의 3개 signal `unknown`, `ifemme:31358`의 14개 리뷰·profile note 7개가 repository에서 정상 복원됨 |
+| 2026-09-02 | 사용자 표본 검증 | 5개 결과의 상품 요약·tags·review signal·근거 수준과 no-review/profile 제한에 이상 없음 확인 |
+| 2026-09-02 | 전체 실행 | 사용자 승인 B안으로 표본 포함 전체 40개·저장 리뷰 406개를 다시 분석; 논리 호출 40회 모두 성공하고 atomic write 완료 |
+| 2026-09-02 | 전체 계약 검증 | raw product 40개와 enrichment 40개가 1:1 일치하고 controlled vocabulary·review count·no-review unknown·profile evidence 제한 오류 0건 |
+| 2026-09-02 | 전체 coverage | 리뷰 없는 상품 15개, similar reviewer note 45개; appearance `unknown=30/different=1/similar=5/mixed=4`, size `mixed=21/unknown=17/runs_large=2`, material `mixed=9/positive=16/unknown=15` |
+| 2026-09-02 | 전체 자동 검증 | `npm test` — 24 tests, 24 passed; `npm run build` 성공; secret pattern 검출 0건 |
+| 2026-09-02 | 전체 DB build | `shops=2`, `products=40`, `reviews=406`, `enrichments=40` |
+| 2026-09-02 | signal 수동 감사 | `ifemme:33134`가 화면/실물 차이를 요약하면서 appearance `similar`로 분류된 명시적 불일치 발견; 소수 반대 evidence를 항상 `mixed`로 할지 다수 signal을 유지할지 결정 필요 |
+| 2026-09-02 | strict signal 결정 | 같은 축에 상반 evidence가 하나라도 있으면 `mixed`로 확정 |
+| 2026-09-02 | prompt v2 검증 장치 | appearance·size·material polarity별 evidence tally를 Structured Output에 추가하고, 코드 결정표와 signal이 다르면 저장 전 실패하도록 구현; tally는 검증 후 persisted JSON에서 제거 |
+| 2026-09-02 | prompt v2 mock test | 상반 appearance evidence tally에서 dominant `similar`를 반환하면 거부되는 테스트 포함 관련 7 tests 통과; 실제 API 호출 없음 |
+| 2026-09-02 | prompt v2 실제 실행 실패 | 3번째 `graychic:11135` 응답에서 size tally상 예상 `true_to_size`와 모델 signal이 불일치해 저장 전 중단; v2 논리 호출 3회 발생, 기존 v1 40개 파일 정상 보존 |
+| 2026-09-02 | deterministic signal·checkpoint | 모델 label 대신 evidence tally와 코드 결정표로 persisted signal을 확정하고, 상품별 성공 결과를 별도 checkpoint에 저장·resume하는 테스트 통과 |
+| 2026-09-02 | prompt v2 전체 재실행 | 전체 40개·리뷰 406개 논리 호출 성공, `promptVersion=v2` 40개로 atomic 교체 후 checkpoint 제거 확인 |
+| 2026-09-02 | prompt v2 최종 자동 검증 | `npm test` — 25 tests, 25 passed; `npm run build` 성공; DB `enrichments=40`; evidence tally·secret persisted 검출 0건 |
+| 2026-09-02 | strict signal 개선 확인 | `ifemme:33134` appearance `different`, `ifemme:31358` appearance `mixed`로 최초 감사 문제 교정 |
+| 2026-09-02 | evidence tally 경계 감사 | `graychic:12325`의 일반 색감 칭찬이 similar evidence로 집계돼 `mixed`가 됐고, `graychic:14387`의 “사진보다 실물이 더 낫다”를 similar로 집계한 사례 확인; 명시적 비교 원칙상 각각 `different`, `mixed` 보정 필요 |
+| 2026-09-02 | deterministic override | 사용자 승인에 따라 두 상품 ID·source review 위치·근거·appearance signal/summary를 코드에 명시하고 현재 enriched JSON에도 동일 적용 |
+| 2026-09-02 | override 최종 검증 | 감사 대상 4개 signal이 `graychic:12325=different`, `graychic:14387=mixed`, `ifemme:31358=mixed`, `ifemme:33134=different`로 확인됨 |
+| 2026-09-02 | 최종 자동 검증 | `npm test` — 27 tests, 27 passed; `npm run build` 성공; DB `shops=2/products=40/reviews=406/enrichments=40`; `git diff --check` 통과 |
+| 2026-09-02 | 사용자 최종 검증 | 감사 대상 4개 appearance signal, no-review unknown, DB enrichment 40개와 표본 요약·concern에 이상 없음 확인 |
+| 2026-09-02 | production build | `npm run build` 성공 |
+| 2026-09-02 | 변경 검사 | `git diff --check` 통과 |
+
+### 사용자 수동 작업
+
+- 실제 API 표본 실행 전: 예상 호출 수·비용과 SDK retry 정책 확인 및 실행 승인 완료.
+- 표본 실행 후: 5개 결과에서 상품 요약, tags, `unknown`/`mixed`, 리뷰 근거와 유사 체형 note가 원문에 비해 과장되지 않았는지 확인한다.
+- 전체 실행 후: enriched 40개와 DB `enrichments=40`을 확인한다.
+- Render 작업은 Phase 4 구현 중에는 없다. Phase 4 commit/push 후 Render가 committed enriched JSON으로 DB를 rebuild하므로 그때 배포 확인을 다시 안내한다.
+
+### Blocker / 미해결
+
+- Phase 4 blocker 없음.
+
+### 다음 작업
+
+1. Phase 4 변경사항을 commit한다.
+2. push 후 Render가 committed enriched JSON으로 DB를 rebuild하는지 확인한다.
+3. Phase 5 Search 시작 전 구현 범위와 사용자 작업을 안내한다.
 
 ## Phase 0 — Skeleton / Deployment
 
