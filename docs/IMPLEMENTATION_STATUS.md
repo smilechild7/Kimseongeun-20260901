@@ -249,13 +249,16 @@
 | 2026-09-02 | Render config | `npm ci && npm run build && npm run db:build`; build 중 crawling/OpenAI 호출 없음 |
 | 2026-09-02 | 변경 검사 | `git diff --check` 통과 |
 | 2026-09-02 | 사용자 수동 검증 | `npm run db:build` 실행 완료 및 Phase 3 결과 이상 없음 확인 |
+| 2026-09-02 | GitHub push | `main`의 `282c703`~`a6f5952` 4개 커밋 push 완료, local/remote 동기화 확인 |
+| 2026-09-02 | Render latest build | 외부 frontend `Last-Modified: 2026-09-02 10:02:09 KST`로 push 이후 새 build 반영 확인; 새 build는 `npm run db:build` 성공 후에만 service start 가능 |
+| 2026-09-02 | Render external health | `https://levit-problem-solver.onrender.com/api/health` HTTP 200, `{"status":"ok","service":"levit-problem-solver"}` |
 
 ### 사용자 수동 작업
 
 - 구현 전 추가 작업 없음.
 - 구현 후 `npm run db:build`을 두 번 실행해 두 번 모두 `shops=2`, `products=40`, `reviews=406`, `enrichments=0`인지 확인한다.
 - read-only `npm run db:inspect`로 `ifemme:31358`의 상품명과 리뷰 14개 relation을 확인한다.
-- 현재는 push하지 않으므로 Render 작업 없음. 추후 push하면 자동 배포의 DB build 성공 로그를 확인한다.
+- GitHub push와 Render 자동 배포 및 외부 frontend/health 검증 완료. 추가 사용자 작업 없음.
 
 ### Blocker / 미해결
 
@@ -374,3 +377,4 @@
 | 2026-09-02 | DEC-016에 따라 raw JSON 기반 deterministic SQLite rebuild 방식으로 Phase 3 시작 |
 | 2026-09-02 | migration·DB build·raw import·repository·Render build 연결 구현; 2 shops·40 products·406 reviews와 14/14 tests 검증, 사용자 반복 build 확인 대기 |
 | 2026-09-02 | 사용자 DB build 검증 완료; Phase 3 DoD 충족 및 완료 처리 |
+| 2026-09-02 | Phase 1~3의 4개 local commit을 GitHub main에 push하고 Render 새 build·external frontend·health 정상 확인 |
