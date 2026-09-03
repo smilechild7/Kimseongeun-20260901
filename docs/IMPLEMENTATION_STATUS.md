@@ -1050,6 +1050,7 @@
 | 2026-09-03 | 서버 오류 분류 | `AgentRuntimeError`를 HTTP 502 `agent_response_invalid`로 공개하고 SDK network·timeout·auth·conversation·rate-limit 오류와 분리; 내부 오류 상세는 기존처럼 노출하지 않음 |
 | 2026-09-03 | assistant recovery | `agent_response_invalid`와 비정상 200 response type만 오류 alert 대신 clarification message로 추가; 직전 category 질문이면 한 종류 우선 선택을 요청하고 그 외에는 조건을 짧게 다시 요청하며 기존 `previousResponseId`를 보존 |
 | 2026-09-03 | recovery 자동 검증 | API error 분류·문맥 질문·reducer conversation 보존 관련 test 8/8, 전체 `npm test` 108/108, production build 통과; 추가 OpenAI 호출 없음 |
+| 2026-09-03 | recovery 배포 검증 | commit `7a69844`를 `main`에 push; Render 외부 `/api/health` HTTP 200과 배포 JS `index-DNtk9hie.js` HTTP 200을 확인하고 bundle에서 `agent_response_invalid`·문맥형 재질문 문구 반영 확인 |
 | 2026-09-03 | diff 검사 제한 | `git diff --check`는 이번 변경과 무관한 기존 사용자 수정 `docs/EVAL_REPORT.md`의 후행 공백 1건으로 실패; 해당 미완료 사용자 변경은 보존하고 임의 수정하지 않음 |
 
 ### 변경 파일
