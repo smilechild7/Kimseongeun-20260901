@@ -8,7 +8,7 @@ import {
   postChat,
 } from './api.js';
 import ClarificationMessage from './ClarificationMessage.jsx';
-import { previousRecommendations } from './history.js';
+import { previousAssistantResponses } from './history.js';
 import NoResultMessage from './NoResultMessage.jsx';
 import { formatProductDisplayName } from './productName.js';
 import RecommendationResult from './RecommendationResult.jsx';
@@ -58,18 +58,40 @@ function previousResponseLabel(message) {
       : '이전 추천 결과';
   }
   if (message.kind === 'clarification') return '이전 추가 질문';
-  return '이전 검색 결과';
+  if (message.kind === 'no_result') return '이전 검색 결과 없음';
+  return '이전 AI 답변';
 }
 
-function PreviousResponseSummary({ animate = false, expanded, historyKey, message, onToggle }) {
+function UserMessage({ content }) {
+  if (!content) return null;
+
+  return (
+    <section className="mb-6 flex justify-end" aria-label="내 메시지">
+      <div className="max-w-[88%] sm:max-w-2xl">
+        <p className="mb-2 text-right text-xs font-semibold text-stone-500">나</p>
+        <p className="rounded-2xl rounded-tr-sm border border-stone-200 bg-white px-4 py-3 text-sm font-medium leading-6 text-stone-900 shadow-sm sm:px-5">
+          {content}
+        </p>
+      </div>
+    </section>
+  );
+}
+
+function PreviousResponseSummary({
+  animate = false,
+  expanded,
+  historyKey,
+  message,
+  onToggle,
+  userMessage,
+}) {
   const contentId = `previous-response-${historyKey}`;
-  const expandable = message.kind === 'recommendation';
   const folding = animate && !expanded;
 
   return (
     <section
       className={folding ? 'previous-response-collapsing' : ''}
-      aria-label={expanded ? '펼친 이전 추천' : '접힌 이전 AI 답변'}
+      aria-label={expanded ? '펼친 이전 대화' : '접힌 이전 대화'}
     >
       {folding && (
         <div className="previous-response-content">
@@ -79,23 +101,21 @@ function PreviousResponseSummary({ animate = false, expanded, historyKey, messag
         </div>
       )}
       <button
-        aria-controls={expandable ? contentId : undefined}
-        aria-expanded={expandable ? expanded : undefined}
-        className={`flex w-full items-center gap-3 rounded-2xl text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2 disabled:cursor-default ${folding ? 'previous-response-summary-enter' : ''}`}
-        disabled={!expandable}
+        aria-controls={contentId}
+        aria-expanded={expanded}
+        className={`flex w-full items-center gap-3 rounded-2xl text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2 ${folding ? 'previous-response-summary-enter' : ''}`}
         onClick={onToggle}
         type="button"
       >
         <span className="grid size-8 shrink-0 place-items-center rounded-full bg-stone-300 text-[0.65rem] font-bold text-stone-700" aria-hidden="true">AI</span>
         <span className="flex min-w-0 max-w-2xl flex-1 items-center gap-3 rounded-2xl rounded-tl-sm border border-stone-200 bg-white/80 px-4 py-2.5 text-sm text-stone-500 shadow-sm transition hover:border-orange-300 hover:text-stone-700">
           <span className="block truncate">{previousResponseLabel(message)}</span>
-          {expandable && (
-            <span className="ml-auto shrink-0 text-xs" aria-hidden="true">{expanded ? '↑' : '↓'}</span>
-          )}
+          <span className="ml-auto shrink-0 text-xs" aria-hidden="true">{expanded ? '↑' : '↓'}</span>
         </span>
       </button>
       {expanded && (
         <div className="detail-reveal mt-4" id={contentId}>
+          <UserMessage content={userMessage?.content} />
           <AssistantResult message={message} />
         </div>
       )}
@@ -116,12 +136,9 @@ export default function ShoppingAgent() {
   const lastAssistantMessage = assistantMessages.at(-1);
   const isRefinementLoading = state.status === 'loading' && Boolean(lastAssistantMessage);
   const isRefinementError = state.status === 'error' && Boolean(lastAssistantMessage);
-  const previousRecommendationEntries = previousRecommendations(state.messages, {
+  const previousAssistantEntries = previousAssistantResponses(state.messages, {
     includeLatest: isRefinementLoading,
   });
-  const foldingNonRecommendation = isRefinementLoading && lastAssistantMessage.kind !== 'recommendation'
-    ? lastAssistantMessage
-    : null;
   const hasConversation = state.messages.length > 0;
 
   useEffect(() => () => activeRequest.current?.abort(), []);
@@ -205,9 +222,9 @@ export default function ShoppingAgent() {
         </section>
       ) : (
         <div className="relative mx-auto w-full max-w-7xl px-5 pb-24 pt-8 sm:px-8">
-          {previousRecommendationEntries.length > 0 && (
-            <div className="mb-6 space-y-3" aria-label="이전 추천 목록">
-              {previousRecommendationEntries.map(({ key, message }) => {
+          {previousAssistantEntries.length > 0 && (
+            <div className="mb-6 space-y-3" aria-label="이전 대화 목록">
+              {previousAssistantEntries.map(({ key, message, userMessage }) => {
                 const animate = isRefinementLoading && message === lastAssistantMessage;
                 const expanded = expandedPreviousKey === key;
 
@@ -219,20 +236,10 @@ export default function ShoppingAgent() {
                     key={key}
                     message={message}
                     onToggle={() => setExpandedPreviousKey((current) => current === key ? null : key)}
+                    userMessage={userMessage}
                   />
                 );
               })}
-            </div>
-          )}
-          {foldingNonRecommendation && (
-            <div className="mb-6">
-              <PreviousResponseSummary
-                animate
-                expanded={false}
-                historyKey="active-message"
-                message={foldingNonRecommendation}
-                onToggle={() => {}}
-              />
             </div>
           )}
           {isRefinementError && (
@@ -241,16 +248,7 @@ export default function ShoppingAgent() {
             </div>
           )}
 
-          {lastUserMessage && (
-            <section className="mb-6 flex justify-end" aria-label="내 메시지">
-              <div className="max-w-[88%] sm:max-w-2xl">
-                <p className="mb-2 text-right text-xs font-semibold text-stone-500">나</p>
-                <p className="rounded-2xl rounded-tr-sm border border-stone-200 bg-white px-4 py-3 text-sm font-medium leading-6 text-stone-900 shadow-sm sm:px-5">
-                  {lastUserMessage.content}
-                </p>
-              </div>
-            </section>
-          )}
+          <UserMessage content={lastUserMessage?.content} />
 
           {state.status === 'loading' && <div className="mb-6"><LoadingState /></div>}
           {state.error && (

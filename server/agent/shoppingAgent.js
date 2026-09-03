@@ -1,4 +1,5 @@
 import { AI_CONFIG } from '../config/ai.js';
+import { applyPriceIntent } from '../products/priceIntent.js';
 import { normalizeSearchInput } from '../products/searchInput.js';
 import { SEARCH_PRODUCTS_INPUT_SCHEMA } from '../products/searchSchema.js';
 import { SHOPPING_AGENT_INSTRUCTIONS } from './instructions.js';
@@ -84,7 +85,7 @@ function parseFinalOutput(response) {
   }
 }
 
-function parseToolInput(toolCall) {
+function parseToolInput(toolCall, userMessage) {
   if (toolCall.name !== 'search_products') {
     throw new AgentRuntimeError(
       'unknown_tool',
@@ -104,7 +105,7 @@ function parseToolInput(toolCall) {
   }
 
   try {
-    return normalizeSearchInput(value);
+    return applyPriceIntent(normalizeSearchInput(value), userMessage);
   } catch (error) {
     throw new AgentRuntimeError(
       'invalid_tool_arguments',
@@ -225,7 +226,7 @@ export function createShoppingAgent({
           }
 
           const call = calls[0];
-          const normalizedInput = parseToolInput(call);
+          const normalizedInput = parseToolInput(call, message);
           const searchResult = search(normalizedInput);
           latestSearch = { input: normalizedInput, result: searchResult };
           priorId = response.id;

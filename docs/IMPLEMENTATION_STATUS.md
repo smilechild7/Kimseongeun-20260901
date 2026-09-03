@@ -109,6 +109,10 @@
 | DEC-071 | 2026-09-03 | 검색 실패의 대화형 recovery 범위 | 사용자 선택 A — AI 응답 생성·형식·factual 검증 실패만 assistant 재질문으로 전환하고 network·timeout·rate limit·인증 장애는 실제 오류 안내 유지 | system 장애를 사용자 답변 문제처럼 숨기지 않으면서 invalid Agent response에서 대화를 끊지 않음; 직전 AI가 category를 질문했다면 한 종류를 먼저 선택하도록 deterministic하게 재질문하고 추가 OpenAI 호출은 하지 않음 |
 | DEC-072 | 2026-09-03 | 이전 추천 다시 보기 범위 | 사용자 선택 A — 현재 대화의 이전 추천만 접힌 목록으로 남기고 클릭 시 하나씩 펼치는 단일 accordion 적용; 새로고침·`새로 찾기` 이후 영구 보관은 제외 | 이미 client memory에 있는 factual 응답을 재사용하므로 API·DB·개인정보 보존 범위를 늘리지 않고 판단 비교를 지원; 최근 이전 추천부터 표시하고 새 요청을 보내면 펼친 항목은 닫음 |
 | DEC-073 | 2026-09-03 | 이전 추천의 loading 중 상호작용 | 사용자 피드백 — 후속 검색 loading 중에도 모든 이전 추천을 열 수 있고 이미 펼친 항목도 유지하도록 DEC-072의 자동 닫힘 동작을 변경 | 새 요청과 과거 결과 열람 상태를 분리; 막 접히는 최신 추천도 summary를 누르면 fold animation을 중단하고 펼치며 단일 accordion 규칙은 유지 |
+| DEC-074 | 2026-09-03 | 이전 추천 순서와 질문 맥락 | 사용자 지시 — 이전 추천은 최근 순이 아닌 대화 발생 순서로 배열하고, 펼칠 때 해당 recommendation 직전의 사용자 메시지를 함께 표시 | `질문 → 추천`의 원래 맥락을 복원해 여러 결과를 다시 비교할 때 무엇을 요청했는지 알 수 있게 함; client memory의 기존 messages만 사용하고 persistence·API 계약은 변경하지 않음 |
+| DEC-075 | 2026-09-03 | 단독 목표 가격 해석 | 사용자 선택 A — `8만원`·`정도/쯤/전후` 같은 단독 목표 가격은 ±10% 후 하한 내림·상한 올림을 만원 단위로 적용; `이하/이상/최대/최소/명시 범위/만원대`와 UI 가격 필터는 기존의 명시적 의미 유지 | 8만원은 7~9만원, 20만원은 18~22만원처럼 상품 가격대에 비례해 확장; Agent instruction과 원문 기반 deterministic server normalization을 함께 적용해 model 편차를 차단하고 계산된 범위는 required hard filter로 사용 |
+| DEC-076 | 2026-09-03 | 현재 대화 이력 보존 범위 | 사용자 선택 A — recommendation뿐 아니라 `no_result`와 clarification도 시간순 접힌 목록에 보존하고, 펼치면 직전 user message와 AI 응답을 함께 표시 | 결과가 없는 탐색과 조건 확인 과정도 사라지지 않아 대화를 기억하는 느낌을 제공; client memory만 사용하므로 새로고침·`새로 찾기` 이후 초기화와 단일 accordion 규칙은 유지 |
+| DEC-077 | 2026-09-03 | `만원대` 가격 구간 의미 | 사용자 명시 — `8만원대`는 80,000원 이상 90,000원 미만으로 해석하고, 단독 목표 `8만원`의 70,000~90,000원 범위와 구분 | 한국어 가격 표현의 일반적인 의미를 deterministic server normalization으로 보장; `8만원대 이하`처럼 별도 경계가 붙은 표현은 기존 명시 조건 해석에 맡김 |
 
 ## Phase 1 시작 준비
 
@@ -999,6 +1003,9 @@
 - [x] AI 응답 생성·검증 실패를 문맥형 재질문으로 복구
 - [x] 현재 대화의 이전 추천 목록 다시 보기 accordion 구현 및 검증
 - [x] 상품명 link hit area 축소·추천 후보 eyebrow 제거 및 검증
+- [x] 이전 추천 시간순 정렬·연결된 사용자 질문 표시 및 검증
+- [x] 단독 목표 가격 ±10%·만원 단위 반올림 해석 및 검증
+- [x] recommendation·no_result·clarification 전체 대화 이력 보존 및 검증
 - [ ] 사용자 화면 검증
 - [ ] 남은 mobile·desktop polish 항목 우선순위 확정
 
@@ -1066,6 +1073,17 @@
 | 2026-09-03 | 이전 추천 accordion 배포 검증 | commit `7faeded`를 `main`에 push; Render `/api/health` HTTP 200, 새 JS `index-BdsKzXzV.js`·CSS `index-Dn3VKe8j.css` 전환과 bundle의 이전 추천 목록·펼침 코드 반영 확인 |
 | 2026-09-03 | 추천 카드 micro polish 시작 | 사용자 피드백에 따라 상품명 오른쪽 빈 link hit area를 제거하고 추천 목록 header의 중복 `추천 후보` eyebrow를 삭제하는 작업 시작; 외부 작업·API 호출 없음 |
 | 2026-09-03 | 추천 카드 micro polish 완료 | 두 줄 말줄임 wrapper와 inline 상품 link를 분리해 실제 상품명 text만 외부 이동 영역으로 제한하고 `추천 후보` eyebrow 제거; 전체 `npm test` 111/111·production build·관련 diff check 통과 |
+| 2026-09-03 | 추천 카드 micro polish 배포 검증 | commit `afc4b1a`를 `main`에 push; Render `/api/health` HTTP 200과 새 JS `index-o1H8oM4r.js` 전환 확인 |
+| 2026-09-03 | 이전 추천 맥락 개선 시작 | 기존 `.reverse()`와 newest-first test가 화면 순서를 반대로 만든 원인 확인; DEC-074에 따라 시간순 정렬과 recommendation 직전 사용자 메시지 연결 구현 시작, 외부 작업·API 호출 없음 |
+| 2026-09-03 | 이전 추천 맥락 개선 완료 | `.reverse()`를 제거해 첫 추천부터 시간순으로 표시하고 각 recommendation을 직전 user message와 연결; 펼침 영역에 기존 오른쪽 사용자 말풍선과 AI 추천을 함께 렌더링 |
+| 2026-09-03 | 이전 추천 맥락 자동 검증 | 시간순·loading 포함·clarification 사이·질문 연결 helper test 4/4, 전체 `npm test` 112/112, production build와 관련 diff check 통과; 실제 화면 확인 대기 |
+| 2026-09-03 | 목표 가격 해석 구현 | DEC-075에 따라 `만원`·쉼표 포함 `원` 단독 가격을 원문에서 탐지해 ±10% 범위로 치환; 명시 상·하한, `만원대`, 복수 가격 범위와 client 선택 가격은 제외하고 Agent instruction에도 동일 의미 명시 |
+| 2026-09-03 | 가격 경계 계산 보정 | 최초 test에서 부동소수점 `20만원 × 1.1`이 22만원 경계를 넘어 23만원으로 올림되는 문제 발견; BigInt 정수 비율·만원 단위 계산으로 교체해 8→7~9, 20→18~22, 50→45~55만원 보장 |
+| 2026-09-03 | 목표 가격 자동 검증 | implicit price parser 3건·Agent search 연결 1건 추가, 관련 10/10과 전체 `npm test` 116/116, production build·관련 diff check 통과; 실제 OpenAI 호출 없음 |
+| 2026-09-03 | 전체 대화 이력 구현 시작 | 기존 history helper가 `recommendation`만 통과시켜 no_result·clarification을 버리는 원인 확인; DEC-076에 따라 모든 assistant response와 직전 user message를 연결하는 구현 시작, 외부 작업·API 호출 없음 |
+| 2026-09-03 | 전체 대화 이력 구현 완료 | history helper를 모든 assistant response 대상으로 일반화하고 recommendation·no_result·clarification summary를 전부 clickable하게 변경; 펼침 시 직전 user message와 원래 AI component를 함께 복원하며 시간순·loading 열람·단일 accordion 유지 |
+| 2026-09-03 | 전체 대화 이력 자동 검증 | 전체 응답 순서·loading 최신 응답·현재 응답 제외·질문 연결·no_result 보존 test 5/5, 전체 `npm test` 117/117, production build·관련 diff check 통과; 실제 화면 확인 대기 |
+| 2026-09-03 | `만원대` 가격 구간 보강 | DEC-077에 따라 `8만원대`를 80,000~89,999원 hard range로 원문에서 deterministic 처리하고 `8만원대 이하` 등 명시 경계는 기존 해석에 위임; 관련 test 16/16, 전체 `npm test` 118/118와 production build 통과, 실제 OpenAI 호출 없음 |
 
 ### 변경 파일
 
@@ -1086,6 +1104,11 @@
 - `client/src/features/shopping/ShoppingAgent.jsx`
 - `server/routes/chat.js`
 - `server/app.test.js`
+- `server/agent/instructions.js`
+- `server/agent/shoppingAgent.js`
+- `server/agent/shoppingAgent.test.js`
+- `server/products/priceIntent.js`
+- `server/products/priceIntent.test.js`
 - `shared/sizeGuide.js`
 - `shared/sizeGuide.test.js`
 - `crawler/lib/parse-cafe24-product.js`
@@ -1105,6 +1128,9 @@
 - 대화형 오류 recovery 구현 전 필수 사용자 작업 없음. commit/push 후 같은 category 재질문에서 두 종류를 답했을 때 오류 박스 대신 AI가 한 종류를 다시 묻는지 확인한다.
 - 이전 추천 accordion 구현 전 필수 사용자 작업 없음. 화면에서는 추천을 두 번 이상 받은 뒤 상단의 `이전 추천 n개`를 눌러 목록 복원·단일 펼침·상품 상세보기를 확인한다.
 - 추천 카드 polish 후 상품명 오른쪽 빈 공간이 쇼핑몰로 이동하지 않고 카드 상세만 여는지, 목록 header가 한 줄로 간결해졌는지 확인한다.
+- 이전 추천을 2개 이상 만든 뒤 첫 번째부터 시간순으로 배열되는지, 펼쳤을 때 해당 추천 직전의 내 질문이 함께 보이는지 확인한다.
+- 목표 가격 해석은 배포 후 `8만원 바지`에서 조건 chip이 `70,000원 이상`·`90,000원 이하`로 표시되는지 확인한다. `8만원 이하`는 기존처럼 상한만 80,000원이어야 한다.
+- 결과 없음과 추가 질문 뒤에 후속 대화를 진행해 두 응답이 시간순 접힌 목록에 남고, 각각 펼쳤을 때 당시 질문과 AI 답변이 함께 복원되는지 확인한다.
 
 ### Blocker / 미해결
 
@@ -1115,7 +1141,7 @@
 
 ### 다음 작업
 
-1. 이전 추천 accordion의 펼침·접힘과 mobile 간격을 사용자 화면에서 확인한다.
+1. 추천·결과 없음·추가 질문을 포함한 이전 대화 accordion의 펼침·접힘과 mobile 간격을 사용자 화면에서 확인한다.
 2. 사용자가 원하면 실제 Graychic 상품의 표와 mobile 가로 스크롤을 확인한다.
 3. 남은 mobile·desktop polish는 사용자 우선순위에 따라 진행한다.
 

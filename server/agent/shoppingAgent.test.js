@@ -172,6 +172,29 @@ test('executes strict search tool then returns factual recommendations', async (
   assert.equal(JSON.parse(requests[1].input[0].output).candidates.length, 1);
 });
 
+test('normalizes a bare user target price before executing search', async () => {
+  const input = JSON.parse(toolResponse().output[0].arguments);
+  input.query = '8만원 바지';
+  input.required.minPrice = null;
+  input.required.maxPrice = 80_000;
+  const noResult = {
+    type: 'no_result',
+    message: '조건에 맞는 상품을 찾지 못했어요.',
+    suggestion: '다른 가격대를 살펴볼까요?',
+    recommendations: [],
+    comparison: [],
+  };
+  const { agent, searchCalls } = createMockAgent(
+    [toolResponse('resp_price', { input }), finalResponse(noResult)],
+    { searchResult: { hardFilterMatchCount: 0, candidates: [] } },
+  );
+
+  await agent.chat({ message: '8만원 바지' });
+
+  assert.equal(searchCalls[0].required.minPrice, 70_000);
+  assert.equal(searchCalls[0].required.maxPrice, 90_000);
+});
+
 test('returns one clarification without searching and continues previous response state', async () => {
   const clarification = {
     type: 'clarification',
