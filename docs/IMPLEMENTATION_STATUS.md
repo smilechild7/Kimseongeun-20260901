@@ -1041,6 +1041,8 @@
 | 2026-09-03 | DB rebuild | `npm run db:build` 후 10 shops·520 products·3,798 reviews·520 enrichments 유지, `npm run db:inspect` integrity `ok` 확인 |
 | 2026-09-03 | 사이즈표 자동 검증 | parser/crawler 신규 test 포함 전체 `npm test` 103/103, `npm run build`, `git diff --check` 통과; 최초 sandbox 4건은 localhost bind `EPERM`이었고 권한 허용 재실행에서 통과 |
 | 2026-09-03 | 사이즈표 시각 검증 시도 | Browser runtime에 연결 가능한 browser가 0개라 자동 시각 검증 불가; 제가 실행한 임시 dev process는 종료했으며 source/build 검증은 완료 |
+| 2026-09-03 | Git history 개인정보 정리 | 구현 commit을 기준으로 `main` 23개 commit을 재작성해 Annanplus·Baddiary·Maybins의 과거 `sizeGuideText` 오수집 blob을 제거; tree 동일성과 정리 문구 부재를 검증한 뒤 `7c57cd0 → cad38b8` force-with-lease push 성공 |
+| 2026-09-03 | 임시 history 정리 | 원격 갱신 성공 후 local backup branch·`refs/original`·reflog·unreachable object와 임시 sanitizer를 제거해 로컬에도 이전 reviewer 식별정보 blob을 남기지 않음 |
 
 ### 변경 파일
 
@@ -1072,12 +1074,12 @@
 - 현재 blocker 없음.
 - 자동 Browser backend가 없어 실제 위치·간격의 시각 검증은 사용자 확인이 필요하다.
 - mobile·desktop의 나머지 visual polish 범위는 이후 사용자 판단으로 확정한다.
-- reviewer 식별정보가 포함된 이전 raw blob을 제거하기 위한 Git history rewrite와 Render 재배포가 남아 있다.
+- Git history rewrite와 GitHub `main` 강제 갱신은 완료됐다. 최종 상태 로그 push와 Render 재배포 확인이 남아 있다.
 
 ### 다음 작업
 
-1. 사이즈표 변경을 commit한 뒤 승인된 Git history rewrite로 이전 raw blob을 제거한다.
-2. rewritten `main`을 push하고 Render health·frontend asset을 확인한다.
+1. Git history 정리 완료 로그를 commit/push한다.
+2. Render health·최신 frontend asset을 확인한다.
 3. 사용자가 원하면 실제 Graychic 상품의 표와 mobile 가로 스크롤을 확인한다.
 
 ## Phase 0 — Skeleton / Deployment
