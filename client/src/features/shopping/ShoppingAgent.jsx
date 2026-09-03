@@ -1,4 +1,4 @@
-import { useEffect, useReducer, useRef } from 'react';
+import { useEffect, useReducer, useRef, useState } from 'react';
 
 import LoadingState from '../../components/LoadingState.jsx';
 import {
@@ -8,6 +8,7 @@ import {
   postChat,
 } from './api.js';
 import ClarificationMessage from './ClarificationMessage.jsx';
+import { previousRecommendations } from './history.js';
 import NoResultMessage from './NoResultMessage.jsx';
 import { formatProductDisplayName } from './productName.js';
 import RecommendationResult from './RecommendationResult.jsx';
@@ -60,22 +61,44 @@ function previousResponseLabel(message) {
   return '이전 검색 결과';
 }
 
-function PreviousResponseSummary({ animate = false, message }) {
+function PreviousResponseSummary({ animate = false, expanded, historyKey, message, onToggle }) {
+  const contentId = `previous-response-${historyKey}`;
+  const expandable = message.kind === 'recommendation';
+  const folding = animate && !expanded;
+
   return (
-    <section className={animate ? 'previous-response-collapsing' : ''} aria-label="접힌 이전 AI 답변">
-      {animate && (
+    <section
+      className={folding ? 'previous-response-collapsing' : ''}
+      aria-label={expanded ? '펼친 이전 추천' : '접힌 이전 AI 답변'}
+    >
+      {folding && (
         <div className="previous-response-content">
           <div>
             <AssistantResult message={message} />
           </div>
         </div>
       )}
-      <div className={`flex items-center gap-3 ${animate ? 'previous-response-summary-enter' : ''}`}>
+      <button
+        aria-controls={expandable ? contentId : undefined}
+        aria-expanded={expandable ? expanded : undefined}
+        className={`flex w-full items-center gap-3 rounded-2xl text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2 disabled:cursor-default ${folding ? 'previous-response-summary-enter' : ''}`}
+        disabled={!expandable}
+        onClick={onToggle}
+        type="button"
+      >
         <span className="grid size-8 shrink-0 place-items-center rounded-full bg-stone-300 text-[0.65rem] font-bold text-stone-700" aria-hidden="true">AI</span>
-        <div className="min-w-0 max-w-2xl rounded-2xl rounded-tl-sm border border-stone-200 bg-white/80 px-4 py-2.5 text-sm text-stone-500 shadow-sm">
+        <span className="flex min-w-0 max-w-2xl flex-1 items-center gap-3 rounded-2xl rounded-tl-sm border border-stone-200 bg-white/80 px-4 py-2.5 text-sm text-stone-500 shadow-sm transition hover:border-orange-300 hover:text-stone-700">
           <span className="block truncate">{previousResponseLabel(message)}</span>
+          {expandable && (
+            <span className="ml-auto shrink-0 text-xs" aria-hidden="true">{expanded ? '↑' : '↓'}</span>
+          )}
+        </span>
+      </button>
+      {expanded && (
+        <div className="detail-reveal mt-4" id={contentId}>
+          <AssistantResult message={message} />
         </div>
-      </div>
+      )}
     </section>
   );
 }
@@ -86,15 +109,19 @@ export default function ShoppingAgent() {
     null,
     () => createInitialShoppingState(storedResponseId()),
   );
+  const [expandedPreviousKey, setExpandedPreviousKey] = useState(null);
   const activeRequest = useRef(null);
   const lastUserMessage = [...state.messages].reverse().find((message) => message.role === 'user');
   const assistantMessages = state.messages.filter((message) => message.role === 'assistant');
   const lastAssistantMessage = assistantMessages.at(-1);
-  const previousAssistantMessage = state.status === 'ready' && assistantMessages.length > 1
-    ? assistantMessages.at(-2)
-    : null;
   const isRefinementLoading = state.status === 'loading' && Boolean(lastAssistantMessage);
   const isRefinementError = state.status === 'error' && Boolean(lastAssistantMessage);
+  const previousRecommendationEntries = previousRecommendations(state.messages, {
+    includeLatest: isRefinementLoading,
+  });
+  const foldingNonRecommendation = isRefinementLoading && lastAssistantMessage.kind !== 'recommendation'
+    ? lastAssistantMessage
+    : null;
   const hasConversation = state.messages.length > 0;
 
   useEffect(() => () => activeRequest.current?.abort(), []);
@@ -137,6 +164,7 @@ export default function ShoppingAgent() {
   function reset() {
     activeRequest.current?.abort();
     activeRequest.current = null;
+    setExpandedPreviousKey(null);
     storeResponseId(null);
     dispatch({ type: 'RESET_CONVERSATION' });
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -177,14 +205,34 @@ export default function ShoppingAgent() {
         </section>
       ) : (
         <div className="relative mx-auto w-full max-w-7xl px-5 pb-24 pt-8 sm:px-8">
-          {isRefinementLoading && (
-            <div className="mb-6">
-              <PreviousResponseSummary animate message={lastAssistantMessage} />
+          {previousRecommendationEntries.length > 0 && (
+            <div className="mb-6 space-y-3" aria-label="이전 추천 목록">
+              {previousRecommendationEntries.map(({ key, message }) => {
+                const animate = isRefinementLoading && message === lastAssistantMessage;
+                const expanded = expandedPreviousKey === key;
+
+                return (
+                  <PreviousResponseSummary
+                    animate={animate}
+                    expanded={expanded}
+                    historyKey={key}
+                    key={key}
+                    message={message}
+                    onToggle={() => setExpandedPreviousKey((current) => current === key ? null : key)}
+                  />
+                );
+              })}
             </div>
           )}
-          {previousAssistantMessage && (
+          {foldingNonRecommendation && (
             <div className="mb-6">
-              <PreviousResponseSummary message={previousAssistantMessage} />
+              <PreviousResponseSummary
+                animate
+                expanded={false}
+                historyKey="active-message"
+                message={foldingNonRecommendation}
+                onToggle={() => {}}
+              />
             </div>
           )}
           {isRefinementError && (

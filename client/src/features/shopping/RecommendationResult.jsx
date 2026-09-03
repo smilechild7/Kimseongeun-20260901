@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useId, useState } from 'react';
 
 import ProductCard from '../../components/ProductCard.jsx';
 import { formatProductDisplayName } from './productName.js';
@@ -111,6 +111,7 @@ function ProductSummaryRow({ controlsId, expanded, onToggle, product, rank }) {
 }
 
 export default function RecommendationResult({ result }) {
+  const resultId = useId();
   const [expandedProductId, setExpandedProductId] = useState(null);
   const comparisonByProductId = new Map(
     result.comparison.map((item) => [item.productId, item]),
@@ -148,7 +149,7 @@ export default function RecommendationResult({ result }) {
           {result.products.map((product, index) => {
             const expanded = expandedProductId === product.id;
             const comparison = comparisonByProductId.get(product.id);
-            const detailId = `product-detail-${index + 1}`;
+            const detailId = `${resultId}-product-detail-${index + 1}`;
             const toggle = () => setExpandedProductId((current) => current === product.id ? null : product.id);
 
             return (

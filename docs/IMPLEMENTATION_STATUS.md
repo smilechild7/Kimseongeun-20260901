@@ -107,6 +107,8 @@
 | DEC-069 | 2026-09-03 | 화살표 action 위치 | 사용자 지시 — 검색창 폭은 고정하고 36px action을 입력 영역 오른쪽 내부에 absolute overlay로 배치 | button 등장으로 input width와 주변 layout이 움직이는 현상을 방지; input은 처음부터 우측 48px padding을 확보해 입력 text와 action이 겹치지 않음 |
 | DEC-070 | 2026-09-03 | 사이즈표 구조화·오수집 정리 | 사용자 전체 승인 — deterministic strict parser가 검증한 실측값만 반응형 HTML table로 표시하고, 검증 실패한 58개 raw 값은 `null` 처리하며 crawler 재수집도 차단; reviewer 식별정보가 포함된 기존 Git 이력은 rewrite 후 `main`을 강제 갱신 | LLM 호출·schema 변경 없이 mobile 가독성과 factual 안전성을 높임; 현재 유효한 Graychic 실측표 60개는 보존하고 상품 설명·아동 변환표·후기 오수집은 제거하며 Phase 9 이후 commit hash가 바뀔 수 있음 |
 | DEC-071 | 2026-09-03 | 검색 실패의 대화형 recovery 범위 | 사용자 선택 A — AI 응답 생성·형식·factual 검증 실패만 assistant 재질문으로 전환하고 network·timeout·rate limit·인증 장애는 실제 오류 안내 유지 | system 장애를 사용자 답변 문제처럼 숨기지 않으면서 invalid Agent response에서 대화를 끊지 않음; 직전 AI가 category를 질문했다면 한 종류를 먼저 선택하도록 deterministic하게 재질문하고 추가 OpenAI 호출은 하지 않음 |
+| DEC-072 | 2026-09-03 | 이전 추천 다시 보기 범위 | 사용자 선택 A — 현재 대화의 이전 추천만 접힌 목록으로 남기고 클릭 시 하나씩 펼치는 단일 accordion 적용; 새로고침·`새로 찾기` 이후 영구 보관은 제외 | 이미 client memory에 있는 factual 응답을 재사용하므로 API·DB·개인정보 보존 범위를 늘리지 않고 판단 비교를 지원; 최근 이전 추천부터 표시하고 새 요청을 보내면 펼친 항목은 닫음 |
+| DEC-073 | 2026-09-03 | 이전 추천의 loading 중 상호작용 | 사용자 피드백 — 후속 검색 loading 중에도 모든 이전 추천을 열 수 있고 이미 펼친 항목도 유지하도록 DEC-072의 자동 닫힘 동작을 변경 | 새 요청과 과거 결과 열람 상태를 분리; 막 접히는 최신 추천도 summary를 누르면 fold animation을 중단하고 펼치며 단일 accordion 규칙은 유지 |
 
 ## Phase 1 시작 준비
 
@@ -995,6 +997,7 @@
 - [x] 오수집 `sizeGuideText` 정리·crawler 재수집 차단·DB rebuild
 - [x] reviewer 식별정보가 포함된 Git 이력 정리와 Render 재배포 확인
 - [x] AI 응답 생성·검증 실패를 문맥형 재질문으로 복구
+- [x] 현재 대화의 이전 추천 목록 다시 보기 accordion 구현 및 검증
 - [ ] 사용자 화면 검증
 - [ ] 남은 mobile·desktop polish 항목 우선순위 확정
 
@@ -1052,11 +1055,20 @@
 | 2026-09-03 | recovery 자동 검증 | API error 분류·문맥 질문·reducer conversation 보존 관련 test 8/8, 전체 `npm test` 108/108, production build 통과; 추가 OpenAI 호출 없음 |
 | 2026-09-03 | recovery 배포 검증 | commit `7a69844`를 `main`에 push; Render 외부 `/api/health` HTTP 200과 배포 JS `index-DNtk9hie.js` HTTP 200을 확인하고 bundle에서 `agent_response_invalid`·문맥형 재질문 문구 반영 확인 |
 | 2026-09-03 | diff 검사 제한 | `git diff --check`는 이번 변경과 무관한 기존 사용자 수정 `docs/EVAL_REPORT.md`의 후행 공백 1건으로 실패; 해당 미완료 사용자 변경은 보존하고 임의 수정하지 않음 |
+| 2026-09-03 | 이전 추천 accordion 시작 | DEC-072 A안에 따라 client memory의 모든 이전 recommendation을 최근 순으로 요약하고 단일 항목만 다시 펼칠 수 있도록 구현 시작; 외부 작업·API 호출 없음 |
+| 2026-09-03 | 이전 추천 accordion 구현 | 현재 AI 답변을 제외한 recommendation만 최근 순으로 요약하며 클릭 시 원래 메시지·조건 chip·상품 목록·상세 정보를 재렌더링; `새로 찾기`에서만 열린 이력을 초기화하고 clarification folding 동작은 유지 |
+| 2026-09-03 | 복수 결과 접근성 보강 | 현재 결과와 펼친 이전 결과의 상품 상세 `aria-controls` ID가 겹치지 않도록 각 `RecommendationResult`에 React `useId` 기반 prefix 적용; history toggle에 `aria-expanded`·방향 화살표·keyboard focus-visible 제공 |
+| 2026-09-03 | 이전 추천 자동 검증 | history 선택 로직 신규 test 3/3, 전체 `npm test` 111/111, production build와 변경 범위 `git diff --check` 통과; 추가 OpenAI 호출 없음 |
+| 2026-09-03 | 이전 추천 시각 검증 제한 | Browser runtime의 연결 가능한 browser 목록이 0개라 실제 accordion 클릭·mobile 간격은 자동 확인하지 못했으며 사용자 화면 확인 대기 |
+| 2026-09-03 | loading 중 accordion 결함 수정 | 세 번째 대화 loading 중 첫 추천이 열리지 않는 피드백을 반영; submit 시 expansion 초기화를 제거하고 folding 중인 최신 recommendation의 disabled·render 제한도 해제해 요청 중 모든 이전 추천 열람 허용 |
+| 2026-09-03 | loading 상호작용 회귀 검증 | 전체 `npm test` 111/111, production build와 관련 파일 `git diff --check` 통과; 자동 Browser 연결 대상 부재로 실제 loading 중 click 재검증은 사용자 확인 대기 |
 
 ### 변경 파일
 
 - `client/src/features/shopping/RecommendationResult.jsx`
 - `client/src/features/shopping/ShoppingAgent.jsx`
+- `client/src/features/shopping/history.js`
+- `client/src/features/shopping/history.test.js`
 - `client/src/features/shopping/productName.js`
 - `client/src/features/shopping/productName.test.js`
 - `client/src/components/ProductCard.jsx`
@@ -1087,6 +1099,7 @@
 - 사이즈표 구현·데이터 정리·DB rebuild에는 필수 사용자 작업 없음.
 - Render 배포 후 사이즈표가 있는 Graychic 상품 상세에서 표 열기와 mobile 가로 스크롤을 선택적으로 확인한다.
 - 대화형 오류 recovery 구현 전 필수 사용자 작업 없음. commit/push 후 같은 category 재질문에서 두 종류를 답했을 때 오류 박스 대신 AI가 한 종류를 다시 묻는지 확인한다.
+- 이전 추천 accordion 구현 전 필수 사용자 작업 없음. 화면에서는 추천을 두 번 이상 받은 뒤 상단의 `이전 추천 n개`를 눌러 목록 복원·단일 펼침·상품 상세보기를 확인한다.
 
 ### Blocker / 미해결
 
@@ -1097,8 +1110,9 @@
 
 ### 다음 작업
 
-1. 사용자가 원하면 실제 Graychic 상품의 표와 mobile 가로 스크롤을 확인한다.
-2. 남은 mobile·desktop polish는 사용자 우선순위에 따라 진행한다.
+1. 이전 추천 accordion의 펼침·접힘과 mobile 간격을 사용자 화면에서 확인한다.
+2. 사용자가 원하면 실제 Graychic 상품의 표와 mobile 가로 스크롤을 확인한다.
+3. 남은 mobile·desktop polish는 사용자 우선순위에 따라 진행한다.
 
 ## Phase 0 — Skeleton / Deployment
 
