@@ -47,7 +47,10 @@ export function parseArguments(argumentsList) {
   const options = {
     dryRun: false,
     limit: null,
+    missingOnly: false,
+    outputPath: null,
     productIds: null,
+    seedPaths: [],
   };
 
   for (let index = 0; index < argumentsList.length; index += 1) {
@@ -57,9 +60,18 @@ export function parseArguments(argumentsList) {
       options.dryRun = true;
       continue;
     }
+    if (argument === '--missing-only') {
+      options.missingOnly = true;
+      continue;
+    }
 
     const [name, inlineValue] = argument.split('=', 2);
-    if (name === '--limit' || name === '--product-ids') {
+    if (
+      name === '--limit' ||
+      name === '--product-ids' ||
+      name === '--output' ||
+      name === '--seed'
+    ) {
       const value = inlineValue ?? argumentsList[++index];
       if (!value || value.startsWith('--')) {
         throw new Error(`${name} requires a value`);
@@ -70,11 +82,15 @@ export function parseArguments(argumentsList) {
         if (!Number.isSafeInteger(options.limit) || options.limit <= 0) {
           throw new Error('--limit must be a positive integer');
         }
-      } else {
+      } else if (name === '--product-ids') {
         options.productIds = value.split(',').filter(Boolean);
         if (options.productIds.length === 0) {
           throw new Error('--product-ids requires at least one product ID');
         }
+      } else if (name === '--output') {
+        options.outputPath = value;
+      } else {
+        options.seedPaths.push(value);
       }
       continue;
     }
@@ -107,13 +123,57 @@ async function writeJsonAtomically(outputPath, value) {
   await rename(temporaryPath, outputPath);
 }
 
+async function readEnrichments(filePath, { optional = false } = {}) {
+  let value;
+  try {
+    value = JSON.parse(await readFile(filePath, 'utf8'));
+  } catch (error) {
+    if (optional && error.code === 'ENOENT') {
+      return [];
+    }
+    throw error;
+  }
+
+  if (!Array.isArray(value)) {
+    throw new Error(`Expected an enrichment array in ${filePath}`);
+  }
+
+  return value;
+}
+
+function mergeExistingEnrichments(collections, rawProductIds) {
+  const merged = [];
+  const seenProductIds = new Set();
+
+  for (const collection of collections) {
+    for (const enrichment of collection) {
+      const id = enrichment?.productId;
+
+      if (typeof id !== 'string' || !rawProductIds.has(id)) {
+        throw new Error(`Enrichment does not match a raw product: ${id ?? 'null'}`);
+      }
+      if (seenProductIds.has(id)) {
+        throw new Error(`Duplicate existing enrichment: ${id}`);
+      }
+
+      seenProductIds.add(id);
+      merged.push(enrichment);
+    }
+  }
+
+  return merged;
+}
+
 async function readCheckpoint(checkpointPath, selectedProductIds) {
   let checkpoint;
   try {
     checkpoint = JSON.parse(await readFile(checkpointPath, 'utf8'));
   } catch (error) {
     if (error.code === 'ENOENT') {
-      return [];
+      return {
+        enrichments: [],
+        usage: { inputTokens: 0, outputTokens: 0, totalTokens: 0 },
+      };
     }
     throw error;
   }
@@ -134,7 +194,20 @@ async function readCheckpoint(checkpointPath, selectedProductIds) {
     throw new Error('Enrichment checkpoint is not a valid completed prefix');
   }
 
-  return checkpoint.enrichments;
+  return {
+    enrichments: checkpoint.enrichments,
+    usage: {
+      inputTokens: checkpoint.usage?.inputTokens ?? 0,
+      outputTokens: checkpoint.usage?.outputTokens ?? 0,
+      totalTokens: checkpoint.usage?.totalTokens ?? 0,
+    },
+  };
+}
+
+function addUsage(total, usage) {
+  total.inputTokens += usage.inputTokens;
+  total.outputTokens += usage.outputTokens;
+  total.totalTokens += usage.totalTokens;
 }
 
 export async function runEnrichment({
@@ -143,10 +216,26 @@ export async function runEnrichment({
   rawDataDirectory = path.join(repositoryRoot, 'data/raw'),
   outputPath = path.join(repositoryRoot, 'data/enriched/products.json'),
   checkpointPath = `${outputPath}.checkpoint`,
+  seedPaths = options.seedPaths ?? [],
   enrich = enrichProduct,
 }) {
   const products = await readRawProducts(rawDataDirectory);
-  const selectedProducts = selectProducts(products, options);
+  const rawProductIds = new Set(products.map(productId));
+  const existingEnrichments = options.missingOnly
+    ? mergeExistingEnrichments(
+        [
+          await readEnrichments(outputPath, { optional: true }),
+          ...(await Promise.all(seedPaths.map((seedPath) => readEnrichments(seedPath)))),
+        ],
+        rawProductIds,
+      )
+    : [];
+  const existingProductIds = new Set(
+    existingEnrichments.map((enrichment) => enrichment.productId),
+  );
+  const selectedProducts = selectProducts(products, options).filter(
+    (product) => !existingProductIds.has(productId(product)),
+  );
   const summary = {
     selectedProductIds: selectedProducts.map(productId),
     logicalApiCalls: selectedProducts.length,
@@ -163,10 +252,12 @@ export async function runEnrichment({
     throw new Error('An OpenAI client is required unless --dry-run is used');
   }
 
-  const enrichments = await readCheckpoint(
+  const checkpoint = await readCheckpoint(
     checkpointPath,
     summary.selectedProductIds,
   );
+  const enrichments = checkpoint.enrichments;
+  const usage = checkpoint.usage;
   const resumedCount = enrichments.length;
   if (resumedCount > 0) {
     console.log(
@@ -188,15 +279,25 @@ export async function runEnrichment({
         total: selectedProducts.length,
       }),
     );
-    enrichments.push(await enrich({ client, product }));
+    enrichments.push(
+      await enrich({
+        client,
+        product,
+        onUsage: (productUsage) => addUsage(usage, productUsage),
+      }),
+    );
     await writeJsonAtomically(checkpointPath, {
       promptVersion: AI_CONFIG.enrichment.promptVersion,
       selectedProductIds: summary.selectedProductIds,
       enrichments,
+      usage,
     });
   }
 
-  await writeJsonAtomically(outputPath, enrichments);
+  await writeJsonAtomically(outputPath, [
+    ...existingEnrichments,
+    ...enrichments,
+  ]);
   await rm(checkpointPath, { force: true });
 
   return {
@@ -204,7 +305,9 @@ export async function runEnrichment({
     ...summary,
     resumed: resumedCount,
     executedLogicalApiCalls: selectedProducts.length - resumedCount,
-    written: enrichments.length,
+    usage,
+    preserved: existingEnrichments.length,
+    written: existingEnrichments.length + enrichments.length,
     outputPath: path.relative(repositoryRoot, outputPath),
   };
 }
@@ -218,7 +321,14 @@ async function main() {
         maxRetries: AI_CONFIG.enrichment.maxRetries,
         timeout: AI_CONFIG.enrichment.timeoutMs,
       });
-  const result = await runEnrichment({ options, client });
+  const outputPath = options.outputPath
+    ? path.resolve(options.outputPath)
+    : path.join(repositoryRoot, 'data/enriched/products.json');
+  if (options.seedPaths.length > 0 && !options.missingOnly) {
+    throw new Error('--seed requires --missing-only');
+  }
+  const seedPaths = options.seedPaths.map((seedPath) => path.resolve(seedPath));
+  const result = await runEnrichment({ options, client, outputPath, seedPaths });
   console.log(JSON.stringify({ event: 'enrichment.complete', ...result }));
 }
 

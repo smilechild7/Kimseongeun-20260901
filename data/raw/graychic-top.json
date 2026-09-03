@@ -1,0 +1,1783 @@
+[
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "15065",
+      "productUrl": "https://graychic.co.kr/product/%EC%B9%98%EC%BD%98%EC%8A%A4%ED%8A%B8%EB%9D%BC%EC%9D%B4%ED%94%84%EC%85%94%EC%B8%A0%EC%BD%94%ED%8A%BC100free55-66%EB%B0%98/15065/category/7/display/2/"
+    },
+    "name": "치콘스트라이프셔츠(코튼100%)[FREE(55-66반)]",
+    "brand": "GRAYCHIC",
+    "category": "top",
+    "price": 43400,
+    "originalPrice": 53000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202607/46e7990f0d49b45f7e9ccd735a90a06e.jpg",
+    "colors": [],
+    "sizes": [
+      "FREE(55-66반)"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 어깨단면 ② 어깨길이 ③ 소매길이 ④ 암홀 ⑤ 가슴단면 ⑥ 총장(뒷기장기준) Free 54 22 51 24 64 72",
+    "material": "코튼100%",
+    "description": "비침이 은은하게 올라오는 얇고 가벼운 소재~ 힙을 여유롭게 덮어주는 기장감입니다",
+    "rating": 4.9,
+    "reviewCount": 12,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "옷은 시원해서 간절기에 입기 딱 좋겠어요 깜끔해 보이고 예뻐요 사이즈는 생각보다 많",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-29T15:06:23+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가볍고 얇아서 시원해요 걸쳤을 때 여리한 핏 나와서 만족해요 세탁후에 쭈글거리긴하지",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-22T17:18:23+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "셔츠를 좋아하기도 하고 비침은 있지만 너무 맘에 들어요~ 그런데..여행가서 첫날 잘 입",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-12T01:13:18+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "오랜만에 맘에드는 셔츠 찾았어요. 예뻐요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-11T20:03:15+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "안 입은거 처럼 편하고 시원합니다 다만 소매가 길어요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-09T20:53:30+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "원사가 위낙 앏아서 몆군데 마무리가 미흡하긴 하지만 적당한 박시사이즈에 요즘같",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-07T19:59:06+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "소재도 색상도 맘에 들어 구매했는데 넉넉한 사이즈라 체형커버도 좋구 편하게 여름내",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-31T11:37:32+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 맘에 들어요 스트라이프가 입체감 있게 들어가있어서 더 매력적이예요 루즈핏이 여",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-30T21:52:32+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "생각보다 스트라이프가 짙은것 같았는데 걸쳐보니 또 괜찮네요 시스루라서 이너는 필수",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-26T09:17:09+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "세상 여리여리 합니다~ 너무시원하고 예뻐요~^^",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-24T18:26:39+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "실물이 더 이뻐요 하늘하늘한 느낌이 마음에 쏙 들어요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-24T15:41:02+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "깔끔합니다!요즘 셔츠에 빠져 몇 장을 샀는지 모르겠습니다ㅎ",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-24T07:22:18+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:25.565Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "15137",
+      "productUrl": "https://graychic.co.kr/product/gc-made-%EB%AA%A8%EC%98%8C%ED%99%80%EA%B0%80%EB%B0%98%ED%8C%94%EB%8B%88%ED%8A%B8%EC%9A%B8%EB%B9%84%EC%8A%A4%EC%BD%94%EC%8A%A4%ED%98%BC%EB%B0%A9free55-66/15137/category/7/display/2/"
+    },
+    "name": "[GC MADE] 모옌홀가반팔니트(울/비스코스혼방)[FREE(55-66)]",
+    "brand": "GRAYCHIC",
+    "category": "top",
+    "price": 26300,
+    "originalPrice": 31000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202608/7e950824bbf9a38bdc7f6544080dd265.jpg",
+    "colors": [
+      "아이보리",
+      "베이지",
+      "핑크",
+      "블루",
+      "올리브"
+    ],
+    "sizes": [
+      "FREE(55-66)"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 어깨단면 ② 어깨길이 ③ 소매길이 ④ 암홀 ⑤ 가슴단면 ⑥ 총장(뒷기장기준) Free 40.5 12.5 26 24 51.5 60",
+    "material": "폴리30%, 아크릴28%, 나일론20%, 비스코스18%, 울4%",
+    "description": "홀가먼트 기법으로 더 정교하고 편안한 니트웨어 기본에 집중한 디자인으로 활용도 높은 아이템이에요",
+    "rating": 5,
+    "reviewCount": 2,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "올리브가 블루보다 넉넉하게 나왔는지 좀더 여유 있어요. 올리브에 빠져서 계속 구매중",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-29T20:16:56+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "모델분이 입으신건 넉넉해보였는데 팔도 품도 타이트하네요 저는 66반에서 77이어서 그",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-29T20:15:35+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:27.125Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "15139",
+      "productUrl": "https://graychic.co.kr/product/%EB%A1%9C%EC%97%90%ED%83%80%EC%8A%A4%EC%B9%B4%ED%94%84%EB%B8%94%EB%9D%BC%EC%9A%B0%EC%8A%A4free55-66%EB%B0%98/15139/category/7/display/2/"
+    },
+    "name": "로에타스카프블라우스[FREE(55-66반)]",
+    "brand": "GRAYCHIC",
+    "category": "top",
+    "price": 78500,
+    "originalPrice": 97000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202608/4a830d86510500134bcbad36facbd00a.jpg",
+    "colors": [
+      "아이보리",
+      "베이지",
+      "블랙"
+    ],
+    "sizes": [
+      "FREE(55-66반)"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 소매길이 ② 암홀 ③ 가슴단면 ④ 총장(뒷기장기준) Free 71.5 26 54.5 59",
+    "material": "폴리80%, 레이온20%",
+    "description": "스카프를 두른 듯, 우아한 타이 디테일 사선으로 떨어지는 단작이 세련된 포인트를 더해줘요",
+    "rating": 5,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "가격대는 있지만 너무 마음에 들어서 구매했어요. 기대보다 확 이쁜건 모르겠는데 고급",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-09-02T09:44:47+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:28.631Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "15106",
+      "productUrl": "https://graychic.co.kr/product/%EC%BD%94%EB%84%AC%ED%83%80%EC%9D%B4%EB%B8%94%EB%9D%BC%EC%9A%B0%EC%8A%A4free55-66%EB%B0%98/15106/category/7/display/2/"
+    },
+    "name": "코넬타이블라우스[FREE(55-66반)]",
+    "brand": "GRAYCHIC",
+    "category": "top",
+    "price": 50800,
+    "originalPrice": 62000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202608/3788cdff31b50ea27333a90d800d43aa.jpg",
+    "colors": [
+      "크림",
+      "소라",
+      "브라운"
+    ],
+    "sizes": [
+      "FREE(55-66반)"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 소매길이 ② 암홀 ③ 가슴단면 ④ 총장(뒷기장기준) Free 32 23 58 64",
+    "material": "폴리53%, 레이온47%",
+    "description": "드레시하고 고급스러운 무드- 부드럽게 흐르는 넥라인이 우아한 실루엣을 완성해요",
+    "rating": 5,
+    "reviewCount": 2,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "요즘 타이 블라우스 유행이라 구매했는데 역시 실망시키는 법이 없는 그레시크네요 넥",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-28T05:56:50+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "오래 기다렸는데 마음에 들어요 사진보다 빛나고 오묘한 소라색이고 고급진 느낌이에요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-23T19:28:18+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:30.497Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "12349",
+      "productUrl": "https://graychic.co.kr/product/gc-made-%EB%B2%A8%EB%A1%A0%EC%BD%94%ED%8A%BC%EC%85%94%EC%B8%A0free55-66%EB%B0%98/12349/category/7/display/1/"
+    },
+    "name": "[GC MADE] 벨론코튼셔츠[FREE(55-66반)]",
+    "brand": "GRAYCHIC",
+    "category": "top",
+    "price": 50000,
+    "originalPrice": 61000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202508/e6b59decc1f041b69bd6a69adf8f195d.jpg",
+    "colors": [
+      "핑크"
+    ],
+    "sizes": [
+      "FREE(55-66반)"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 어깨단면 ② 어깨길이 ③ 소매길이 ④ 암홀 ⑤ 가슴단면 ⑥ 총장(뒷기장기준) Free 58 23 52.5 24 65.5 (앞)71 (뒤)73",
+    "material": "코튼100%",
+    "description": "톤 다운 된 고급스러운 컬러감과 바이오워싱된 내추럴한 코튼 원사! 구김 적은 실용적인 소재로 준비했어요",
+    "rating": 4.9,
+    "reviewCount": 239,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "얇고요 봄에 입으면 좋을 셔츠 입니다 품도 낙낙합니다 구김이 있어요 건조대에 널때 쫙",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-07T17:25:50+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색상예뻐요 차분한 핑크색인데 오묘한 분위기가 납니다 좋은거 같아요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-02-28T21:35:52+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "색상이 차분하고 재질이 고급스러워요 오버핏에 여리해서 봄에 화하하게 입을수 있겠네",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-02-25T17:25:02+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색상은 사진 그대로 이쁩니다. 저에게는 여유 있게 입을 수 있는 사이즈입니다.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-12-29T23:49:59+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "그레이 베스트와 함께 입으니 또다른 분위기가 연출되네요 여러모로 코디가 가능해서 좋",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-15T23:10:07+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "부들부들할 줄 알았는데 생각보다 핏이 잡혀있는 셔츠였어요. 색감은 말모이구요. 사이",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-26T01:14:38+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색상 잘 나왔어요 저랑 어울리기도 하고요 다만. 포장지 뜯을때 단추 구멍마다 하얀색",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-15T11:44:07+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "예뻐요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-15T11:40:22+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색상 살짝 다운된 핑크라 이뻐요~",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-11-10T09:29:05+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색상이 너무 예뻐서 여릉부터 살까말까 고민하다가 가을 다 돼서 사버렸네요.진작 살껄",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-11-01T00:22:36+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "품도 넉넉하고 색상이 너무 예뻐요. 누구나 어울릴. 핑크 맞네요. 어디든 튀지않게 매치",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-10-24T04:21:33+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색감이 예뻐요~ 여기저기 잘 어울리겠어요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-10-20T18:01:56+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "생각보다 핏이 많이 커서 좀 줄일까하고 있어요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-10-15T15:01:29+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "올해 그크에세 구매한 셔츠만 10벌은 넘는거 같아요 이제 그만 사야지 하다가도 신상 코",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-10-11T11:27:13+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색깔이 너무 예쁘게 나왔어요 재질도 좋고 넘 맘에 들어요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-09-30T09:22:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "지난달 말 친구들 모임에 화이트색 청바지에 입고 친구들한테 너무 이쁘다고 이야기를",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-07-17T10:44:06+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "칼라 고급스럽고 예뻐요 맘에 들어서 잘 입고 다니네요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-06-02T12:34:42+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "약간 톤다운된 핑크입니다. 한치수 작은것도 있었으면 합니다. 그레이시크 옷이 맘에 들",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-05-27T17:36:55+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "우선 색감이 너무 이뻐요! 큼직하니 여유있어서 활용하기 좋네요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-05-24T16:02:03+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "오버핏으로 정말 편하고 특시 색상이 너무 맘에 들어요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-05-23T09:00:45+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:32.097Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "14562",
+      "productUrl": "https://graychic.co.kr/product/gc-made-%EB%9D%BC%EC%9A%B4%EB%93%9C%ED%99%80%EA%B0%80%EB%B0%98%ED%8C%94%EB%8B%88%ED%8A%B8%EC%9A%B8100free55-66/14562/category/7/display/1/"
+    },
+    "name": "[GC MADE] 라운드홀가반팔니트(울100%)[FREE(55-66)]",
+    "brand": "GRAYCHIC",
+    "category": "top",
+    "price": 50000,
+    "originalPrice": 61000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202508/0497518644799a3a391c9bfcb8f18ab5.jpg",
+    "colors": [
+      "오트밀",
+      "와인"
+    ],
+    "sizes": [
+      "FREE(55-66)"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 어깨단면 ② 어깨길이 ③ 소매길이 ④ 암홀 ⑤ 가슴단면 ⑥ 총장(뒷기장기준) Free 37 10 24 22 47 54",
+    "material": "울100%",
+    "description": "이음새가 생략돼서 거슬림 없이 매끈한 라인감! 부드럽고 포근한 울100% 소재로 만나보실 수 있어요",
+    "rating": 4.9,
+    "reviewCount": 15,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "예뻐요~~ 더위 많이 타는 저는 겨울까지도 잘 입을듯해요. 아쉽게도 보풀은 잘 일어나네",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-08T19:49:33+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "처음 입을 때는 살짝 까슬한가??? 라는생각이 들었는데 아니네요~ 요즘처럼 온도차가 클",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-26T21:34:46+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "배송이 너무 오래 걸려서 취소 하까 싶었는데 옷이 너무 예뻐서 구매확정 합니다.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-16T21:51:41+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "와인색 너무 예뻐요^^ 반팔이지만 소재덕분인지 너무 따뜻하고 간절기에 딱 하나만 입어",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-16T12:08:12+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가을에 하나쯤 있으면 좋을 색상으로 구매했어요. 와인색 이쁘고 얇은니트라 지금입기",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-29T18:01:39+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "생각보다 니트가 얇아요~ 지금 입기 딱좋고 밝은 오트밀이라 얼굴이 환해보이네요~ 추워",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-29T18:00:36+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "얇은 니트재질이네요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-26T18:57:39+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "처음 오픈했을때는 화면보다 밝은 와인색 느낌이라 얼굴이 어두워보일까봐 고민했어요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-23T18:23:07+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "부드럽고 깨끗한느낌 살짝 길면 더좋을듯",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-21T17:58:13+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색예쁘고좋은데 조금짧은느낌",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-21T17:56:28+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가격이 좀 있어서 살까 고민했었는데 퀄리티가 넘 좋네요^^ 다른색도 사고싶어집니다~",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-19T17:48:25+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 부드럽고 가격도 좋고 이쁩니다. 깔끔하고 핏이 좋아요 배송 빠르고 아주아주 만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-19T16:17:50+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "와인색상 너무 이뻐요... 약간 톤 다운된 느낌이라 어두운 톤 얼굴이 확 살아나네요...",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-05T21:38:54+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "정말 예쁜 색이예요 그냥 베이지가 아니라 부드럽게 색이 믹스되어 있어서 더 고급스러",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-05T08:27:31+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가을하면 그레이 차콜이죠 색이 너무 고급스럽고 부들부들 아주 만족해요 간절기에 입기",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-05T08:26:23+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:33.653Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "14557",
+      "productUrl": "https://graychic.co.kr/product/gc-made-%ED%99%80%EA%B0%80%EB%B8%8C%EC%9D%B4%EB%B0%98%ED%8C%94%EB%8B%88%ED%8A%B8%EC%9A%B8100free55-66/14557/category/7/display/1/"
+    },
+    "name": "[GC MADE] 홀가브이반팔니트(울100%)[FREE(55-66)]",
+    "brand": "GRAYCHIC",
+    "category": "top",
+    "price": 50000,
+    "originalPrice": 61000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202508/325e19f1daaf71fb61856d9ddad3f516.jpg",
+    "colors": [
+      "아이보리",
+      "모카"
+    ],
+    "sizes": [
+      "FREE(55-66)"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 어깨단면 ② 어깨길이 ③ 소매길이 ④ 암홀 ⑤ 가슴단면 ⑥ 총장(뒷기장기준) Free 39 11 22 22 47 54",
+    "material": "울100%",
+    "description": "이음새나 박음질 없는 홀가먼트 가공기법 사용! 세련된 분위기를 연출 해 줄 브이넥 디자인입니다",
+    "rating": 5,
+    "reviewCount": 24,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "아 요고 정말 이뻐요. 여리여리한 느낌이 나게하는. 봄되면 다른 색도 사려구요.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-01-25T13:18:31+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색상이 이뻐서 재구매 처음 구매한컬러는 모카인데 그것도 이뻣구요 확실히 브이넥이 주",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-11T15:08:28+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "차콜이랑 같이 주문했어요. 기본템이라 자주 입을 거 같긴 해요. 목파임이 쪼끔 있긴한",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-22T14:54:30+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "부드럽고 가볍고 따뜻해요. 길이도 너무 짧지 않아서 좋아요. 목파임이 살짝 애매합니다",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-22T14:53:47+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "아주좋아요 어깨넓고 덩치있고 팔뚝살있어서 니트반팔 고르기힘든체형인데 팔뚝쪽도 살",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-16T07:37:03+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무너무 예뻐요! 넥이 깊게 파이지 않었을까 걱정했는데 괜히 걱정했어요. 길이도 적당",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-09T20:05:13+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색상이 모카가 아니고 카키에요^^ 색상명을 바꾸는게 어떠실까 싶네요 옷은 이버요~",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-02T11:04:33+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색상이 가을에 입기 딱좋아요~ 니트가 생가보다 얇아서 지금 입기 딱이예요~ 지금 열심",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-29T17:08:23+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "보드랍고 여리한 핏이 여성스러워요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-29T15:15:11+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "배송이 넘나 느려서 추소 요청 했는데 취소하는 날 배송이 되었나봐요 모카라 해서 갈색",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-23T18:25:10+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "딱 가을 컬러 워낙 브라운계열 좋아해서 보자마자 픽했네요 가슴부분 파임도 너무 깊지",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-23T18:15:55+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "울니트라 살짝 까끌거림은 있어요. 넥라인깊이가 살짝 깊은가 싶은데 불편한 정도는 아",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-21T10:13:18+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "조금 까슬거려요. 날씨가 더 시원해지면 입으려구요.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-16T19:48:13+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색상이 음 카키입니다 브라운 톤보다 녹색 느낌 ㅜ 핏은 완전 기본이며 까슬 거리지 않",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-16T19:03:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "까슬함이 덜하지만 울소재 맞구요 울냄새는 안나네요 옷이 매우가볍습니다",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-14T13:56:13+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색상도 분위기있고 보드랍고 잘입을듯요 이번쇼핑 만족합니다",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-14T13:38:17+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "매우 가볍네요 울치고 덜 까슬거리고요 딱 예쁜 길이에요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-12T20:12:15+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "조아요~~~?",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-11T10:54:12+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "부들부들하니 예뻐요 코디된 검정 바지랑 입으려고요 너무 맘에 들어요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-10T19:48:48+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "카키빛이 도는 모카네요. 싸이즈넉넉합니다~~선선한 가을이 어서와 입었슴 좋겠어요^^",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-04T19:13:45+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:35.177Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "14556",
+      "productUrl": "https://graychic.co.kr/product/gc-made-%ED%99%80%EA%B0%80%EB%9D%BC%EC%9A%B4%EB%93%9C%EB%8B%88%ED%8A%B8%EC%A1%B0%EB%81%BC%EC%9A%B8100free55-66/14556/category/7/display/1/"
+    },
+    "name": "[GC MADE] 홀가라운드니트조끼(울100%)[FREE(55-66)]",
+    "brand": "GRAYCHIC",
+    "category": "top",
+    "price": 50000,
+    "originalPrice": 61000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202508/e414878b42792a1d5bb6bf595c3d1b71.jpg",
+    "colors": [
+      "연그레이"
+    ],
+    "sizes": [
+      "FREE(55-66)"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 어깨단면 ② 어깨길이 ③ 암홀 ④ 가슴단면 ⑤ 총장(뒷기장기준) Free 39 11 18 46 53",
+    "material": "울100%",
+    "description": "매년 질리지 않게 입을 수 있는 단정한 베이직 아이템~ 울100% 소재가 주는 군더더기 없는 깔끔한 멋이 있어요",
+    "rating": 5,
+    "reviewCount": 18,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "이뽀용 추천합니당",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-02-14T18:20:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "살짝 정전기가 나는 듯 하지만 티셔츠랑 잘 입어볼게요. 색상이 은은해서 좋아요.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-12-26T13:42:31+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색상마다 살짝 사이즈 차이가 나요. 목부분이 좀 타이트한게 좋은데 넓어서 편하게 입을",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-12-26T13:41:45+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이쁘네요 소재도 좋아요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-12-15T10:18:10+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "오랜시간 기다렸다 받았어여~ ㅎㅎ 색감 너무 예쁘고 재질도 너무 좋아요^^",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-03T20:12:49+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "그레이먼저 받아봐서 맘에드는건 당면하구요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-17T21:02:41+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "배송이 좀늦었지만 마음에 들어요~ 보풀이 안생기면 좋을텐데 어떨지 모르겠어요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-17T15:09:08+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "티에 입기만해도 신경써입은느낌 이뻐요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-16T23:41:08+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "오피스룩에 입기에 색깔도 무난하게 어울리고, 슬랙스나 청바지 다 어울려요^^ 요즘같은",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-16T12:06:33+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "니트쪼끼 이뻐요 스커트랑 매치하기 좋을듯해서 풀세트로 주문했네요 반팔이랑 매치해야",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-03T06:35:52+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "고급스럽고 이뻐요 여행시에 입으려고 했는데 배송이 늦어서 못입었어요.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-30T11:05:48+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "넘좋아요.요즘계속입고다니고 부드럽고 모든옷에 잘어울려요.다른컬러사러들어왔네요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-24T14:15:51+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "배송이 너무 느려요ㅜㅜ 생가코다 색상은 예쁘네요. 다만 소재나 두께가있어 4계절은 어",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-16T08:52:05+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "흰티에 레이어드해서 입으려구요 예쁜 그레이색상이네요 지금부터 잘입을게요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-14T13:39:12+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "그레이시크 니트는 말모! 티셔츠랑 같이 구매해서 레이어드 해서 입고 나가니 넘 이뻤어",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-09T17:52:41+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "많이 부드럽고 촉감이 좋아요 무난하게 10년은 입을수 있겠어요 유행안타는 기본 스타",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-03T10:12:11+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색이 둘 다 너무 예뻐요~~해마다 조끼는 깔 별 쟁이고 있어요.그레이가 먼저 도착하고,",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-02T18:53:11+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "추위타는 사람에게 조끼는 필수 아이템이지욥~ 그크에서 매년 조끼를 깔별로 구입해서",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-01T10:32:24+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:36.707Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "7984",
+      "productUrl": "https://graychic.co.kr/product/%EB%B9%84%EA%B8%B0%EB%8B%9D%EC%96%B8%EB%B0%9C%EC%85%94%EC%B8%A0free55-66%EB%B0%98/7984/category/7/display/1/"
+    },
+    "name": "비기닝언발셔츠[FREE(55-66반)]",
+    "brand": "GRAYCHIC",
+    "category": "top",
+    "price": 45900,
+    "originalPrice": 56000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202508/32e973a3225a796507fe291c0e663fc4.jpg",
+    "colors": [],
+    "sizes": [
+      "FREE(55-66반)"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 어깨단면 ② 어깨길이 ③ 소매길이 ④ 암홀 ⑤ 가슴단면 ⑥ 총장(뒷기장기준) 트임 Free 64 26 46 20 67.5 (앞)67(뒤)75 7.5",
+    "material": "코튼100%",
+    "description": "매 시즌 꾸준하게 인기 많은 스테디셀러! 낙낙하게 입기 좋은 사이즈와 힙을 덮어주는 기장이에요",
+    "rating": 4.8,
+    "reviewCount": 232,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "학교 교복셔츠네요 사실 사진보다는 별롭니다",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-19T14:23:58+09:00"
+      },
+      {
+        "rating": 3,
+        "text": "많이 커요 모델분이 키가 큰가봐요 저한테 너무 길고 펑퍼짐해요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-04T23:14:52+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "모델 핏에 반해서 구입했어요 안에 나시랑 받쳐입기도 좋고 깔끔하게 두루두루 입을수",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-29T12:09:03+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "원하던 핏이에요~ 오늘 입고 출근했어요. 자켓없이 단품으로~ 깔끔하게 길이도 딱 좋아",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-22T15:26:31+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "아주 새하얀 화이트 색상이에요. 교복 와이셔츠 느낌도 살짝드네요. 언발란스 디자인이",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-19T13:17:47+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "잘받았습니다.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-19T13:13:20+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "간절기에 딱 맞는 셔츠 제키에는 힙을 충분히 덮어주고 여유가 많습니다",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-11T12:08:45+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "출근륙으로 입으려고 구매했는데요. 초여름까지 가능한 재질입니다. 입었을때 핏도 예쁘",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-06-07T11:16:59+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "살이 많이쪄서 맞는 셔츠가 없어서 급하게 주문했는데 잘맞아요 예쁘네요 여기저기 잘어",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-04-29T07:37:04+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "아주 빳빳한 재질의 셔츠는 아니에요. 그래도 힘이 좀 있고 핏이.괜찮네요. 청바지에.입",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-04-14T12:38:37+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "오버핏으로 사이즈 여유있고 앞뒤가 언발란스한 기장이라 너무 부해보이지 않아 맘에 들",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-04-12T22:36:55+09:00"
+      },
+      {
+        "rating": 3,
+        "text": "오버핏인거 같고.,. 엉덩이를 다 덮을수 있는 길이감 입니다. 다림질. 필수 입니다.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-03-26T10:40:05+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "빠른배송으로 잘 받았어요! 빳빳하고 소재감 좋네요 데일리로 잘 입힐듯해요!",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-02-13T11:51:58+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이쁘네요 딱제갖닻던스타일 이네요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-02-04T17:26:31+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "기본템~이라 샀어요.화이트셔츠는 매년 사게 되네요^^ 사이즈넉넉하고 스타일 좋아요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-12-01T09:01:20+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "여름에 샀더라면 좋았을텐데 지금은 추워서 안에 이너로 입어요. 사이즈 풍성해서 좋습",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-11-16T15:52:50+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 구김이 많은 상태로 와서 놀랐습니다. 원래 이렇게 구김이 많은 상태로 파시나요?",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-11-06T20:33:36+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "딱 빳빳한 남편 와이셔츠 입니다!!! 다림질 필수필수입니다~~~ 핏은 이뻐요 청바지 하",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-11-05T19:51:13+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "배송이 느려 입어보지를 못 했네요., 생각보다 많이 박시합니다",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-10-31T23:13:02+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "좋아요 좋아요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-10-16T02:16:45+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:38.185Z"
+  },
+  {
+    "source": {
+      "shopId": "graychic",
+      "shopName": "그레이시크",
+      "sourceProductId": "14580",
+      "productUrl": "https://graychic.co.kr/product/%EC%A0%88%EA%B0%9C%EB%B2%8C%EB%A3%AC%ED%8B%B0free55-66/14580/category/7/display/1/"
+    },
+    "name": "절개벌룬티[FREE(55-66)]",
+    "brand": "GRAYCHIC",
+    "category": "top",
+    "price": 34400,
+    "originalPrice": 41000,
+    "imageUrl": "https://cafe24img.poxo.com/sungya522/web/product/big/202509/fa5dbce50ddd45a68195666f89bc484f.jpg",
+    "colors": [
+      "크림"
+    ],
+    "sizes": [
+      "FREE(55-66)"
+    ],
+    "sizeGuideText": "사이즈 (cm) ① 어깨단면 ② 어깨길이 ③ 소매길이 ④ 암홀 ⑤ 가슴단면 ⑥ 총장(뒷기장기준) Free 43 16 36 24 45 56",
+    "material": "폴리56%, 코튼44%",
+    "description": "네오프렌처럼 엠보싱이 느껴지는 원단의 티셔츠예요~ 단품으로 입어도 허전하지 않고 출근룩으로도 소화 가능해요",
+    "rating": 4.6,
+    "reviewCount": 5,
+    "reviews": [
+      {
+        "rating": 3,
+        "text": "편한데 길이가 조금만 길면 좋을듯요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-11T15:46:35+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "고급스러워요 소재도 톡톡하니 좋네여",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-22T23:27:32+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "요즘 날씨에 입기 좋아요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-03T07:55:04+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "상체가 좀 부해보이긴한데 크림색이 이뻐서 품으려구요 ㅋㅋㅋ 이뻐요 색이",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-24T22:41:25+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "반팔입기는 서늘하고 긴팔입기엔 낮에 더운 날씨에 딱 입기 좋아요 ㅎㅎ 더 서늘해지면",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-23T16:44:59+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:39.780Z"
+  }
+]

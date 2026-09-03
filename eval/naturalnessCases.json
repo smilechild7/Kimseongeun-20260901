@@ -1,0 +1,152 @@
+[
+  {
+    "id": "soft-white-dress-relaxation",
+    "query": "흰색 원피스 찾아줘.",
+    "expectedType": "recommendation",
+    "must": { "category": "dress" },
+    "colorPolicy": {
+      "mode": "soft_relaxation",
+      "requested": "white",
+      "alternatives": ["ivory", "cream"]
+    },
+    "semanticExpectations": ["exact_white_first", "alternative_disclosed"]
+  },
+  {
+    "id": "strict-white-dress-only",
+    "query": "꼭 정확한 화이트 색상 원피스만 찾아줘. 아이보리나 크림은 싫어.",
+    "expectedType": "recommendation",
+    "must": { "category": "dress" },
+    "colorPolicy": {
+      "mode": "strict",
+      "requested": "white",
+      "alternatives": ["ivory", "cream"]
+    },
+    "semanticExpectations": ["no_color_relaxation"]
+  },
+  {
+    "id": "office-black-pants",
+    "query": "10만원 이하 검정 출근 바지 중 너무 달라붙지 않는 걸 추천해줘.",
+    "expectedType": "recommendation",
+    "must": { "category": "pants", "maxPrice": 100000 },
+    "semanticExpectations": ["office", "black", "relaxed"]
+  },
+  {
+    "id": "comfortable-size-66-pants",
+    "query": "평소 66인데 허벅지가 편하고 오래 앉아 있어도 부담 없는 바지를 찾고 있어.",
+    "expectedType": "recommendation",
+    "must": { "category": "pants" },
+    "semanticExpectations": ["size_uncertainty", "relaxed", "comfort"]
+  },
+  {
+    "id": "summer-size-28-pants-under-50k",
+    "query": "5만원 이하 여름 바지 중 28 사이즈가 있고 너무 짧지 않은 걸 골라줘.",
+    "expectedType": "recommendation",
+    "must": { "category": "pants", "maxPrice": 50000 },
+    "semanticExpectations": ["summer", "size_28", "length_uncertainty"]
+  },
+  {
+    "id": "office-blouse-under-70k",
+    "query": "7만원 이하로 출근할 때 입을 블라우스 추천해줘. 너무 화려한 건 싫어.",
+    "expectedType": "recommendation",
+    "must": { "category": "top", "maxPrice": 70000 },
+    "semanticExpectations": ["office", "minimal", "avoid_flashy"]
+  },
+  {
+    "id": "casual-knit-top",
+    "query": "주말에 청바지랑 편하게 입을 니트 상의 찾아줘.",
+    "expectedType": "recommendation",
+    "must": { "category": "top" },
+    "semanticExpectations": ["casual", "knit", "comfort"]
+  },
+  {
+    "id": "wedding-guest-dress-under-120k",
+    "query": "12만원 이하 결혼식 하객 원피스인데 너무 차려입은 느낌은 싫어.",
+    "expectedType": "recommendation",
+    "must": { "category": "dress", "maxPrice": 120000 },
+    "semanticExpectations": ["wedding_guest", "not_overdressed"]
+  },
+  {
+    "id": "casual-dress-not-formal",
+    "query": "친구 만나러 갈 때 편하게 입을 원피스. 회사 유니폼 같은 건 빼줘.",
+    "expectedType": "recommendation",
+    "must": { "category": "dress" },
+    "semanticExpectations": ["casual", "avoid_office_uniform"]
+  },
+  {
+    "id": "office-midi-skirt",
+    "query": "출근용 치마인데 너무 짧지 않고 단정한 걸 추천해줘.",
+    "expectedType": "recommendation",
+    "must": { "category": "skirt" },
+    "semanticExpectations": ["office", "modest_length", "neat"]
+  },
+  {
+    "id": "casual-skirt-under-60k",
+    "query": "6만원 아래로 티셔츠에 툭 입기 좋은 편한 스커트 찾아줘.",
+    "expectedType": "recommendation",
+    "must": { "category": "skirt", "maxPrice": 60000 },
+    "semanticExpectations": ["casual", "easy_styling"]
+  },
+  {
+    "id": "light-spring-jacket",
+    "query": "봄에 가볍게 걸칠 재킷을 찾고 있어. 너무 포멀하지 않았으면 해.",
+    "expectedType": "recommendation",
+    "must": { "category": "outerwear" },
+    "semanticExpectations": ["spring", "lightweight", "not_formal"]
+  },
+  {
+    "id": "winter-coat-under-150k",
+    "query": "15만원 이하 겨울 코트 중 출근과 주말에 모두 입기 무난한 걸 추천해줘.",
+    "expectedType": "recommendation",
+    "must": { "category": "outerwear", "maxPrice": 150000 },
+    "semanticExpectations": ["winter", "versatile", "office", "casual"]
+  },
+  {
+    "id": "appearance-similar-pants",
+    "query": "사진과 실제 색상이 비슷하다는 후기 근거가 있는 바지를 찾아줘.",
+    "expectedType": "recommendation",
+    "must": { "category": "pants" },
+    "reviewExpectation": { "appearanceMatch": "similar" },
+    "semanticExpectations": ["review_evidence"]
+  },
+  {
+    "id": "material-positive-top",
+    "query": "소재가 괜찮다는 후기 근거가 있는 데일리 상의를 추천해줘.",
+    "expectedType": "recommendation",
+    "must": { "category": "top" },
+    "semanticExpectations": ["material_review_evidence", "daily"]
+  },
+  {
+    "id": "white-outerwear-exact-first",
+    "query": "화이트 아우터를 찾는데 정확한 화이트가 있으면 그걸 먼저 보여줘.",
+    "expectedType": "recommendation",
+    "must": { "category": "outerwear" },
+    "semanticExpectations": ["white", "exact_first"]
+  },
+  {
+    "id": "impossible-dress-budget",
+    "query": "1천원 이하 원피스 찾아줘.",
+    "expectedType": "no_result",
+    "must": { "category": "dress", "maxPrice": 1000 },
+    "semanticExpectations": ["actionable_price_relaxation"]
+  },
+  {
+    "id": "impossible-outerwear-budget",
+    "query": "2천원 이하 아우터 추천해줘.",
+    "expectedType": "no_result",
+    "must": { "category": "outerwear", "maxPrice": 2000 },
+    "semanticExpectations": ["actionable_price_relaxation"]
+  },
+  {
+    "id": "vague-clothes-clarification",
+    "query": "요즘 입을 만한 예쁜 옷 추천해줘.",
+    "expectedType": "clarification",
+    "semanticExpectations": ["asks_for_category"]
+  },
+  {
+    "id": "colloquial-upper-garment",
+    "query": "꾸안꾸로 입을 윗도리 하나 골라줘.",
+    "expectedType": "recommendation",
+    "must": { "category": "top" },
+    "semanticExpectations": ["colloquial_category", "casual"]
+  }
+]

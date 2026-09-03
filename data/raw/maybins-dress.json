@@ -1,0 +1,855 @@
+[
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46469",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46469&cate_no=7"
+    },
+    "name": "[무료배송] 브브아 뷔스티에 미니 원피스",
+    "brand": "(cn-by)28075#/C23204/광저우",
+    "category": "dress",
+    "price": 56800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202608/49feb7e904d53e2848433bc39b67c13f.webp",
+    "colors": [
+      "다크그레이",
+      "딥베이지"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "빈티지한 스웨이드 터치와 로맨틱한 레이스 디테일이 어우러져 레이어드만으로도 감각적인 무드를 완성해 주는 뷔스티에 미니 원피스",
+    "rating": null,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "부드럽고 예뻐요!!\n허리 라인 좀 수선할려구요\n안그러면 임부복 같아가ㅠㅠ\n사이드 지퍼 있었으면 좋겠다는ㅎ\n지금 입기엔 덥고 많이 선선해지면 입어야 겠....ㅠㅠ\n어여 선선한 날씨가 오기를...!",
+        "optionText": "색상: 딥카키 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/49/43/image1/e26f41398618be09.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/49/43/image2/1d224e119bab502b.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/49/43/image3/e0261bf31fe8adf0.webp"
+        ],
+        "createdAt": "2026-09-02T21:51:37+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:24.813Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "44887",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=44887&cate_no=7"
+    },
+    "name": "[8천장돌파/무료배송] MADE. 라린 미니 원피스(+NEW컬러)",
+    "brand": "(TP)MA-25FW-704(제작)(C)",
+    "category": "dress",
+    "price": 49800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202608/a256a3aaae348966c0cc79b5be6dc09c.webp",
+    "colors": [
+      "크림베이지",
+      "스탠다드블랙",
+      "모브핑크"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "스테디셀러 원피스, 간절기 하객룩, 데이트룩으로 추천♥",
+    "rating": 5,
+    "reviewCount": 25,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "걍 이쁘고 청순해보이고 갠찮아여 딸이입어야할것같네요ㅋㅋ",
+        "optionText": "색상: 크림베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-15T19:22:47+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "여성스러운 원피스에요.지금 입기에 너무 좋아요. 핏도 이쁘고 원단도 좋아요.",
+        "optionText": "색상: 크림베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/04/09/image1/aa9f860f23f5bd23.webp"
+        ],
+        "createdAt": "2026-04-02T16:09:46+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 예뻐요~~날씬해 보이구요~~♡♡♡",
+        "optionText": "색상: 크림베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-01T22:31:21+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색상이 약간 옐로우에 가까운 크림색이라서\n고민은 됐지만 곧 봄이니 괜찮을것같아서 겟합니다~^^\n같이 구매한 자켓과 코디하면 좋을듯요!!!",
+        "optionText": "색상: 크림베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/02/79/image1/90a06609ad0f501c.webp"
+        ],
+        "createdAt": "2026-03-28T19:25:19+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "피팅해보니 젤 맘에들었던 원피스예요~\n키가 큰편인데도 길이감이 넘 짧지도않고 딱 좋네요!!!\n지금부터 부지런히 잘 입을것같아요~",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/02/73/image1/9d761a88df6f654a.webp"
+        ],
+        "createdAt": "2026-03-28T19:16:43+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이뻐요 아래는 속치마가 있어서 비치지 않고 위에는 살짝 햇빛 비춰도 다 비추더라고요 158인데 길이감도 괜찮고 봄에 나들이 다닐때 입기 좋을꺼같아요",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-10T13:37:52+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "보이는 그대로 너무 잘입고 있어용ㅋ\n가을엔 원피스하나만입고 요즘엔 긴니트랑 같이 입는데\n아무색이나 다 레이어드 예쁜 원피스입니다♡",
+        "optionText": "색상: 크림베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-26T13:35:01+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "집근처 마트갈때 편하게입으려고 주문했어요\n편하고 길이감도 적당하고 좋아요\n배송도 빠르네요",
+        "optionText": "색상: 크림베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/30/67/15/image1/64cfdefa22a1636b.webp"
+        ],
+        "createdAt": "2025-11-18T20:18:33+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "날씨가 급 추워져서 입질 못 했어여\n봄에나 입으려구여~\n옷에서 냄새가 심해서 페브릭 잔득 뿌려서 보관중입니다\n길이 짧지않고 무난히 잘 입을 수있을것같아여",
+        "optionText": "색상: 크림베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-11T23:08:52+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "맘에 들어요!! 퀄리티나 마감도 좋았고 기장도 너어무 짧은 편도 아니라서 귀엽게 입기 좋아요. 자켓 걸치면 또 다른 느낌이라 예쁘게 잘 입었습니당",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-02T22:05:41+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "맘에 들어요!! 퀄리티나 마감도 좋았고 기장도 너어무 짧은 편도 아니라서 귀엽게 입기 좋아요. 자켓 걸치면 또 다른 느낌이라 예쁘게 잘 입었습니당",
+        "optionText": "색상: 크림베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-02T22:05:26+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "편하고 입기 좋아요 대충 막 입고 코트정도 입으면 대박 편할꺼예요",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-20T13:30:26+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "러블리하게 입고 싶어서 구매했는데 너무 잘 산 템..!\n적당히 러블리해보이고 적당히 가을무드 나고!!\n저 혼자만 입고 싶은 옷인데.. 그렇다고 리뷰를 안 쓰자니 너무 아까운 옷이랄까요.... ㅠㅠ\n저는 집들이할 때 입고 갔는데 옷 예쁘단 소리 많이 들었어요 츄천추천 !!",
+        "optionText": "색상: 크림베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/30/50/93/image1/99ad1bd4628a13e7.webp"
+        ],
+        "createdAt": "2025-10-07T22:11:23+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "키가 아담한데도 짧은기장이에요 스트랩이 양쪽이면 더 예뻤겠다싶지만\n한쪽인데는 이유가 있겠죠?\n스트랩을 잘 주름잡아가며 묶어야 이쁘고\n바지랑 입으면 롱블라우스 느낌도 나고 하나 입으면 원피스 느낌도 나요.\n만족해요",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-30T15:51:57+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "화이트랑 고민하다 블랙했어요. 생각보다 작지않고 편하게 잘 맞아요. 히피느낌 나면서. 길이도 그닥 짧지 않고. 부츠에 레깅스랑 딱이네요.",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/30/47/91/image1/11a46783bfa883be.webp"
+        ],
+        "createdAt": "2025-09-27T21:08:16+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "루즈핏인데. 허리조임끈이있어. 몸에맞게 입을수있어요. 여리여리 여성스러운 원피스네요~ 색상도 디자인도이뻐요. 봄가을 즐겨입을꺼같아요. 기장도 많이짧지않아서 좋아요. 부츠에같이코디하니더이뿌네요",
+        "optionText": "색상: 크림베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/30/47/86/image1/0b686e375f75990a.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/30/47/86/image2/b8498db7dd1c3663.webp"
+        ],
+        "createdAt": "2025-09-27T20:49:53+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "봄에 입어도 너무 좋을것같고 좀 더 추워지면 니트랑 같이 입어줘도 될 것같아여ㅎㅎ 병아리가 생각나는 살짝 옐로우 들어간 베이지 원피스구요 너무 너무 편하고 키가 큰편인데 길이도 딱 좋아용 역시 메이빈스입니당❤️",
+        "optionText": "색상: 크림베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/30/46/51/image1/721869289546da48.webp"
+        ],
+        "createdAt": "2025-09-24T17:57:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "여성스럽고 색상도 봄웜톤인데 딱이에요ㅎㅎ\n샌들힐이랑 신으면 더 예뻐욤ㅎㅎ!!!!!!\n메이빈스 옷은 다 예쁜듯",
+        "optionText": "색상: 크림베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/30/45/78/image1/324d326028b31865.webp"
+        ],
+        "createdAt": "2025-09-22T19:49:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "넘 예뻐요\n깜찍해요 허리 조절하는 끈이 있어서 좋구 지금 입기에 좋아요\n세탁하고나서 구김도 별로 없어요",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/30/44/31/image1/b05255c5f4b665f8.webp"
+        ],
+        "createdAt": "2025-09-18T13:23:48+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 이뻐서 블랙색상도 주문했어요\n입으니까 더 이뻐요",
+        "optionText": "색상: 크림베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-17T17:32:16+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:26.489Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46418",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46418&cate_no=7"
+    },
+    "name": "[무료배송] MADE. 멜로아 플라워 원피스",
+    "brand": "(kr-odm)(제작)핼리ops",
+    "category": "dress",
+    "price": 79800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202608/269bef32cc9027d6aa0ffe3bbc7f9e0b.webp",
+    "colors": [
+      "크림아이보리",
+      "카키"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "고급스러운 실키 원단과 플라워 패턴으로 여성스러운 무드를 완성하는 플레어 원피스",
+    "rating": null,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "부드럽고 예뻐요!!\n사이드 지퍼가 있어서 좋아요!!!\n지금 입기엔 덥고 많이 선선해지면 입어야 겠....ㅠㅠ\n어여 선선한 날씨가 오기를...!",
+        "optionText": "색상: 카키 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/49/48/image1/01e3ed17813ea8cb.webp"
+        ],
+        "createdAt": "2026-09-02T22:56:58+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:28.234Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "45765",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=45765&cate_no=7"
+    },
+    "name": "[무료배송] MADE. 뉴트럴 뷔스티에 원피스(+NEW컬러,미니ver.)",
+    "brand": "셀럽ops",
+    "category": "dress",
+    "price": 65800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202608/8de2d94dde88fd6082e1962520353c6e.webp",
+    "colors": [
+      "딥그레이",
+      "스탠다드블랙"
+    ],
+    "sizes": [
+      "free(미니ver.)",
+      "free(롱ver.)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "차분한 딥그레이 컬러와 깔끔한 실루엣으로 레이어드까지 완성되는 뷔스티에 롱 원피스",
+    "rating": 5,
+    "reviewCount": 6,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "원단도 좋구 다좋은데\n길이가 긴거 알고도 샀는데도 기네요~~\n제 키가 작아서그런가싶기도하고ㅠ\n165이상되시는분들 딱 좋을거같네요",
+        "optionText": "색상: 딥그레이 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/17/90/image1/d276dddd74ac1c17.webp"
+        ],
+        "createdAt": "2026-05-23T14:57:28+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "고민하다가 샀는데 괜히 고민했어요 ㅠㅠ 진짜 고급지게 예쁩니다. 저는 이번에 산 알비 워셔블 티셔츠랑 입었는데도 잘 어울리고 예쁘네요. 허리쪽 끈이 있어서 굴곡 생기게 잡아줘요. 진짜 너무 마음에 들어요!!",
+        "optionText": "색상: 딥그레이 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/13/11/image1/297ba6c4529e829f.webp"
+        ],
+        "createdAt": "2026-05-05T12:55:53+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "뭔가 편한듯 근데 차려입은거 같은 아주 맘에 드는 원피스 입니다!구두 종류를 잘 못신어서 운동화랑 같이 매치했는데 너무 괜찮았네요^^",
+        "optionText": "색상: 딥그레이 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/10/52/image1/0f3b358445e0e74e.webp"
+        ],
+        "createdAt": "2026-04-25T07:55:08+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "딱 떨어지는 핏이 예쁜 무드있는 그레이 원피스\n허리끈이 있어 체형에 맞게 착용 가능하고\n어깨끈이 두 줄이라서 은은한 포인트가 되네요\n편하며서도 이쁜 원피스로 추천이요",
+        "optionText": "색상: 딥그레이 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/09/51/image1/1cd9782930cc3cff.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/09/51/image2/2bf097036e2587f6.webp"
+        ],
+        "createdAt": "2026-04-22T01:31:01+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "끈 디테일과 허리를 묶는 포인트가 더 날씬하게 보이게 해주는 듯해요! 사이즈는 여유있고 그래서 허리묶어주는 디테일이 킥입니당 ㅋㅋㅋ",
+        "optionText": "색상: 딥그레이 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/07/04/image1/ae6e65dffd3503cc.webp"
+        ],
+        "createdAt": "2026-04-13T09:13:21+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이상품은 리뷰가없어서\n제일 고민하다 시켰어요\n저는 원래 레이어드해서 입는걸 별로\n선호하는스타일이아니라..\n근데 입어보니 레이어드안하구 입어도\n충분히 이쁜옷이에요!! 흐흐",
+        "optionText": "색상: 딥그레이 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-11T04:53:03+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:29.871Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46475",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46475&cate_no=7"
+    },
+    "name": "[무료배송] MADE. 렌른 니트 뷔스티에 롱 원피스",
+    "brand": "(cn-odm)(제작)69#/C23191/광저우",
+    "category": "dress",
+    "price": 35800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202609/345f5dcb7c80c238f5afd343c95a27c7.webp",
+    "colors": [
+      "스탠다드블랙",
+      "무드차콜"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "부드럽고 유연한 비스코스 블렌딩 소재와 여유롭게 떨어지는 롱 실루엣으로 단독부터 레이어드까지 차분하고 세련되게 즐기기 좋은 니트 뷔스티에 원피스",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:31.758Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46015",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46015&cate_no=7"
+    },
+    "name": "[무료배송] 마르츠 롱 원피스",
+    "brand": "스모크모달ops",
+    "category": "dress",
+    "price": 158000,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202606/ba8d6120bb74ddca9adafd2f553c10f8.webp",
+    "colors": [
+      "카키브라운"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "지금 회원가입하면 추가 할인 쿠폰 즉시 발급! 스모크 디테일과 로우웨이스트 라인이 돋보이는 맥시 롱 원피스",
+    "rating": 4.7,
+    "reviewCount": 3,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "가격이 있어서 고민하다 세일을 해서 샀어요\n디자인이 맘에 들고 바느질도 꼼꼼하네요",
+        "optionText": "색상: 카키브라운 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/34/18/image1/3420b258cc561b90.webp"
+        ],
+        "createdAt": "2026-07-21T22:17:23+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "색상이랑 디자인은 마음에 들리지만 원피스 치마에 속치미가 더있었으면 좋을테데 생각이 드네요;;",
+        "optionText": "색상: 카키브라운 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-20T07:52:59+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "시원하고 너무이쁜데 좀 비싼감이 있는듯 그래도 디자인 맘에들어요",
+        "optionText": "색상: 카키브라운 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/23/26/image1/fce86814f9e3b1cc.webp"
+        ],
+        "createdAt": "2026-06-16T12:22:29+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:33.372Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46343",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46343&cate_no=7"
+    },
+    "name": "[무료배송] MADE. 리브 버튼 슬릿 롱 원피스",
+    "brand": "(kr-oem)(제작)골지단추원피스",
+    "category": "dress",
+    "price": 69800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202607/81a7c804824868df6fe591cee86e76ab.webp",
+    "colors": [
+      "멜란지그레이",
+      "스탠다드블랙"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "편안함과 슬림한 실루엣을 모두 챙겨주는 버튼 슬릿 롱 원피스",
+    "rating": 5,
+    "reviewCount": 5,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "스커트 이뻐요 저에게는 허리가 조금 크긴한데 핏이 이뻐서 그냥 입으려구요 고급져 보이고 좋아요",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-24T20:23:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "정말 너무 맘에들어요 ^^ 스탈도 예쁜데 기장이랑 재질도 다 너무 맘에들고 엄청 가볍고 편해요 하객룩으로도 괜찬을 것 같고 휴가룩으로도 너무 조하요 여러가지용으로 다 입을 수 잇을거 같아서 너무 맘에드네요",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/44/42/image1/897edfd488fada0f.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/44/42/image2/188c566abd3d2bc9.webp"
+        ],
+        "createdAt": "2026-08-12T23:09:17+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "원피스 예쁘니다 편하게 잘입을것같아요\n신축성도좋구요\n마음에 들었어요 잘입겠습니다",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/43/82/image1/f4c105d9e2e070f5.webp"
+        ],
+        "createdAt": "2026-08-10T17:35:10+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "배송빠르고 좋아요\n배송진짜빨리왓어요\n실밥은좀잇는데 제거햇어요\n날씬해보여요시원해요\n잘입을게요 ^-^",
+        "optionText": "색상: 멜란지그레이 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/41/64/image1/8f47af8bb928418b.webp"
+        ],
+        "createdAt": "2026-08-03T21:12:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "배송이 빨리왔습니다\n포장뜯자마자 기분좋았어요\n이쁘고 마음에들어요 편하게\n입을수있구 요즘제가살쪄 색상이 부해보여\n쫌매 신경쓰이네요",
+        "optionText": "색상: 멜란지그레이 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/40/00/image1/efb7dc4c69b4e0c2.webp"
+        ],
+        "createdAt": "2026-07-30T11:22:02+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:34.901Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "45732",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=45732&cate_no=7"
+    },
+    "name": "[비긴어텀특가/무료배송] MADE. 너그 셔츠 미니 원피스",
+    "brand": "(TP)(cn-oem)(제작)MA-26SS-236",
+    "category": "dress",
+    "price": 56800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202603/6c90f8ae8fa2b979153506876cd8c41f.jpg",
+    "colors": [
+      "스카이블루"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "허리 셔링과 입체 플레어 라인으로 완벽한 비율을 만들어주는 셔츠 미니 원피스",
+    "rating": 5,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "색감이나 재질은 아주 만족합니다\n다만 길이가 단독으로 입기엔 짧은편이라 이너로 속치마를 챙겨입었어요\n캐주얼한듯 단정하게 맘에 들어요",
+        "optionText": "색상: 스카이블루 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/11/47/image1/45099c6ee8225c8c.webp"
+        ],
+        "createdAt": "2026-04-28T00:57:30+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:36.507Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "44827",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=44827&cate_no=7"
+    },
+    "name": "[무료배송/MADE]노드 퍼프 미니 원피스",
+    "brand": "(TP)MA-25FW-748(제작)(C)",
+    "category": "dress",
+    "price": 49800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202508/3c6efc2cfdb08ee714a8d8fad05a21f8.jpg",
+    "colors": [
+      "크림아이보리",
+      "딥블랙"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "로맨틱한 디테일 가득♥ 특별한 날 생각나는 퍼프 원피스",
+    "rating": 5,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "예쁨주의\n엄청멈청 오래기다리다 받긴했는데\n예쁘네요\n요즘같은 날씨에 입기 딱이에요~^^",
+        "optionText": "색상: 크림아이보리 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/30/39/25/image1/0994c7251af4c142.webp"
+        ],
+        "createdAt": "2025-09-03T09:05:25+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:38.140Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46463",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46463&cate_no=7"
+    },
+    "name": "[무료배송] MADE. 헬란 니트 롱 원피스",
+    "brand": "(cn-odm)8818#/C23192/광저우",
+    "category": "dress",
+    "price": 42800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202608/061818adeda633e190d29bd5d8f01b07.webp",
+    "colors": [
+      "무드브라운",
+      "스탠다드블랙"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "쫀쫀한 골지 니트 소재가 바디라인을 슬림하게 잡아주며 여리하면서도 세련된 실루엣을 완성해 주는 원피스",
+    "rating": null,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "핏이 정말 예쁘고 몸에 적당히 붙어서 날씬해 보여요\n가을엔 브라운이죠 ㅎㅎ\n기장도 너무 짧지 않아 부담 없어요\n특히 허리부터 다리까지 라인이 자연스럽게 잡혀서 체형이 예뻐 보이는 게 가장 마음에 들어요.\n편하게 입으면서 여성스러운 분위기 내고 싶을 때 추천합니다! 🖤",
+        "optionText": "색상: 무드브라운 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/49/45/image1/10b2cbeb6700d638.webp"
+        ],
+        "createdAt": "2026-09-02T22:20:40+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:39.716Z"
+  }
+]

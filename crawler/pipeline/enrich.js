@@ -36,6 +36,7 @@ export async function enrichProduct({
   product,
   config = AI_CONFIG.enrichment,
   now = () => new Date(),
+  onUsage = () => {},
 }) {
   const response = await client.responses.create({
     model: config.model,
@@ -54,6 +55,11 @@ export async function enrichProduct({
     reasoning: { effort: config.reasoningEffort },
     max_output_tokens: config.maxOutputTokens,
     store: false,
+  });
+  onUsage({
+    inputTokens: response.usage?.input_tokens ?? 0,
+    outputTokens: response.usage?.output_tokens ?? 0,
+    totalTokens: response.usage?.total_tokens ?? 0,
   });
 
   let output;

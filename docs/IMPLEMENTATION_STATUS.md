@@ -3,7 +3,8 @@
 > 기준 계획: `docs/levit_problem_solver_FINAL_PLAN.md`  
 > 작업 규칙: `AGENT.md`  
 > 마지막 업데이트: 2026-09-03 (KST)
-> 현재 단계: Phase 8 — Final Validation / Polish 진행 중
+> 현재 단계: Phase 9 — Multi-shop / Multi-category Catalog Expansion 완료
+> 다음 단계: Phase 10 — UI/UX Final Polish 준비
 
 이 문서는 구현 진행 상태, 검증 결과, 결정 사항과 blocker를 계속 기록하는 단일 상태 로그다. 작업을 시작하거나 완료할 때마다 같은 파일을 갱신한다.
 
@@ -27,7 +28,9 @@
 | 5 | Search | 완료 — hard filter·retrieval·compact DTO·실제 DB 검증 |
 | 6 | Agent | 완료 — 실제 세 응답 분기·Render 전체 경로 검증 통과 |
 | 7 | Frontend | 완료 — 사용자 UI 승인·전체 회귀·Render 최종 asset 검증 통과 |
-| 8 | Final Validation / Polish | 진행 중 — 자동 검증 완료, catalog 확장 범위 결정 대기 |
+| 8 | Final Validation / Polish | 부분 완료 — 자동 검증 기준선 commit, mobile·세부 UI는 확장 후 보류 |
+| 9 | Multi-shop / Multi-category Catalog Expansion | 완료 — 10 shops·5 categories·520 products·자연스러움 eval·optional category UI 검증 |
+| 10 | UI/UX Final Polish | 준비 — mobile·desktop layout·spacing·control style·interaction 최종 정리 |
 
 ## 결정 로그
 
@@ -81,6 +84,16 @@
 | DEC-046 | 2026-09-03 | 다중 category catalog 밀도 | 사용자 선택 1A — 총 10개 쇼핑몰에서 `pants`, `top`, `dress`, `skirt`, `outerwear` category별 약 10개 상품을 목표로 수집 | 기존 두 쇼핑몰의 바지 40개를 보존하면 최종 약 500개, 최대 예상 520개와 신규 enrichment 최대 약 480회; 10개 표본 비용을 먼저 측정하고 전체 실행은 별도 승인 |
 | DEC-047 | 2026-09-03 | 확장 쇼핑몰 platform·접근 조건 | 사용자 선택 2A — Cafe24 여성 의류몰만 총 10개 선정하고 상품과 review를 공개 HTTP로 안정적으로 수집할 수 없는 후보는 교체 | 기존 공통 parser와 shop config를 재사용하고 browser automation·platform별 parser 확장을 피하면서 review evidence 품질 유지 |
 | DEC-048 | 2026-09-03 | Phase 8 변경 기준선 | 사용자 선택 3A — 현재 검증 완료된 Phase 8 변경을 local commit하고 push 없이 Phase 9를 별도 이력으로 시작 | 불필요한 Render build를 발생시키지 않고 final validation 자산과 catalog 확장 변경을 분리해 복구·검토 가능성 확보 |
+| DEC-049 | 2026-09-03 | Phase 9 신규 쇼핑몰 | 사용자 선택 A — 리리앤코·안나앤플러스·시크라인·핫핑·커먼유니크·도드리·메이빈스·배드다이어리를 신규 8개 shop으로 확정 | 8곳 모두 Cafe24, 5개 canonical category 상품, 공개 HTTP 상품·review 접근 조건을 충족하며 review API가 불안정한 레미떼는 제외 |
+| DEC-050 | 2026-09-03 | category 간 중복 상품 처리 | 사용자 선택 A — 단일 `products.category`를 유지하고 `pants → top → dress → skirt → outerwear` 순서로 먼저 배정된 상품을 보존하며 후속 category는 다음 후보로 보충 | 첫 500 slot 중 중복은 10개(2%)뿐이므로 many-to-many DB·검색·Agent 계약 확장을 피하고 최대 520개 고유 상품 목표 유지 |
+| DEC-051 | 2026-09-03 | Phase 9C 원본 수동 표본 검사 | 사용자 최신 결정 — 별도 수동 검사를 생략하고 초기 두 shop과 같은 공통 로직 및 520개 자동 전수 검증 결과를 승인 | 50/50 raw collection 계약, 520/520 page·image 실제 접근, 84/84 전체 test를 근거로 9C 완료 처리; 직전의 수동 검사 B 응답은 최신 지시로 대체 |
+| DEC-052 | 2026-09-03 | 확장 catalog DB 반영 시점 | 사용자 선택 A — 신규 480개 enrichment를 완료한 뒤 실제 `data/products.db`를 한 번 rebuild | enrichment 없는 480개가 섞인 중간 DB와 중복 rebuild를 피하고, 520개가 완전한 시점에 Phase 9E로 연결 |
+| DEC-053 | 2026-09-03 | Phase 9D 표본 실행·재사용 | 사용자 선택 A — 예상 $0.01~$0.03, 보수적 상한 $0.06인 신규 표본 10개 실제 호출을 승인하고 정상 결과를 전체 enrichment에 재사용 | 같은 `gpt-5.6-luna`·prompt v2·strict contract 결과를 재사용해 전체 신규 logical call을 480회(표본 10+나머지 470)로 유지 |
+| DEC-054 | 2026-09-03 | Phase 9D 전체 신규 enrichment | 사용자 선택 A — 남은 470회 순차 checkpoint/resume 실행과 예상 $0.35~$0.55, 안전 예산 기준 $0.75 승인 | 기존 40개와 표본 10개를 보존하고 누락된 상품만 호출한 뒤, 성공 시 520개 단일 enriched output으로 원자적 교체 |
+| DEC-055 | 2026-09-03 | 자연스러운 유사 조건 확장 주체 | 사용자 선택 B — 첫 검색 결과가 부족하면 AI가 soft preference를 유사 조건으로 바꿔 한 번 재검색하고 완화 사실을 응답에서 명시 | 고정 서버 확장보다 문맥에 유연하지만 재현성·호출 비용 부담이 있으므로 mock 회귀를 우선하고 실제 `gpt-5.6-sol` 반복 평가는 케이스 수·예상 비용을 별도 승인받아 실행 |
+| DEC-056 | 2026-09-03 | 첫 자연스러움 실제 eval 규모 | 사용자 선택 A — local 독립 case 20개를 순차 실행하고 예상 $1.30~$2.00, 안전 예산 $2.50 승인 | 큰 50개 batch보다 실패를 prompt·audit에 빠르게 환류하며 반복하고, 원문 응답은 시스템 임시 디렉터리에만 보존 |
+| DEC-057 | 2026-09-03 | batch 1 실패 case 재실행 | 사용자 선택 A — 보정된 prompt로 실패 1건만 다시 실행하고 예상 $0.07~$0.15, 안전 상한 $0.35 승인 | 최초 실패 원인이었던 허위 tag evidence 차단 보정과 plain-text 출력, 오류 usage 계측을 실제 model에서 검증 |
+| DEC-058 | 2026-09-03 | 첫 검색 category 선택 방식 | 사용자 선택 A — 기본값은 `AI가 문장에서 판단`으로 두고 5개 category를 선택 사항으로 제공 | 자연어만으로 즉시 검색할 수 있고 사용자가 직접 선택한 경우에만 category를 필수 조건으로 전달; category가 불명확하면 Agent clarification 사용, follow-up에는 선택 UI를 표시하지 않음 |
 
 ## Phase 1 시작 준비
 
@@ -669,6 +682,7 @@
 | 2026-09-03 | Phase 8 최종 local 회귀 | `npm test` 71/71, `npm run build` 성공, `git diff --check` 통과 |
 | 2026-09-03 | catalog 확장 요청 | 사용자 요청으로 쇼핑몰을 총 10개로 늘리고 `pants` 외 대부분의 의류를 검색 가능하게 하는 후속 범위 검토 시작; mobile·세부 UI 최종 판단은 확장 이후로 보류 |
 | 2026-09-03 | catalog 확장 범위 결정 | 사용자 `1A / 2A / 3A` 선택; 5개 category·Cafe24 10개 shop·약 500개 상품을 목표로 하며 Phase 8 local commit 후 별도 Phase 9에서 구현 |
+| 2026-09-03 | Phase 8 local 기준선 | `0f19ef5 test: add final validation tooling and report` commit 완료; 사용자 선택에 따라 push하지 않아 Render 배포는 발생하지 않음 |
 
 ### 사용자 수동 작업
 
@@ -687,6 +701,256 @@
 1. catalog 확장 범위를 사용자와 확정하고 후속 Phase의 DoD를 기록한다.
 2. 현재 검증 완료분의 commit 기준선을 확정한다.
 3. 10개 shop 후보 조사·parser 표본 검증 후 product/review/enrichment/DB/search/UI를 순서대로 확장한다.
+
+## Phase 9 — Multi-shop / Multi-category Catalog Expansion
+
+### 목표
+
+- Cafe24 여성 의류몰을 기존 2개에서 총 10개로 확대한다.
+- `pants`, `top`, `dress`, `skirt`, `outerwear`를 검색 가능한 canonical category로 제공한다.
+- 쇼핑몰·category별 약 10개 상품을 수집해 기존 40개를 포함한 약 500개, 최대 예상 520개 catalog를 구성한다.
+- 상품당 최근 review 최대 20개와 factual field·enrichment·SQLite 관계를 보존한다.
+- category가 확장되어도 hard filter, 최대 15개 retrieval candidate, 최대 3개 factual recommendation 계약을 유지한다.
+- mobile·세부 UI polish는 하지 않고 multi-category 검색에 필요한 최소 기능만 연결한다.
+
+### 범위
+
+- 포함: 여성용 바지, 상의, 원피스, 스커트, 아우터
+- 제외: 신발, 가방, 액세서리, 주얼리, 속옷, 생활용품
+- platform: Cafe24만 사용
+- source 조건: 공개 HTTP로 상품과 review를 안정적으로 수집할 수 있는 shop만 채택
+- 저장 구조: shop/category별 raw JSON, 전체 enrichment JSON, deterministic SQLite build
+- 기존 그레이시크·아이팜므 바지 40개와 review/enrichment는 보존
+
+### 실행 단계
+
+#### 9A — Shop Discovery / Contract
+
+- [x] 신규 Cafe24 여성 의류몰 후보 조사
+- [x] 5개 category URL과 상품 수 확인
+- [x] 상품 상세 public HTTP·robots 정책 확인
+- [x] native Cafe24 또는 공개 review JSON 접근성 확인
+- [x] 최종 신규 8개 shop 사용자 승인
+
+### 9A 후보 조사 결과
+
+| 신규 후보 | 공식 domain | category 번호 (`pants/top/dress/skirt/outerwear`) | 상품·option 표본 | review source | 판정 |
+|---|---|---|---|---|---|
+| 리리앤코 | `ririnco.com` | `57/55/53/62/56` | 5개 category 각 10개 discovery, 공통 상품 parser 성공 | Crema widget 68 공개 JSON; 리뷰 있는 상품 `23361`에서 HTTP 200·2건 확인 | 채택 제안 |
+| 안나앤플러스 | `annanplus.co.kr` | `43/28/44/44/26` | 5개 category 각 10개 discovery, 공통 상품 parser 성공 | Crema widget 2 공개 JSON; 상품 `8004` HTTP 200·189건 | 채택 제안 |
+| 시크라인 | `chic-line.com` | `78/69/26/77/28` | 5개 category 각 10개 discovery, 공통 상품 parser 성공 | 상품 상세의 native Cafe24 review HTML; 상품 `8721`에 5개 행·평점·날짜 노출 | 채택 제안 |
+| 핫핑 | `hotping.co.kr` | `279/29/26/535/27` | 5개 category 각 10개 discovery; option selector override 필요 | Crema widget 162 공개 JSON; 상품 `33009` HTTP 200·339건 | 채택 제안 |
+| 커먼유니크 | `common-unique.com` | `28/26/29/29/27` | 5개 category 각 10개 discovery, 공통 상품 parser 성공 | Crema widget 2 공개 JSON; 상품 `31948` HTTP 200·107건 | 채택 제안 |
+| 도드리 | `dodry.net` | `70/29/34/168/93` | category-specific `a.prdImg`/`a.name` override로 수집 가능 | Crema widget 4 공개 JSON; 상품 `36402` HTTP 200·969건 | 채택 제안 |
+| 메이빈스 | `maybins.com` | `12/4/7/224/55` | `anchorBoxName` selector와 category URL로 수집 가능 | Crema widget 6 공개 JSON; 상품 `31915` HTTP 200·1,029건 | 채택 제안 |
+| 배드다이어리 | `baddiary.com` | `48/42/24/49/25` | 5개 category 각 10개 discovery; 상품 `24713` 필수 field·size·color 성공 | 상품 상세의 Snap/native static review HTML; 상품 `24457`에 38건·리뷰 행 노출 | 채택 제안 |
+
+- 모든 제안 후보의 homepage에서 Cafe24 marker를 확인했고 `robots.txt`에 `/product` 차단 규칙이 없었다.
+- 레미떼는 5개 category와 상품 parsing은 가능하지만 Crema endpoint가 HTTP 500이고 상품별 native 후기 게시판에도 실제 리뷰가 없어 제외했다.
+- 시크라인·배드다이어리는 기존 그레이시크 전용 selector를 그대로 쓸 수 없으므로 9B에서 PII를 제외하는 범용 Cafe24 static review adapter로 일반화한다.
+- 안나앤플러스와 커먼유니크는 원피스·스커트가 같은 상위 category URL을 공유하므로 9B에서 상품명 기반 category split을 적용한다.
+- 이번 9A 조사는 공개 페이지와 review endpoint를 읽기 전용으로 확인했으며 OpenAI API 호출은 없었다.
+
+#### 9B — Multi-category Crawler Pilot
+
+- [x] shop config를 5개 canonical category로 일반화
+- [x] category별 discovery와 오분류 방지 규칙 구현
+- [x] review adapter 재사용·필요 최소 override 구현
+- [x] 신규 shop/category별 소량 fixture·실페이지 parser 검증
+- [x] PII 제외·상품당 review 최대 20개 회귀 테스트
+
+### 9B 구현 및 검증 기록
+
+| 시각 (KST) | 항목 | 결과 |
+|---|---|---|
+| 2026-09-03 | shop/category config | 기존 2개와 신규 8개, 총 10개 shop 모두 `pants/top/dress/skirt/outerwear` URL·category별 상품명 filter 구성 |
+| 2026-09-03 | discovery 일반화 | shop 기본 selector에 category override를 병합하고 image-only anchor는 주변 상품 card text로 판별; category 밖 추천상품 오분류 방지 |
+| 2026-09-03 | option parser | 본상품 option만 사용하고 Hotping·Dodry의 복합 `색상/사이즈` 표시값을 분리; add-product option 오염 방지 |
+| 2026-09-03 | 상품명 fallback | `og:title`이 shop 이름뿐인 Dodry는 JSON-LD Product name으로 복구 |
+| 2026-09-03 | review adapter | Graychic 전용 parser를 범용 Cafe24 table/Snap static HTML adapter로 일반화; Crema 7개 shop adapter 재사용 |
+| 2026-09-03 | 첫 실페이지 pilot | 50개 category 상품·10개 review source 요청은 성공했으나 category 밖 추천상품과 Dodry generic name 문제 발견 |
+| 2026-09-03 | 수정 후 실페이지 pilot | 10 shops × 5 categories = 50/50 상품 parse 성공, 10/10 review source 성공, PII key 0건 |
+| 2026-09-03 | discovery coverage | 50/50 category에서 현재 filter 기준 상품 후보 각각 10개 확보, shortfall 0건 |
+| 2026-09-03 | category 중복 사전 집계 | 500개 category slot 중 고유 상품 490개·중복 slot 10개(2%); Maybins 1, Baddiary 1, Ririnco 5, Hotping 3이며 나머지 6개 shop은 0 |
+| 2026-09-03 | review contract | static/Crema 모두 최대 20개 제한, author identifier 제외, `reviewCount >= reviews.length` 검증 |
+| 2026-09-03 | 전체 자동 테스트 | 권한 있는 localhost 환경에서 `npm test` — 81/81 passed |
+| 2026-09-03 | production build | `npm run build` — Vite production build 성공 |
+
+### 9B 변경 파일
+
+- `crawler/config/shops.js`
+- `crawler/lib/discover-product-urls.js`
+- `crawler/lib/crawl-shop.js`
+- `crawler/lib/parse-cafe24-product.js`
+- `crawler/lib/parse-reviews.js`
+- `crawler/lib/crawl-reviews.js`
+- `crawler/test/discover-product-urls.test.js`
+- `crawler/test/parse-cafe24-product.test.js`
+- `crawler/test/parse-reviews.test.js`
+- `crawler/test/crawl-reviews.test.js`
+- `crawler/test/shop-config.test.js`
+
+#### 9C — Full Crawl
+
+- [x] shop/category별 약 10개 상품 수집
+- [x] raw product/review schema와 중복·category 정합성 검증
+- [x] 전체 상품 page/image 전수 검사
+- [x] shop/category별 coverage 보고 및 사용자 검증 — 자동 보고 완료, DEC-051에 따라 별도 수동 검사 생략
+
+### 9C 구현 및 검증 기록
+
+| 시각 (KST) | 항목 | 결과 |
+|---|---|---|
+| 2026-09-03 | full crawl orchestration | shop 10곳을 domain별 병렬·shop 내부 category 순차 처리; `pants → top → dress → skirt → outerwear` 선점 순서, 중복 제외·후속 후보 보충, category별 원자적 저장과 `--resume` 구현 |
+| 2026-09-03 | 기존 데이터 보존 | `graychic-pants.json`, `ifemme-pants.json` 각 20개는 재수집 없이 보존하고 나머지 48개 shop/category 파일 신규 생성 |
+| 2026-09-03 | 전체 수집 결과 | 50 collections, 520 unique products, 3,798 reviews; category별 `pants 120`, 나머지 각 100개; review는 상품당 최대 20개 |
+| 2026-09-03 | factual field coverage | review 보유 상품 318/520, size 426/520, color 481/520, text size guide 118/520; source에 없는 값은 DEC-025에 따라 추론하지 않고 빈 배열/null 유지 |
+| 2026-09-03 | 도드리 image 결함 수정 | 도드리의 homepage `og:image`를 상품 이미지로 오인한 문제 발견; root URL을 제외하고 실제 `.keyImg`/`.BigImage`를 쓰도록 parser 수정 후 도드리 50개만 재수집 |
+| 2026-09-03 | raw contract | 50/50 expected files, 520/520 globally unique `(shopId, sourceProductId)`, category·수량·review 최대치·PII 제외 계약 통과 |
+| 2026-09-03 | 전체 page/image 검사 | `npm run catalog:validate` — product page 520/520, image 520/520이 HTTP 성공·HTTPS 최종 URL·expected content type 통과 |
+| 2026-09-03 | 전체 자동 테스트 | 권한 있는 localhost 환경에서 `npm test` — 84/84 passed |
+| 2026-09-03 | production build | `npm run build` — Vite production build 성공 |
+| 2026-09-03 | whitespace 검사 | `git diff --check` 통과 |
+
+### 9C shop별 coverage
+
+| Shop | 상품 | 수집 review | review 보유 상품 | size 보유 | color 보유 | text size guide 보유 |
+|---|---:|---:|---:|---:|---:|---:|
+| 그레이시크 | 60 | 763 | 53 | 60 | 48 | 60 |
+| 아이팜므 | 60 | 448 | 34 | 26 | 42 | 0 |
+| 리리앤코 | 50 | 3 | 2 | 50 | 50 | 0 |
+| 안나앤플러스 | 50 | 494 | 30 | 50 | 50 | 6 |
+| 시크라인 | 50 | 125 | 30 | 50 | 50 | 0 |
+| 핫핑 | 50 | 811 | 44 | 46 | 48 | 0 |
+| 커먼유니크 | 50 | 225 | 23 | 20 | 50 | 0 |
+| 도드리 | 50 | 451 | 40 | 43 | 43 | 0 |
+| 메이빈스 | 50 | 320 | 39 | 50 | 50 | 2 |
+| 배드다이어리 | 50 | 158 | 23 | 31 | 50 | 50 |
+| **합계** | **520** | **3,798** | **318** | **426** | **481** | **118** |
+
+### 9C 변경 파일
+
+- `crawler/cli/crawl-catalog.js`
+- `crawler/lib/crawl-catalog.js`
+- `crawler/lib/crawl-shop.js`
+- `crawler/lib/discover-product-urls.js`
+- `crawler/lib/parse-cafe24-product.js`
+- `crawler/test/crawl-catalog.test.js`
+- `crawler/test/raw-products.test.js`
+- `scripts/validateCatalogAssets.js`
+- `scripts/buildDatabase.test.js`
+- `server/products/searchProducts.integration.test.js`
+- `package.json`
+- `data/raw/*.json` — 총 50개 collection
+
+#### 9D — Enrichment
+
+- [x] 신규 10개 상품 표본 dry-run·실행 비용 승인
+- [x] 10개 표본 GPT-5.6 Luna enrichment·사용량 측정
+- [x] 전체 신규 상품 호출 수·예상 비용 재산정 및 사용자 승인
+- [x] checkpoint/resume 기반 전체 enrichment
+- [x] controlled vocabulary·review signal·unknown 계약 검증
+
+### 9D 준비 및 dry-run 기록
+
+| 시각 (KST) | 항목 | 결과 |
+|---|---|---|
+| 2026-09-03 | 표본 구성 | 10 shops를 각각 1개씩 포함하고 5 categories를 각각 2개씩 포함; review 0건·소량·20건, size/guide 유무를 섞은 신규 상품 10개 확정 후보 |
+| 2026-09-03 | 표본 dry-run | 논리 API 호출 10회, 저장 review 133개, prompt 총 60,816 characters/88,226 UTF-8 bytes; API 호출·과금·파일 변경 없음 |
+| 2026-09-03 | 전체 신규 입력 규모 | 기존 enrichment 40개를 제외한 신규 480개·저장 review 3,392개·prompt 약 2.08M characters/3.04M UTF-8 bytes |
+| 2026-09-03 | 공식 가격 재확인 | OpenAI Docs 기준 `gpt-5.6-luna` 1M text tokens당 input $0.20, cached input $0.02, output $1.20 |
+| 2026-09-03 | 표본 안전 실행 준비 | 기존 40개 `products.json`을 덮어쓰지 않는 `.preview` 출력, checkpoint별 누적 API token usage 집계와 회귀 테스트 9/9 구현; API key 존재만 확인하고 값은 출력하지 않음 |
+| 2026-09-03 | 실제 표본 실행 | 승인된 `gpt-5.6-luna` 10회 모두 성공; input 29,898/output 4,519/total 34,417 tokens, 공식 단가 기준 약 $0.0114 |
+| 2026-09-03 | 표본 계약 검증 | preview 10개·고유 ID 10개, model·prompt v2·review count·controlled vocabulary·structured profile·no-review unknown 계약 오류 0건 |
+| 2026-09-03 | 전체 비용 재산정 | 사용자 승인대로 표본 10개를 재사용하므로 남은 logical call 470회; 표본 평균 단순 환산 약 $0.536, review 수가 표본보다 적은 전체 분포를 고려한 예상 $0.35~$0.55, 안전 여유 포함 $0.75 예산 제안 |
+| 2026-09-03 | full merge 경로 검증 | 기존 output·표본 seed를 중복 없이 보존하고 missing product만 호출하는 atomic merge 구현; 관련 test 11/11, full dry-run에서 `preserved=50`에 해당하는 missing 470개·review 3,259개 확인 |
+| 2026-09-03 | 전체 신규 실행 | 승인된 missing 470회 모두 성공; input 1,032,103/output 182,930/total 1,215,033 tokens, 약 $0.4259; 표본 포함 Phase 9D 총 약 $0.4373 |
+| 2026-09-03 | atomic merge | 기존 40개+표본 10개+missing 470개를 `data/enriched/products.json` 520개로 원자적 교체하고 checkpoint 제거; raw와 missing/extra 0건 |
+| 2026-09-03 | 전체 계약 검증 | enrichment 520개·고유 ID 520개, model·prompt·controlled vocabulary·review count·structured profile·no-review unknown 계약 통과 |
+| 2026-09-03 | signal coverage | appearance `unknown 432/different 21/similar 49/mixed 18`; size `unknown 322/true_to_size 31/runs_small 9/runs_large 42/mixed 116`; material `unknown 277/positive 112/negative 11/mixed 120` |
+| 2026-09-03 | no-review/profile | review 0개 상품 202개에서 세 signal 모두 `unknown`; structured evidence 기반 similar reviewer note 총 334개 |
+| 2026-09-03 | 전체 회귀 | `npm test` 85/85, `npm run build`, secret pattern 0건, `git diff --check` 통과 |
+
+#### 9E — DB / Search / Agent
+
+- [x] deterministic DB rebuild와 shop/product/review/enrichment relation 검증
+- [x] 5개 category별 hard filter·retrieval integration test
+- [x] category별 no-result·recommendation factual audit
+- [x] 확장 catalog 기준 eval case와 보고서 갱신
+
+### 9E 구현 및 검증 기록
+
+| 시각 (KST) | 항목 | 결과 |
+|---|---|---|
+| 2026-09-03 | 유사 조건 정책 | DEC-055 B안 반영; 일반 색상 표현은 soft preference, `꼭/무조건/정확히/~만`은 required로 구분하고 현재 허용 관계는 `white → ivory/cream` 하나로 제한 |
+| 2026-09-03 | Agent 재검색 지침 | 정확한 white 후보가 3개 미만이면 required 조건을 보존한 채 `white+ivory+cream`으로 한 번 재검색하고, exact white 우선·대체 색상 사용 사실을 최종 한국어 message에 명시하도록 보강 |
+| 2026-09-03 | 3-round mock 회귀 | 첫 white soft 검색 → ivory/cream 포함 재검색 → factual cream 상품 추천·완화 고지 흐름 통과; 최신 candidate 밖 추천과 허위 color evidence 차단 계약 유지 |
+| 2026-09-03 | 5-category 실제 DB 검색 | `pants 120`, `top/dress/skirt/outerwear 각 100`; category별 10 shops 전체 coverage, hard-filter match count와 top 15 candidate category 정합성 통과 |
+| 2026-09-03 | 전체 회귀 | 권한 허용 환경에서 `npm test` 86/86, `npm run build`, `git diff --check` 통과; 샌드박스 최초 실행의 4건 실패는 localhost bind `EPERM`이며 코드 실패가 아님 |
+| 2026-09-03 | 실제 자연스러움 eval 비용 기준 | OpenAI Docs의 `gpt-5.6-sol` 공식 단가 input $4/1M·cached input $0.40/1M·output $20/1M 재확인; 첫 local batch의 규모·안전 예산 사용자 승인 대기, 아직 실제 호출 없음 |
+| 2026-09-03 | 자연스러움 batch 1 승인 | 사용자 A안 선택; local 독립 case 20개, 예상 $1.30~$2.00·안전 예산 $2.50, 원문 임시 저장 조건으로 실행 승인 |
+| 2026-09-03 | 자연스러움 batch 1 실행 | 20/20 요청, 19개 완료 응답; canonical alias audit 수정 후 19/19 통과, `평소 66` 1건은 허위 `all_season` evidence를 서버가 차단 |
+| 2026-09-03 | batch 1 사용량·비용 | 완료 응답 input 223,504/output 19,744/total 243,248 tokens, 약 $1.2889; 실패 요청 $0.35 reserve 포함 보수적 상한 $1.6389로 승인 $2.50 이내 |
+| 2026-09-03 | batch 1 보정 | color audit를 canonical alias 기준으로 수정, exact tag evidence 자기검사·`all_season` 추론 금지·Markdown 금지 지침 추가, `agent.failed` usage와 무계측 오류 reserve 구현 |
+| 2026-09-03 | 보정 후 전체 회귀 | `npm test` 93/93, `npm run build`, `git diff --check`, tracked source secret pattern 0건 통과; 추가 API 호출 없음 |
+| 2026-09-03 | 실패 case targeted retry | 사용자 A안으로 `comfortable-size-66-pants` 1건을 안전 예산 $0.35로 재실행; recommendation·factual audit 통과, Markdown 0건, input 12,934/output 1,387 tokens, 약 $0.0795 |
+| 2026-09-03 | batch 1 최종 | 최신 고유 case 20/20 통과; 성공 응답 누적 약 $1.3684, 최초 실패 $0.35 reserve 포함 보수적 상한 $1.7184로 승인 $2.50 이내 |
+| 2026-09-03 | Phase 9E 최종 회귀 | 5개 category 각각 1천원 이하 검색 0건 계약 추가; `npm test` 94/94, production build와 `git diff --check` 통과, 9E 완료 |
+
+#### 9F — Minimal Frontend Enablement
+
+- [x] `pants` 자동 강제 제거
+- [x] 자연어 category 해석과 최소 category 선택 UI 연결
+- [x] desktop 중심 multi-category 검색 flow 검증
+- [x] mobile·세부 visual polish는 Phase 9 이후 사용자 판단으로 유지
+
+### 9F 구현 및 검증 기록
+
+| 시각 (KST) | 항목 | 결과 |
+|---|---|---|
+| 2026-09-03 | Phase 9F 시작 | 사용자 진행 승인; 즉시 필요한 외부 작업 없음, 실제 API 호출·배포 없음; 첫 검색의 고정 `pants` condition과 바지 전용 copy 확인 |
+| 2026-09-03 | 기존 follow-up 계약 | compact refinement는 category·price·size를 다시 붙이지 않고 대화 문장만 전송하므로 기존 동작 유지 가능 |
+| 2026-09-03 | optional category UI | DEC-058에 따라 첫 문장 입력 후 `AI가 문장에서 판단` 기본값과 바지·상의·원피스·스커트·아우터 select 제공; mobile에서는 category 전체 폭, 가격·사이즈 2열 유지 |
+| 2026-09-03 | query 계약 | 고정 `카테고리=바지` 제거; 직접 선택한 canonical category만 한국어 필수 조건으로 추가하고 미선택 시 원문만 Agent에 전달 |
+| 2026-09-03 | 범용 copy·label | hero·badge·validation·hint를 여성 의류 전체 표현으로 변경하고 결과 criteria/evidence에서 5개 category 한국어 label 지원 |
+| 2026-09-03 | frontend 자동 검증 | 관련 tests 7/7, 전체 `npm test` 95/95, `npm run build`, `git diff --check` 통과; 실제 API 호출 없음 |
+| 2026-09-03 | browser 검증 시도 | Browser runtime에 연결 가능한 browser가 0개라 자동 desktop 시각 검증 불가; 제가 시작한 임시 dev process만 종료하고 기존 사용자 5173/3000 process는 보존, 사용자 화면 확인 대기 |
+| 2026-09-03 | 사용자 desktop 검증 | 범용 첫 화면, 입력 후 optional category·가격·사이즈 노출, 5개 category 선택, multi-category 결과와 filter 없는 follow-up flow에 이상 없음 확인 |
+| 2026-09-03 | Phase 9 완료 | 9A~9F DoD 충족; 10 shops·520 products·3,798 reviews·520 enrichments, 자연스러움 eval 20/20, optional multi-category UI와 전체 95/95 test 기준 완료 |
+
+### 9F 변경 파일
+
+- `client/src/features/shopping/SearchInput.jsx`
+- `client/src/features/shopping/query.js`
+- `client/src/features/shopping/query.test.js`
+- `client/src/features/shopping/ShoppingAgent.jsx`
+- `client/src/features/shopping/RecommendationResult.jsx`
+- `client/src/components/ProductCard.jsx`
+
+### 사용자 수동 작업
+
+- 구현 전 즉시 필요한 작업 없음.
+- 9A 후: 제안된 신규 8개 shop과 source 조사 결과를 검토·승인한다.
+- 9C 후: DEC-051에 따라 별도 원본 수동 검사를 생략했다.
+- 9D 전: 10개 표본 실제 호출과 재사용 정책, 이후 전체 enrichment의 호출 수·예상 비용을 각각 승인한다.
+- 9F 후: local desktop에서 첫 화면·조건 노출·optional category와 follow-up UI를 확인한다. mobile 세부 평가는 보류한다.
+- 종료 전: commit/push와 Render 배포 시점을 승인하고 배포 UI를 확인한다.
+
+### Blocker / 미해결
+
+- 9C blocker 없음. 초기 두 shop과 동일한 공통 수집·정규화 로직 및 자동 전수 검증 결과를 사용자가 승인해 완료 처리했다.
+- 리리앤코는 현재 진열 상위 50개 중 review가 있는 상품이 원피스 2개뿐이며 총 3건이다. review source 호출 자체는 성공했고 없는 review를 생성하지 않는 정책을 유지했다.
+- 일부 상품의 size/color/size guide는 source HTML에 factual text가 없어 빈 배열/null이다. 9D enrichment에서도 해당 값을 추론하지 않는다.
+- 실제 local `data/products.db`는 10 shops·520 products·3,798 reviews·520 enrichments로 rebuild했고 integrity `ok`를 확인했다.
+- Phase 9D blocker 없음. 승인 예산 $0.75 이내인 총 약 $0.4373로 신규 480개 enrichment를 완료했다.
+- Phase 9F 자동 browser backend가 없어 desktop 시각 검증은 사용자 확인이 필요하다.
+- Phase 9 blocker 없음. desktop은 사용자가 확인했고 mobile·세부 visual polish는 기능 결함이 아닌 후속 작업으로 Phase 10에 분리했다.
+
+### 다음 작업
+
+1. Phase 9 변경 전체의 commit/push 시점을 사용자에게 확인한다.
+2. Render 배포 후 520개 catalog build와 외부 multi-category 검색을 검증한다.
+3. Phase 10 시작 전 mobile·desktop UI/UX polish 범위와 우선순위를 사용자에게 결정받는다.
 
 ## Phase 0 — Skeleton / Deployment
 
@@ -797,3 +1061,20 @@
 | 2026-09-02 | migration·DB build·raw import·repository·Render build 연결 구현; 2 shops·40 products·406 reviews와 14/14 tests 검증, 사용자 반복 build 확인 대기 |
 | 2026-09-02 | 사용자 DB build 검증 완료; Phase 3 DoD 충족 및 완료 처리 |
 | 2026-09-02 | Phase 1~3의 4개 local commit을 GitHub main에 push하고 Render 새 build·external frontend·health 정상 확인 |
+| 2026-09-03 | Phase 9 9A 조사 완료: 8개 신규 Cafe24 후보의 5개 category·상품 parser·robots·공개 review source를 확인하고, review 접근이 실패한 레미떼를 배드다이어리로 교체 제안 |
+| 2026-09-03 | 사용자 선택 A로 신규 8개 shop을 확정하고 DEC-049 기록; Phase 9B multi-category crawler pilot 시작 |
+| 2026-09-03 | Phase 9B 완료: 10개 shop/5개 category config, category-aware discovery, 복합 option parser, 범용 Cafe24 static review adapter 구현; 실페이지 50/50·review 10/10·전체 test 81/81·build 통과 |
+| 2026-09-03 | 사용자 선택 A로 단일 category·고정 순서 중복 제거·후속 후보 보충 정책을 DEC-050으로 확정하고 Phase 9C 전체 crawl 시작 |
+| 2026-09-03 | Phase 9C 전체 crawl 완료: 기존 바지 40개 보존, 48개 신규 collection 생성, 총 10 shops·50 collections·520 unique products·3,798 reviews 확보 |
+| 2026-09-03 | 도드리 homepage `og:image` 오인 결함을 수정하고 50개 상품을 재수집; raw contract 520/520, page/image 전수 검사 520/520, 전체 test 84/84, production build 통과 |
+| 2026-09-03 | 사용자 최신 지시로 Phase 9C 별도 수동 검사를 생략하고 자동 검증 결과를 승인해 9C 완료; actual local DB는 아직 기존 40 products 상태임을 확인 |
+| 2026-09-03 | 사용자 선택 A로 신규 480개 enrichment 후 실제 DB를 한 번 rebuild하기로 DEC-052 확정; Phase 9D 10개 표본 dry-run 준비 시작 |
+| 2026-09-03 | Phase 9D 신규 표본 10개 dry-run 완료: 10 shops·category별 2개, review 133개, 논리 호출 10회·prompt 60,816 characters; 실제 API 호출·비용 없음 |
+| 2026-09-03 | 사용자 선택 A로 신규 표본 10개 실제 호출과 정상 결과 재사용 승인; 기존 enrichment를 보호하는 preview output·usage 집계 검증 후 실행 준비 완료 |
+| 2026-09-03 | Phase 9D 표본 10개 실제 호출·계약 검증 완료: input 29,898/output 4,519 tokens, 약 $0.0114; 남은 470회 예상 $0.35~$0.55 및 $0.75 안전 예산 승인 대기 |
+| 2026-09-03 | 사용자 선택 A로 남은 470회 전체 실행 승인; 기존 40+표본 10 보존·missing-only merge test와 dry-run 통과 후 순차 checkpoint 실행 시작 |
+| 2026-09-03 | Phase 9D 전체 enrichment 완료: 남은 470/470회 성공, 표본 포함 총 약 $0.4373; enriched 520개 계약·전체 test 85/85·build 통과 후 DB를 10 shops·520 products·3,798 reviews·520 enrichments로 rebuild하고 integrity `ok` 확인 |
+| 2026-09-03 | 사용자 선택 B로 Agent 주도 유사 조건 재검색을 DEC-055로 확정; `white → ivory/cream` 3-round mock, 5 category·10 shop 실제 DB 검색, 전체 test 86/86·build 통과 |
+| 2026-09-03 | 사용자 선택 A로 자연스러움 batch 1의 20개 local 실제 eval 실행; 19개 완료 응답 audit 통과·1개 factual validation 차단, 보수적 비용 상한 $1.6389 후 prompt·audit·오류 비용 계측 보정 |
+| 2026-09-03 | 사용자 선택 A로 실패 1건 targeted retry 실행·통과; 최신 고유 case 20/20과 누적 보수적 비용 상한 $1.7184 확인, Phase 9E 완료 |
+| 2026-09-03 | DEC-058 A안 optional category UI 구현 후 전체 test 95/95·build 통과, 사용자 desktop 기능 검증 완료로 Phase 9F와 Phase 9 완료; visual polish는 Phase 10으로 분리 |

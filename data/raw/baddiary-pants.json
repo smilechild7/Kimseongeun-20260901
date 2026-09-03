@@ -1,0 +1,757 @@
+[
+  {
+    "source": {
+      "shopId": "baddiary",
+      "shopName": "배드다이어리",
+      "sourceProductId": "24713",
+      "productUrl": "https://baddiary.com/product/%EB%93%80%EC%96%BC-%ED%95%80%ED%84%B1-%EC%99%80%EC%9D%B4%EB%93%9C-%EC%8A%AC%EB%9E%99%EC%8A%A4sxl/24713/category/48/display/2/"
+    },
+    "name": "듀얼 핀턱 와이드 슬랙스(S~XL)",
+    "brand": "악녀일기",
+    "category": "pants",
+    "price": 59000,
+    "originalPrice": null,
+    "imageUrl": "https://baddiary.com/web/product/big/202608/63bbf92de3edab11079743b81a2b1c6c.webp",
+    "colors": [
+      "브라운",
+      "차콜",
+      "블랙"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "탱탱한 소재감, 신경 쓴 퀄리티, 완벽한 체형 커버",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:33:26.404Z"
+  },
+  {
+    "source": {
+      "shopId": "baddiary",
+      "shopName": "배드다이어리",
+      "sourceProductId": "28630",
+      "productUrl": "https://baddiary.com/product/%EC%B6%9C%EA%B7%BC%EB%A3%A9%ED%95%98%EA%B0%9D%EB%A3%A9-%EB%A3%A8%EC%8B%9C%EB%93%9C-%EC%98%86%EC%A7%80%ED%8D%BC-%EC%99%80%EC%9D%B4%EB%93%9C-%EC%8A%AC%EB%9E%99%EC%8A%A4sl/28630/category/48/display/2/"
+    },
+    "name": "[출근룩/하객룩] 루시드 옆지퍼 와이드 슬랙스(S~L)",
+    "brand": "악녀일기",
+    "category": "pants",
+    "price": 72000,
+    "originalPrice": null,
+    "imageUrl": "https://baddiary.com/web/product/big/202509/e7897c2150e9ade8184e8c82ab5fcaee.webp",
+    "colors": [
+      "크림베이지",
+      "블랙"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "톡톡한 원단으로 완성하는 슬랙스",
+    "rating": 4.9,
+    "reviewCount": 11,
+    "reviews": [
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "아이\n돌잔치때\n입고 평상시엔 꺼내보지도 않을까봐 고급지면서 데일리룩에 잘 어울릴만한 옷을 고르다가 역...",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "하객룩이 필요했는데 잘샀어요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:28.238Z"
+  },
+  {
+    "source": {
+      "shopId": "baddiary",
+      "shopName": "배드다이어리",
+      "sourceProductId": "29843",
+      "productUrl": "https://baddiary.com/product/%EC%88%A8%EB%B0%B4-%EC%BB%B4%ED%8F%AC%ED%8A%B8-%ED%95%80%ED%84%B1-%EC%8A%AC%EB%9E%99%EC%8A%A4sl/29843/category/48/display/2/"
+    },
+    "name": "숨밴 컴포트 핀턱 슬랙스(S~L)",
+    "brand": "악녀일기",
+    "category": "pants",
+    "price": 45000,
+    "originalPrice": null,
+    "imageUrl": "https://baddiary.com/web/product/big/202608/68a117f2f5d3656bd6adca8397d479bf.webp",
+    "colors": [
+      "아이보리",
+      "회베이지",
+      "브라운",
+      "차콜",
+      "블랙"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "편안한 숨김 밴드로 자꾸 손이 가는 바지",
+    "rating": 5,
+    "reviewCount": 2,
+    "reviews": [
+      {
+        "rating": null,
+        "text": "이걸 산 내자신 너무 칭찬합니다. 돈이 안 아까워요. 이런 건 깔별로 사야 합니다. 제키가 165인데 기장수선...",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족스런 쇼핑. 돈이 안 아까워요. 깔별로 사고 싶네요. 제키가 165인데 기장수선 필요없이 길이 딱 좋고 뱃...",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:30.031Z"
+  },
+  {
+    "source": {
+      "shopId": "baddiary",
+      "shopName": "배드다이어리",
+      "sourceProductId": "29861",
+      "productUrl": "https://baddiary.com/product/%EB%AA%A8%EB%85%B8%EB%A1%9C%EA%B7%B8-%ED%95%80%ED%84%B1-%EC%99%80%EC%9D%B4%EB%93%9C-%EC%8A%AC%EB%9E%99%EC%8A%A4sl/29861/category/48/display/2/"
+    },
+    "name": "모노로그 핀턱 와이드 슬랙스(S~L)",
+    "brand": "악녀일기",
+    "category": "pants",
+    "price": 64800,
+    "originalPrice": 72000,
+    "imageUrl": "https://baddiary.com/web/product/big/202608/4c950a03caccf48267a9c5fc338832b9.webp",
+    "colors": [
+      "연베이지",
+      "차콜",
+      "블랙"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "기본 템에 은근한 완성도, 여유로운 실루엣",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:33:31.891Z"
+  },
+  {
+    "source": {
+      "shopId": "baddiary",
+      "shopName": "배드다이어리",
+      "sourceProductId": "28124",
+      "productUrl": "https://baddiary.com/product/%EB%B0%A9%EC%86%A1%ED%98%91%EC%B0%AC-%EC%B6%9C%EA%B7%BC%EB%A3%A9%EB%A9%B4%EC%A0%91%EB%A3%A92type%EA%B8%B0%EC%9E%A5-%ED%9E%88%EB%93%A0%EB%B0%B4%EB%94%A9-%EC%B9%98%ED%8A%B8%ED%82%A4-%EC%84%B8%EB%AF%B8-%EB%B6%80%EC%B8%A0%EC%BB%B7-%EC%8A%AC%EB%9E%99%EC%8A%A4%EA%B8%B0%EB%B3%B8%EB%A1%B1s2xl/28124/category/48/display/2/"
+    },
+    "name": "[방송협찬] [출근룩/면접룩/2type기장] (히든밴딩) 치트키 세미 부츠컷 슬랙스(기본/롱)(S~2XL)",
+    "brand": "악녀일기",
+    "category": "pants",
+    "price": 39000,
+    "originalPrice": 52000,
+    "imageUrl": "https://baddiary.com/web/product/big/202503/5b79064bc143a9d51b1b01b0ad04dd1a.webp",
+    "colors": [
+      "블랙",
+      "크림"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "완벽한 핏과 편안함을 모두 잡은 슬랙스 치트키",
+    "rating": 4.8,
+    "reviewCount": 10,
+    "reviews": [
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "길이가 길고 날씬하게 보여요ㅎㅎ",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "슬랙스도 와~~~감탐!!!\n여기서 산 블라우스 랑 찰 떡! 허벅지가 있는 편이라 슬랙스 사면 주머니 부분을 다 ...",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:33.612Z"
+  },
+  {
+    "source": {
+      "shopId": "baddiary",
+      "shopName": "배드다이어리",
+      "sourceProductId": "29821",
+      "productUrl": "https://baddiary.com/product/%EB%A7%A4%ED%8A%B8-%EB%94%94%EB%A7%81-%ED%95%80%ED%84%B1-%EC%99%80%EC%9D%B4%EB%93%9C-%EC%8A%AC%EB%9E%99%EC%8A%A4sl/29821/category/48/display/2/"
+    },
+    "name": "매트 디링 핀턱 와이드 슬랙스(S~L)",
+    "brand": "악녀일기",
+    "category": "pants",
+    "price": 52200,
+    "originalPrice": 58000,
+    "imageUrl": "https://baddiary.com/web/product/big/202608/fe3c8b8513bd4f749b32dc564eb927b1.webp",
+    "colors": [
+      "크림",
+      "차콜",
+      "블랙"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "원하는 핏에 맞게 조절 가능",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:33:35.636Z"
+  },
+  {
+    "source": {
+      "shopId": "baddiary",
+      "shopName": "배드다이어리",
+      "sourceProductId": "28571",
+      "productUrl": "https://baddiary.com/product/%ED%95%98%EA%B0%9D%EB%A3%A9%EC%B0%A8%EB%A5%B4%EB%A5%B4%EC%9B%90%EB%8B%A8-%EC%98%A4%EB%A5%B4%EC%84%B8-%EC%99%80%EC%9D%B4%EB%93%9C-%EC%8A%AC%EB%9E%99%EC%8A%A4%EC%85%8B%EC%97%85%EA%B0%80%EB%8A%A5sl/28571/category/48/display/1/"
+    },
+    "name": "[하객룩/차르르원단] 오르세 와이드 슬랙스(셋업가능)(S~L)",
+    "brand": "악녀일기",
+    "category": "pants",
+    "price": 66310,
+    "originalPrice": 69800,
+    "imageUrl": "https://baddiary.com/web/product/big/202508/a8d75d76f9e6ee5518a17ca4234d6f23.webp",
+    "colors": [
+      "베이지",
+      "블랙"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "세트 추천, 톡톡한 밀도감으로 깔끔하게",
+    "rating": 4.5,
+    "reviewCount": 11,
+    "reviews": [
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "보통",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "s이 딱맞아서 m으로 교환했는데 너무 커요ㅜㅜ",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:37.352Z"
+  },
+  {
+    "source": {
+      "shopId": "baddiary",
+      "shopName": "배드다이어리",
+      "sourceProductId": "29873",
+      "productUrl": "https://baddiary.com/product/%EC%B6%9C%EA%B7%BC%EB%A3%A9%ED%95%98%EA%B0%9D%EB%A3%A9-fw-%EB%A1%A4%EC%97%85-%ED%95%80%ED%84%B1-%EC%99%80%EC%9D%B4%EB%93%9C-%EC%8A%AC%EB%9E%99%EC%8A%A4%EC%85%8B%EC%97%85%EA%B0%80%EB%8A%A5sl/29873/category/48/display/1/"
+    },
+    "name": "[출근룩/하객룩] F/W 롤업 핀턱 와이드 슬랙스(셋업가능)(S~L)",
+    "brand": "악녀일기",
+    "category": "pants",
+    "price": 86000,
+    "originalPrice": null,
+    "imageUrl": "https://baddiary.com/web/product/big/202608/74d66b18943dafe582d65c28e5bbe7c9.webp",
+    "colors": [
+      "블랙"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "흐트러지지 않는 라인",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:33:39.146Z"
+  },
+  {
+    "source": {
+      "shopId": "baddiary",
+      "shopName": "배드다이어리",
+      "sourceProductId": "29867",
+      "productUrl": "https://baddiary.com/product/%EB%92%B7%EB%B0%B4%EB%93%9C-%EB%A1%9C%EC%9B%B0-%EB%B2%A8%ED%8B%B0%EB%93%9C-%EC%99%80%EC%9D%B4%EB%93%9C-%EC%8A%AC%EB%9E%99%EC%8A%A4sl/29867/category/48/display/1/"
+    },
+    "name": "(뒷밴드) 로웰 벨티드 와이드 슬랙스(S~L)",
+    "brand": "악녀일기",
+    "category": "pants",
+    "price": 56000,
+    "originalPrice": null,
+    "imageUrl": "https://baddiary.com/web/product/big/202608/01ad9249df6e426d48f3e2cffb882ab9.webp",
+    "colors": [
+      "브라운",
+      "차콜",
+      "블랙"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "매일 입는 와이드 슬랙스",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:33:40.782Z"
+  },
+  {
+    "source": {
+      "shopId": "baddiary",
+      "shopName": "배드다이어리",
+      "sourceProductId": "29810",
+      "productUrl": "https://baddiary.com/product/%EC%9D%B8%EB%94%94%EA%B3%A0-%EC%9B%8C%EC%8B%B1-%EC%99%80%EC%9D%B4%EB%93%9C-%EB%8D%B0%EB%8B%98-%ED%8C%AC%EC%B8%A0sl/29810/category/48/display/1/"
+    },
+    "name": "인디고 워싱 와이드 데님 팬츠(S~L)",
+    "brand": "악녀일기",
+    "category": "pants",
+    "price": 82000,
+    "originalPrice": null,
+    "imageUrl": "https://baddiary.com/web/product/big/202608/6633a997f1507a1140883c7b196e1a20.webp",
+    "colors": [
+      "인디고",
+      "중청"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "소재부터 남다른, 프리미엄 와이드 데님",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:33:42.467Z"
+  }
+]

@@ -34,10 +34,12 @@ function emptyReviewerProfile() {
 
 function normalizeKoreanDate(value) {
   const match = value?.match(
-    /(\d{4})[.-](\d{2})[.-](\d{2})\s+(\d{2}):(\d{2}):(\d{2})/u,
+    /(\d{4})[.-](\d{2})[.-](\d{2})(?:\s+(\d{2}):(\d{2}):(\d{2}))?/u,
   );
 
-  return match ? `${match[1]}-${match[2]}-${match[3]}T${match[4]}:${match[5]}:${match[6]}+09:00` : null;
+  return match
+    ? `${match[1]}-${match[2]}-${match[3]}T${match[4] ?? '00'}:${match[5] ?? '00'}:${match[6] ?? '00'}+09:00`
+    : null;
 }
 
 function numericProperty(properties, namePattern, { min, max }) {
@@ -118,42 +120,90 @@ function cremaImageUrls(images) {
   ];
 }
 
-export function parseGraychicReviews(html, { limit = 20 } = {}) {
+function firstParsedDate($, row, selectors) {
+  for (const selector of selectors) {
+    for (const element of $(row).find(selector).toArray()) {
+      const parsed = normalizeKoreanDate($(element).text());
+      if (parsed) {
+        return parsed;
+      }
+    }
+  }
+
+  return null;
+}
+
+function firstParsedRating($, row, selectors) {
+  for (const selector of selectors) {
+    for (const element of $(row).find(selector).toArray()) {
+      const ratingText = $(element).attr('alt') ?? $(element).text();
+      const parsed = Number.parseFloat(ratingText?.match(/[\d.]+/u)?.[0]);
+      if (Number.isFinite(parsed) && parsed >= 1 && parsed <= 5) {
+        return parsed;
+      }
+    }
+  }
+
+  return null;
+}
+
+export function parseCafe24Reviews(
+  html,
+  {
+    limit = 20,
+    rowSelectors = [
+      '#prdReview tr.xans-record-',
+      '#prdReview li.xans-record-',
+    ],
+    textSelectors = [
+      'a.xans-board--list-link',
+      'td.subject a[href*="/article/"]',
+      'strong.os',
+    ],
+    ratingSelectors = [
+      '.xans-board--colgroup-point img[alt]',
+      'img[alt$="점"]',
+    ],
+    dateSelectors = ['.xans-board--colgroup-date', 'td.txtInfo'],
+  } = {},
+) {
   const $ = cheerio.load(html);
   const reviews = [];
 
-  $('#prdReview tr.xans-record-').each((_, row) => {
+  $(rowSelectors.join(',')).each((_, row) => {
     if (reviews.length >= limit) {
       return false;
     }
 
-    const link = $(row).find('a.xans-board--list-link').first().clone();
-    link.find('.displaynone, img, .sp--font').remove();
-    const text = cleanReviewText(link.text());
+    let text = null;
+    for (const selector of textSelectors) {
+      const textNode = $(row).find(selector).first().clone();
+      textNode.find('.displaynone, img, .sp--font').remove();
+      text = cleanReviewText(textNode.text());
+      if (text) {
+        break;
+      }
+    }
 
     if (!text) {
       return;
     }
 
-    const ratingText = $(row)
-      .find('.xans-board--colgroup-point img[alt]')
-      .first()
-      .attr('alt');
-    const parsedRating = Number.parseFloat(ratingText?.match(/[\d.]+/u)?.[0]);
-
     reviews.push({
-      rating: Number.isFinite(parsedRating) ? parsedRating : null,
+      rating: firstParsedRating($, row, ratingSelectors),
       text,
       optionText: null,
       reviewerProfile: emptyReviewerProfile(),
       imageUrls: [],
-      createdAt: normalizeKoreanDate(
-        $(row).find('.xans-board--colgroup-date').text(),
-      ),
+      createdAt: firstParsedDate($, row, dateSelectors),
     });
   });
 
   return reviews;
+}
+
+export function parseGraychicReviews(html, options) {
+  return parseCafe24Reviews(html, options);
 }
 
 export function parseCremaReviews(payload, { limit = 20 } = {}) {

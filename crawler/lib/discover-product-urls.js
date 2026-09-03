@@ -5,16 +5,27 @@ import { extractSourceProductId, normalizeProductUrl } from './product-url.js';
 function productLabel($, element, href) {
   const text = $(element).text();
   const imageAlt = $(element).find('img[alt]').first().attr('alt') ?? '';
-  return `${text} ${imageAlt} ${href}`;
+  const cardText = $(element).closest('.box, li').first().text();
+  return `${text} ${imageAlt} ${cardText} ${href}`;
 }
 
-export function discoverProductUrls(html, shopConfig, limit = 10) {
+export function discoverProductUrls(
+  html,
+  shopConfig,
+  limit = 10,
+  categoryConfig = null,
+  excludedProductIds = new Set(),
+) {
   const $ = cheerio.load(html);
-  const selectors = shopConfig.discovery?.productLinkSelectors ?? [
+  const discovery = {
+    ...shopConfig.discovery,
+    ...categoryConfig?.discovery,
+  };
+  const selectors = discovery.productLinkSelectors ?? [
     'a[id^="anchorBoxName_"]',
     'a[name^="anchorBoxName_"]',
   ];
-  const includePattern = shopConfig.discovery?.includeProductPattern;
+  const includePattern = discovery.includeProductPattern;
   const discovered = [];
   const seenProductIds = new Set();
 
@@ -24,14 +35,21 @@ export function discoverProductUrls(html, shopConfig, limit = 10) {
     }
 
     const href = $(element).attr('href');
-    if (!href || (includePattern && !includePattern.test(productLabel($, element, href)))) {
+    if (
+      !href ||
+      (includePattern && !includePattern.test(productLabel($, element, href)))
+    ) {
       return;
     }
 
     const productUrl = normalizeProductUrl(href, shopConfig.baseUrl);
     const productId = extractSourceProductId(productUrl);
 
-    if (!productId || seenProductIds.has(productId)) {
+    if (
+      !productId ||
+      seenProductIds.has(productId) ||
+      excludedProductIds.has(productId)
+    ) {
       return;
     }
 

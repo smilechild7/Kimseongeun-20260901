@@ -1,0 +1,959 @@
+[
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "31511",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=31511&cate_no=89"
+    },
+    "name": "실루엣 니트 가디건",
+    "brand": "(주)마주",
+    "category": "top",
+    "price": 27550,
+    "originalPrice": 29000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202509/8452b14c6314e65375b91be64ac5cfd6.jpg",
+    "colors": [],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "부드러운 촉감과 뛰어난 신축성~ 케이프를 걸친 듯한 실루엣이 돋보이는 니트 가디건",
+    "rating": 5,
+    "reviewCount": 11,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "조작이 탄탄해서 비싼 옷 같아요. 품도 넉넉해서 좋네요.\n(2026-08-31 17:13:41 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-09-01T02:46:55+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "맘에들어요 좋아요~~~~\n(2026-08-29 18:08:18 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-30T02:46:39+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "괜히 고민했네요~~ 니트가 넉넉하고 가볍고 바지나 치마에 잘 어울릴것 같아요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/83/69/image1/a21ee21c09515087.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/83/69/image2/121148a97a7daf7a.webp"
+        ],
+        "createdAt": "2026-08-29T20:28:19+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "루즈핏으로 사이즈 넉넉하고 단품으로 입어도 좋구 레이어드 해서 입어도 이쁠것 같아요\n두께감이 있어서 여름은 덥구요, 초가을부터 두루두루 잘 입을거 같아요\n함께 구매한 블랙 스커트랑 잘 어울립니다\n사진보다 실제 코디가 이쁨요!!^^",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 159,
+          "weightKg": null,
+          "usualSize": "31",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/83/24/image1/13bfae872d483553.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/83/24/image2/83238cb2c4683302.webp"
+        ],
+        "createdAt": "2026-08-27T22:13:22+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가격대비 퀄리티 훌륭하네요 약간 차려입은 느낌도 나고 단정하고 흐물하지 않고 입었을때 탄탄한 느낌이에요\n코디대로 검증 슬랙스와 입었을때 젤 예쁘네요^^",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "26",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-24T05:40:49+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "넉넉해서 받쳐입기도 좋고 고급스러워 보이고\n예뻐요~ 청바지에도 잘 어울립니다♡♡",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 155,
+          "weightKg": null,
+          "usualSize": "31",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-18T14:29:25+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사이즈도 적당하고 소매가 살짝 봉긋한 느낌에 커버도 되고 이너로 받쳐입으려고 두 가지 색 주문했는데 - 아직 아이보리는 못받았어요. - 너무 좋네요. 겨울에도 이너 두꺼운거 못입어서 주문했어요.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 170,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-15T13:47:59+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "디자인 고급스럽고 이뻐요 치마 바지 다 잘어울릴꺼 같아요. 가을 출근복으로 단정한 느낌입니다 소재도 부드럽네요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/19/48/62/image1/cef0cc45b1e1f06e.webp"
+        ],
+        "createdAt": "2025-10-05T06:29:57+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "코디가 예뻐서 스커트와 함께 구입했는데 스커트보다 먼저 받았어요..받아보니 색감.재질.디자인 더 맘에드네요..왜 인기인지 알거같아요..\n다른색으로도 나오면 구입할거깉습니다..\n살짝 길이감이 아쉬운점이 있지만 그건 제 나이탓이구여~^^ 이가격에 뱐품팔지않고 좋은옷 구입하게 해준 아이팜므 감사합니다♡",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/19/45/15/image1/a44fb5d7926a42c3.webp"
+        ],
+        "createdAt": "2025-09-23T09:25:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "세일해서 가격이 착해 구매했어요\n사이즈가 낙낙하니 편해서 휘뚜루마뚜루 입기에 좋구요\n금장단추가 있어서 막 입은거같지 않고 갖춰입은 느낌이라 좋아요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-22T20:38:40+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "안에 긴팔티하고 레이어드하니 좋아요\n부드럽고 편안해요 가을에 잘입을 것 같아요\n여성스럽고 예뻐요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-21T22:56:21+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:25.370Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "32933",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=32933&cate_no=89"
+    },
+    "name": "돌먼 쿨 골지 니트",
+    "brand": "(주)마주",
+    "category": "top",
+    "price": 21000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202606/3e1c4101b6f38f1b4eb83e3848026050.jpg",
+    "colors": [
+      "연베이지",
+      "밤색",
+      "블랙"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "쭉쭉 늘어나는 신축성과 여유로운 가오리핏이 만나 편안하면서도 여성스럽게 입어지는 골지 니트[3C]",
+    "rating": 4.9,
+    "reviewCount": 33,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "좋아요 예뻐요 편해요 다른 상품도 구매하고 싶어요 리서치중입니다 가성비 최고입니다",
+        "optionText": "color: 밤색",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-09-01T06:41:31+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "저입는거 보구 지인이 구입해 달라해서 주문합니다\n가격대비 괜찮다고 하면서 가볍고 시원해서 좋데요",
+        "optionText": "color: 밤색",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-28T12:12:50+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "일할때 입으려고 구입했는데 넘 편해요\n신축성이 좋아서 세탁하면 늘어나지 않을까 했는데\n전혀 그러치 않네요",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-28T12:09:30+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "제가 입는거 보구 지인이 3컬러 다 주문해 달라고 해서\n주문합니다 여성스럽고 체형도 많이 드러나지 않고 누구나 어울리는거 같네요 강추합니다",
+        "optionText": "color: 연베이지",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-28T12:06:43+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "신축성이 너무 좋구요 디자인도 예쁘고 가벼워서\n일할때 입으니 편하네요 제가 입고 있는거 보고\n지인이 주문해 달라해서 칼라별로 주문했어요\n강추합니다",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-24T11:55:00+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "까실까실 해서 몸에 달라붙지않고\n여름옷으로는 최고네요 ㅎㅎ\n색깔도 제가 원하는 색깔입니다",
+        "optionText": "color: 밤색",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/82/36/image1/22488f6df79f4a89.webp"
+        ],
+        "createdAt": "2026-08-24T08:42:30+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "컬러 예쁜 골지티에요 은은한 밤색 컬러에 깔끔하게 시원하게 입어지니 너무 맘에드네요 컬러별로 다 구매햇어요^^",
+        "optionText": "color: 밤색",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "26",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-24T05:51:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "신축성 좋고 시원한 골지티에요\n깔끔하고 편하게 입어질거 같아 컬러별로 다 구매했네요 ㅎ\n가성비 체고네요",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "26",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-24T05:50:53+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "골지에 환장한 사람이라 ^^ 컬러별로 편하게 입으려고 구매했네요\n착용감도 좋고 품이 좀 있는 편이지만 어깨넓은 저에겐 딱이네요",
+        "optionText": "color: 연베이지",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "26",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-24T05:49:41+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "시원한 골지원단이라 사이즈 크게 입는사람은 좋을듯요 저는55입는데 좀큽니다 브라운이 유행이라서 그냥입기로~~",
+        "optionText": "color: 밤색",
+        "reviewerProfile": {
+          "heightCm": 155,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-09T15:59:34+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "밤색이 흐릿해서 반품까지도 생각했는데 디자인이나 핏이 아주 맘에들어 입기로 했어요. 단아합니다~~^^",
+        "optionText": "color: 밤색",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-09T08:08:46+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "나와 있는 색 다 산거 같아요. 시원하고 실용성 있어요. 아무데나 다 어울리고 좋네요.",
+        "optionText": "color: 밤색",
+        "reviewerProfile": {
+          "heightCm": 154,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-08T16:31:01+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색깔별로 소장중. 오늘 더운 날씨에도 입으니 시원하고 좋아요. 잘 선택한거 같아요.",
+        "optionText": "color: 연베이지",
+        "reviewerProfile": {
+          "heightCm": 154,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-08T16:28:50+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "체형커버도 잘되고 재질도 시원한 소재라 여름에 입기 괜찮네요\n가격도 너무저렴하고 맘에들어요",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/77/86/image1/5e412f9308926ab3.webp"
+        ],
+        "createdAt": "2026-08-04T21:38:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "편하고 체형커버도 돼고 넘이쁜듯해요\n색상도 맘에들어요",
+        "optionText": "color: 밤색",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-29T17:34:02+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "묘하게 브라운색이 아닌듯한느낌\n(2026-07-25 17:04:51 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-26T02:47:43+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "너무부드럽고 시원하고 몸에 달라붙지 않아서 너무좋아요\n(2026-07-25 05:41:12 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-26T02:41:01+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "디자인이 좀 박시한감이 있는데 나름 출퇴근복으로 잘어울려 만족합니다. 소재 시원합니다. 추천해요",
+        "optionText": "color: 밤색",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-23T08:17:50+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "편하고 예쁘네요 맘에 들어요 추천해요 다른컬러도 사려구요",
+        "optionText": "color: 연베이지",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-22T19:32:40+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "연베이지, 밤색 구매했어요~\n시원하고 잘 늘어나고 편하고 길이도 적당해서 어느 옷이나 코디하기 좋아요~~",
+        "optionText": "color: 밤색",
+        "reviewerProfile": {
+          "heightCm": 166,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/72/10/image1/1c98088ea035442a.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/72/10/image2/c1247e49adaa34d8.webp"
+        ],
+        "createdAt": "2026-07-22T10:10:07+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:26.783Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "29084",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=29084&cate_no=89"
+    },
+    "name": "[블랙라벨]더캐시 썸머 나그랑니트",
+    "brand": "(주)마주",
+    "category": "top",
+    "price": 72200,
+    "originalPrice": 76000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202405/893da2a2239e9f303760cec018221070.jpg",
+    "colors": [
+      "블랙",
+      "베이지",
+      "민트빛소라",
+      "크림",
+      "네이비"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "홀가먼트 봉제로 편안한 핏~ 브랜드에서 사용하는 고급원사로 나온 퀄리티 있는 니트[5C]",
+    "rating": 5,
+    "reviewCount": 153,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "품질이 좋아요 탄탄해보이고 격식있는 자리도\n괜찮을거 같아요 다만 어깨가 좀넓어보여요\n(2026-09-01 22:06:47 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/84/74/image1/cc692068595c643f.webp"
+        ],
+        "createdAt": "2026-09-02T03:43:32+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "후기가 좋아서 사게되었습니다.\n사이즈 넉넉해서 xl사이즈인 저도 날씬해보입니다\n블랙라벨이라 역시 질이 좋습니다.길진 않아요",
+        "optionText": "color: 베이지",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/84/50/image1/f6cd616701b37c1f.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/84/50/image2/159f4ccf2834d120.webp"
+        ],
+        "createdAt": "2026-09-01T18:20:54+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "베이지 구입하고 소라색 재구매했어요. 전체적으로 여유있으면서도 늘어지지 않고 탄탄한 느낌이예요. 니트 조직이 고급스럽고 입기 편해요. 소라색은 훤하니 얼굴빛을 환하게 보이게 하네요.",
+        "optionText": "color: 민트빛소라",
+        "reviewerProfile": {
+          "heightCm": 159,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-10T08:11:36+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "잘입을게요 감사합니다\n(2026-08-02 20:44:11 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/77/41/image1/6c1fe0b33af325f1.webp"
+        ],
+        "createdAt": "2026-08-03T03:22:10+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "블랙 입어보고 너무 좋아서 베이지 또 구입요\n가슬가슬 시원하고 갖춰입은 듯 태가 좋은 니트에요\n어깨가 있는편이라 베이지색 엄청 고민했는데 무게와 두께가 있어 딱 잡아주니 넓은 어깨도 커버가 되네요\n요즘 블랙이랑 베이지 번갈아 가며 잘 입고 다니는데~ 곤색도 눈에 아른거리네요",
+        "optionText": "color: 베이지",
+        "reviewerProfile": {
+          "heightCm": 161,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/76/38/image1/559bcfe81fe3babd.webp"
+        ],
+        "createdAt": "2026-07-31T18:26:59+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "네이비 받아보고 넘 맘에 들어 추아주문 했어요. 라인이 고급스럽고 덥지 않고핏이 예뻐요.",
+        "optionText": "color: 베이지",
+        "reviewerProfile": {
+          "heightCm": 155,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/76/18/image1/54d9d90dc549821e.webp"
+        ],
+        "createdAt": "2026-07-31T08:11:29+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "베이지 색이라 무난하게 어울리고 더운 옷감이 아니라 여름에 시원하게 입을 수 있습니다. 다만 대신 많이 까끄러워서 피부가 민감하신 분은 조심해야 할 듯합니다.",
+        "optionText": "color: 베이지",
+        "reviewerProfile": {
+          "heightCm": 167,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-28T13:57:01+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색깔도 예쁘고 핏도 좋아서 데일리 옷으로 애용할 것 밭아요. 니트인데 시원하고 길이도 적당합니다.",
+        "optionText": "color: 베이지",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-28T08:11:19+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "리뷰 읽어보고 좋아서 구매했는데\n제겐 좀 넉넉하네요\n여름에 시원하게 잘 입을것 같습니다",
+        "optionText": "color: 네이비",
+        "reviewerProfile": {
+          "heightCm": 157,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-23T14:28:23+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "작년에 민트소라색 사서 잘 입어서 올해는 네이비로 샀어요~ 소재도 시원하고 사이즈도 편하게 입기에 넘 좋아요~",
+        "optionText": "color: 네이비",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-22T11:27:54+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "최근 몇 년 사이 구매한 니트 중 가장 핏이 좋아요! 고급스럽고~~ 다른 컬러도 쟁여야겠어요",
+        "optionText": "color: 네이비",
+        "reviewerProfile": {
+          "heightCm": 155,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-21T21:21:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "작년인가에 네이비 주문 했었는데\n맘에 들어 블랙도 재주문 합니다.",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-18T18:36:16+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "맘에 들어요 넘길지도 짧지도 않고 이뿌고 편하고 재질도 좋아요\n후기가 많은이유가 있었어요 나그랑니트에 스카프하고 있으면 시원한데 제 목은 보호하고 있네요ㅎㅎ 베이지색도 살까 생각중입니다 스카프색에 맞춰서요ㅎㅎ",
+        "optionText": "color: 네이비",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/67/85/image1/03b7a096960d0b4d.webp"
+        ],
+        "createdAt": "2026-07-12T16:51:36+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "일단 소재가 좋아서 여름에 입기에 시원하고 핏도 여유로운 핏으로 여리하게 보여\n맘에 들어요. 다른색도 구매하고 싶네요",
+        "optionText": "color: 베이지",
+        "reviewerProfile": {
+          "heightCm": 156,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-12T10:56:39+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "민트빛소라색은 얼굴이 살아나는 이쁜색이고 몸매커버에 너무변한 니트라 한장더 구매했는데 역시 맘에듭니다",
+        "optionText": "color: 민트빛소라",
+        "reviewerProfile": {
+          "heightCm": 150,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-10T20:25:33+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이니트가 너무좋아서 올해 블랙과 여러장을 또 구매했는데 너무좋아요 블랙도이뻥ᆢㄷ",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 150,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-10T20:23:03+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "리뷰가 좋아서 구입했는데 역시 괜찮네요. 날씬하고 고급스러워 보여요.",
+        "optionText": "color: 베이지",
+        "reviewerProfile": {
+          "heightCm": 161,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-06T09:57:28+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "시원한 여름니트 겁나 고급집니다\n너무 맘에들어서 다른색도 구매할까해요",
+        "optionText": "color: 베이지",
+        "reviewerProfile": {
+          "heightCm": 155,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-03T15:17:10+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "무게감, 두께가 있어 덥지 않을까 했는데 입어보니 다르네요. 까슬까슬 시원하고 착 붙는 니트가 아니라 체형 커버도 되고 입으면 더 핏이 예쁜 니트입니다~",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 161,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/63/24/image1/98d51a4b4b4ab2b0.webp"
+        ],
+        "createdAt": "2026-07-02T11:21:02+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "지난주말 결혼식에 치마랑 입고갔는데 다들 이쁘다고 어디꺼냐해서 아이팜므라고 사이트 가르쳐 줬어요.\n티셔츠 하나에7만원넘으면 가격대가 있는건데 가격대비 너무너무 마음에 들어요 베이지도.구입 할카해서 장바구니에 잠시.ㅎㅎ\n이쁜옷 감사합니다.",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "31",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/62/31/image1/de47570c7847d99b.webp"
+        ],
+        "createdAt": "2026-06-30T21:00:53+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:28.206Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33240",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33240&cate_no=89"
+    },
+    "name": "포켓 카라 니트가디건",
+    "brand": "(주)마주",
+    "category": "top",
+    "price": 37050,
+    "originalPrice": 39000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/f9cce5e030bad8ba1f3ffbb1d1a22dda.jpg",
+    "colors": [],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "부드러운 울 혼방 니트 소재로 편안한 착용감^^ 단정한 카라와 여유 있는 핏으로 군살을 커버해 간절기에 깔끔하게 걸쳐 입기 좋은 데일리 니트 가디건",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:33:29.576Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33238",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33238&cate_no=89"
+    },
+    "name": "[블랙라벨]울 블렌드 니트티",
+    "brand": "(주)마주",
+    "category": "top",
+    "price": 45600,
+    "originalPrice": 48000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/361ef0fc72df6c6c5769dc598f7c56b5.jpg",
+    "colors": [],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "부드러운 울 혼방 소재와 잔잔한 컬러 스트라이프 패턴이 더해져 차분하고 고급스러운 디자인^^ 여유 있는 기본 핏으로 다양하게 활용하기 좋은 간절기 데일리 티셔츠",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:33:30.923Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33229",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33229&cate_no=89"
+    },
+    "name": "브리튼 아가일 카라니트",
+    "brand": "(주)마주",
+    "category": "top",
+    "price": 68400,
+    "originalPrice": 72000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/a51b92961317ed60796858e46d8d41d5.jpg",
+    "colors": [
+      "네이비",
+      "브라운"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "슈퍼파인 메리노울과 캐시미어 혼방의 고급스러운 소재감에 앞 중심 아가일 패턴과 카라 2버튼 디테일로 포인트[2C]",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:33:32.294Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33212",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33212&cate_no=89"
+    },
+    "name": "더캐시 볼륨슬리브 니트",
+    "brand": "(주)마주",
+    "category": "top",
+    "price": 59850,
+    "originalPrice": 63000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/4ddad064f02f6e6c785cbb786db26889.jpg",
+    "colors": [
+      "크림",
+      "퍼플",
+      "차콜"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "슈퍼파인울과 캐시미어 혼방 소재로 터치감이 부드럽고 가벼우며, 깔끔한 V넥과 여성스러운 볼륨 슬리브 라인이 체형을 커버[3C]",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:33:33.694Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33207",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33207&cate_no=89"
+    },
+    "name": "MO 케이블 7부 니트",
+    "brand": "(주)마주",
+    "category": "top",
+    "price": 19950,
+    "originalPrice": 21000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/0acfea9961cd83a09ae29270b40a4c6d.jpg",
+    "colors": [
+      "차콜",
+      "베이지톤",
+      "블랙"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "부드럽고 유연한 모달 혼방 소재로 착용감이 가볍고 잔잔한 케이블 짜임과 체형을 자연스럽게 잡아주는 적당한 여유 ^^ 팔뚝을 가려주는 소매 기장[3C]",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:33:35.058Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33200",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33200&cate_no=89"
+    },
+    "name": "비스코스 터치 반팔니트",
+    "brand": "(주)마주",
+    "category": "top",
+    "price": 25650,
+    "originalPrice": 27000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/5d4fbe6a2585740d73fb2de074f72637.jpg",
+    "colors": [
+      "그린",
+      "레드",
+      "블랙",
+      "베이지",
+      "브라운"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "부드러운 비스코스에 캐시미어가 블렌딩되어 촉감이 매끈~ 깔끔한 라운드넥과 팔뚝을 커버해 주는 반소매 기장[5C]",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:33:36.735Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33241",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33241&cate_no=89"
+    },
+    "name": "띠어리 플로우 울니트",
+    "brand": "(주)마주",
+    "category": "top",
+    "price": 55100,
+    "originalPrice": 58000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/5d35603e8f34b88164c2881d4db69506.jpg",
+    "colors": [],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "울 혼방 특유의 고급스러운 소재감과 유연한 신축성이 돋보이며, 여유 있는 돌먼 슬리브(가오리핏) 디자인으로 군살을 자연스럽게 커버^^",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:33:38.069Z"
+  }
+]

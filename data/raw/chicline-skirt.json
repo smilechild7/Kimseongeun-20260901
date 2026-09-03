@@ -1,0 +1,832 @@
+[
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "12207",
+      "productUrl": "https://chic-line.com/product/%EA%B5%B0%EC%82%B4%EC%BB%A4%EB%B2%84%EA%B8%B0%EB%B3%B8%ED%85%9C%EC%86%8C%EC%9E%A5%EC%B6%94%EC%B2%9C%ED%98%B8%EB%8D%B4-%EB%92%B7%EB%B0%B4%EB%94%A9-%ED%94%8C%EB%A0%88%EC%96%B4-%EC%8A%A4%EC%BB%A4%ED%8A%B8/12207/category/77/display/2/"
+    },
+    "name": "[군살커버/기본템/소장추천]호덴 뒷밴딩 플레어 스커트",
+    "brand": "시크라인",
+    "category": "skirt",
+    "price": 28800,
+    "originalPrice": 30800,
+    "imageUrl": "https://chic-line.com/web/product/big/202503/617d9f85fa91ac5db722a93a87abde8a.webp",
+    "colors": [
+      "[CLPA-S-500]레드",
+      "[CLPA-S-500]베이지",
+      "[CLPA-S-500]블랙"
+    ],
+    "sizes": [
+      "F",
+      "XL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "FREE,XL",
+    "rating": 4.8,
+    "reviewCount": 8,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-04T00:00:00+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "구김이 조금 생길 것 같은데 스타일은 예뻐요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-05T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "하객룩으로 코디하려고 주문했는데 너무 예쁘게 레이어드 됐어요. 편하고 디자인도 마음에 들어요.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-24T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-16T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-16T00:00:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:04.882Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "13590",
+      "productUrl": "https://chic-line.com/product/%EC%83%9D%ED%99%9C%ED%95%9C%EB%B3%B5%ED%99%94%EC%82%AC%ED%95%9C%ED%8C%A8%ED%84%B4%EA%BD%83%EA%B0%80%EB%9E%8C-%EB%B0%B0%EC%83%89-%ED%94%8C%EB%9D%BC%EC%9B%8C-%ED%8C%A8%ED%84%B4-%EC%8A%A4%EC%BB%A4%ED%8A%B8/13590/category/77/display/2/"
+    },
+    "name": "[생활한복/화사한패턴]꽃가람 배색 플라워 패턴 스커트",
+    "brand": "시크라인",
+    "category": "skirt",
+    "price": 59800,
+    "originalPrice": 69800,
+    "imageUrl": "https://chic-line.com/web/product/big/202608/611cd58283ddc776cb1fa4961dbf9e7d.jpg",
+    "colors": [
+      "[CLQC-S-02]블루"
+    ],
+    "sizes": [
+      "F",
+      "XL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "F,XL(55~88)",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:35:06.874Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "7826",
+      "productUrl": "https://chic-line.com/product/5%EC%BB%AC%EB%9F%AC%EB%B3%BC%EB%A5%A8%EA%B0%90up%ED%95%84%EC%88%98%EC%86%8C%EC%9E%A5%ED%95%B4%EB%82%98-%EC%98%A4%EA%B0%84%EC%9E%90-%EC%8A%A4%EC%BB%A4%ED%8A%B8/7826/category/77/display/2/"
+    },
+    "name": "[5컬러/볼륨감UP/필수소장]해나 오간자 스커트",
+    "brand": "시크라인",
+    "category": "skirt",
+    "price": 39800,
+    "originalPrice": 41800,
+    "imageUrl": "https://chic-line.com/web/product/big/202607/94658bb06018ad390034123c0c5775cd.jpg",
+    "colors": [
+      "[CLLB-S-16]레드",
+      "[CLLB-S-16]블루",
+      "[CLLB-S-16]옐로우",
+      "[CLLB-S-16]퍼플",
+      "[CLLB-S-16]아이보리"
+    ],
+    "sizes": [
+      "F",
+      "XL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "생활한복을 더 아름답게 해주는 오간자 스커트 빛에 따라 은은하게 반짝이는 특별한 분위기로~5가지 컬러로 다양하게 초이스 해보세요~ FREE,XL",
+    "rating": 5,
+    "reviewCount": 9,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "오간자 스커트 너무나 멋스럽고 이뻐요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-15T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "배경과너무 찰떡이였어요 다들 너무 이쁘다고 해줘서 기분좋게 잘 찍었어요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-13T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-25T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "예쁘네요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-02T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-02-25T00:00:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:08.645Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "4030",
+      "productUrl": "https://chic-line.com/product/4%EC%B2%9C%EC%9E%A5%ED%8C%90%EB%A7%A4%EC%8B%9C%EC%8A%A4%EB%A3%A8%EB%8D%A7%EC%B9%98%EB%A7%88%EC%82%AC%EB%B6%80%EB%9E%91-%EC%98%A4%EA%B0%84%EC%9E%90-%EC%8A%A4%EC%BB%A4%ED%8A%B8/4030/category/77/display/2/"
+    },
+    "name": "[4천장판매/시스루/덧치마]사부랑 오간자 스커트",
+    "brand": "시크라인",
+    "category": "skirt",
+    "price": 39800,
+    "originalPrice": 44800,
+    "imageUrl": "https://chic-line.com/web/product/big/202606/706a8105c7e7d1d3e0e31f6a9dca5e79.jpg",
+    "colors": [
+      "[CLIC-S-48]네이비",
+      "[CLIC-S-48]핑크",
+      "[CLIC-S-48]옐로우"
+    ],
+    "sizes": [
+      "F",
+      "XL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "특별한 분위기가 느껴지는 스커트(3color)오간자로 시스루하게 겉감을 덮어주어 로맨틱한 분위기를 연출해주는 허리치마 FREE,XL",
+    "rating": 4.9,
+    "reviewCount": 51,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-29T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "두가지 색상을 샀어요 색상은 붉은색이 이쁜데 파란색도 우아하고 멋있게 퍼지는 원단의 힘이 있어서 좋으...",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-15T00:00:00+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-12T00:00:00+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "다양한 컬러와 디자인으로 골라서 사봤어요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-08T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "잘맞아요 금데 주름작렬 ㅠㅠ노방이라 다림질도 어렵고 스팀다리미필수일듯요 옷자체는",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2018-09-23T00:00:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:10.421Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "2836",
+      "productUrl": "https://chic-line.com/product/%EA%B8%B0%EC%9E%A5%EC%84%A0%ED%83%9D4%EB%A7%8C%EC%9E%A5%ED%8C%90%EB%A7%A4%EC%8A%A4%ED%85%8C%EB%94%94%EC%85%80%EB%9F%AC%EA%B3%A0%EC%9A%B0%EB%82%98-%EC%83%9D%ED%99%9C%ED%95%9C%EB%B3%B5-%EC%8A%A4%EC%BB%A4%ED%8A%B8%EB%A1%B1%EB%AF%B8%EB%8B%88/2836/category/77/display/2/"
+    },
+    "name": "[기장선택/4만장판매/스테디셀러]고우나 생활한복 스커트(롱,미니)",
+    "brand": "시크라인",
+    "category": "skirt",
+    "price": 39800,
+    "originalPrice": 41800,
+    "imageUrl": "https://chic-line.com/web/product/big/202607/6f5fca76cbb8913694e7807758c1539a.webp",
+    "colors": [
+      "[CLHC-S-20]그린",
+      "[CLHC-S-20]레드",
+      "[CLHC-S-20]블랙",
+      "[CLHC-S-20]퍼플",
+      "[CLHC-S-20]그린(미니기장)",
+      "[CLHC-S-20]레드(미니기장)",
+      "[CLHC-S-20]블랙(미니기장)",
+      "[CLHC-S-20]퍼플(미니기장)"
+    ],
+    "sizes": [
+      "F",
+      "XL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "인생샷 보장하는 풍성한 허리치마24,000장 판매돌파!! 4컬러/2가지 기장! 시크라인이 만든 첫번째 생활한복 [2type 미니 -14cm/롱] FREE,XL",
+    "rating": 4.8,
+    "reviewCount": 887,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-23T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "미니기장으로 주문했더니 기존의 첰릭원피스랑 길이감굿입니다",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-01-24T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-01-24T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-01-07T00:00:00+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-12-07T00:00:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:12.212Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "13093",
+      "productUrl": "https://chic-line.com/product/made%EA%B8%B0%EC%9E%A5%EC%84%A0%ED%83%9D%EC%83%9D%ED%99%9C%ED%95%9C%EB%B3%B5%EC%9D%80%EB%8B%B4-%EB%B0%B0%EC%83%89%EC%8A%A4%ED%8A%B8%EB%9E%A9-%EC%8A%A4%EC%BB%A4%ED%8A%B8%EB%A1%B1%EB%AF%B8%EB%8B%88/13093/category/77/display/2/"
+    },
+    "name": "[MADE/기장선택/생활한복]은담 배색스트랩 스커트(롱,미니)",
+    "brand": "시크라인",
+    "category": "skirt",
+    "price": 49800,
+    "originalPrice": 54800,
+    "imageUrl": "https://chic-line.com/web/product/big/202607/3a486764a45166f82fd8a9ed97da4a7e.jpg",
+    "colors": [
+      "[CLQA-S-11]네이비(롱기장)",
+      "[CLQA-S-11]네이비(미니기장)"
+    ],
+    "sizes": [
+      "F",
+      "XL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "F,XL(55~99)",
+    "rating": 3,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": 3,
+        "text": "보통",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-20T00:00:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:14.010Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "12763",
+      "productUrl": "https://chic-line.com/product/%EA%B8%B0%EC%9E%A5%EC%84%A0%ED%83%9D%ED%95%98%EC%B2%B4%EC%BB%A4%EB%B2%84%EA%B0%80%EC%9D%84%EB%AC%B4%EB%93%9C%EC%B9%B4%EB%A5%B4%EB%B2%A8-%ED%95%80%ED%84%B1-%ED%94%8C%EB%A6%AC%EC%B8%A0-%EC%8A%A4%EC%BB%A4%ED%8A%B8%EB%A1%B1%EB%AF%B8%EB%8B%88/12763/category/77/display/2/"
+    },
+    "name": "[기장선택/하체커버/가을무드]카르벨 핀턱 플리츠 스커트(롱,미니)",
+    "brand": "시크라인",
+    "category": "skirt",
+    "price": 21800,
+    "originalPrice": 24800,
+    "imageUrl": "https://chic-line.com/web/product/big/202509/0539631ad0d2785da771586620c8ca4f.webp",
+    "colors": [
+      "[CLPC-S-501]브라운",
+      "[CLPC-S-501]브라운(미니기장)",
+      "[CLPC-S-501]블랙",
+      "[CLPC-S-501]블랙(미니기장)",
+      "[CLPC-S-501]챠콜",
+      "[CLPC-S-501]챠콜(미니기장)"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "S,M,L,XL,XXL(55~110)",
+    "rating": 4.6,
+    "reviewCount": 13,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-13T00:00:00+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "길이적당하고 배송빠르고 좋네요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-12T00:00:00+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-02-26T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-02-16T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사이즈 잘 맞아요 길이도 저에겐 적당해요 겨울용 소재인줄 알았는데 봄가을용 소재인것 같아 따뜻한 느낌은...",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-01-17T00:00:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:15.796Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "12775",
+      "productUrl": "https://chic-line.com/product/%EA%B7%B9%EC%B0%AC%ED%9B%84%EA%B8%B0%EC%B6%9C%EA%B7%BC%EB%A3%A9%EB%8D%B0%EC%9D%B4%ED%8A%B8%EB%A3%A9%EC%A0%9C%ED%8E%98%EC%95%84-%EB%92%B7%EB%B0%B4%EB%94%A9-%ED%94%8C%EB%A0%88%EC%96%B4-%EB%B3%BC%EB%A5%A8-%EC%8A%A4%EC%BB%A4%ED%8A%B8/12775/category/77/display/2/"
+    },
+    "name": "[극찬후기/출근룩/데이트룩]제페아 뒷밴딩 플레어 볼륨 스커트",
+    "brand": "시크라인",
+    "category": "skirt",
+    "price": 26800,
+    "originalPrice": 29800,
+    "imageUrl": "https://chic-line.com/web/product/big/202509/6e6b5d1eceb9926cc226fefae88f0c26.webp",
+    "colors": [
+      "[CLPC-S-504]브라운",
+      "[CLPC-S-504]블랙"
+    ],
+    "sizes": [
+      "F",
+      "XL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "FREE,XL(55~99)",
+    "rating": 4.3,
+    "reviewCount": 6,
+    "reviews": [
+      {
+        "rating": 4,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-16T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-01-16T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-12-05T00:00:00+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-12-04T00:00:00+09:00"
+      },
+      {
+        "rating": 3,
+        "text": "보통",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-25T00:00:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:17.509Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "12696",
+      "productUrl": "https://chic-line.com/product/%EA%B8%B0%EC%9E%A5%EC%84%A0%ED%83%9D%EB%8D%B0%EC%9D%BC%EB%A6%AC%EC%B6%9C%EA%B7%BC%EB%A3%A9%EB%B2%A8%EB%A1%9C%EB%82%98%EC%8A%A4-%ED%95%98%EC%9D%B4%EC%9B%A8%EC%8A%A4%ED%8A%B8-%EC%9D%B8%EB%B0%B4%EB%94%A9-%EC%8A%A4%ED%8C%90-%EC%BD%94%ED%8A%BC-%EC%8A%A4%EC%BB%A4%ED%8A%B8%EA%B8%B0%EB%B3%B8%EB%AF%B8%EB%8B%88/12696/category/77/display/2/"
+    },
+    "name": "[기장선택/데일리/출근룩]벨로나스 하이웨스트 인밴딩 스판 코튼 스커트(기본,미니)",
+    "brand": "시크라인",
+    "category": "skirt",
+    "price": 24800,
+    "originalPrice": 26800,
+    "imageUrl": "https://chic-line.com/web/product/big/202509/8e75cb2c2ba1638957a1c6d9acb8840d.webp",
+    "colors": [
+      "[CLPC-S-502]베이지",
+      "[CLPC-S-502]베이지(미니기장)",
+      "[CLPC-S-502]브라운",
+      "[CLPC-S-502]브라운(미니기장)",
+      "[CLPC-S-502]블랙",
+      "[CLPC-S-502]블랙(미니기장)"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "S,M,L,XL,XXL(55~110)",
+    "rating": 5,
+    "reviewCount": 4,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-25T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-26T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-03T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-21T00:00:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:19.255Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "12321",
+      "productUrl": "https://chic-line.com/product/1%EC%B2%9C%EC%9E%A5%ED%8C%90%EB%A7%A4%EA%B5%AD%EB%82%B4%EC%83%9D%EC%82%B0%EC%A3%BC%EB%AC%B8%ED%8F%AD%EC%A3%BC%ED%94%84%EB%A1%9C%EB%94%94-%ED%95%80%ED%84%B1-%EB%92%B7-%EB%B0%B4%EB%94%A9-%EC%8A%A4%EC%BB%A4%ED%8A%B8/12321/category/77/display/2/"
+    },
+    "name": "[1천장판매/국내생산/주문폭주]프로디 핀턱 뒷 밴딩 스커트",
+    "brand": "시크라인",
+    "category": "skirt",
+    "price": 27800,
+    "originalPrice": 29800,
+    "imageUrl": "https://chic-line.com/web/product/big/202504/579f7061d2e446fca252287a2c165cf0.webp",
+    "colors": [
+      "[CLPB-S-504]베이지",
+      "[CLPB-S-504]블랙"
+    ],
+    "sizes": [
+      "F",
+      "XL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "FREE,XL(55~88)",
+    "rating": 5,
+    "reviewCount": 4,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-10T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "편하게 입기좋아요 요즘매일입어요굿입니다요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-13T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "블라우스와 코디하려고 치마 구입했는더 사이즈 좋고 여름 스커트라 가볍고 시원해요 스타일이 여성스럽고 ...",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-06T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "여름에 입기 더워요. 날씨 선선해지면..",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-23T00:00:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:21.009Z"
+  }
+]

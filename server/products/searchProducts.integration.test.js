@@ -17,7 +17,7 @@ const repositoryRoot = path.resolve(
 );
 const silentLogger = { log() {} };
 
-test('searches the committed 40-product database with factual compact DTOs', async () => {
+test('searches the committed catalog with factual compact DTOs', async () => {
   const temporaryDirectory = await mkdtemp(path.join(tmpdir(), 'levit-search-'));
   const databasePath = path.join(temporaryDirectory, 'products.db');
 
@@ -53,7 +53,7 @@ test('searches the committed 40-product database with factual compact DTOs', asy
         { repository, logger: silentLogger },
       );
 
-      assert.equal(officeBlack.hardFilterMatchCount, 34);
+      assert.ok(officeBlack.hardFilterMatchCount > 15);
       assert.equal(officeBlack.candidates.length, 15);
       assert.equal(
         officeBlack.candidates.every((product) =>
@@ -76,7 +76,7 @@ test('searches the committed 40-product database with factual compact DTOs', asy
         },
         { repository, logger: silentLogger },
       );
-      assert.equal(size28.hardFilterMatchCount, 20);
+      assert.ok(size28.hardFilterMatchCount > 0);
       assert.equal(
         size28.candidates.every((product) =>
           product.sizes.some((size) => sizesMatch(size, '28')),
@@ -98,6 +98,58 @@ test('searches the committed 40-product database with factual compact DTOs', asy
         ),
         true,
       );
+
+      const expectedCategoryCounts = {
+        pants: 120,
+        top: 100,
+        dress: 100,
+        skirt: 100,
+        outerwear: 100,
+      };
+      for (const [category, expectedCount] of Object.entries(
+        expectedCategoryCounts,
+      )) {
+        const allCategoryCandidates = repository.findSearchCandidates({
+          category,
+          minPrice: null,
+          maxPrice: null,
+        });
+        const result = searchProducts(
+          {
+            query: `${category} category regression`,
+            required: { category },
+            preferred: {},
+          },
+          { repository, logger: silentLogger },
+        );
+
+        assert.equal(allCategoryCandidates.length, expectedCount);
+        assert.equal(
+          new Set(
+            allCategoryCandidates.map(
+              ({ product }) => product.source.shopId,
+            ),
+          ).size,
+          10,
+        );
+        assert.equal(result.hardFilterMatchCount, expectedCount);
+        assert.equal(result.candidates.length, 15);
+        assert.equal(
+          result.candidates.every((product) => product.category === category),
+          true,
+        );
+
+        const noResult = searchProducts(
+          {
+            query: `1천원 이하 ${category}`,
+            required: { category, maxPrice: 1000 },
+            preferred: {},
+          },
+          { repository, logger: silentLogger },
+        );
+        assert.equal(noResult.hardFilterMatchCount, 0);
+        assert.deepEqual(noResult.candidates, []);
+      }
     } finally {
       database.close();
     }

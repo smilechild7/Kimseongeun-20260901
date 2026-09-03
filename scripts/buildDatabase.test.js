@@ -32,6 +32,29 @@ async function committedEnrichmentCount() {
   return count;
 }
 
+async function committedRawCounts() {
+  const directory = path.join(repositoryRoot, 'data/raw');
+  const fileNames = (await readdir(directory)).filter((name) =>
+    name.endsWith('.json'),
+  );
+  const products = [];
+
+  for (const fileName of fileNames) {
+    products.push(
+      ...JSON.parse(await readFile(path.join(directory, fileName), 'utf8')),
+    );
+  }
+
+  return {
+    shops: new Set(products.map((product) => product.source.shopId)).size,
+    products: products.length,
+    reviews: products.reduce(
+      (total, product) => total + product.reviews.length,
+      0,
+    ),
+  };
+}
+
 test('rebuilds a deterministic database from committed raw JSON', async () => {
   const temporaryDirectory = await mkdtemp(path.join(tmpdir(), 'levit-db-build-'));
   const databasePath = path.join(temporaryDirectory, 'products.db');
@@ -43,13 +66,12 @@ test('rebuilds a deterministic database from committed raw JSON', async () => {
 
   try {
     const enrichments = await committedEnrichmentCount();
+    const rawCounts = await committedRawCounts();
     const firstBuild = await buildDatabase(buildOptions);
     const secondBuild = await buildDatabase(buildOptions);
 
     assert.deepEqual(firstBuild.counts, {
-      shops: 2,
-      products: 40,
-      reviews: 406,
+      ...rawCounts,
       enrichments,
     });
     assert.deepEqual(secondBuild.counts, firstBuild.counts);

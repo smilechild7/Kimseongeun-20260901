@@ -4,6 +4,10 @@ import ProductCard from '../../components/ProductCard.jsx';
 
 const CRITERIA_LABELS = Object.freeze({
   pants: '바지',
+  top: '상의',
+  dress: '원피스',
+  skirt: '스커트',
+  outerwear: '아우터',
   office: '출근',
   formal: '포멀',
   daily: '데일리',

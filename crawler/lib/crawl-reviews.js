@@ -1,5 +1,5 @@
 import { fetchPage, wait } from './fetch-page.js';
-import { parseCremaReviews, parseGraychicReviews } from './parse-reviews.js';
+import { parseCafe24Reviews, parseCremaReviews } from './parse-reviews.js';
 
 function cremaReviewsUrl(reviewConfig, productId, limit) {
   const url = new URL(
@@ -26,9 +26,13 @@ async function fetchProductReviews({ product, shopConfig, limit, fetcher }) {
 
   if (reviewConfig?.type === 'cafe24-html') {
     const html = await fetcher(product.source.productUrl);
+    const reviews = parseCafe24Reviews(html, {
+      limit,
+      ...reviewConfig.parser,
+    });
     return {
-      reviews: parseGraychicReviews(html, { limit }),
-      reviewCount: product.reviewCount,
+      reviews,
+      reviewCount: Math.max(product.reviewCount ?? 0, reviews.length),
     };
   }
 
@@ -49,11 +53,13 @@ async function fetchProductReviews({ product, shopConfig, limit, fetcher }) {
       );
     }
 
+    const reviews = parseCremaReviews(payload, { limit });
+
     return {
-      reviews: parseCremaReviews(payload, { limit }),
+      reviews,
       reviewCount: Number.isSafeInteger(payload?.total_reviews_count)
-        ? payload.total_reviews_count
-        : product.reviewCount,
+        ? Math.max(payload.total_reviews_count, reviews.length)
+        : Math.max(product.reviewCount ?? 0, reviews.length),
     };
   }
 

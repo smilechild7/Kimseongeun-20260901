@@ -1,0 +1,533 @@
+[
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "13316",
+      "productUrl": "https://chic-line.com/product/%EC%97%AC%EB%A6%84%EC%B6%9C%EA%B7%BC%EB%A3%A9%EC%8B%A0%EC%B6%95%EC%84%B1%ED%8F%AC%EB%A5%B4%EC%97%A3-%ED%85%8C%EC%9D%BC%EB%9F%AC%EB%93%9C-%EB%B2%84%ED%8A%BC-%EC%9E%90%EC%BC%93/13316/category/28/display/2/"
+    },
+    "name": "[여름출근룩/신축성]포르엣 테일러드 버튼 자켓",
+    "brand": "시크라인",
+    "category": "outerwear",
+    "price": 59800,
+    "originalPrice": 64800,
+    "imageUrl": "https://chic-line.com/web/product/big/202604/73d2ff52256a1bb6648fecff178ff8d6.webp",
+    "colors": [
+      "[CLQB-C-22]블랙"
+    ],
+    "sizes": [
+      "F",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "F,L,XL,XXL(55~110)",
+    "rating": 4.5,
+    "reviewCount": 8,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-04T00:00:00+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-20T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-12T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-07T00:00:00+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-03T00:00:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:33.815Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "13493",
+      "productUrl": "https://chic-line.com/product/%ED%88%AC%ED%94%BC%EC%8A%A4%EC%BD%94%EB%94%94%EC%99%84%EC%84%B1%ED%99%9C%EC%9A%A9%EB%A7%8C%EC%A0%90%EB%AA%A8%EC%97%98%EB%A3%A8-%EC%9E%90%EC%BC%93%EC%8A%AC%EB%A6%AC%EB%B8%8C%EB%A6%AC%EC%8A%A4-%EC%9B%90%ED%94%BC%EC%8A%A4/13493/category/28/display/2/"
+    },
+    "name": "[투피스/코디완성/활용만점]모엘루 자켓+슬리브리스 원피스",
+    "brand": "시크라인",
+    "category": "outerwear",
+    "price": 85300,
+    "originalPrice": 94800,
+    "imageUrl": "https://chic-line.com/web/product/big/202606/9aabd2847473e70fa9fb8b83f413a7fd.jpg",
+    "colors": [
+      "[CLQB-W-01]네이비"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "S,M,L,XL,XXL(55~110)",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:35:35.573Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "13627",
+      "productUrl": "https://chic-line.com/product/%EB%B2%A0%EC%9D%B4%EC%A7%81%ED%85%9C%EC%84%B8%EB%A0%A8%EB%90%9C%EB%B6%84%EC%9C%84%EA%B8%B0%EC%B6%9C%EA%B7%BC%EB%A3%A9%EB%B2%A0%EC%98%A8-%EC%9B%90%EB%B2%84%ED%8A%BC-%EC%8B%B1%EA%B8%80-%EB%B8%8C%EB%A0%88%EC%8A%A4%ED%8A%B8-%EC%9E%90%EC%BC%93/13627/category/28/display/2/"
+    },
+    "name": "[베이직템/세련된분위기/출근룩]베온 원버튼 싱글 브레스트 자켓",
+    "brand": "시크라인",
+    "category": "outerwear",
+    "price": 69800,
+    "originalPrice": 79800,
+    "imageUrl": "https://chic-line.com/web/product/big/202608/629bb0d1aa06856b0c6d466df202e58f.webp",
+    "colors": [
+      "[CLQC-C-14]챠콜"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "S,M,L,XL,XXL(55~110)",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:35:37.326Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "13619",
+      "productUrl": "https://chic-line.com/product/%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84%EC%9A%B0%EC%95%84%ED%95%9C%ED%95%8F%EC%98%A4%ED%94%BC%EC%8A%A4%EB%A3%A9%EC%83%A4%EB%A5%B4%EB%AF%B8%ED%81%AC-%ED%8E%98%ED%94%8C%EB%9F%BC-%ED%8A%B8%EC%9C%84%EB%93%9C-%EC%9E%90%EC%BC%93/13619/category/28/display/2/"
+    },
+    "name": "[프리미엄/우아한핏/오피스룩]샤르미크 페플럼 트위드 자켓",
+    "brand": "시크라인",
+    "category": "outerwear",
+    "price": 69800,
+    "originalPrice": 79800,
+    "imageUrl": "https://chic-line.com/web/product/big/202608/682de434d179c569bcd137e3b7b6145e.webp",
+    "colors": [
+      "[CLQC-C-15]블랙"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "S,M,L,XL,XXL(55~110)",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:35:39.033Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "13643",
+      "productUrl": "https://chic-line.com/product/made%EC%9C%A0%ED%96%89%EC%97%86%EC%9D%B4%EC%98%A4%EB%9E%98%EC%86%8C%EC%9E%A5%EA%B0%80%EC%B9%98%EC%86%94%EB%B9%84%EC%97%94-%ED%8E%98%ED%94%8C%EB%9F%BC-%EC%9E%90%EC%BC%93/13643/category/28/display/2/"
+    },
+    "name": "[MADE/유행없이오래/소장가치↑]솔비엔 페플럼 자켓",
+    "brand": "시크라인",
+    "category": "outerwear",
+    "price": 54800,
+    "originalPrice": 59800,
+    "imageUrl": "https://chic-line.com/web/product/big/202608/3998974955357067f091a130414dfdb5.webp",
+    "colors": [
+      "[CLQC-C-11]블랙"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "S,M,L,XL,XXL(55~110)",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:35:40.769Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "13641",
+      "productUrl": "https://chic-line.com/product/%EC%9B%90%ED%94%BC%EC%8A%A4or%EC%95%84%EC%9A%B0%ED%84%B0%EB%9E%98%EA%B8%80%EB%9F%B0%EC%86%8C%EB%A7%A4%EA%B2%A9%EC%8B%9D%EB%A3%A9%EB%A6%AC%EC%95%84%EC%97%98-d%EB%A7%81%EB%B2%A8%ED%8A%B8-%ED%94%8C%EB%A0%88%EC%96%B4-%EC%9B%90%ED%94%BC%EC%8A%A4/13641/category/28/display/2/"
+    },
+    "name": "[원피스or아우터][래글런소매/격식룩]리아엘 D링벨트 플레어 원피스",
+    "brand": "시크라인",
+    "category": "outerwear",
+    "price": 79800,
+    "originalPrice": 89800,
+    "imageUrl": "https://chic-line.com/web/product/big/202608/57759d33bc949fa6bde3053e5fa5db01.webp",
+    "colors": [
+      "[CLQC-O-14]네이비"
+    ],
+    "sizes": [
+      "F",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "F,XL,XXL(55~110)",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:35:42.495Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "13124",
+      "productUrl": "https://chic-line.com/product/%EC%9E%90%EC%BC%931%EC%9C%84%ED%99%9C%EC%9A%A9%EB%8F%84%EB%A7%8C%EB%8A%A5%EC%BD%94%EB%94%94%EB%85%B8%EB%A0%8C-%EB%8D%B0%EB%8B%98-%EB%B0%B0%EC%83%89-%ED%94%84%EB%A6%B0%EC%A7%80-%ED%8A%B8%EC%9C%84%EB%93%9C-%EC%9E%90%EC%BC%93/13124/category/28/display/2/"
+    },
+    "name": "[자켓1위/활용도↑/만능코디]노렌 데님 배색 프린지 트위드 자켓",
+    "brand": "시크라인",
+    "category": "outerwear",
+    "price": 64800,
+    "originalPrice": 74800,
+    "imageUrl": "https://chic-line.com/web/product/big/202601/1cc676e7e22f57f393b427749ec04ed1.webp",
+    "colors": [
+      "[CLQA-C-10]아이보리"
+    ],
+    "sizes": [
+      "F",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "F,L,XL,XXL(55~110)",
+    "rating": 5,
+    "reviewCount": 8,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-14T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-09T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-07T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-04T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사진보다 훨씬 예뻐요\n지금 봄에 입기 딱 좋은 두껍지 않아서 좋아요\n입으니까 얼굴이 화사해지내요\n상체가 ...",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-01T00:00:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:44.256Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "12705",
+      "productUrl": "https://chic-line.com/product/%EA%B3%A0%EA%B8%89%EB%AF%B8%EC%86%8C%EC%9E%A5%EC%B6%94%EC%B2%9C%ED%99%94%EC%82%AC%ED%95%9C%EB%AC%B4%EB%93%9C%EC%84%B8%EC%9D%B4%EB%A1%A0-%EA%B3%A8%EB%93%9C-%EB%8B%A8%EC%B6%94-%ED%8A%B8%EC%9C%84%EB%93%9C-%EC%9E%90%EC%BC%93/12705/category/28/display/2/"
+    },
+    "name": "[고급미/소장추천/화사한무드]세이론 골드 단추 트위드 자켓",
+    "brand": "시크라인",
+    "category": "outerwear",
+    "price": 59800,
+    "originalPrice": 64800,
+    "imageUrl": "https://chic-line.com/web/product/big/202509/2383a0686e8ae748568f3bbce532eb67.webp",
+    "colors": [
+      "[CLPC-C-22]아이보리"
+    ],
+    "sizes": [
+      "F",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "F,L,XL,XXL(55~99)",
+    "rating": 3,
+    "reviewCount": 2,
+    "reviews": [
+      {
+        "rating": 3,
+        "text": "너무 착용감이좋아서\n자주입고다녀요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-25T00:00:00+09:00"
+      },
+      {
+        "rating": 3,
+        "text": "보통",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-02-25T00:00:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:45.995Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "6687",
+      "productUrl": "https://chic-line.com/product/%ED%8F%AC%EB%A0%88%EB%A7%88-%ED%8E%98%ED%94%8C%EB%9F%BC-%EC%9E%90%EC%BC%93/6687/category/28/display/2/"
+    },
+    "name": "포레마 페플럼 자켓",
+    "brand": "시크라인",
+    "category": "outerwear",
+    "price": 49800,
+    "originalPrice": 51800,
+    "imageUrl": "https://chic-line.com/web/product/big/202008/9ed92160194bb94fe41554e554b78bb5.jpg",
+    "colors": [
+      "[CLKA-C-14]블랙",
+      "[CLKA-C-14]베이지"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "라인이 저절로 생기는 페플럼자켓(2color)단독으로도 이너와 함께해도 좋아요고급스러운 소재와 버튼까지! S,M,L,XL,XXL",
+    "rating": 4.8,
+    "reviewCount": 17,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-06-26T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색상 맘에 들고 사이즈 좋아요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2020-10-01T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "ㅇ러늣스타일의 옷을 너무 사고싶었어요 다행이 시크라인에서 파네요 오뜨꾸띄르?? 이런",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2020-10-01T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "소재가 고급스럽네요 S.M중 고민하다가 M으로 주문했는데 잘맞네요 날씬해보여요 만족합",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2020-09-24T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "옷 받아보고 너무 이뻣어요 맨첨엔 음 먹이 좀 더 파이면 이쁠거 같았는데 막상 쌀쌀해",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2020-09-19T00:00:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:47.752Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "13630",
+      "productUrl": "https://chic-line.com/product/%EC%84%B8%EB%A0%A8%EB%90%9C%EB%AC%B4%EB%93%9C%EB%B9%84%EC%9C%A8%EB%B3%B4%EC%A0%95%EC%98%A4%ED%94%BC%EC%8A%A4%EB%A3%A9%EC%A0%9C%EB%B9%84%EC%95%88-%ED%85%8C%EC%9D%BC%EB%9F%AC%EB%93%9C-%ED%81%AC%EB%A1%AD-%EC%9E%90%EC%BC%93/13630/category/28/display/2/"
+    },
+    "name": "[세련된무드/비율보정/오피스룩]제비안 테일러드 크롭 자켓",
+    "brand": "시크라인",
+    "category": "outerwear",
+    "price": 53800,
+    "originalPrice": 59800,
+    "imageUrl": "https://chic-line.com/web/product/big/202608/ab1fdeba99653005f914967070021eb7.webp",
+    "colors": [
+      "[CLQC-C-12]블랙"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "S,M,L,XL,XXL(55~110)",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:35:49.515Z"
+  }
+]

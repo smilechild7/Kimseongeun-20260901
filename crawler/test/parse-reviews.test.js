@@ -1,7 +1,11 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 
-import { parseCremaReviews, parseGraychicReviews } from '../lib/parse-reviews.js';
+import {
+  parseCafe24Reviews,
+  parseCremaReviews,
+  parseGraychicReviews,
+} from '../lib/parse-reviews.js';
 
 test('parses recent Graychic review rows without author information', () => {
   const html = `
@@ -88,4 +92,53 @@ test('normalizes Crema review evidence and drops PII and reviews over the limit'
     JSON.stringify(reviews),
     /brand_user_id|user_display_name|구매자1/u,
   );
+});
+
+test('parses generic Cafe24 table reviews without author information', () => {
+  const html = `
+    <div id="prdReview"><table>
+      <tr class="xans-record-">
+        <td class="subject"><a href="/article/상품리뷰/4/1">사무실에서 잘 입고 있습니다</a></td>
+        <td>구매자 이름</td>
+        <td class="txtInfo">2026-08-27</td>
+        <td><img alt="5점"></td>
+      </tr>
+    </table></div>
+  `;
+
+  const reviews = parseCafe24Reviews(html);
+
+  assert.deepEqual(reviews, [
+    {
+      rating: 5,
+      text: '사무실에서 잘 입고 있습니다',
+      optionText: null,
+      reviewerProfile: {
+        heightCm: null,
+        weightKg: null,
+        usualSize: null,
+        ageGroup: null,
+      },
+      imageUrls: [],
+      createdAt: '2026-08-27T00:00:00+09:00',
+    },
+  ]);
+  assert.doesNotMatch(JSON.stringify(reviews), /구매자 이름/u);
+});
+
+test('parses static Snap review summaries and enforces the limit', () => {
+  const html = `
+    <div id="prdReview"><ul>
+      <li class="item xans-record-" data-author="작성자1"><strong class="os">핏이 단정해요</strong></li>
+      <li class="item xans-record-" data-author="작성자2"><strong class="os">배송이 빨랐어요</strong></li>
+    </ul></div>
+  `;
+
+  const reviews = parseCafe24Reviews(html, { limit: 1 });
+
+  assert.equal(reviews.length, 1);
+  assert.equal(reviews[0].text, '핏이 단정해요');
+  assert.equal(reviews[0].rating, null);
+  assert.equal(reviews[0].createdAt, null);
+  assert.doesNotMatch(JSON.stringify(reviews), /작성자1/u);
 });

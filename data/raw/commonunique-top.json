@@ -1,0 +1,933 @@
+[
+  {
+    "source": {
+      "shopId": "commonunique",
+      "shopName": "커먼유니크",
+      "sourceProductId": "35248",
+      "productUrl": "https://common-unique.com/product/detail.html?product_no=35248&cate_no=26"
+    },
+    "name": "[얼리어텀] 프텐 홀터 넥 골지 버튼 슬리브리스 (가을/간절기/사계절/레이어드/캐주얼룩/페미닌룩/데일리룩/일상룩)",
+    "brand": "커먼유니크",
+    "category": "top",
+    "price": 23500,
+    "originalPrice": null,
+    "imageUrl": "https://common-unique.com/web/product/big/202608/215a24a64ede9d9468379414c534ea90.jpg",
+    "colors": [
+      "MOCHA",
+      "CHARCOAL",
+      "BLACK"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": null,
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:33:53.912Z"
+  },
+  {
+    "source": {
+      "shopId": "commonunique",
+      "shopName": "커먼유니크",
+      "sourceProductId": "25139",
+      "productUrl": "https://common-unique.com/product/detail.html?product_no=25139&cate_no=26"
+    },
+    "name": "[2천장돌파] 래빗 셔링 캡 슬리브리스 (여름/사계절/부유방커버/이너/베이직/캡내장/나시/데일리룩/동남아여행/흠뻑쇼/페스티벌룩)",
+    "brand": "커먼유니크",
+    "category": "top",
+    "price": 24500,
+    "originalPrice": null,
+    "imageUrl": "https://common-unique.com/web/product/big/202607/b4afce5e44765b85374d6ea485ff6755.jpg",
+    "colors": [
+      "GRAY",
+      "BLACK",
+      "SKY BLUE",
+      "IVORY",
+      "CREAM",
+      "PINK"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": null,
+    "rating": null,
+    "reviewCount": 63,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "여름에 이너로 입기 너무 좋아요ㅎㅎ 사이즈도 딱 맞네요",
+        "optionText": "COLOR: IVORY",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-25T07:50:19+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "입기 편하고 재질이 여름에 몸에 감기지 않고 좋아요\n그리고 일단 몸매를 예쁘게 보이게 하네요^^",
+        "optionText": "COLOR: BLACK",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-24T08:10:29+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "입기 편하고 재질이 여름에 몸에 감기지 않고 좋아요\n그리고 일단 몸매를 예쁘게 보이게 하네요^^",
+        "optionText": "COLOR: IVORY",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-24T08:10:24+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "깔끔하게 입고 다닐 수 있어서 좋아요~~ 가장 마음에 드는건 안비치는거!! 진짜 흰색 계열은 입고 싶어도 비치는게 제일 신경쓰이는데 이거는 그러지 않아요ㅇㅇ",
+        "optionText": "COLOR: IVORY",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-16T10:14:32+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "마감이 깔끔해서 좋아요~~ 속옷같은 느낌이 들지않아서 다른 색깔도 사볼까 고민중입니다ㅎㅎ",
+        "optionText": "COLOR: GRAY",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-06T09:40:33+09:00"
+      },
+      {
+        "rating": 1,
+        "text": "색도 예쁘고 그런데 캡이 정말 너무너무 아쉬워요 받쳐주는것도 없고 ㅠ",
+        "optionText": "COLOR: CREAM",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-05-04T00:01:16+09:00"
+      },
+      {
+        "rating": 1,
+        "text": "진짜 별로인거 같아요... 캡이 너무 ㅠㅠ",
+        "optionText": "COLOR: IVORY",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-05-04T00:00:45+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "캡이 들어있어서 편하네요 ㅎㅎ 같이 산 가디건이랑 잘 어울려요",
+        "optionText": "COLOR: IVORY",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/common-unique-com/reviews/00/00/51/32/94/image1/4bb3a392bbc352ab.webp"
+        ],
+        "createdAt": "2025-03-24T21:40:38+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "더운 나라에서 와이어브라 안입고\n캡슬리브리스 입고 시원하게 잘 다녔어요!",
+        "optionText": "COLOR: IVORY",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/common-unique-com/reviews/00/00/51/32/68/image1/b9d0d52066fdcf5e.webp",
+          "https://assets3.cre.ma/p/common-unique-com/reviews/00/00/51/32/68/image2/16604d4f40bfc3b3.webp",
+          "https://assets3.cre.ma/p/common-unique-com/reviews/00/00/51/32/68/image3/8856baa23ce3c5d4.webp"
+        ],
+        "createdAt": "2025-03-21T14:45:49+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "더운나라에서 시원하게 잘 입고 다녔어요!\n가슴을 모아주는 기능은 없고\n컵모양이 이뻐서 잘 얹어져있어요~!\n컵 사이에 구분박음질이 없어서\n세탁기 돌리면 컵이 하나로 모여있으나\n당황하지말고 잘 양쪽으로 위치를 옮겨주면 되요.",
+        "optionText": "COLOR: IVORY",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-03-21T14:44:26+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "캡이 내장되어 있는데 비치지 않는 두께여서 단독으로도 잘\n입어져요",
+        "optionText": "COLOR: IVORY",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-09-28T17:02:01+09:00"
+      },
+      {
+        "rating": 1,
+        "text": "음.. 컵이 돌아다녀요 불편합니다.\n(2024-09-26 16:28:51 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-09-27T02:47:26+09:00"
+      },
+      {
+        "rating": 1,
+        "text": "컵이 돌아다녀요 불편합니다\n(2024-09-26 16:29:24 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-09-27T02:47:26+09:00"
+      },
+      {
+        "rating": 1,
+        "text": "싸구려입니다. 좋은거 사세요\n(2024-08-26 10:14:07 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-08-27T02:43:36+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "편하게 이너로 입을 수 있어서 좋아요! 아이보리인데 비치지 않아서 맘편히 입을 수 있어요 ㅎㅎ",
+        "optionText": "COLOR: IVORY",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-08-12T07:30:40+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "깔끔하고 소재가 튼튼해서 좋아요. 깔별쟁여템!",
+        "optionText": "COLOR: CREAM",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/common-unique-com/reviews/00/00/50/95/59/image1/5b8dd60465d9934a.webp"
+        ],
+        "createdAt": "2024-08-02T22:13:53+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "궁",
+        "optionText": "COLOR: IVORY",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-07-19T12:26:26+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "휘뚜루 마뚜루 입을수있는 무난템입니다. 여름에 더위타는데 이것만입을수 있어서 좋아용\n(2024-07-12 00:19:59 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/common-unique-com/reviews/00/00/50/91/73/image1/eb0bc7e5e19a1857.webp"
+        ],
+        "createdAt": "2024-07-13T02:31:09+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "휘뚜루 마뚜루 입을수있는 무난템입니다. 여름에 더위타는데 이것만입을수 있어서 좋아용\n(2024-07-12 00:20:18 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/common-unique-com/reviews/00/00/50/91/72/image1/ef14867fc143238c.webp"
+        ],
+        "createdAt": "2024-07-13T02:31:09+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "딱 예쁘고 기본으로 입을 수 있는 나시에요\n평소에 아무렇게나 잘 입을 수 있을 거 같애요",
+        "optionText": "COLOR: IVORY",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-07-08T14:33:24+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:55.416Z"
+  },
+  {
+    "source": {
+      "shopId": "commonunique",
+      "shopName": "커먼유니크",
+      "sourceProductId": "34670",
+      "productUrl": "https://common-unique.com/product/detail.html?product_no=34670&cate_no=26"
+    },
+    "name": "체티 레이스 스트라이프 슬리브리스 뷔스티에 (봄/여름/데일리룩/나시/일상룩/썸머/페미닌룩/러블리룩)",
+    "brand": "커먼유니크",
+    "category": "top",
+    "price": 29000,
+    "originalPrice": null,
+    "imageUrl": "https://common-unique.com/web/product/big/202606/e1f9618d0637fbb122e866d59edd8f7e.jpg",
+    "colors": [
+      "IVORY"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": null,
+    "rating": 5,
+    "reviewCount": 3,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "레이스와 밑단 셔링 디테일이 너무 사랑스럽고, 단독으로나 레이어드용으로 두루 활용하기 좋은 뷔스티에입니다.",
+        "optionText": "COLOR: IVORY",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/common-unique-com/reviews/00/00/51/69/44/image1/6cbcfd7bd7335cf5.webp",
+          "https://assets3.cre.ma/p/common-unique-com/reviews/00/00/51/69/44/image2/967151af93f8ce1f.webp"
+        ],
+        "createdAt": "2026-08-28T19:41:04+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "함께 착용한반바지 구입할때부터 눈여겨보던 옷이라 이번에 주문했는데 역시나 기대 이상입니다",
+        "optionText": "COLOR: IVORY",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-24T08:11:28+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "여러 하의에 같이 코디하기 예뻐요!\n(2026-06-28 19:47:31 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/common-unique-com/reviews/00/00/51/67/06/image1/c7d2eef5c5d90c75.webp"
+        ],
+        "createdAt": "2026-06-29T03:18:38+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:56.943Z"
+  },
+  {
+    "source": {
+      "shopId": "commonunique",
+      "shopName": "커먼유니크",
+      "sourceProductId": "31496",
+      "productUrl": "https://common-unique.com/product/detail.html?product_no=31496&cate_no=26"
+    },
+    "name": "[2천장돌파] 오덴트 스퀘어 골지 슬리브리스 - 2 타입 (여름/썸머/사계절/나시/부유방커버/탑/이너티/레이어드/캐주얼/여행룩/휴가룩/휴양지룩)",
+    "brand": "커먼유니크",
+    "category": "top",
+    "price": 18000,
+    "originalPrice": null,
+    "imageUrl": "https://common-unique.com/web/product/big/202607/e367d5c5a42fa15de16826289875f672.jpg",
+    "colors": [
+      "BLACK",
+      "BROWN",
+      "WHITE",
+      "SKY BLUE",
+      "KHAKI",
+      "CREAM",
+      "PINK",
+      "IVORY (STRIPE VER.)",
+      "GRAY (STRIPE VER.)",
+      "BLACK (STRIPE VER.)"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": null,
+    "rating": null,
+    "reviewCount": 22,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "화이트 구매했는데 살짝 비침이 있네요 안에 따로 또 입어야할것같아요 티 자체는 신축성 좋고 딱 붙어서 좋습니다",
+        "optionText": "COLOR: WHITE",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-12T17:55:01+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "여름에 입기 너무 좋습니다 소재도 좋고 색깔도 이쁘네요 블랙 브라운으로 두벌 샀습니다 감사합니다",
+        "optionText": "COLOR: BROWN",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/common-unique-com/reviews/00/00/51/58/87/image1/d69b8fcca4525e81.webp"
+        ],
+        "createdAt": "2026-01-20T17:04:04+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "얇아서 여름에 입기 좋은데 너무 심하게 비쳐요....",
+        "optionText": "COLOR: WHITE",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-15T01:45:13+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "얇아서 여름에도 입기 좋은 재질이지만 부유방은 부각됩니다...",
+        "optionText": "COLOR: BLACK",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-15T01:44:35+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "파임이 적어서 부담없게 입을 수 있는 이너 나시를 생각하고 있었는데, 마침 좀 길이감이나 파임이 적은? 이너로 입기 부담없어보여서 구입하게 됐어요. 컬러가 좀 더 세분화된다면 실용적으로 더 구입할 수 있겠어요..!",
+        "optionText": "COLOR: BLACK",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-14T22:37:02+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "적당히 가려져요. 이너로 입기 좋습니다. 아직 더 입을 수 있을 거 같아요~~~",
+        "optionText": "COLOR: BLACK",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-14T12:52:34+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "넥라인이 너무 파인 게 아니라 안정감 있어서 좋아요. 그리고 생각보다 신축성이 있어서 입고 벗을 때 편하고 부유방 부각도 없어서 추천합니당",
+        "optionText": "COLOR: BLACK",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-20T13:34:06+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "나시 안 입는데 옷이 예뻐서 샀어요! 만족합니다.",
+        "optionText": "COLOR: BROWN",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/common-unique-com/reviews/00/00/51/44/18/image1/12c42522cb8b9703.webp"
+        ],
+        "createdAt": "2025-08-17T08:43:56+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "크림색과 브라운색상을 구입했는데 너무 맘에 쏙 들어요,",
+        "optionText": "COLOR: BROWN",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/common-unique-com/reviews/00/00/51/44/11/image1/5144072fcb11c047.webp"
+        ],
+        "createdAt": "2025-08-17T00:13:32+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "기대를 하지않고 가성비가 좋길래 구입해 봤는데 기대이상으로 만족도가 높아서 추가구입 할까 망설여 지고 있습니다.ㅎㅎ",
+        "optionText": "COLOR: CREAM",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/common-unique-com/reviews/00/00/51/44/10/image1/43113f40d0784e35.webp"
+        ],
+        "createdAt": "2025-08-17T00:12:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "어우 탄탄하네요",
+        "optionText": "COLOR: BLACK",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-14T16:46:36+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "굳굳 정말 진짜좋은것같아요 커먼유니크 쵝오~",
+        "optionText": "COLOR: WHITE",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-13T18:17:25+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "좋아요! 품질이 참 좋아요. ^^ 이쁘게 잘 입을게요!",
+        "optionText": "COLOR: PINK",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-13T18:16:24+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이너로 입기 너무 좋아요 여름에 필요한 이너입니다",
+        "optionText": "COLOR: BLACK",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-04T18:06:45+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "셔츠 안에 이너로 입으려고 구매했어요 만족하며 잘 입고 있어요",
+        "optionText": "COLOR: WHITE",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-04T18:06:26+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이뻐요 이너로 입기딱입니다 다른색도 사고싶어요",
+        "optionText": "COLOR: WHITE",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-07-11T14:37:49+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "언더로 괜찮네요 가디건에 같이 입기 좋아요 ^^",
+        "optionText": "COLOR: BLACK",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-07-08T15:42:05+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가느다란 골지라 참이뻐요~가디간 걸쳐입으니 딱이네요\n(2025-06-27 18:20:11 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/common-unique-com/reviews/00/00/51/40/89/image1/3ed73d7718758661.webp"
+        ],
+        "createdAt": "2025-06-28T03:33:45+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가느다란 골지라 이뻐요~가디건 이나 남방 걸쳐입으니 딱입니다\n(2025-06-27 18:21:35 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/common-unique-com/reviews/00/00/51/40/88/image1/0bbca452dbf4e3f1.webp"
+        ],
+        "createdAt": "2025-06-28T03:33:45+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "핏 예쁘고 편하고 좋아요. 스트랩 얇아서 마음에 들어요. 브라운은 약간 쿨한 컬러라 여름에 입기 좋은 거 같아요 ㅎㅎ",
+        "optionText": "COLOR: BROWN",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/common-unique-com/reviews/00/00/51/40/03/image1/da21300617fc5375.webp"
+        ],
+        "createdAt": "2025-06-16T19:59:31+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:58.537Z"
+  },
+  {
+    "source": {
+      "shopId": "commonunique",
+      "shopName": "커먼유니크",
+      "sourceProductId": "33256",
+      "productUrl": "https://common-unique.com/product/detail.html?product_no=33256&cate_no=26"
+    },
+    "name": "하트니 슬림 슬리브리스 레이어드 골지 티 (봄/간절기/라운드/페미닌/데일리룩/데이트룩/여행룩)",
+    "brand": "커먼유니크",
+    "category": "top",
+    "price": 26500,
+    "originalPrice": null,
+    "imageUrl": "https://common-unique.com/web/product/big/202601/de4e8894eb7a6bca9f1a0363e41e51a4.jpg",
+    "colors": [
+      "BLACK",
+      "GRAY",
+      "NAVY"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": null,
+    "rating": null,
+    "reviewCount": 3,
+    "reviews": [
+      {
+        "rating": 1,
+        "text": "커먼 유니크 옷 몇년 전에 많이 사봤다가 최근에 다시 사봤는데, 이건 뭐 검수도 안 하고 옷을 보내는 건지...\n설마 이런 일이 있을 거라 생각하지 않아서 박스 버리고 옷 상태를 봤는데 어깨 부분이 실이 제대로 박혀 있지 않았음. 사진에 보면 실밥이 하나도 없는 걸 볼 수 있는데 대롱대롱 매달려있는 걸 내가 떼어내고 다시 깁으려다가 어이가 없어서 찍어봤음. 이걸 어떻게 돈 받고 팔며 겨우 이런 옷을 받으려고 2주나 기다렸나. 대체 옷 배송은 왜 이렇게 늦는 건지...? 늦었다면 퀄이라도 만족스러워야 하는데",
+        "optionText": "COLOR: BLACK",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/common-unique-com/reviews/00/00/51/65/27/image1/2c5f7dd52aae740b.webp"
+        ],
+        "createdAt": "2026-05-20T11:29:16+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "오 엄청 슬림해 보이고 쇄골라인 엄청 이뻐보여요\n재질 부들부들 지금 날씨에 입기 딱 좋네요",
+        "optionText": "COLOR: BLACK",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/common-unique-com/reviews/00/00/51/63/29/image1/186d3facd6b6806c.webp"
+        ],
+        "createdAt": "2026-04-13T23:20:19+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "마음에 들어요~ 다른 곳에서 검정색 구매 했는데, 여기가 더 저렴해서 네이비로 하나 더 구매했습니다. 옷도 편하고 레이어드 효과도 있어서 좋아요. 검정색이랑 또 다른 매력으로 예쁩니다 앞으로 자주 입고 다닐 것 같아요. 나머지 한 색상도 구매 할까 고민 중입니다. 오랜만에 커먼유니크 에서 구매 했는데 마음에 들어요. 앞으로 잘 입고 다니겠습니다. ㅎㅎ",
+        "optionText": "COLOR: NAVY",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/common-unique-com/reviews/00/00/51/62/05/image1/c4025223a3ac36f7.webp"
+        ],
+        "createdAt": "2026-03-25T13:14:46+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:59.991Z"
+  },
+  {
+    "source": {
+      "shopId": "commonunique",
+      "shopName": "커먼유니크",
+      "sourceProductId": "34758",
+      "productUrl": "https://common-unique.com/product/detail.html?product_no=34758&cate_no=26"
+    },
+    "name": "레넌 스트라이프 U 넥 1/2 티 (봄/여름/데일리룩/기본템/일상템/이너/반팔/티셔츠/캠퍼스룩/출근룩)",
+    "brand": "커먼유니크",
+    "category": "top",
+    "price": 23000,
+    "originalPrice": null,
+    "imageUrl": "https://common-unique.com/web/product/big/202606/0cbc510805389a750de48f291e7237a8.jpg",
+    "colors": [
+      "IVORY",
+      "CREAM",
+      "GRAY",
+      "NAVY",
+      "BLACK"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": null,
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:01.412Z"
+  },
+  {
+    "source": {
+      "shopId": "commonunique",
+      "shopName": "커먼유니크",
+      "sourceProductId": "35485",
+      "productUrl": "https://common-unique.com/product/detail.html?product_no=35485&cate_no=26"
+    },
+    "name": "[얼리어텀] 푸벤 드레이프 레이어드 셔츠 (가을/간절기/데일리룩/일상룩/출근룩/페미닌룩/포멀룩)",
+    "brand": "커먼유니크",
+    "category": "top",
+    "price": 35100,
+    "originalPrice": 37000,
+    "imageUrl": "https://common-unique.com/web/product/big/202609/d782be46475d69f2f21727e9d765bfd6.jpg",
+    "colors": [
+      "IVORY",
+      "GRAY",
+      "CHARCOAL"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": null,
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:02.802Z"
+  },
+  {
+    "source": {
+      "shopId": "commonunique",
+      "shopName": "커먼유니크",
+      "sourceProductId": "35420",
+      "productUrl": "https://common-unique.com/product/detail.html?product_no=35420&cate_no=26"
+    },
+    "name": "[얼리어텀] 베첸 웨이브 슬리브리스 스카프 세트 티 (가을/간절기/데일리룩/일상룩/페미닌룩/출근룩)",
+    "brand": "커먼유니크",
+    "category": "top",
+    "price": 37000,
+    "originalPrice": 39000,
+    "imageUrl": "https://common-unique.com/web/product/big/202608/8bf2ee92bf085b25c3bd06b14b1dd05b.jpg",
+    "colors": [
+      "IVORY",
+      "BLACK"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": null,
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:04.278Z"
+  },
+  {
+    "source": {
+      "shopId": "commonunique",
+      "shopName": "커먼유니크",
+      "sourceProductId": "35354",
+      "productUrl": "https://common-unique.com/product/detail.html?product_no=35354&cate_no=26"
+    },
+    "name": "[얼리어텀] [MADE] 차엔 레이스 컬러링 슬리브리스 (가을/간절기/사계절/이너/데일리룩/일상룩/페미닌룩/러블리룩)",
+    "brand": "커먼유니크",
+    "category": "top",
+    "price": 27500,
+    "originalPrice": null,
+    "imageUrl": "https://common-unique.com/web/product/big/202608/1e173662a96802f8fd04c222542cfc30.jpg",
+    "colors": [
+      "IVORY",
+      "CHARCOAL"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": null,
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:05.749Z"
+  },
+  {
+    "source": {
+      "shopId": "commonunique",
+      "shopName": "커먼유니크",
+      "sourceProductId": "33657",
+      "productUrl": "https://common-unique.com/product/detail.html?product_no=33657&cate_no=26"
+    },
+    "name": "마리트 베이직 루즈 V 넥 맨투맨 (간절기/사계절/봄/레이어드/브이넥/시보리/기본템/데일리)",
+    "brand": "커먼유니크",
+    "category": "top",
+    "price": 43500,
+    "originalPrice": null,
+    "imageUrl": "https://common-unique.com/web/product/big/202603/3dab660053e56c23fa8e55413221802d.jpg",
+    "colors": [
+      "MELANGE",
+      "BLACK",
+      "CREAM"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": null,
+    "rating": null,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "간절기에 입으려고 샀어요! 핏이 유니크해서 좋아요. 네가 라운드넥 안어울려서 맨투맨 좋아하지만 잘 못입거든요 근데 이거는 브이넥이라서 너무 좋아요!",
+        "optionText": "COLOR: BLACK",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-20T15:47:19+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:07.735Z"
+  }
+]

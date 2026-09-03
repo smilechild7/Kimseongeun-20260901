@@ -26,6 +26,10 @@ const EVIDENCE_LABELS = Object.freeze({
 
 const VALUE_LABELS = Object.freeze({
   pants: '바지',
+  top: '상의',
+  dress: '원피스',
+  skirt: '스커트',
+  outerwear: '아우터',
   within_required_range: '요청 가격 범위',
   minimal: '미니멀',
   classic: '클래식',

@@ -145,7 +145,7 @@ export default function ShoppingAgent() {
             새로 찾기
           </button>
         ) : (
-          <span className="rounded-full border border-stone-300 bg-white/70 px-3 py-1.5 text-xs font-medium text-stone-600 backdrop-blur">실제 바지 상품 검색</span>
+          <span className="rounded-full border border-stone-300 bg-white/70 px-3 py-1.5 text-xs font-medium text-stone-600 backdrop-blur">실제 여성 의류 상품 검색</span>
         )}
       </header>
 
@@ -153,8 +153,8 @@ export default function ShoppingAgent() {
         <section className="relative mx-auto max-w-5xl px-5 pb-28 pt-16 text-center sm:px-8 lg:pt-28">
           <div className="mx-auto max-w-4xl">
             <p className="mb-5 text-sm font-semibold uppercase tracking-[0.22em] text-orange-700">Search less. Decide better.</p>
-            <h1 className="text-4xl font-bold leading-[1.12] tracking-[-0.045em] sm:text-6xl">어떤 바지를 찾고 계세요?</h1>
-            <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-stone-600">찾고 싶은 바지를 문장으로 알려주세요. 입력을 시작하면 필요한 조건을 더 선택할 수 있어요.</p>
+            <h1 className="text-4xl font-bold leading-[1.12] tracking-[-0.045em] sm:text-6xl">어떤 옷을 찾고 계세요?</h1>
+            <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-stone-600">찾고 싶은 옷을 문장으로 알려주세요. 입력을 시작하면 필요한 조건을 더 선택할 수 있어요.</p>
             {state.previousResponseId && (
               <div className="mt-5 inline-flex items-center gap-2 rounded-full bg-orange-100 px-3 py-1.5 text-xs font-semibold text-orange-900">
                 <span className="size-2 rounded-full bg-orange-600" /> 이전 검색 맥락을 이어서 찾을 수 있어요

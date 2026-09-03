@@ -1,0 +1,299 @@
+[
+  {
+    "source": {
+      "shopId": "commonunique",
+      "shopName": "커먼유니크",
+      "sourceProductId": "35242",
+      "productUrl": "https://common-unique.com/product/detail.html?product_no=35242&cate_no=29"
+    },
+    "name": "[얼리어텀] [유진PICK] 무킨 스웨이드 레이스 슬리브리스 원피스 (가을/간절기/데일리룩/일상룩/레이어드/페미닌룩/데이트룩)",
+    "brand": "커먼유니크",
+    "category": "dress",
+    "price": 48500,
+    "originalPrice": null,
+    "imageUrl": "https://common-unique.com/web/product/big/202608/93829c4d7403007423a91e26067a446a.jpg",
+    "colors": [
+      "LIGHT BEIGE",
+      "BROWN",
+      "CHARCOAL"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": null,
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:20.747Z"
+  },
+  {
+    "source": {
+      "shopId": "commonunique",
+      "shopName": "커먼유니크",
+      "sourceProductId": "34901",
+      "productUrl": "https://common-unique.com/product/detail.html?product_no=34901&cate_no=29"
+    },
+    "name": "모운 슬리브리스 핀턱 롱 니트 원피스 (여름/데일리룩/일상룩/썸머/포멀룩/페미닌룩/하객룩/출근룩)",
+    "brand": "커먼유니크",
+    "category": "dress",
+    "price": 34000,
+    "originalPrice": null,
+    "imageUrl": "https://common-unique.com/web/product/big/202606/4a269639d96ea0a5b1566414c631a844.jpg",
+    "colors": [
+      "CREAM",
+      "MOCHA",
+      "CHARCOAL",
+      "BLACK"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": null,
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:22.197Z"
+  },
+  {
+    "source": {
+      "shopId": "commonunique",
+      "shopName": "커먼유니크",
+      "sourceProductId": "34575",
+      "productUrl": "https://common-unique.com/product/detail.html?product_no=34575&cate_no=29"
+    },
+    "name": "페단 심플 슬리브리스 미니 원피스 (봄/여름/데일리룩/썸머/일상룩/출근룩/데이트룩/기본템/캠퍼스룩/하객룩)",
+    "brand": "커먼유니크",
+    "category": "dress",
+    "price": 21000,
+    "originalPrice": null,
+    "imageUrl": "https://common-unique.com/web/product/big/202606/e83c735557ba1c262c92c5cfafef5270.jpg",
+    "colors": [
+      "IVORY",
+      "BLACK"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": null,
+    "rating": 5,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "길이도 적당하고 소재도 좋아서 잘 입게 될 것 같습니다.\n(2026-07-13 09:18:06 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-14T02:42:05+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:23.727Z"
+  },
+  {
+    "source": {
+      "shopId": "commonunique",
+      "shopName": "커먼유니크",
+      "sourceProductId": "35161",
+      "productUrl": "https://common-unique.com/product/detail.html?product_no=35161&cate_no=29"
+    },
+    "name": "루넨 핀턱 백 오픈 슬리브리스 원피스 (여름/썸머/데일리룩/일상룩/페미닌룩/내추럴/휴양지/여행)",
+    "brand": "커먼유니크",
+    "category": "dress",
+    "price": 31500,
+    "originalPrice": null,
+    "imageUrl": "https://common-unique.com/web/product/big/202607/765bc83b17746ac1f984b197446f7a40.jpg",
+    "colors": [
+      "IVORY",
+      "CREAM",
+      "BEIGE",
+      "SKY BLUE",
+      "BLACK"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": null,
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:25.137Z"
+  },
+  {
+    "source": {
+      "shopId": "commonunique",
+      "shopName": "커먼유니크",
+      "sourceProductId": "33681",
+      "productUrl": "https://common-unique.com/product/detail.html?product_no=33681&cate_no=29"
+    },
+    "name": "레아르 언발 슬릿 슬리브리스 미디 원피스 (봄/간절기/여름/레이어드/유니크/포인트/트렌디룩/걸리시룩)",
+    "brand": "커먼유니크",
+    "category": "dress",
+    "price": 62500,
+    "originalPrice": null,
+    "imageUrl": "https://common-unique.com/web/product/big/202603/441fa645a772c6a38ebc2ddf0a3d8e2b.jpg",
+    "colors": [
+      "IVORY",
+      "BLACK"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": null,
+    "rating": null,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "이거 화이트도 사려고 고민중입니다 재질도 좋고 디테일 고급스럽고 적당히 여유로운 핏에 흠잡을 때 없어요",
+        "optionText": "COLOR: BLACK",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-12T21:37:21+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:26.581Z"
+  },
+  {
+    "source": {
+      "shopId": "commonunique",
+      "shopName": "커먼유니크",
+      "sourceProductId": "35427",
+      "productUrl": "https://common-unique.com/product/detail.html?product_no=35427&cate_no=29"
+    },
+    "name": "[얼리어텀] 로푼 링클 레이어드 슬리브리스 롱 원피스 (가을/간절기/데일리룩/일상룩/페미닌룩/여행룩)",
+    "brand": "커먼유니크",
+    "category": "dress",
+    "price": 33700,
+    "originalPrice": 35500,
+    "imageUrl": "https://common-unique.com/web/product/big/202609/899770bc141228a455406bf7c18bdd76.jpg",
+    "colors": [
+      "IVORY",
+      "DEEP BEIGE",
+      "BLACK"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": null,
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:28.024Z"
+  },
+  {
+    "source": {
+      "shopId": "commonunique",
+      "shopName": "커먼유니크",
+      "sourceProductId": "35087",
+      "productUrl": "https://common-unique.com/product/detail.html?product_no=35087&cate_no=29"
+    },
+    "name": "드렌 글로시 스모크 슬리브리스 롱 원피스 (여름/썸머/휴양지룩/데일리룩/여행룩/일상룩/페미닌룩)",
+    "brand": "커먼유니크",
+    "category": "dress",
+    "price": 39000,
+    "originalPrice": null,
+    "imageUrl": "https://common-unique.com/web/product/big/202607/4f32bb83b8557bc5b89663d0d52c09aa.jpg",
+    "colors": [
+      "CREAM",
+      "BLACK"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": null,
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:29.463Z"
+  },
+  {
+    "source": {
+      "shopId": "commonunique",
+      "shopName": "커먼유니크",
+      "sourceProductId": "34987",
+      "productUrl": "https://common-unique.com/product/detail.html?product_no=34987&cate_no=29"
+    },
+    "name": "비덴 플리츠 컬러링 슬리브리스 원피스 (여름/데일리룩/일상룩/썸머/여행룩/러블리룩/페미닌룩)",
+    "brand": "커먼유니크",
+    "category": "dress",
+    "price": 42000,
+    "originalPrice": null,
+    "imageUrl": "https://common-unique.com/web/product/big/202607/6bc2ad752e5018d3a716aebf09eb4efe.jpg",
+    "colors": [
+      "IVORY",
+      "GRAY"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": null,
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:30.908Z"
+  },
+  {
+    "source": {
+      "shopId": "commonunique",
+      "shopName": "커먼유니크",
+      "sourceProductId": "34899",
+      "productUrl": "https://common-unique.com/product/detail.html?product_no=34899&cate_no=29"
+    },
+    "name": "헤젠 레이스 컬러링 새틴 슬리브리스 원피스 (여름/데일리룩/일상룩/나시/레이어드/페미닌룩)",
+    "brand": "커먼유니크",
+    "category": "dress",
+    "price": 43000,
+    "originalPrice": null,
+    "imageUrl": "https://common-unique.com/web/product/big/202606/f2cfa384e7ad5978da6196e37fd75def.jpg",
+    "colors": [
+      "WHITE",
+      "CHARCOAL",
+      "BLACK"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": null,
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:32.355Z"
+  },
+  {
+    "source": {
+      "shopId": "commonunique",
+      "shopName": "커먼유니크",
+      "sourceProductId": "34687",
+      "productUrl": "https://common-unique.com/product/detail.html?product_no=34687&cate_no=29"
+    },
+    "name": "푸딘 핀턱 V 넥 슬리브리스 미니 원피스 (봄/여름/데일리룩/일상룩/썸머/레이어드룩/러블리룩)",
+    "brand": "커먼유니크",
+    "category": "dress",
+    "price": 36500,
+    "originalPrice": null,
+    "imageUrl": "https://common-unique.com/web/product/big/202606/e2667c86850f4e7400d2457f5684884a.jpg",
+    "colors": [
+      "IVORY",
+      "GRAY",
+      "BLACK"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": null,
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:33.786Z"
+  }
+]

@@ -1,0 +1,1862 @@
+[
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33193",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33193&cate_no=92"
+    },
+    "name": "르메르 스트링 스커트",
+    "brand": "(주)마주",
+    "category": "skirt",
+    "price": 50350,
+    "originalPrice": 53000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/3df30a5812e5c1358ce06603640e5f4e.jpg",
+    "colors": [
+      "진베이지톤",
+      "블랙",
+      "먹카키"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "가볍고 산뜻한 결감의 소재에 안감을 더해 비침 부담 없이 입기 좋으며, 편안한 전체 밴딩과 아래로 자연스럽게 퍼지는 세미 A라인 롱 스커트[3C]",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:17.394Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "28469",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=28469&cate_no=92"
+    },
+    "name": "쫀쫀한 텐션 훌스커트",
+    "brand": "(주)마주",
+    "category": "skirt",
+    "price": 32300,
+    "originalPrice": 34000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202502/d8bfe4b18c003c4d3eb06cfa94cb46a8.jpg",
+    "colors": [
+      "크림",
+      "블랙",
+      "연베이지",
+      "먹색",
+      "밤색"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "히든밴드에 자연스럽게 퍼지는 플레어라인~ 군살 커버하기 좋은 쫀쫀 탱글거리는 훌 스커트[5C]",
+    "rating": 4.8,
+    "reviewCount": 134,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "길이적당, 배쪽 밴드 쫀쫀, 무게감 있음, 봄, 가을 입기 적덩",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-30T08:39:12+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "롱스커트를 좋아하는데 너무 마음에 드는 스커트 구입했네요 입으면 날씬해보이고 아주 편합니다\n연베이지색도 마음에 들고 이뻐요",
+        "optionText": "color: 연베이지",
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/35/41/image1/2183fa96808ae0e0.webp"
+        ],
+        "createdAt": "2026-05-10T10:43:53+09:00"
+      },
+      {
+        "rating": 3,
+        "text": "허리 라인이 약간 길었고 66에 비해서 허리 사이즈 작아 불편해요",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-15T14:46:03+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "블랙ㆍ밤색 구매하고 연베이지도 색이좋아서 킵합니다.편하고 길이가 적당해 좋아요",
+        "optionText": "color: 연베이지",
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/11/47/image1/c7a997ba71392d6a.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/11/47/image2/1c272bfea038259c.webp"
+        ],
+        "createdAt": "2026-03-20T14:44:09+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "블랙 구매후 좋아서 깔별 다 주문해서 잘 입어요.\n환절기 적당히 톡톡해 좋네요",
+        "optionText": "color: 밤색",
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/11/39/image1/4541e155216e646d.webp"
+        ],
+        "createdAt": "2026-03-20T14:40:49+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "배 부분이 고무줄이고 텐션이 좋아서 눌러주고 괜찮은데 요즘 치마들이 길이가 길어서...\n조금 줄였어요",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-20T11:51:36+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "생각했던 것보다 훨씬 더 고급스러운 베이지 색감이에요\n모든 컬러에 다 어울릴 것 같은 색상에 예쁜 a라인...\n정말 만족해요",
+        "optionText": "color: 연베이지",
+        "reviewerProfile": {
+          "heightCm": 156,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-14T19:08:38+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "밴딩이지만 허리가 너무 작아 보여 놀랐지만\n기분 좋게 잘 잡아주는 탄성이라 잘 맞아요\n맵시나고 촉감 좋아서 다른 색도 주문해요\n크림ㆍ먹색 재입고 원츄입니다.",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/08/70/image1/d0f98be89dde9f08.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/08/70/image2/ca8ad6c13aa1b79d.webp"
+        ],
+        "createdAt": "2026-03-12T09:27:47+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "4월 친구 아들 결혼식 입고 갈 겁니다.\n얌전하고 차분한 분위기 좋아요~",
+        "optionText": "color: 연베이지",
+        "reviewerProfile": {
+          "heightCm": 161,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-06T15:04:41+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색상별로 가지고 있고 편하게 입기 좋아요\n자겟에 입어요",
+        "optionText": "color: 연베이지",
+        "reviewerProfile": {
+          "heightCm": 166,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-23T19:04:04+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "완전 쫀쫀하고 툭 떨어지는 느낌이 있어요\n검정색에 기장도 길어서\n받쳐입기 좋아요",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 170,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-20T18:18:54+09:00"
+      },
+      {
+        "rating": 3,
+        "text": "제가 164 인데 치마길이가 발목 정도까지 와서 깜짝 놀랐어요. 이런 스타일의 치마가 많은 편인데 이건 너무 길어서 세탁소에 맡겼어요. 한 10센치는 잘라야 딱 보기 좋겠더라구요",
+        "optionText": "color: 밤색",
+        "reviewerProfile": {
+          "heightCm": 164,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-20T08:24:51+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "오랜만에 스커트 맘에 드는걸 구입했어요.\n하뚱인 저에게 기쁘게도 넘 이쁘게 딱 떨어지네요.",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-08T21:00:34+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "평소에 찾았던 스커트를 아이팜므에서 발견했답니다. 차분하게 내려 앉는 둣한 분위기의 스커트를 입어보니 마음까지 차분해 지네요~~크림색이 품절되어 연베이지를 구입했는데 더 마음에 들어요~~ 잘 입을께요",
+        "optionText": "color: 연베이지",
+        "reviewerProfile": {
+          "heightCm": 167,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-30T10:22:09+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "허리가 밴드일 거란 생각을 못했는데 밴드여서 더 편하고 소재나 신축성이나 편하게 입을 수 있는 스타일. 정장핏 편한 핏 다 입을 수 있을 듯",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 168,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-26T14:56:05+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "예뻐요. 항상 너무 잘맞아서 좋아요. 단정하고 여성스럽고 편합니다.",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 167,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-26T00:12:27+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "배송 지연되는 상품이 있어서 따로 먼저 발송처리 해주셔서 금방 받았어요. 스커트 너무 편하고 좋은데. 허리가 좀 조이는 느낌이네요~제가 요즘 살이 찌긴 했지만 그래도 좀 허리가ㅜ좀 작게 나온거 같아요",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-21T19:21:21+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "딱 제가 원하는 핏과 소재라 득템했어요!\n160 이하인 저한테는 길이가 발목까지 오지만 앞으로 입을 두께라서 우아하게 입을수 있을듯요ㅎㅎ\n니트나 블라우스에 매치하면 고급스러워요",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 156,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-17T10:42:19+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "앞으로 기온 좀 내려가면 입기 좋을 두께감이네요 길이감도 좋고 핏이 예뻐요 신축성이 좋아서 편합니다",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 161,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-12T14:40:15+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "저의입은 모습을 보고 너무 이쁘다고\n언니가 입고싶어하여 주문하여 선물로 보냈네요\n울언니도 이쁘게 입겠죠^^",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-05-04T23:06:03+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:19.073Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33170",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33170&cate_no=92"
+    },
+    "name": "쫀쫀한 데일리 롱스커트",
+    "brand": "(주)마주",
+    "category": "skirt",
+    "price": 36100,
+    "originalPrice": 38000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/ee8620657f59d8787b40f73ab01f9124.jpg",
+    "colors": [
+      "블랙",
+      "브라운"
+    ],
+    "sizes": [
+      "S(26~28)",
+      "M(29~30)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "쫀쫀한 신축성과 군살을 잡아주는 H라인 핏! 뒷트임 디테일로 편안함과 슬림함을 동시에 더해주는 데일리 롱스커트[2C][S/M]",
+    "rating": 5,
+    "reviewCount": 4,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "신축성이 좋고 소재가 탄탄해서 딱 떨어지고 예뻐요 허리 밴드도 너무 조이지 않고 넓은 밴드라 편안합니다\n아직은 더울까 싶었는데 한여름 아니면 괜찮아요",
+        "optionText": "color: 블랙 / size: M(29~30)",
+        "reviewerProfile": {
+          "heightCm": 170,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/83/39/image1/31f525cbfd26edda.webp"
+        ],
+        "createdAt": "2026-08-28T08:47:03+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "아주 맘에 들어요 배송도 빠르고 좋아요\n날씬해보이고 하체커버 확실합니다",
+        "optionText": "color: 블랙 / size: M(29~30)",
+        "reviewerProfile": {
+          "heightCm": 164,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/83/17/image1/407c3158eb30fa34.webp"
+        ],
+        "createdAt": "2026-08-27T20:45:57+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "H스타일이라 하체커버확실하고 천도 탄탄해서 고급스럽습니다\n블랙 브라운 다 구매했습니다",
+        "optionText": "color: 브라운 / size: M(29~30)",
+        "reviewerProfile": {
+          "heightCm": 164,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-27T20:45:01+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "스커트 재질 완전 좋네요.구김 안가고 적당한 두께라 이번 더위 가시고 나면 잘 입을거 같아요.청바지 27사이즈 입어서 편하게 입으려고 M 주문 했는데 허리는 딱 맞고 몸 라인이 드러나지 않아서 사이즈 크게 잘 주문한 거 같아요.",
+        "optionText": "color: 블랙 / size: M(29~30)",
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/82/99/image1/1b1ed4ef172c9acb.webp"
+        ],
+        "createdAt": "2026-08-26T16:30:11+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:20.549Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "26552",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=26552&cate_no=92"
+    },
+    "name": "편안한 옆트임 스커트",
+    "brand": "(주)마주",
+    "category": "skirt",
+    "price": 28500,
+    "originalPrice": 30000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202303/111c1a0a06ec45045e78e375558132e3.jpg",
+    "colors": [],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "H라인에 심플한 디자인~ 여기저기 잘 입어질 가성비 좋은 스커트",
+    "rating": 4.8,
+    "reviewCount": 157,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "펴놔고 젛아요~어느 옷에나 잘 어울려요~ 가을에도 입어요~",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-28T07:29:51+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "팜므 앱 서치 하다가 다자인 예쁘고 가격 좋고, 사이즈 넉넉하다는 설명에 겟 했습니다. 혹시 길이가 너무 길면 어쩌나 했는데 제가 좋아하는 길이라서 더 맘에듭니다. 옆트임이라 더 이쁘네요.^^",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 159,
+          "weightKg": null,
+          "usualSize": "31",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/83/27/image1/e16b2948b1fc8003.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/83/27/image2/68bdb3875da11772.webp"
+        ],
+        "createdAt": "2026-08-27T22:32:50+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "조금 까칠하시만 그냥 입을만해서 입으려고 합니다\n(2026-08-23 00:10:43 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/82/66/image1/48cc226f82f194c1.webp"
+        ],
+        "createdAt": "2026-08-24T02:32:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "소재 시원하고 신축성도 있어요. 전체 길이도 적당하고 옆트임이있어서 걷기에 불편없고 뒷밴딩이라 편하게 잘 맞아요.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 167,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/80/52/image1/0d69653fcad66e97.webp"
+        ],
+        "createdAt": "2026-08-14T21:24:02+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "작년에 잘입던 스커트라 하나더 구입합니다.\n옆트임이있어 편하고 출퇴근복장으로 괜찮아요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-13T15:53:19+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "후기보구 구입했는데 잘맞고 편하게 입을거 같아요.\n(2026-07-31 11:48:48 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-01T02:43:55+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "작년에 구입 망설이다 올해 구입했어요\n역시 후기가 증명하는 옷이네요\n(2026-05-19 16:46:17 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/40/31/image1/98d97da23b097b04.webp"
+        ],
+        "createdAt": "2026-05-20T03:14:28+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "구김도 안갈것 같고 뒷허리 밴딩이라 좋아요. 길이감도 적당하고요.\n다만 프리싸이즈라 그런가 55인 저한테는 허리가 커네요.ㅠ\n그 외는 다 만족합니다.\n(2026-05-11 10:49:15 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/36/80/image1/b56fe16336174604.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/36/80/image2/463979c586322365.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/36/80/image3/74ac0b08c2a5ecdf.webp"
+        ],
+        "createdAt": "2026-05-12T02:51:23+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "아무 옷이나 받쳐 입어도 이뻐요. 편하게 입어도 괜찮고 결혼식장 갈때 입어도 무난해요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-07T15:31:04+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "벌써 몇번째 구매하는지 모르겠네요\n휘뚜루마뚜르 제일 편한 스커트입니다",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-24T10:19:43+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "편하고 이쁜 밴딩스커트입니다 너무 얇지도 않고 들러붙는 원단아니어서 맵시나요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/11/44/image1/d450b4e3209007f4.webp"
+        ],
+        "createdAt": "2026-03-20T14:42:35+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "스판이 적당히 들어있어서 편하고 날씬해 보이고 검정색이라서 아무옷이나 다 잘어울려요 넘 잘샀어요 좋아요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/10/41/image1/c2161a55fd08f430.webp"
+        ],
+        "createdAt": "2026-03-16T16:32:03+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "좀더 톡톡한 원단이길 바랬는데\n얇아서 반품할까 했는데 좀더 따뜻해지면 편하게 입으려고 반품안했어요.편한치마입니다.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-16T07:42:53+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "후기처럼 동네 다닐때 편한 치마\n한여름 빼고 봄.가을 잘 입겠어요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-05T12:51:19+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "소재 탄탄하고 좋아요.\n편안하고 들러붙지 않아서 좋아요.\n입으니 핏도 좋아요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-05T20:39:11+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "편하고 괜잖아요. 트임이 있어서 더 편해요. 길이감도 딱 좋아요. 추천합니다.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 157,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-01T19:15:50+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이 치마 2~3년 전에 구매해서 잘 입고 있어요 편하고 두루두루 입기 좋아서 지금도 멀쩡한데 킵해두려고 미리 사 쟁여둡니다",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-16T19:21:02+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "아주 편하고 막 입기 좋아요.\n더위지난 지금이 입기 좋아요.\n운동하러갈때 입어요.세탁해도 독같아요.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 164,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-27T15:05:23+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "계절이 좀 지나는 느낌이지만 구매했어요\n스판이라 좀 살이 쪘어도 편하네요\n맘에 듭니다!",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-09T16:25:08+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "폴리라 세탁해도 바로 마르고 라인도 예쁩니다 허리 밴딩이어서 착용감도 편하고 가격또한 좋아요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-04T14:43:06+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:21.918Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33131",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33131&cate_no=92"
+    },
+    "name": "시원한 카고 스커트",
+    "brand": "(주)마주",
+    "category": "skirt",
+    "price": 29000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202607/45efbad4dd35682facbc8259a7436d87.jpg",
+    "colors": [
+      "연카키",
+      "블랙"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "8부 정도의 기장감에 입은 듯 안 입은 듯 가벼운 착용감~ 허리 밴딩으로 편하고 가벼운 소재감이 매력적인 카고 스커트[2C]",
+    "rating": 5,
+    "reviewCount": 6,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "바스락거리고 여유있어 움직임이 편합니다.\n허리고무도 짱짱해서 잘 잡아주네요\n길이감 넉넉합니다 여기저기 잘 어울리는 기본템",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "31",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/83/62/image1/726fbf30a0ddf22c.webp"
+        ],
+        "createdAt": "2026-08-29T09:27:34+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "카키 입어보고 너~무 좋아서 품절 풀리자마자 블랙도 주문했어요.\n정말 퍈하고 몸에 휘감기지 않구.. 시원하고 뒷트임 없어도 걸리적\n거리지 않구 입었을때 너무 편해요!!!",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-04T10:05:47+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이런치마를 다른 브랜드에서 입어봣는데 훨씬 원단이 가볍고 시원해서 놀랐어요. 역시 아이팜므 를 믿고 앞으로도 계속 좋은상품 부타드립니다.",
+        "optionText": "color: 연카키",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "31",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-04T08:26:15+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "모델이랑 키가 같아서 입었을때도 비슷한 핏 나고요 가격대비 원단도 좋고 더운 날씨에 편하게 입기 좋겠어요\n허리가 밴딩이라 막 날씬해보이는건 아니고 가볍고 구김없고 시원하게 편하게 입기좋아요\n전 블랙했는데 좋아요\n(2026-07-31 00:18:54 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-01T02:40:28+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "지금 입는거 보다는 늦여름 가을에 입기에 더 나은 원단이긴해요. 사실 지금은 38-39 너무 더워서리~~ 가격대비 정말 좋은 제품이에요.",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-28T09:32:37+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "블랙 카키 다 주문했어요. 원단이 너무 찹찹하니 좋아보여서 구매했어요. 역시는 역시! 가격대비 넘 좋아요.",
+        "optionText": "color: 연카키",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-28T09:31:54+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:23.318Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "27429",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=27429&cate_no=92"
+    },
+    "name": "사그락 트임 쿨스커트",
+    "brand": "(주)마주",
+    "category": "skirt",
+    "price": 29000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202307/1ebc326c35759422dad184fc74af5e11.jpg",
+    "colors": [
+      "블랙",
+      "카키브라운"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "적당히 여유있는 H라인~ 미디롱 기장이라 데일리로 부담없이 입어지는 쿨스커트[2C]",
+    "rating": 4.9,
+    "reviewCount": 69,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "만족합니다. 컬러도 좋고 스타일도 좋습니다. 티나 남방등 코디하기 좋아서 휘뚜루마뚜루 잘 입고 있는 옷입니다.\n상의 여러개를 살려주는 아이템이에요~😊",
+        "optionText": "color: 카키브라운",
+        "reviewerProfile": {
+          "heightCm": 157,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-27T11:42:58+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "키가 크면 이쁠거같아요. 달라붙지않은 소재로 시원하고 좋아요",
+        "optionText": "color: 카키브라운",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-19T14:03:10+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "구김 없고 기벼워요\n옆트임이 있지만 계단 올라갈 때는 치마 폭이 좀 좁아요",
+        "optionText": "color: 카키브라운",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-17T13:13:05+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사그락그리는 원단이라 약간 저렴한 느낌이지만\n여름에 입기 적당한 두께고 막입기 좋아요. 트임이 없어 조금 불편하네요",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-13T15:54:35+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "가볍고,시원하고 가성비 괜찮음\n(2026-08-10 10:49:53 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/80/13/image1/6bdfdb7c9cf87d47.webp"
+        ],
+        "createdAt": "2026-08-11T02:42:55+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "작년에 카키색을입어보고 예쁘고 시원하고해서 이번에 블랙으로 구매후 입었습니다 너무좋아요 올 여름 열심히 입을께요",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-02T21:12:13+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "카키색 먼저 구입했다가 너무 시원하고 편해서 검정색도 구입했어요. 다만 밴드타입인데도 허리 부분이 너무 타이트해서 동네 수선집에서 늘려달라고 해서 입고 있어요.\n(2026-06-16 13:50:25 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/55/23/image1/f91780418cd8523c.webp"
+        ],
+        "createdAt": "2026-06-17T02:55:09+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "주문을 왜 이제서야 했나 싶을 정도로 마음에 듭니다. 가볍고 시원해서 여름에 많이 입을 것 같아요. 저한테 사이즈가 큰 것 같지만 그래도 핏이 이쁘다는 게 신기합니다",
+        "optionText": "color: 카키브라운",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/52/61/image1/3a66cf588ea546d1.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/52/61/image2/7923a541d8385fc9.webp"
+        ],
+        "createdAt": "2026-06-13T10:20:58+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "카키브라운 차분하니 맘에듭니다\n바느질상태도 좋고 신축성없어도\n딱히 불편감은 없어요\n지금부터 초가을까지 잘입어질것같아요\n156키라 살짝 길지만 옆트임덕분에\n수선없이 덜답답하게 잘입을수 있을것같네요\n블랙 같이 주문안한게 후회되요ㅜ",
+        "optionText": "color: 카키브라운",
+        "reviewerProfile": {
+          "heightCm": 156,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/49/10/image1/e2567254a174e122.webp"
+        ],
+        "createdAt": "2026-06-08T15:20:13+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "맘에들어요 안입은듯 가볍고 시원하고 예뻐요. 다만 허리를 넉넉히 입는(30~32)제겐 좀 조이지만 워낙 편한 옷이라 잘 입을 듯 합니다.\n(2026-06-05 13:38:29 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/48/45/image1/f060b2b370b3966c.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/48/45/image2/2de5c974fdac2131.webp"
+        ],
+        "createdAt": "2026-06-06T02:59:37+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "티셔츠에도 자켓에도 두루 어울리고 편하고 예뻐서 편하게 자주 입게 되네요",
+        "optionText": "color: 카키브라운",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-09T23:31:41+09:00"
+      },
+      {
+        "rating": 3,
+        "text": "운전 운동 다닐 때 시원하고 가벼워서 편하고 좋습니다",
+        "optionText": "color: 카키브라운",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-19T15:33:24+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "배나온 77사이즈예요\n작을까 망설이다 늦게 구입한걸 후회해요\n예쁘고 시원해요\n(2025-09-17 17:33:20 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/19/43/83/image1/75bab890eb2c1c3a.webp"
+        ],
+        "createdAt": "2025-09-18T03:21:35+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "시원하고 두번째구매해서 잘입고있습니다\n(2025-09-12 06:53:17 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/19/42/78/image1/7ff31f85b8937211.webp"
+        ],
+        "createdAt": "2025-09-13T02:37:12+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "원단좋고 기장도 좋아 아이팜므에서 구입한 검정 티셔츠랑 입으니 요즘 딱 입기 좋아요",
+        "optionText": "color: 카키브라운",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/19/41/91/image1/a410a8cc32dca612.webp"
+        ],
+        "createdAt": "2025-09-10T12:21:30+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "카키 구매하고 편해서 다시 블랙 구입하고 입어요. 올 여름 일상에서 편하게 입고 다니고 있어요.",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-09T15:40:39+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "평소 66싸이즈 입는데 적당히 넉넉하고 아주 맘에들어요.\n입으면 핏도 너무 예쁘네요.\n친구들도 어디서 샀냐고 물어보길래 사이트 알려줬어요,\n아이팜 옷 정말 후회없는거 같아요.\n앞으로 계속 단골할께요.",
+        "optionText": "color: 카키브라운",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-09T07:26:58+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "구김이 없고 시원해서 여름에 편하게 입을 수 있어요.검정 구입 후 재구매 했답니다. 여름용으로 강력 추천해요.",
+        "optionText": "color: 카키브라운",
+        "reviewerProfile": {
+          "heightCm": 159,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-09T02:40:56+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "카키도 사고 싶어요. 기장이 조금 더 짧은게 날듯도하구요. 편하게 막 입기 좋습니다.\n그냥 가볍게 티랑 입는 차마입니다.",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-04T15:36:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "대만족입니다\n생상 길이 모양 가성비 최고얘요👍\n강추합니다",
+        "optionText": "color: 카키브라운",
+        "reviewerProfile": {
+          "heightCm": 155,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-04T15:00:06+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:24.881Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "32626",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=32626&cate_no=92"
+    },
+    "name": "[40%세일]마르엔 링클 스커트-연회소라S",
+    "brand": "(주)마주",
+    "category": "skirt",
+    "price": 27600,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202605/16250a3edcb1a23687a5367fcce5d22b.jpg",
+    "colors": [
+      "블랙",
+      "연회소라",
+      "아이보리"
+    ],
+    "sizes": [
+      "S(25~27)",
+      "M(27~29)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "은은한 내추럴 링클 텍스처에 가볍고 시원한 터치감~ 허리 벨트 디테일이 더해져 훨씬 잘록하고 세련돼 보이는 스커트[3C][S/M]",
+    "rating": 5,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "편하고 날씬해 보여서 매우 만족해요.\n(2026-05-18 10:42:16 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/40/06/image1/1edc6e7d933619ff.webp"
+        ],
+        "createdAt": "2026-05-19T02:46:13+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:26.512Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "27035",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=27035&cate_no=92"
+    },
+    "name": "[30%세일]인디고 A라인 청치마-55/66",
+    "brand": "(주)마주",
+    "category": "skirt",
+    "price": 24500,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202505/2f2c8887779106659d863bd066e6e28f.jpg",
+    "colors": [],
+    "sizes": [
+      "55(25~28)",
+      "66(28~29)",
+      "77(29~31)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "얇은 두께에 유연한 느낌의 경쾌한 인디고 데님~ 여성스러운 A라인 청스커트[55~77]",
+    "rating": 4.8,
+    "reviewCount": 130,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "올여름 너무 잘 입었던 옷이라 세일하길래 얼른 재구매했어요 동네를 다녀도 친구를 만나러 갈때도 언제 어디서나 어색하지 않게 입을수 있는 옷입니다",
+        "optionText": "size: 66(28~29)",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-28T08:28:07+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "시원하고 얇은 원단이에요\n처음엔 퍼런물이 묻어납니다 세탁필수에요\n가격이 저렴한만큼 고급스럽진 않아요",
+        "optionText": "size: 66(28~29)",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/72/23/image1/dd0cbd14abf6d8d3.webp"
+        ],
+        "createdAt": "2026-07-22T12:59:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "청치마 지만 얇고 시원해요\n핏이 약간 애매해요\n싼가격에 한여름 편안하게 잘입겠어요",
+        "optionText": "size: 55(25~28)",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "26",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/70/27/image1/ef4fb526af99a5b3.webp"
+        ],
+        "createdAt": "2026-07-18T09:29:22+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "치마 잘안입는 사람입니다 오랜만에 치마사봤어요\n여름꺼라 시원합니다",
+        "optionText": "size: 66(28~29)",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-05T19:33:58+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "몇년째 살까말까를 망설이며 이번에 구입했어요 그동안 망설인게 후회될 정도로 맘에 드네요 A 라인이라 통도 넉넉해서 편합니다 천이 얇아 시원하기도 하고요..",
+        "optionText": "size: 66(28~29)",
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-01T12:15:24+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "원단두께와 길이도 적당하고\n편안하면서 깔끔하고 시원합니다",
+        "optionText": "size: 66(28~29)",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-16T15:52:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "치마 가볍고 예뻐요 마른 66인데 허리는 굵은 편이지만 사이즈 넉넉하네요. 바지보다는 시원하겠어요~ 길이감도 맘에 듭니다",
+        "optionText": "size: 66(28~29)",
+        "reviewerProfile": {
+          "heightCm": 167,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/52/01/image1/9432e79b16b783d8.webp"
+        ],
+        "createdAt": "2026-06-12T13:02:11+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 시원하고 예뻐요. 아이팜므 고인물인데 청치마가 다 비슷하지 뭐가 특별하겠냐고 생각했던 제 자신 반성합니다. 스테디셀러에 상품평이좋아서 몇년간 그냥 이런게 있구나 하다가 이제야 구매해보았는데 너무 잘입을것 같습니다. 일반 두툼한 청바지 소재 아니고 얇고 찰랑거리고 적당한 퍼짐까지...정말 만족합니다",
+        "optionText": "size: 66(28~29)",
+        "reviewerProfile": {
+          "heightCm": 166,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/44/87/image1/c21e14ba7fcbb7d7.webp"
+        ],
+        "createdAt": "2026-05-30T17:20:04+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "완전 이뻐요 시원하고 감기지도 않고요\n길이감 적당\n빨아도 원본보존됨요",
+        "optionText": "size: 66(28~29)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-23T10:26:28+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가격만큼 가볍게 입기 좋은 스커트에요.\n물빠짐 주의요.",
+        "optionText": "size: 66(28~29)",
+        "reviewerProfile": {
+          "heightCm": 157,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-22T13:59:16+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 마음에 들어요. A 라인도 과하지 았고 이쁘고 날씬해 보여요. 교복치마처럼 자주 입어지네요.",
+        "optionText": "size: 66(28~29)",
+        "reviewerProfile": {
+          "heightCm": 159,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-28T16:58:59+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "66사이즈했다가 너무 딱맞아서 77로 교환하니 여유감이 있으며 좋네요~\n이쁘게 잘 입을게요",
+        "optionText": "size: 77(29~31)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-07T16:24:22+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "지금 계절에 예쁘게 입을수 있어요\n맘에들어요\n(2025-08-22 10:58:27 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-23T02:43:45+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "덥지않은 여름 청치마 입니다.\n올여름 정말 잘 입었어요.\n길이가 길어서 딱 맞게 수선했어요.",
+        "optionText": "size: 66(28~29)",
+        "reviewerProfile": {
+          "heightCm": 157,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/19/33/34/image1/9f331cf1cecb8e89.webp"
+        ],
+        "createdAt": "2025-08-06T09:50:48+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "저는 골반이 큰편이라 바지 및 스커트는 골반에 맞춰입는데요, A라인 청치마 허리도 엉덩이도 다 넉넉하네요.. 한단 접어 입어야 할듯하고,, 여름에 충분히 입을수 있는 청치마입니다. 일단 바지보단 절대 덥지 않아요~ A라인이라 통풍 잘~ 됩니다",
+        "optionText": "size: 77(29~31)",
+        "reviewerProfile": {
+          "heightCm": 161,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-01T10:36:53+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "생각보다 핏이 예쁘네요 나이가 있어서 청치마 괜찮을까 했는데 짙은 색상에 얌전한 디자인이라 괜찮네요 사이즌 딱 좋습니다",
+        "optionText": "size: 66(28~29)",
+        "reviewerProfile": {
+          "heightCm": 161,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-07-31T15:06:03+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너므무 잘 입고 있습니다.\n사원하고 편해요\n칼라도 이뻐요.",
+        "optionText": "size: 77(29~31)",
+        "reviewerProfile": {
+          "heightCm": 168,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-07-27T16:54:19+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "정사이즈로 주문했는데 골반쪽이 약간 쪼이는 느낌이네요 그런데로 만족합니딘",
+        "optionText": "size: 66(28~29)",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-07-24T15:42:58+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "정55사이즈 입니다~^^\n아주 이쁘게 잘 맞아요.\n길이도 좋고 아주 시원합니다~^^\n저는 2벌이나 구매했답니다~~매우 만족합니다.",
+        "optionText": "size: 55(25~28)",
+        "reviewerProfile": {
+          "heightCm": 155,
+          "weightKg": null,
+          "usualSize": "26",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-07-20T15:43:52+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "보통 허리 30 사이즈 입는데\n허리 딱 맞고 여름에 입어도 시원한 얇고 적당히 유연하고 탄탄한 소재라서 아주 잘 입을 것 같아요\n역시 어떤 상의와 같이 입어도 잘 어울려서 넘 마음에 쏙 듭니다",
+        "optionText": "size: 77(29~31)",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-07-18T07:35:21+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:27.926Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "29044",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=29044&cate_no=92"
+    },
+    "name": "[30%세일]랑V 옆트임 스커트(프리미엄소재)-먹카키(L/M)",
+    "brand": "(주)마주",
+    "category": "skirt",
+    "price": 41300,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202405/ff672e8cd0623b1c6aa8fa76a0b3555f.jpg",
+    "colors": [
+      "네이비",
+      "먹카키"
+    ],
+    "sizes": [
+      "S(25~26)",
+      "M(27~28)",
+      "L(29~30)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "은은한 광택감에 자연스러운 링클주름이 보여지는 고급스러운 소재감의 스커트[2C][S~L]",
+    "rating": 5,
+    "reviewCount": 48,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "많은 분들의 칭찬 후기에 이끌려 저도 구매했습니다.\n하하하\n오자마자 배송된채로 입어봤네요\n나이들어보일까,\n먹카키가 애매하진않을까\n걱정했는데\n생각이상으로\n아주 괜찮습니다.\n158센치 49-50킬로인데 m사이즈 선택이 탁월했습니다.",
+        "optionText": "color: 먹카키 / size: M(27~28)",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/62/83/image1/6ca63eb82c556392.webp"
+        ],
+        "createdAt": "2026-07-01T18:50:29+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "두번째 구매입니다. 그만큼 마음에 든 스커트입니다. 색상, 길이, 디자인 이만한 치마를 다른 쇼핑몰에서 보지 못했네요. 먼저 구입한 스몰 사이즈는 제가 살이 좀 쪄서 동생에게 넘기고 m사이즈로 사서 입으니 배도 덜 나와보이고 엉덩이도 편합니다. 천이 살짝 좀 덥기도 하지만 들러붙지 않아 괜찮아요.",
+        "optionText": "color: 먹카키 / size: M(27~28)",
+        "reviewerProfile": {
+          "heightCm": 153,
+          "weightKg": null,
+          "usualSize": "26",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/51/17/image1/33b3bf7625a0d1df.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/51/17/image2/d13576184692c0e7.webp"
+        ],
+        "createdAt": "2026-06-11T13:00:36+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "평소66사이즈입는데 라지사이즈사길 잘했네요\n여름이라 넉넉하게 입을수있겠어요\n원단도 구김이없는편이고 이쁩니다",
+        "optionText": "color: 먹카키 / size: L(29~30)",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-08T19:42:57+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "속치마가 있어서 아주 시원하지는 않을 것 같아요.\n재질자체는 시원한 재질입니다.\n디자인이 배와 힙라인이 약간 드러나서 윗옷을 잘 입어야 할 것 같습니다.",
+        "optionText": "color: 네이비 / size: M(27~28)",
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-28T18:58:48+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "정말 편하고 맘에들어요\n재질. 색상. 사이즈\n유행없이 오래입을수 있을거깉아요\n(2025-08-22 10:57:16 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-23T02:43:45+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "오래 기다린 보람 있었네요~\n착오로인한 품절연락받고 어떻하나했었는데 다행스럽게도 상품 받게되어 아주 만족합니다~\n소재도 가벼워서 지금 한참 입기 좋아요~\n3군데 트임이 있어 걷기에도 아주 편합니다~\n자주 입을듯합니다~",
+        "optionText": "color: 먹카키 / size: L(29~30)",
+        "reviewerProfile": {
+          "heightCm": 168,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-07T14:49:04+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "플레어스커트만 입다가 용기내어 주문해봤어요 저에겐 허리가 약간 딱 맞지만 고급스럽고 시원합니다 훨씬 날씬해보인다고 들었어요",
+        "optionText": "color: 네이비 / size: L(29~30)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-06T05:54:03+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "네이비를 구매하고 좋아서 또 구매했어요 허리가 불편할까봐 걱정했는데 나름 괜찮고 멋스럽고 시원하고 예뻐요",
+        "optionText": "color: 먹카키 / size: L(29~30)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-06T05:48:26+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가볍고 편안하며 시원합니다. 다만 모델이 입은상의가 없어서 스커트와 맞춤을 못해 아쉬웠습니다",
+        "optionText": "color: 먹카키 / size: L(29~30)",
+        "reviewerProfile": {
+          "heightCm": 159,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-04T15:56:48+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "키가 작고 배가 나와서 망설였는데 트임이 있어그런지 핏이 어색하지 않아요. 무엇보다 매우 시원하네요. 베이지색도 사고 싶은데 품절이라 아쉬워요",
+        "optionText": "color: 먹카키 / size: L(29~30)",
+        "reviewerProfile": {
+          "heightCm": 155,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/19/28/58/image1/652dd03b3b6f723d.webp"
+        ],
+        "createdAt": "2025-07-28T15:34:40+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "자연스러운 천연섬류느낌. 안감처리가 브랜드 수준급입니다.색상도 자연스러운 카키인데 워싱 느낌이 납니다.\n먹카키 ... 잘 표헌된 색상명입니다.\n뒤트임,양옆트임이 시원한 개방감을 주니 더 시원해 보이네요.\n허리 뒷밴드는 편안함을 주는데 고무밴드로인해 들뜰까 걱정했는데 괜찮네요.\n평소 아이팜므 품질에 신뢰가 있어 가격이 조금 부담됐지만 퀼리티 좋습니다. 골반이 크고 허벅지 살이 있는편인데 편안히 떨어지는 핏이 나옵니다..",
+        "optionText": "color: 먹카키 / size: L(29~30)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/19/28/17/image1/8c4bf7a5f07c70d7.webp"
+        ],
+        "createdAt": "2025-07-27T21:26:50+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "여름 치마가 필요해서 찾아보다 이쁘고 시원할것같아서 구입했어요",
+        "optionText": "color: 먹카키 / size: L(29~30)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-07-22T21:11:33+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "착용감이 좋고 원단이 시원하고 가벼워서\n좋아요 .. 바느질도 꼼꼼해서 퀄리티 있어보여요",
+        "optionText": "color: 먹카키 / size: M(27~28)",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/19/23/45/image1/b77544abeec948b2.webp"
+        ],
+        "createdAt": "2025-07-19T14:48:37+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "카키색사고 예쁘고 가격도 예뻐서 베이지까지 구비함\n가볍고 단정하며 예뻐요 문안해서 오래입을것같아요",
+        "optionText": "color: 베이지 / size: L(29~30)",
+        "reviewerProfile": {
+          "heightCm": 161,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-07-17T18:22:59+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "작년에 카키(먹색)구입하고 너무 잘맞아서 올해 베이지와 네이비 구매 했습니다 올여름 많이 더운데 아주 시원하고 가벼워서 잘 입고 있습니다",
+        "optionText": "color: 베이지 / size: M(27~28)",
+        "reviewerProfile": {
+          "heightCm": 154,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-07-10T14:40:28+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "카키색으로 샀어요 베이지 니트티 사서 함께 입고있어요\n치마 가볍고 디자인굿입니당 같이 코디된 니트티가 없어서 아쉽네요",
+        "optionText": "color: 먹카키 / size: L(29~30)",
+        "reviewerProfile": {
+          "heightCm": 161,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-07-08T21:45:16+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "소재가 가슬거리며 시원해요\n그라고 가벼워서 좋고 옆트임이라\n걸을때 전혀 불편하지가 않네요\n(2025-07-07 19:17:30 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/19/16/67/image1/4d232efa2af2c851.webp"
+        ],
+        "createdAt": "2025-07-08T03:24:29+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "옆트임 스커트 너무너무 좋아 베이지색 히나 샀어 입어보고 네이버추가 구매하고 다시 추가 베이지 하나더 구매했어요 올 여름 엄청 더운날씨에 완전 이치마로 여름 났어요 믿고 구매 하세요 다들 예뿌다고 날리예요",
+        "optionText": "color: 베이지 / size: L(29~30)",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-08-26T14:37:36+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "옆트임이 좀 부담스러운데 주변에서 이쁘다합니다\n옷이 핏되고 기장도좀 긴편이라 키큰 분이\n잘 어울릴 옷입니다\n남색도 사고푼데 아쉽습니다",
+        "optionText": "color: 먹카키 / size: L(29~30)",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-08-19T14:39:43+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "허리 뒷부분이 밴드라 정말 편해요.\n밴드는 편한 대신 허리가 날씬해 보이지 않는 단점이 있는데 이 스커트는 신기하게 차르르 떨어지면서 전혀 둔해 보이지가 않아요.\n블라우스를 넣어 입었는데 우아하면서도 편해서 아주 만족합니다",
+        "optionText": "color: 네이비 / size: L(29~30)",
+        "reviewerProfile": {
+          "heightCm": 167,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-08-08T09:54:36+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:29.305Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "32292",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=32292&cate_no=92"
+    },
+    "name": "[50%세일]러비 여유핏 롱스커트-블랙S/아주연한회베이지S",
+    "brand": "(주)마주",
+    "category": "skirt",
+    "price": 21000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202604/7da085aa31be366059f34eb4af0236e3.jpg",
+    "colors": [
+      "블랙",
+      "아주연한회베이지"
+    ],
+    "sizes": [
+      "S(26~29)",
+      "M(30~32)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "허리 전체 밴딩으로 쓱 ~ 입기좋은 자연스러운 워싱감이 있는 텍스처의 롱 스커트[2C][S/M]",
+    "rating": 5,
+    "reviewCount": 4,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "27입는데 잘 맞고.가격대비 원단 디자인 색상.모두 맘에드네요.호주머니도 옆에도있고 아웃 포켓도있어 아주 좋아요.실수로 2개 주문되었는데 두고 입어도 괜찮겠어요.",
+        "optionText": "color: 아주연한회베이지 / size: S(26~29)",
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/71/71/image1/247359253b30617f.webp"
+        ],
+        "createdAt": "2026-07-21T10:44:51+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "핏이며 길이가 딱 마음에 드네요.속치마가 좀 더울 수 있는데 비치지 않아 좋아요.요런 스타일 좋아해서 만족합니다.",
+        "optionText": "color: 아주연한회베이지 / size: M(30~32)",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-19T09:38:18+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "키에 맞는 롱스커트를 세일가로 구입해서 만족합니다. 여름철에도 시원하게 잘 입을거 같아요.",
+        "optionText": "color: 블랙 / size: M(30~32)",
+        "reviewerProfile": {
+          "heightCm": 169,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-18T22:55:49+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "흰색바지처럼 여러옷에 두루 잘 입어질것같아 요~가격배비 넘. 좋으네요~",
+        "optionText": "color: 아주연한회베이지 / size: M(30~32)",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "33",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-09T11:59:25+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:30.725Z"
+  }
+]

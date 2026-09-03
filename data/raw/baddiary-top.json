@@ -1,0 +1,854 @@
+[
+  {
+    "source": {
+      "shopId": "baddiary",
+      "shopName": "배드다이어리",
+      "sourceProductId": "29805",
+      "productUrl": "https://baddiary.com/product/%EB%A1%A4%EB%A7%81-%ED%95%98%ED%94%84%EB%84%A5-%EB%B0%98%ED%8C%94-%EB%8B%88%ED%8A%B8/29805/category/42/display/2/"
+    },
+    "name": "롤링 하프넥 반팔 니트",
+    "brand": "악녀일기",
+    "category": "top",
+    "price": 19800,
+    "originalPrice": 22000,
+    "imageUrl": "https://baddiary.com/web/product/big/202608/70f7dd3b4996c6cf4d528568e9abc0da.webp",
+    "colors": [
+      "아이보리",
+      "베이지",
+      "핑크",
+      "카키",
+      "연그레이",
+      "와인",
+      "블랙"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "부드러운 터치감, 톡톡한 두께감",
+    "rating": 4.8,
+    "reviewCount": 5,
+    "reviews": [
+      {
+        "rating": null,
+        "text": "어깨가 넓어서 이런옷 잘 못입는데 너~무 예뻐요. 어깨도 안 넖어보이고 목도 길어보이는 것 같아요. 배송 ...",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:03.298Z"
+  },
+  {
+    "source": {
+      "shopId": "baddiary",
+      "shopName": "배드다이어리",
+      "sourceProductId": "28715",
+      "productUrl": "https://baddiary.com/product/%EC%8B%A0%EC%83%81%EC%BB%AC%EB%9F%AC%EC%B6%94%EA%B0%80%ED%95%98%EA%B0%9D%EB%A3%A9-%EB%8B%A8%EB%8F%85-%EB%9F%AC%EB%B8%94-%ED%83%80%EC%9D%B4-%EB%A6%AC%EB%B3%B8-%EB%B8%94%EB%9D%BC%EC%9A%B0%EC%8A%A4fl/28715/category/42/display/2/"
+    },
+    "name": "[신상컬러추가/하객룩] [단독] 러블 타이 리본 블라우스(F~L)",
+    "brand": "악녀일기",
+    "category": "top",
+    "price": 43200,
+    "originalPrice": 48000,
+    "imageUrl": "https://baddiary.com/web/product/big/202608/8b5f881f8d31c2d7cbee4fb8f556d6a8.webp",
+    "colors": [
+      "아이보리",
+      "핑크(모델착용)",
+      "브라운",
+      "차콜(모델착용)",
+      "블루(모델착용)"
+    ],
+    "sizes": [
+      "Free",
+      "L"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "리본 묶기 서툰 분들도 스타일링 쉬워요.",
+    "rating": 4.8,
+    "reviewCount": 11,
+    "reviews": [
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "회사 행사때문에 구입했는데 우아합니다",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "구김은잘 지지만 이뻐요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:04.985Z"
+  },
+  {
+    "source": {
+      "shopId": "baddiary",
+      "shopName": "배드다이어리",
+      "sourceProductId": "29818",
+      "productUrl": "https://baddiary.com/product/%EC%8A%A4%ED%8A%B8%EB%9D%BC%EC%9D%B4%ED%94%84-%EC%B9%B4%EB%9D%BC-%EB%B0%B0%EC%83%89-%EA%B8%B4%ED%8C%94-%EB%8B%88%ED%8A%B8/29818/category/42/display/2/"
+    },
+    "name": "스트라이프 카라 배색 긴팔 니트",
+    "brand": "악녀일기",
+    "category": "top",
+    "price": 35100,
+    "originalPrice": 39000,
+    "imageUrl": "https://baddiary.com/web/product/big/202608/0c436880a107eb45fd13938f3f29b3a7.webp",
+    "colors": [
+      "그레이",
+      "브라운",
+      "네이비"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "여유 있는 핏으로 부담 없이 매일 입기 좋아요.",
+    "rating": 5,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:06.631Z"
+  },
+  {
+    "source": {
+      "shopId": "baddiary",
+      "shopName": "배드다이어리",
+      "sourceProductId": "28557",
+      "productUrl": "https://baddiary.com/product/%EC%A3%BC%EB%AC%B8%ED%8F%AD%EC%A3%BC%ED%95%98%EA%B0%9D%EB%A3%A9%EC%B6%9C%EA%B7%BC%EB%A3%A9-%ED%95%98%ED%94%84%EB%84%A5-%ED%8E%98%EC%9D%B4-5%EB%B6%80-%EB%8B%88%ED%8A%B8%EA%B8%B4%EC%86%8C%EB%A7%A4-%EC%B6%94%EA%B0%80/28557/category/42/display/2/"
+    },
+    "name": "[주문폭주/하객룩/출근룩] (하프넥) 페이 5부 니트(긴소매 추가)",
+    "brand": "악녀일기",
+    "category": "top",
+    "price": 25200,
+    "originalPrice": 28000,
+    "imageUrl": "https://baddiary.com/web/product/big/202509/5c5db899112dc016593b70cd649046d0.webp",
+    "colors": [
+      "아이보리",
+      "베이지",
+      "그레이",
+      "블랙"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "고퀄리티 소재 365day 매일매일",
+    "rating": 4.8,
+    "reviewCount": 49,
+    "reviews": [
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "불만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "핏 예쁘고 부드러워요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "보통",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "괜찮은거같네요 잘받았어요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:08.468Z"
+  },
+  {
+    "source": {
+      "shopId": "baddiary",
+      "shopName": "배드다이어리",
+      "sourceProductId": "29794",
+      "productUrl": "https://baddiary.com/product/%ED%95%98%EA%B0%9D%EB%A3%A9%EC%B6%9C%EA%B7%BC%EB%A3%A9-%EC%89%AC%EC%96%B4-%ED%83%80%EC%9D%B4-7%EB%B6%80-%EB%B8%94%EB%9D%BC%EC%9A%B0%EC%8A%A4/29794/category/42/display/2/"
+    },
+    "name": "[하객룩/출근룩] 쉬어 타이 7부 블라우스",
+    "brand": "악녀일기",
+    "category": "top",
+    "price": 48600,
+    "originalPrice": 54000,
+    "imageUrl": "https://baddiary.com/web/product/big/202607/5d24289dc2e06a6ca5443457918fbd41.webp",
+    "colors": [
+      "크림",
+      "그레이",
+      "차콜",
+      "브라운"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "뒷모습까지 계산된 블라우스",
+    "rating": 5,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:10.431Z"
+  },
+  {
+    "source": {
+      "shopId": "baddiary",
+      "shopName": "배드다이어리",
+      "sourceProductId": "29812",
+      "productUrl": "https://baddiary.com/product/%EB%B8%8C%EB%9F%B0%EC%B9%98-%EA%B3%A8%EC%A7%80-%EB%8B%88%ED%8A%B8-%EA%B0%80%EB%94%94%EA%B1%B4/29812/category/42/display/2/"
+    },
+    "name": "브런치 골지 니트 가디건",
+    "brand": "악녀일기",
+    "category": "top",
+    "price": 31500,
+    "originalPrice": 35000,
+    "imageUrl": "https://baddiary.com/web/product/big/202608/3a0bf0bab2f585fdf55b9dba226574b2.webp",
+    "colors": [
+      "베이지",
+      "진베이지",
+      "레드",
+      "그레이",
+      "블랙"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "울 혼방으로 완성하는 포근함",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:12.032Z"
+  },
+  {
+    "source": {
+      "shopId": "baddiary",
+      "shopName": "배드다이어리",
+      "sourceProductId": "28570",
+      "productUrl": "https://baddiary.com/product/%ED%95%98%EA%B0%9D%EB%A3%A9%EC%B0%A8%EB%A5%B4%EB%A5%B4%EC%9B%90%EB%8B%A8-%EC%98%A4%EB%A5%B4%EC%84%B8-%ED%83%80%EC%9D%B4-%EB%B8%94%EB%9D%BC%EC%9A%B0%EC%8A%A4%EC%85%8B%EC%97%85%EA%B0%80%EB%8A%A5fl/28570/category/42/display/1/"
+    },
+    "name": "[하객룩/차르르원단] 오르세 타이 블라우스(셋업가능)(F~L)",
+    "brand": "악녀일기",
+    "category": "top",
+    "price": 66310,
+    "originalPrice": 69800,
+    "imageUrl": "https://baddiary.com/web/product/big/202509/41c9e2d8fb66fdcd13de2e3002df177c.webp",
+    "colors": [
+      "베이지",
+      "블랙"
+    ],
+    "sizes": [
+      "Free",
+      "L"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "세트 추천, 편안하면서도 단정하게 포멀한 하루",
+    "rating": 4.6,
+    "reviewCount": 5,
+    "reviews": [
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      },
+      {
+        "rating": null,
+        "text": "배송 빠르고 예뻐요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": null
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:13.844Z"
+  },
+  {
+    "source": {
+      "shopId": "baddiary",
+      "shopName": "배드다이어리",
+      "sourceProductId": "29884",
+      "productUrl": "https://baddiary.com/product/%ED%95%98%EA%B0%9D%EB%A3%A9-%EA%B8%B4%ED%8C%94-%EB%8B%A4%EC%9D%B4%EB%8B%9D-%ED%83%80%EC%9D%B4-%EB%B8%94%EB%9D%BC%EC%9A%B0%EC%8A%A4/29884/category/42/display/1/"
+    },
+    "name": "[하객룩] (긴팔) 다이닝 타이 블라우스",
+    "brand": "악녀일기",
+    "category": "top",
+    "price": 64600,
+    "originalPrice": 68000,
+    "imageUrl": "https://baddiary.com/web/product/big/202609/2b18d32ef2f92e06abf52aa90d290e97.webp",
+    "colors": [
+      "크림",
+      "그레이",
+      "모카",
+      "블랙"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "하나로 두 가지 무드를 다 가진 데일리 템",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:16.070Z"
+  },
+  {
+    "source": {
+      "shopId": "baddiary",
+      "shopName": "배드다이어리",
+      "sourceProductId": "29883",
+      "productUrl": "https://baddiary.com/product/%ED%95%98%EA%B0%9D%EB%A3%A9-made-%EB%B8%8C%EB%A6%BF%EC%A7%80-%ED%83%80%EC%9D%B4-%EB%A6%AC%EB%B3%B8-%EB%B8%94%EB%9D%BC%EC%9A%B0%EC%8A%A4/29883/category/42/display/1/"
+    },
+    "name": "[하객룩] [made] 브릿지 타이 리본 블라우스",
+    "brand": "악녀일기",
+    "category": "top",
+    "price": 46550,
+    "originalPrice": 49000,
+    "imageUrl": "https://baddiary.com/web/product/big/202609/2737c4d36a26d75c05e3f72e0fe5bf88.webp",
+    "colors": [
+      "아이보리",
+      "핑크",
+      "차콜"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "타이 하나로 우아한 무드",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:17.808Z"
+  },
+  {
+    "source": {
+      "shopId": "baddiary",
+      "shopName": "배드다이어리",
+      "sourceProductId": "29879",
+      "productUrl": "https://baddiary.com/product/%ED%94%8C%EB%A3%A8%ED%8A%B8-%ED%95%98%ED%94%84%EB%84%A5-%ED%83%80%EC%9D%B4-%EB%B8%94%EB%9D%BC%EC%9A%B0%EC%8A%A4/29879/category/42/display/1/"
+    },
+    "name": "플루트 하프넥 타이 블라우스",
+    "brand": "악녀일기",
+    "category": "top",
+    "price": 49400,
+    "originalPrice": 52000,
+    "imageUrl": "https://baddiary.com/web/product/big/202609/c345fff5356e56ebed94d63e7e162f18.webp",
+    "colors": [
+      "크림",
+      "블루그레이",
+      "브라운",
+      "블랙"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "오래 활용하기 좋은 타이 블라우스",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:19.519Z"
+  }
+]

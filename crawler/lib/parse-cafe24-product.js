@@ -29,6 +29,33 @@ function normalizeAssetUrl(value, baseUrl) {
   }
 }
 
+function findProductImageUrl($, product, baseUrl) {
+  const jsonLdImage = Array.isArray(product?.image)
+    ? product.image[0]
+    : product?.image;
+  const candidates = [
+    $('meta[property="og:image"]').attr('content'),
+    $('.keyImg img').first().attr('src'),
+    $('img.BigImage').first().attr('src'),
+    jsonLdImage,
+  ];
+
+  for (const candidate of candidates) {
+    const normalized = normalizeAssetUrl(candidate, baseUrl);
+
+    if (!normalized) {
+      continue;
+    }
+
+    const url = new URL(normalized);
+    if (url.pathname !== '/' || url.search.length > 0) {
+      return normalized;
+    }
+  }
+
+  return null;
+}
+
 function findJsonLdProduct($) {
   const candidates = [];
 
@@ -76,34 +103,103 @@ function isPlaceholderOption(value) {
   );
 }
 
-function extractOptionValues($, kind) {
-  const matchesKind =
-    kind === 'size' ? /(size|사이즈)/i : /(color|colour|색상|컬러)/i;
+const SIZE_TITLE_PATTERN = /(size|사이즈)/i;
+const COLOR_TITLE_PATTERN = /(color|colour|색상|컬러)/i;
+const COMPOSITE_SIZE_PATTERN =
+  /^(?:free|f|xs|s|m|l|xl|xxl|xxxl|[2-8]xl|[1-5]|\d{2,3})$/i;
+const LENGTH_OPTION_PATTERN = /^(?:숏|롱|기본|short|long)$/i;
+
+function optionDisplayValues($, element) {
+  const values = [];
+
+  $(element)
+    .find('option')
+    .each((_, option) => {
+      const value = cleanText($(option).text()) ?? $(option).attr('value');
+      if (!isPlaceholderOption(value)) {
+        values.push(value);
+      }
+    });
+
+  $(element)
+    .find('[option_value]')
+    .each((_, option) => {
+      const value =
+        cleanText($(option).text()) ??
+        $(option).attr('title') ??
+        $(option).attr('option_value');
+      if (!isPlaceholderOption(value)) {
+        values.push(value);
+      }
+    });
+
+  return unique(values);
+}
+
+function isCompositeOptionTitle(title, optionConfig) {
+  if (SIZE_TITLE_PATTERN.test(title) && COLOR_TITLE_PATTERN.test(title)) {
+    return true;
+  }
+
+  return (optionConfig?.compositeTitlePatterns ?? []).some((pattern) =>
+    pattern.test(title),
+  );
+}
+
+function compositeOptionParts(value) {
+  const segments = value
+    .replace(/\s*\([+-]?\s*[\d,]+원?\)\s*$/u, '')
+    .split(/[\/_-]+/u)
+    .map((segment) => cleanText(segment))
+    .filter(Boolean);
+  const sizeIndex = segments.findIndex((segment) =>
+    COMPOSITE_SIZE_PATTERN.test(segment),
+  );
+
+  if (sizeIndex < 0) {
+    return { size: null, color: null };
+  }
+
+  const color = [...segments.slice(0, sizeIndex)]
+    .reverse()
+    .find((segment) => !LENGTH_OPTION_PATTERN.test(segment));
+
+  return {
+    size: segments[sizeIndex],
+    color: cleanText(color?.replace(/\([a-z\s]+\)/gi, '')),
+  };
+}
+
+function extractOptionValues($, kind, sourceProductId, optionConfig) {
+  const matchesKind = kind === 'size' ? SIZE_TITLE_PATTERN : COLOR_TITLE_PATTERN;
   const values = [];
 
   $('[option_title]').each((_, element) => {
     const title = $(element).attr('option_title') ?? '';
-    if (!matchesKind.test(title)) {
+    const productType = $(element).attr('product_type');
+    const optionProductId = $(element).attr('option_product_no');
+
+    if (
+      (productType && productType !== 'product_option') ||
+      (sourceProductId && optionProductId && optionProductId !== sourceProductId)
+    ) {
       return;
     }
 
-    $(element)
-      .find('option')
-      .each((__, option) => {
-        const value = $(option).attr('value') ?? $(option).text();
-        if (!isPlaceholderOption(value)) {
-          values.push(value);
-        }
-      });
+    const displayValues = optionDisplayValues($, element);
 
-    $(element)
-      .find('[option_value]')
-      .each((__, option) => {
-        const value = $(option).attr('option_value') ?? $(option).attr('title');
-        if (!isPlaceholderOption(value)) {
-          values.push(value);
-        }
-      });
+    if (isCompositeOptionTitle(title, optionConfig)) {
+      values.push(
+        ...displayValues
+          .map((value) => compositeOptionParts(value)[kind])
+          .filter(Boolean),
+      );
+      return;
+    }
+
+    if (matchesKind.test(title)) {
+      values.push(...displayValues);
+    }
   });
 
   return unique(values);
@@ -200,8 +296,9 @@ export function parseCafe24Product(
     extractSourceProductId(productUrl) ??
     $('[option_product_no]').first().attr('option_product_no') ??
     null;
+  const ogTitle = cleanText($('meta[property="og:title"]').attr('content'));
   const name = cleanText(
-    $('meta[property="og:title"]').attr('content') ?? product?.name,
+    ogTitle && ogTitle !== cleanText(shopConfig.name) ? ogTitle : product?.name,
   );
   const basePrice =
     parseMoney($('#span_product_price_text').first().text()) ??
@@ -209,11 +306,7 @@ export function parseCafe24Product(
     parseMoney(offer?.price?.toString());
   const salePrice = parseMoney($('#span_product_price_sale').first().text());
   const price = salePrice ?? basePrice;
-  const imageUrl = normalizeAssetUrl(
-    $('meta[property="og:image"]').attr('content') ??
-      (Array.isArray(product?.image) ? product.image[0] : product?.image),
-    shopConfig.baseUrl,
-  );
+  const imageUrl = findProductImageUrl($, product, shopConfig.baseUrl);
   const jsonLdRating = aggregateRating(product);
   const domReviewCount = Number.parseInt(
     $('.sp__product_data[scope="index"]').first().attr('data-review'),
@@ -226,7 +319,12 @@ export function parseCafe24Product(
     );
   }
 
-  const optionSizes = extractOptionValues($, 'size');
+  const optionSizes = extractOptionValues(
+    $,
+    'size',
+    sourceProductId,
+    shopConfig.options,
+  );
 
   return {
     source: {
@@ -243,7 +341,12 @@ export function parseCafe24Product(
     price,
     originalPrice: salePrice !== null && basePrice > salePrice ? basePrice : null,
     imageUrl,
-    colors: extractOptionValues($, 'color'),
+    colors: extractOptionValues(
+      $,
+      'color',
+      sourceProductId,
+      shopConfig.options,
+    ),
     sizes: optionSizes.length > 0 ? optionSizes : extractSizesFromName(name),
     sizeGuideText: extractSizeGuideText(
       $,

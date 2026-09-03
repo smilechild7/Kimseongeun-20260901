@@ -1,0 +1,1935 @@
+[
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33080",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33080&cate_no=94"
+    },
+    "name": "편안한 네츄럴 원피스",
+    "brand": "(주)마주",
+    "category": "dress",
+    "price": 29000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202607/449d60eda11508b49dca7fa90eea8328.jpg",
+    "colors": [],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "가벼운 면 100% 소재로 한여름에도 시원하고 편안하게! 가격대비 퀄리티가 만족스러운 내추럴한 체크 면 원피스",
+    "rating": 4.7,
+    "reviewCount": 59,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "올 여름 더울때 홈웨어로 교복처럼 입었어요 원단도 좋고 세탁후 변함도 없고 시원하고 좋아요",
+        "optionText": "출고일: 8/3~8/4",
+        "reviewerProfile": {
+          "heightCm": 161,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/83/43/image1/ee8a1e8d398ccb22.webp"
+        ],
+        "createdAt": "2026-08-28T11:40:28+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "빠른배송 감사합니다\n(2026-08-25 00:46:33 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-26T02:40:19+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "옷이 시원하고 가벼우며 안 입은것 같아요 완전 맘에 들어요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "34",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-25T11:00:51+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "편안한 이지웨어 입니다. 집 근처 외출도 가능할 듯해요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-24T21:14:49+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "진짜 편하게 입기좋은 원피스\n(2026-08-23 08:52:53 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-24T02:41:22+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "완전 맘에 들어요.\n길이가 약간 길지만 사이즈 넉넉하고 날씬해 보여요.\n다른색상으로 하나 더 살까 고민중이랍니다.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 154,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/82/09/image1/1878500fda979f0e.webp"
+        ],
+        "createdAt": "2026-08-23T15:43:08+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "편하고 좋네요~ 면 소재라 더 좋아요~\n(2026-08-22 11:31:19 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-23T02:43:56+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "잠옷으로 입어도 되고 마트 갈 때도 좋고 무엇보다 소재가 너무 좋습니다. 시원하고 디자인 좋아요.",
+        "optionText": "출고일: 7/29~7/30",
+        "reviewerProfile": {
+          "heightCm": 164,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-22T15:23:33+09:00"
+      },
+      {
+        "rating": 3,
+        "text": "빨리 배송 되네요\n아주 시원하지는 않고\n휘뚜루 마뚜루 이긴한데 허벌렁~\n너무 크네요~~*",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 156,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-21T13:36:09+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "옷이 가볍고 부드러워요 55~66입는데 사이즈가 많이크네요\n(2026-08-19 17:25:07 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-20T02:46:27+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "아줌마가 입었는데 모델 핏 그대로 사진과 같아요\n진한 팥죽색인가 했는데 블랙이네요",
+        "optionText": "출고일: 7/29~7/30",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "31",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-19T14:17:10+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "천이시원하고가볍고널널하니편히입기좋은거같아요비침은조금있어요",
+        "optionText": "출고일: 8/3~8/4",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-17T19:22:37+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "77사이즈 50대입니다.\n디자인 심플하고 시원해서 외출시 입기에도 부끄럽지 않네요.\n적극 추천합니다.",
+        "optionText": "출고일: 8/3~8/4",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-16T01:42:03+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "여유있고 편하고 면이라 부드럽고 좋은데 제겐 너무 크고 길어서\n167 여동생에게 줬어요 넘 편하고 시원하다며 좋아하네요",
+        "optionText": "출고일: 7/29~7/30",
+        "reviewerProfile": {
+          "heightCm": 159,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-14T16:21:53+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "아주 좋아서 동생이 2개 더산데요\n(2026-08-12 20:25:09 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-13T02:47:53+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "좋아요 가성비로 데일리 원피스로 적당하네요\n(2026-08-11 21:08:53 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-12T02:48:25+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "시원하고 편하고 색상도 좋아요\n(2026-08-11 08:08:33 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-12T02:41:10+09:00"
+      },
+      {
+        "rating": 3,
+        "text": "66에서 77도 입는 체형인데 생각보다 더박시하다\n원피스는 마음에 드는데 조금만더 허리가 들어갔으면\n하는 아쉬음~",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-11T17:09:15+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무시원하고 몸매도 가려주고 아주 좋아요~\n비치지 않아서 속옷을 입지 않아도 되고\n예뻐요♡♡♡",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 155,
+          "weightKg": null,
+          "usualSize": "31",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-11T12:07:34+09:00"
+      },
+      {
+        "rating": 3,
+        "text": "주머니도 있고 가격도 좋고 막 입기 넘 편해요\n(2026-08-10 09:35:33 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-11T02:41:34+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:50.504Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "32211",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=32211&cate_no=94"
+    },
+    "name": "매끈한 텐션 원피스",
+    "brand": "(주)마주",
+    "category": "dress",
+    "price": 28500,
+    "originalPrice": 30000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202603/7b60b945b0af0bcbb4708aaa110f852a.jpg",
+    "colors": [
+      "회색",
+      "블랙"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "무게감있게 떨어지는 핏~ 롱한 기장에 몸매 커버되면서 쫀쫀 매끈한 소재 원피스[2C]",
+    "rating": 4.8,
+    "reviewCount": 56,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "77까지 가능합니다!! ㅎㅎㅎ\n(2026-06-12 07:50:27 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-13T02:41:31+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "친구 선물해줬는데 만족스러워 했어요 매일 입는데요 ㅎㅎ\n(2026-06-04 23:53:17 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-05T02:49:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "날씬해보이고 싶어서 블랙 선택했어요\n원단이 힘이 있어서 등살도 커버되고 아랫배도 다 커버 되네요\n요새 봄이 짧아지고 여름이 길어졌는데 가디건 같은거입고 같이 입으면 외출복도 가능하고 봄.여름 잘 입을듯해요\n한여름은 좀 더울듯해요",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 168,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-14T18:20:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 편하고 부드러워요 강추예요\n밝은색 퉁뚱해보일까바 검정샀는데 회색도 사고싶어요",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "26",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/37/25/image1/96cf8e802f748c8c.webp"
+        ],
+        "createdAt": "2026-05-13T17:54:54+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "원단짱짱 회색도 사고 싶어요ㅎㅎ\n(2026-05-12 17:04:59 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/37/39/image1/3749820e1b91f909.webp"
+        ],
+        "createdAt": "2026-05-13T03:24:05+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "제가 생각하던 그 재질맞아요. 탱글하니 주름없는거.\n몸이 드러나지않고 두툼한데 피부에 닿는 온도가 차요.\n검정색도 고민되네요!!",
+        "optionText": "color: 회색",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/36/77/image1/7ddd217e43149827.webp"
+        ],
+        "createdAt": "2026-05-12T21:52:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "디자인은 마음에 들지만 냄새 심하고 물빠짐이 심해 다른 분들 참고하시라고 후기 남깁니다.\n받자마자 단독세탁 했고 이후 세탁하는 과정에서 이렇게 물빠짐이 생기는거면 정상이 아닌듯한데요.\n검정색 옷 한두번 사본 것도 아닌데 참...대처가 아쉽습니다~\n비싼 옷이었으면 심의 넣었겠지만 귀찮아서 말아요.",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 167,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/35/84/image1/97e9e1f9ec982f30.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/35/84/image2/2e03aa768c53de71.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/35/84/image3/27cb69edf2ec14cc.webp"
+        ],
+        "createdAt": "2026-05-11T10:06:06+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "편해요 매일 교복처럼 입고다녀오\n(2026-05-09 16:30:38 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/35/64/image1/48e7da4fb1bf7bef.webp"
+        ],
+        "createdAt": "2026-05-10T03:29:45+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "원단이 탄탄하구 보풀안생기는 원단이라 좋아요 입으면 일단 날씬해 보이구요 가디건에 입었는데 친구들이 옷 예쁘게 입었다고 칭찬들었음\n긴가디건에 입으면 분위기 나고 짧은 가디건에 입어도 찰떡입니다\n예쁘게 입을께요\n(2026-05-03 09:54:08 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/32/99/image1/742b09e47c0298c6.webp"
+        ],
+        "createdAt": "2026-05-04T02:36:59+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "핏도 예쁘고 좋아요\n(2026-05-02 09:49:11 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-03T02:42:22+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사이즈가 살짝아쉬워요 조금만 커도 좋겠어요\n(2026-05-02 09:49:49 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-03T02:42:22+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가성비 원피스 최고인 듯 부드럽고 편해서 잘 입어져요 길이도 긴 편이라서 너무 좋아서 블랙도 또 사려고 합니다.~\n(2026-05-01 14:37:33 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/32/18/image1/3558f68332318027.webp"
+        ],
+        "createdAt": "2026-05-02T03:12:23+09:00"
+      },
+      {
+        "rating": 2,
+        "text": "원단에서 냄새가 너무 납니다\n세탁해도 안 빠져요\n(2026-04-30 17:49:16 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/31/86/image1/675be5dd0b3ee383.webp"
+        ],
+        "createdAt": "2026-05-01T03:22:37+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "진짜편하고 가격대비 옷이 너무좋아요.치마 잘 안입는데 잘입고 편히입고 핏도좋아요\n(2026-04-30 15:34:45 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-01T02:46:20+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "핏도 날씬해 보이고 예뻐요\n(2026-04-28 10:26:07 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-29T02:43:17+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "핏도 날씬해 보이고 예뻐요\n(2026-04-28 10:26:15 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-29T02:43:17+09:00"
+      },
+      {
+        "rating": 3,
+        "text": "저에겐 너무 길어서 언니 줬어요.\n발목이 다 가려지는 길이라(159cm)\n이상해서요. 165이상인분들이 입어야 이쁠것 같아요.\n(2026-04-27 11:04:48 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-28T02:45:15+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "꾸안꾸 느낌으로 입기편해요.\n(2026-04-23 18:13:07 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/27/81/image1/7f8fbdc22493d194.webp"
+        ],
+        "createdAt": "2026-04-24T03:33:32+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "꾸안꾸 느낌으로 입기편해서 그레이 블랙 둘 다 겟했어요\n(2026-04-23 18:14:08 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/27/80/image1/18d35519e58a53a3.webp"
+        ],
+        "createdAt": "2026-04-24T03:33:32+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "부들부들 약간 도톰\n좋아요\n160 기준 건조기 돌려서 그런가\n발목 위에 오고\n너무 길지않고 적당해서 좋아요\n(2026-04-23 16:12:03 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/27/84/image1/1a2407997df39553.webp"
+        ],
+        "createdAt": "2026-04-24T03:18:55+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:51.904Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33096",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33096&cate_no=94"
+    },
+    "name": "Isse* 플리츠 카라 원피스",
+    "brand": "(주)마주",
+    "category": "dress",
+    "price": 70000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202607/5c4518ce2de7065e5f4ca1a6ac5eed9e.jpg",
+    "colors": [],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "가볍고 시원한 터치감에 몸에 달라붙지 않아 쾌적한 느낌! 차르르 흐르는 플리츠 조직이 돋보이는 고급스러운 카라 원피스",
+    "rating": 4,
+    "reviewCount": 5,
+    "reviews": [
+      {
+        "rating": 4,
+        "text": "입고 벗기 너무 쉽고요. 몸에 붙지 않아서 좋아요 색상도 디자인도 맘에 드네요 여름내 잘 입을 수 있을거 같아요\n(2026-08-24 11:54:57 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/82/91/image1/a3bc77123a1b4197.webp"
+        ],
+        "createdAt": "2026-08-25T02:51:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "분위기 있고 예뻐요\n예쁘다는 칭찬 받았네요\n벨트없이 입었는데 편했고 소매가 짧아서 덜하지만\n상체부분은 좀 더운감이 있더라구요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 164,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-12T22:29:26+09:00"
+      },
+      {
+        "rating": 1,
+        "text": "역쉬 옷 은 입어보고 사야는게 맞는거 같아요..ㅠ\n제 몸뚱아리가 문제겠지만요\n(2026-07-30 15:50:38 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-31T02:45:36+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "입어보니 맘에 들어요. 이런 플리츠제품 자켓이나 바지도 올려주세요. 좀 세련된것으로요~",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-25T08:14:27+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "구김도 안가고 디자인도 이쁘고 편안해\n자주 입을 것 같습니다.^^*",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-21T12:35:27+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:53.497Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "27262",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=27262&cate_no=94"
+    },
+    "name": "[20%세일]정말 시원한 줄지 원피스-블루",
+    "brand": "(주)마주",
+    "category": "dress",
+    "price": 30400,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202506/ac176a371130cd346cafbed86a33996b.jpg",
+    "colors": [
+      "베이지",
+      "블루"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "자글자글 주름 텍스처의 지지미 소재~ 몸에달라붙지 않는 시원한 촉감으로 입기 좋아요",
+    "rating": 4.9,
+    "reviewCount": 24,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "소재도 시어서커라 시원하고 사이즈도 프리라 입으면 엄청 편안해요 길이도 길어서 집에서 입기 너무 편해요",
+        "optionText": "color: 블루",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/84/22/image1/377cf0ef732f947c.webp"
+        ],
+        "createdAt": "2026-08-31T18:20:29+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "시원할것 같아 구매했는데 구매 정말 잘한것 같아요\n이쁘고 시원하고~~\n다만 제가 키가 작아서 그런지 약간 긴 느낌이네요 ^^\n이쁘게 잘 입겠습니당~~",
+        "optionText": "color: 블루",
+        "reviewerProfile": {
+          "heightCm": 159,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-25T10:25:28+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "시원하고 헐렁해서 좋아요\n(2026-07-20 22:37:59 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-21T02:49:19+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "좋아요 리뷰보고 2색다 구매했는데\n딸이 맘에든다면주고 다시구매할 예정",
+        "optionText": "color: 블루",
+        "reviewerProfile": {
+          "heightCm": 155,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-11T17:07:24+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "편하고 예뻐요\n키가153 아주 아담한데 벨트를 하니 적당해요\n간단한 외출도 가능~",
+        "optionText": "color: 베이지",
+        "reviewerProfile": {
+          "heightCm": 155,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-09T00:27:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "집에서 편하게 잘 입고 있어요.소라색도 예쁘고 베이지도 좋아요.",
+        "optionText": "color: 베이지",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-19T16:05:15+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이번 여름 교복처럼 입고 있습니다. 시원하고 깔끔합니다",
+        "optionText": "color: 베이지",
+        "reviewerProfile": {
+          "heightCm": 159,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-03T10:18:48+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "파랑샀다가 너무 괜찮아서 베이지까지 샀습니다. 아주 시원한 옷은 아니지만 넉넉해서 바람이 잘 통하네요^^ 집에서 입고 있고 가까운마트가기 좋은 옷입니다.",
+        "optionText": "color: 베이지",
+        "reviewerProfile": {
+          "heightCm": 161,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-28T16:37:19+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "77사이즈이구 엄청 시원해요\n여유있어요\n(2025-08-27 13:39:27 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/19/39/24/image1/529eb3dcf3cbfa2d.webp"
+        ],
+        "createdAt": "2025-08-28T03:07:52+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "강추입니다.\n주변 지인들도 많이 사서 입고있더군요^^\n편안하고 시원합니다.\n집에서 입으려고 샀는데 가까운데 외출할때 입어도 전혀 손색없습니다.",
+        "optionText": "color: 블루",
+        "reviewerProfile": {
+          "heightCm": 161,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-13T19:55:39+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "여름 원피스로 편하고 시원해요\n(2025-08-10 10:14:30 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/19/35/39/image1/120989292e4b3a3d.webp"
+        ],
+        "createdAt": "2025-08-11T02:43:05+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "아주 시원하고 넉넉합니다. 77 88 다 넉넉할 듯 해요. 폭염에 좋을듯. 후두루 마뚜루로 입기 딱",
+        "optionText": "color: 블루",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-07-11T19:22:41+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사진처럼 시원하고 색상도 이쁘고 피부에 닿는 느낌이 아주 좋아요~너무 길어서 길이 수선만 했어요.^^.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 150,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-08-13T08:03:33+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "정말 가볍고 편하네요..\n간단한 외출시에도 잘입을것같아요..\n요즘엔 너무 더워서 그런지, 원단이 너무 너무 시원한 느낌은 없지만요...",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-08-04T14:39:12+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "오자마자 입고 외출해보니 원프스시원하고 좋아요~호주머니도있고 똥뚱해보이지않아 만족합니다.건조기에 돌렸는데 수축은없었네요~",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 159,
+          "weightKg": null,
+          "usualSize": "31",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/15/92/53/image1/dc23c2db2c8edab2.webp"
+        ],
+        "createdAt": "2023-08-22T14:01:10+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "일단 배송 빨랐구요. 정말 편합니다.\n배가 긴장하지 않아도되서 좋아요^^",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "25",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/15/89/38/image1/6ba54617d2e12ba0.webp"
+        ],
+        "createdAt": "2023-08-10T11:34:13+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "원피스를좋애서 해마다구매해요 집이랑 슈퍼갈때편해요 잠깐씩 가게에서도 입어요 폭염에 청랴 원피스예요 넘 감사해요 원피스 주문 한더 했어요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 166,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2023-08-04T17:02:30+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "시원하게 잘입고 있네요 ㅎㅎ\n빠르게 마르고 편해서 더운 여름\n자주 손이 가는 원피스네요😊",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/15/87/16/image1/ef1835ff68ac863c.webp"
+        ],
+        "createdAt": "2023-08-04T11:57:09+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "화면은 천이 가슬가슬할 거 같았는데\n부드럽고 좋네요. 화면으로 볼때보다 더 이뻐요.\n주머니가 있어서 편하고요. 만족합니다.\n(2023-08-01 14:05:01 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/15/86/32/image1/1807b46b44c49298.webp"
+        ],
+        "createdAt": "2023-08-02T02:43:05+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "홈웨어로 입으려 삿어요 ㅋㅋㅋ 소재도 시원하고 막 빨아도 금방 마를거같네요!!",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2023-07-21T18:29:08+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:54.909Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "29485",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=29485&cate_no=94"
+    },
+    "name": "토르 여유 플리츠 원피스",
+    "brand": "(주)마주",
+    "category": "dress",
+    "price": 22000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202406/09f21654a5d60512629e43b42ae674be.jpg",
+    "colors": [
+      "블랙",
+      "먹곤색",
+      "베이지"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "입체감있는 주름진 폴리스판 소재~ 체형 커버해주는 사이즈 낙낙한 원피스[3C]",
+    "rating": 4.8,
+    "reviewCount": 64,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "막 입기 좋고 편한데 치맛단 처리가 안 되어 있어 싼 티가 나요\n(2026-08-26 10:15:10 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-27T02:42:45+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 맘에 들어요. 소재, 기장감, 디자인 다 생각했던대로예요.^^",
+        "optionText": "color: 먹곤색",
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-24T09:39:32+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "디자인이 좋고 가성비가 있어서 주무했어요.\n(2026-07-26 15:16:50 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-27T02:45:25+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "작년에 검정색 구입후 추가 구매했어요. 신축성 있고 시원해서 집에서 입거나 근처 마켓 갈 때 잘 입을 수 있어요~가성비 굿 상품이예요~",
+        "optionText": "color: 먹곤색",
+        "reviewerProfile": {
+          "heightCm": 159,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-27T18:26:51+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "잘받았습니다 감사합니다\n(2026-06-09 14:56:08 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-10T02:45:35+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "착용시 날씬해 보이고 시원한 재질립니다. 목선도 이쁘고 무엇보다 가격대비 허접하지 않아요. 가성비 짱입니다. 강추합니다.",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 164,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-30T21:37:40+09:00"
+      },
+      {
+        "rating": 3,
+        "text": "그냥 그래요\n나일론 냄새 너무남\n(2025-10-19 09:30:36 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-20T02:41:46+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "아주 마음에 드네요 먹색이 사진상 블랙같았는데 짙은 차콜이고 빛을 받으면 좀더 밝은 느낌이라 더 좋아요\n스트레칭 소재 섬유라 활동이 너무 편하고 약간 쫄쫄이? 같은 원단인데 저렴해 보이지도 않고 날씬해 보입니다 가격대비 완전 강추예요",
+        "optionText": "color: 먹색",
+        "reviewerProfile": {
+          "heightCm": 167,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-16T20:00:05+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "원피스 가격대비 좋아요~\n여유있고 신축성도 있어 입고 벗는데 불편함이 전혀 없네요~~",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-20T15:20:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "부들부들하고 신축성이 좋아요\n한여름에는 더울것 같고 지금입기에 좋은것 같아요.\n(2025-09-11 21:57:10 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-09-12T02:48:34+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "날씬해보이는 것도 좋고 텐션감 좋아서 집에서 입기 진짜 좋습니다.\n그런데 옆트임이 ㅋ 그냥 쭉 찢어논 느낌이랄까 손으로 그냥 찢어놓은 그런... 뭔가 마무리가 되지 않았습니다. 재밌네요^^\n가격대비 좋지만...",
+        "optionText": "color: 베이지",
+        "reviewerProfile": {
+          "heightCm": 161,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-28T16:36:03+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "심플하면서 옆트임이 멋스러움을 더 해줍니다\n내몸에 맞춤처럼 군더더기없이 예쁘게 가볍게 입을수 있어 좋습니다",
+        "optionText": "color: 먹색",
+        "reviewerProfile": {
+          "heightCm": 164,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-14T12:47:26+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가격대비 참 좋아요.집에서도 잠깐 외출복으로 좋을것 같아요.주머니가 있었으면 더 좋았을텐데 아쉽더라구오ㅡ",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-10T12:55:04+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "생각보다 라인이 이쁘고, 신축성이 있어 엄청 편해요.\n제 키에 비해 약간 길지만 실내나 동네용으로는 그냥 입어도 될 듯요~",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 159,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-07T16:21:24+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가볍게 입고 다닐수 있어서 좋아요.\n완전 편해요.\n강추입니다~***",
+        "optionText": "color: 먹색",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-08-04T17:14:02+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "편안하게 입을수 있을것 같아요!~\n(2025-07-17 20:30:19 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-07-18T02:48:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "아직 미착용. 재질은 올리신대로 시원할거 같아요. 적절한 착장해보고 올릴께요",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-07-08T08:34:05+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "가볍고 편합니다 잘 입겠어요\n(2025-07-07 08:24:54 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-07-08T02:41:27+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "날씬해 보이고 좋아요\n천도 좋고 가격대비 좋습니다\n여름에 막입기 편하고 구김도 안 가고 편하게 입을것 같아요",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-06-29T15:59:22+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "아주 고급스럽게 생겼네요.\n지금 입기에는 천이 두꺼워요\n5월이나 8월말 정도에 좋을듯...\n여름용은 아니네요\n여름용으로 이런 원피스 있었음하네요",
+        "optionText": "color: 블랙",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-06-16T17:37:27+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:56.279Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "32495",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=32495&cate_no=94"
+    },
+    "name": "썸머 이지 엠보 원피스",
+    "brand": "(주)마주",
+    "category": "dress",
+    "price": 19000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202604/efda2ffaae13232ac805ad791b7ca962.jpg",
+    "colors": [
+      "블랙",
+      "곤색",
+      "핑크"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "입체적인 엠보 텍스처~ 붙지 않아서 시원하고, 군살을 가려줘서 더 손이 가는 원피스[3C]",
+    "rating": 4.8,
+    "reviewCount": 5,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "요즘 교복처럼 입고 지내는 중입니다. 너무 편하고 시원하면서.. 외출복으로도 손색없어요.",
+        "optionText": "color: 곤색",
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-24T09:42:11+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색상도 길이감도 좋은데 약간 두껍고 살짝 무거운 느낌입니다",
+        "optionText": "color: 곤색",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-06T13:28:47+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "홈웨어로 입으려고 구입했어요.여유있고 편한데 시원한 원단이 아니라 좀 더울것 같아요",
+        "optionText": "color: 곤색",
+        "reviewerProfile": {
+          "heightCm": 166,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-09T20:17:20+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "엇 이 상품 물건입니다\n저는 홈웨어로 입으려고 샀는데 엷은 트렌치에 걸치니까 꽤 멋지구요 ㅎㅎ\n무엇보다 넘 편해요~",
+        "optionText": "color: 곤색",
+        "reviewerProfile": {
+          "heightCm": 156,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-28T16:50:10+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "여름에 시원하게 잘 있을듯합니다\n빠른배송으로 잘 받았습니다\n(2026-04-25 15:39:35 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/28/90/image1/980e453f823e0c7a.webp"
+        ],
+        "createdAt": "2026-04-26T03:14:24+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:57.648Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "32195",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=32195&cate_no=94"
+    },
+    "name": "지지미 나시 원피스",
+    "brand": "(주)마주",
+    "category": "dress",
+    "price": 25000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202603/3343b3f14ae512e9ce963b5b6f2077b2.jpg",
+    "colors": [
+      "소라(장미)",
+      "베이지(잔꽃)"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "약간 지지미 원단처럼 올록볼록한 입체감이 약간 있는 면100% 나시 잠옷! 더운 여름철 잠옷으로 입기 좋아요~[2C]",
+    "rating": 4.8,
+    "reviewCount": 11,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "생각보다 환하고 밝은 색이라 마음에 듭니다. 올해 여기서 홈웨어 여러개 구입했는데 다 마음에 드네요",
+        "optionText": "color: 소라(장미)",
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/83/67/image1/a146361d522b8303.webp"
+        ],
+        "createdAt": "2026-08-29T19:02:40+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "시원하고. 가볍고 신축성이 없어 좀 아쉽긴 하지만 진작 샇으면 여름나기 더 좋앟을 아이템.",
+        "optionText": "color: 소라(장미)",
+        "reviewerProfile": {
+          "heightCm": 154,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-23T11:33:19+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "옷 색깔이 은은하면서도 이뻐서 맘에 들어요\n상체가 마른 편인 저한테는 품이 많이 크지만 시원해서 얇고 시원하고 땀 나도 몸에 붙지 않아서 더 좋아요",
+        "optionText": "color: 소라(장미)",
+        "reviewerProfile": {
+          "heightCm": 161,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-11T12:42:43+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "베이지 구입후 넘나 시원해 블루도 추가\n구입했어요 77사이즈 잘 맞아요\n(2026-08-06 18:12:03 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/78/87/image1/69bfb61376b565bb.webp"
+        ],
+        "createdAt": "2026-08-07T03:31:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가볍고 시원해서 더운날씨에 잘 입고있어요\n소라색도 추가로 구입했네요",
+        "optionText": "color: 베이지(잔꽃)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/75/41/image1/fac19905b6ddc564.webp"
+        ],
+        "createdAt": "2026-07-29T09:35:57+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "원단이 가볍고 시원하며 편하게 잘입고 있어요\n딸래미도 한개 구입해 달래서 잘입고 있어요\n가성비 짱입니다",
+        "optionText": "color: 소라(장미)",
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/70/88/image1/5f71b2a81464120f.webp"
+        ],
+        "createdAt": "2026-07-19T10:06:04+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "진짜 얇아요. 여름엔 시원하지 싶어요. 순면이라 구매했어요.\n키가 157 정도인데 종아리 반정도 내려옵니다",
+        "optionText": "color: 소라(장미)",
+        "reviewerProfile": {
+          "heightCm": 157,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-03T22:31:28+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "목둘레 팔 겨드랑이쪽 길이 완벽합니다. 천은 말할것없이 살짝 지지미 비슷하면 면인대도 너무 시원하고 잠옷이 편합니다.",
+        "optionText": "color: 소라(장미)",
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/31/31/image1/29152b4fd3b633a9.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/31/31/image2/6e9bd06efb1d18f6.webp"
+        ],
+        "createdAt": "2026-04-30T21:56:49+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "예뻐요\n여름에 시원하게 잘 입을께요\n(2026-04-28 16:41:12 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/30/80/image1/7b8b7d2d73de60e3.webp"
+        ],
+        "createdAt": "2026-04-29T03:17:20+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "풍덩하니 가볍고 시원한데 좀비치네요 무더운여름에 잘입을것같아요",
+        "optionText": "color: 베이지(잔꽃)",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-07T17:14:23+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "잠옷겸 홈웨어로 입으려고 2벌 구입했는데 가볍고 시원하니 더워지면 잘입을것같습니다",
+        "optionText": "color: 소라(장미)",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-07T16:26:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:59.128Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33072",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33072&cate_no=94"
+    },
+    "name": "[30%세일]더캐시 스트랩 원피스",
+    "brand": "(주)마주",
+    "category": "dress",
+    "price": 70000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202607/7155c137dc08fca89a335420aca44d03.jpg",
+    "colors": [
+      "진곤색",
+      "베이지"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "고밀도로 촘촘하게 직조된 면·나일론 혼방 소재~ 가볍게 입기만 해도 차려입은 듯 분위기가 살아나는 여름 필수 원피스[2C]",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:00.511Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "32897",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=32897&cate_no=94"
+    },
+    "name": "[20%세일]래트 벨티드 돌먼 드레스-연베이지",
+    "brand": "(주)마주",
+    "category": "dress",
+    "price": 59200,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202606/cd73e13ab3a5aedce1ce9ac947174dda.jpg",
+    "colors": [
+      "연베이지",
+      "곤색"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "은은한 요철감과 자연스러운 결감이 느껴지는 소재~ 단정하면서도 여유롭게 입기 좋은 셔츠 원피스[2C]",
+    "rating": 5,
+    "reviewCount": 2,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "무난하게 유행없이 입을수록 손이가는 종류의 원피스\n벨트없이 입어도 점잖고 깔끔한 디자인이에요\n카라쪽 보이는 부분의 비느질이 너무 깔끔하지가 않아서 정리하는데 애먹음 ㅠㅠ 다른 부분 바늘질은 좋았어요",
+        "optionText": "color: 연베이지",
+        "reviewerProfile": {
+          "heightCm": 164,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-20T03:11:38+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "심플하게 입기 편한 원피스네요 배가 나온 체형인데\n커버도 되고 원피스 뒤면이 더 맘에 드네요",
+        "optionText": "color: 연베이지",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-23T05:38:22+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:02.012Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "27361",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=27361&cate_no=94"
+    },
+    "name": "[20%세일]심플 뒷주름 원피스-연밤색",
+    "brand": "(주)마주",
+    "category": "dress",
+    "price": 47200,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202307/3004c57e194ba4c612c541891098f254.jpg",
+    "colors": [
+      "먹색",
+      "연밤색"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "사그락이는 가벼운 소재~ 체형을 가려주는 여유로운 실루엣에 군더더기 없이 깔끔하고 심플한 원피스[2C]",
+    "rating": 4.9,
+    "reviewCount": 28,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "빠르게 배송 받았구요 카키에 가까운 브라운이네요\n(2026-08-08 13:55:27 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-09T02:44:20+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "옷이 나풀나풀 몸에 닿거나 갱기는(?) 부분이없어서\n시원하도 날씬해보여요\n세련되어보이구요",
+        "optionText": "color: 연밤색",
+        "reviewerProfile": {
+          "heightCm": 159,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-22T10:59:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "여름엔 원피스가 최고인것 같아요\n시원하게 잘 입을수 있겠네요",
+        "optionText": "color: 먹색",
+        "reviewerProfile": {
+          "heightCm": 164,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-20T15:03:59+09:00"
+      },
+      {
+        "rating": 3,
+        "text": "구김 있습니다~ 가볍고 품 넉넉해요\n끈 나시 아니면 등파임에서 보여요\n완전 만족은 아니고 만족도 중상 정도는 됩니다",
+        "optionText": "color: 연밤색",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-11T08:37:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "생각보다 찐한 먹색이에요\n무게감있게 떨어지는 느낌 아니고 나풀나풀 가벼워요",
+        "optionText": "color: 먹색",
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-11T08:34:39+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "77사이즈입니다\n화면보다 색이 탁한게 아쉬워요\n더운여름 시원하게 입을것 같아요\n(2026-06-29 20:42:12 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/62/41/image1/4f8219bb36995250.webp"
+        ],
+        "createdAt": "2026-06-30T03:25:09+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "다들 이쁘다고하고 가벼워서매일 입게 되네요\n(2025-07-26 11:33:19 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-07-27T02:43:31+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "키 162에 좀 길어서 10센티정도 수선했습니다, 통 원피스 느낌.",
+        "optionText": "color: 먹색",
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-07-16T11:38:52+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "원단이 시원하고 편하고 넘 좋아요\n한여름에 즐겨 입을 거 같아요^^",
+        "optionText": "color: 연밤색",
+        "reviewerProfile": {
+          "heightCm": 171,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/19/11/91/image1/d025abedc70bfc08.webp"
+        ],
+        "createdAt": "2025-07-01T15:46:57+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "여행에서 너무 편하게 잘 입었어요\n길이 10센티정도 잘랐어요\n색상이 톤다운이라 세련되고 무엇보다 품이 넓어서 맛있는거 실컷 먹어도 편하고요\n근데 주름은 잘 생겨서 호텔서 다녀입었어요\n먹색 재입고 되면 추가 구매하고 싶네요",
+        "optionText": "color: 연밤색",
+        "reviewerProfile": {
+          "heightCm": 156,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-01-25T08:37:42+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "원피스 너무 맘에 들어요.휴가때 입으려고 구매했는데 소재. 색상 디자인 기럭지 모두 만족합니다",
+        "optionText": "color: 먹색",
+        "reviewerProfile": {
+          "heightCm": 166,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/17/80/64/image1/87c5f0b43cbc5766.webp"
+        ],
+        "createdAt": "2024-09-21T16:08:31+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "키가 156이라 좀 길긴하지만 전 수선 안하고 입었어요.. 사이즈 77인데 정말 날씬해보이고 시원하고 비치지도 않고... 뒤에 뚫린 부분때문에 세련되어 보이고 백화점 갈때도 입을수 있을거 같아요 악세서리 하고요",
+        "optionText": "color: 먹색",
+        "reviewerProfile": {
+          "heightCm": 156,
+          "weightKg": null,
+          "usualSize": "31",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-08-23T10:03:12+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "휴가 갈 때 편하게 입었습니다. 물이 묻어도 금방 마르는 재질이고 비침 없고 나시가 아니라 브라 외에 속옷 입지 않아도 좋았구요.\n몸에 붙지는 않는데 통풍이 잘되는 편이 아니라 그런지 시원한 느낌은 안들었습니다.",
+        "optionText": "color: 연밤색",
+        "reviewerProfile": {
+          "heightCm": 167,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-08-08T09:58:23+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "얇고 시원하고 편하고 예쁘기까지... 아주 맘에 드네요.\n길이가 좀 긴듯해서 수선했어요.",
+        "optionText": "color: 먹색",
+        "reviewerProfile": {
+          "heightCm": 170,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2024-07-26T15:04:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "몸에 붙지않고 구김이 없어서 편하게 잘 입어지네요\n(2023-09-07 10:00:41 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2023-09-08T02:24:56+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "베이지 사고 이게 왼믈건이냐 하면서 먹색도 샀네요 여름 끝물이지만 이건머 소장하고있다가 내년에도 잘 입어지겠다 싶어서 고민않고 구매했어요 ㅋㅋ",
+        "optionText": "color: 먹색",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "31",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/15/94/97/image1/395ccc97267a5499.webp"
+        ],
+        "createdAt": "2023-08-30T09:38:37+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "넉넉하니,넘 편하네요~~\n(2023-08-29 18:27:13 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2023-08-30T02:35:06+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "눈팅만하다가 후기가 좋길래 구매했어요 너무 좋내요 소재도 얇고 하늘거리는게 너무 시원하겠어요 이제부터 부지런히\n입어야겠어요 먹색도 구매완료입니다~",
+        "optionText": "color: 연밤색",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "31",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/15/93/48/image1/64ce288d8dd1012b.webp"
+        ],
+        "createdAt": "2023-08-24T10:09:41+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "구김도 비침도 없고 몸을 조이는 부분도 없어서 편하게 잘입고 있습니다\n(2023-08-18 14:52:26 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2023-08-19T02:31:08+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "정말 너무 맘에 들어요. 촉감도 시원하고 얇아서 정말 좋아요. 넉넉한 사이즈도 편하구요, 뒷파임 부분에 브래지어가 살짝 보일때가 있다고 해서 가끔 옷을 정리할때는 있어요..아무튼 너무 맘에 들어서 베이지도 사고싶어요.",
+        "optionText": "color: 먹색",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2023-08-08T14:36:51+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:03.369Z"
+  }
+]

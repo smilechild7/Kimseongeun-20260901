@@ -1,0 +1,666 @@
+[
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "13644",
+      "productUrl": "https://chic-line.com/product/%EA%B3%A0%EA%B8%89%EC%84%B8%EB%A0%A8%EB%AF%B8%EC%9D%80%EC%9D%80%ED%95%9C%EB%B9%84%EC%B9%A8%ED%85%90%EC%85%80%ED%95%A8%EC%9C%A0%EB%8D%B0%EC%98%A4%EB%9D%BC-%ED%95%98%EC%9D%B4%EB%84%A5-%EB%B0%B1%EB%B2%84%ED%8A%BC-%EB%B2%A8%ED%8A%B8-%EC%8B%9C%EC%96%B4-%EB%B8%94%EB%9D%BC%EC%9A%B0%EC%8A%A4/13644/category/69/display/2/"
+    },
+    "name": "[고급세련미/은은한비침/텐셀함유]데오라 하이넥 백버튼 벨트 시어 블라우스",
+    "brand": "시크라인",
+    "category": "top",
+    "price": 37800,
+    "originalPrice": 42800,
+    "imageUrl": "https://chic-line.com/web/product/big/202608/a6fed8f444ca5ae7b9f68b4dee0f2e84.webp",
+    "colors": [
+      "[CLQC-B-32]그레이",
+      "[CLQC-B-32]베이지"
+    ],
+    "sizes": [
+      "F",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "F,XL,XXL(55~110)",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:01.982Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "13597",
+      "productUrl": "https://chic-line.com/product/%EB%B2%A0%EC%8A%A4%ED%8A%B8%EA%B0%84%EC%A0%88%EA%B8%B0%EC%B6%94%EC%B2%9C%EA%B5%AC%EA%B9%80%EC%A0%9C%EB%A1%9C%EB%A3%A8%EC%97%94%EB%8A%90-%EB%A7%81%ED%81%B4%ED%94%84%EB%A6%AC-%EC%89%AC%ED%8F%B0-%EB%B8%94%EB%9D%BC%EC%9A%B0%EC%8A%A4/13597/category/69/display/2/"
+    },
+    "name": "[베스트/간절기추천/구김제로]루엔느 링클프리 쉬폰 블라우스",
+    "brand": "시크라인",
+    "category": "top",
+    "price": 33800,
+    "originalPrice": 39800,
+    "imageUrl": "https://chic-line.com/web/product/big/202608/9e330d1b514bc19c72385b9abe4965e5.webp",
+    "colors": [
+      "[CLQC-B-26]그레이",
+      "[CLQC-B-26]아이보리",
+      "[CLQC-B-26]퍼플"
+    ],
+    "sizes": [
+      "F",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "F,XL,XXL(55~110)",
+    "rating": 5,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-30T00:00:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:03.765Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "13466",
+      "productUrl": "https://chic-line.com/product/1%EC%B2%9C%EC%9E%A5%ED%8C%90%EB%A7%A4%ED%9B%84%EA%B8%B0%EA%B2%80%EC%A6%9D%EC%B2%B4%ED%98%95%EC%BB%A4%EB%B2%84%EC%95%84%EB%AF%B8%EC%95%84-%EB%A0%88%EC%9D%B4%EC%8A%A4-%ED%8E%98%ED%94%8C%EB%9F%BC-%EB%B8%94%EB%9D%BC%EC%9A%B0%EC%8A%A4/13466/category/69/display/2/"
+    },
+    "name": "[1천장판매][후기검증/체형커버]아미아 레이스 페플럼 블라우스",
+    "brand": "시크라인",
+    "category": "top",
+    "price": 37800,
+    "originalPrice": 42800,
+    "imageUrl": "https://chic-line.com/web/product/big/202606/ce6a8b01198b1251f7715c019acfb20b.jpg",
+    "colors": [
+      "[CLQB-B-23]블랙"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "S,M,L,XL,XXL(55~110)",
+    "rating": 4.8,
+    "reviewCount": 37,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-09-01T00:00:00+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-28T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "생각보다 얇아서 이너가 필요해요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-27T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-27T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-26T00:00:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:05.525Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "12759",
+      "productUrl": "https://chic-line.com/product/%EB%8B%A8%EB%8F%85%EB%94%94%EC%9E%90%EC%9D%B8%EB%8B%A8%EC%95%84%ED%95%9C%EB%B6%84%EC%9C%84%EA%B8%B0%EC%98%A8%EB%8B%B4%EC%9B%94-%EB%B0%B0%EC%83%89-%EB%A6%AC%EB%B3%B8-%EC%A0%80%EA%B3%A0%EB%A6%AC-%EB%B8%94%EB%9D%BC%EC%9A%B0%EC%8A%A4/12759/category/69/display/2/"
+    },
+    "name": "[단독디자인/단아한분위기]온담월 배색 리본 저고리 블라우스",
+    "brand": "시크라인",
+    "category": "top",
+    "price": 39800,
+    "originalPrice": 44800,
+    "imageUrl": "https://chic-line.com/web/product/big/202509/e3ee43e340d889f8f9b2db85721766de.webp",
+    "colors": [
+      "[CLPC-B-41]화이트"
+    ],
+    "sizes": [
+      "F",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "F,XL,XXL(55~110)",
+    "rating": 4.7,
+    "reviewCount": 7,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "가격대비 넘 괜찮아서 주변에 지인들이랑 추가 구매합니다",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-02T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "시크라인은 입문용으로 가성비 좋은것같아요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-01T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "생각했던거 보다는 많이 비치지도 않고 좋아요\n입어보니 예쁘고 괜찮아요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-07T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-09T00:00:00+09:00"
+      },
+      {
+        "rating": 3,
+        "text": "천이 생각보다 많이 얇아서 아쉽네요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-02-25T00:00:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:07.278Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "6931",
+      "productUrl": "https://chic-line.com/product/3%EB%A7%8C%EC%9E%A5%ED%8C%90%EB%A7%A4%EC%8A%A4%ED%85%8C%EB%94%94%EC%85%80%EB%9F%AC%EC%98%A4%ED%94%BC%EC%8A%A4%EB%A3%A9%EC%97%A0%EB%B2%84-%EB%8D%94%EB%B8%94%EB%B2%84%ED%8A%BC-%EB%B8%94%EB%9D%BC%EC%9A%B0%EC%8A%A4/6931/category/69/display/2/"
+    },
+    "name": "[3만장판매/스테디셀러/오피스룩]엠버 더블버튼 블라우스",
+    "brand": "시크라인",
+    "category": "top",
+    "price": 49800,
+    "originalPrice": 53800,
+    "imageUrl": "https://chic-line.com/web/product/big/202101/1ec8f94706f058acf815ff570a2f39ab.jpg",
+    "colors": [
+      "[CLKC-B-44]베이지",
+      "[CLKC-B-44]블랙"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "자켓or블라우스 두가지 연출 BEST ITEM 격식과 여성스러움이 동시에 느껴져요어디에나ok~ 만능 오피스룩! 후기 좋아요 S,M,L,XL,XXL",
+    "rating": 4.5,
+    "reviewCount": 34,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-12T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-15T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-13T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "배송 빠르고 좋아요~",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-05T00:00:00+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-25T00:00:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:09.030Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "13552",
+      "productUrl": "https://chic-line.com/product/%EC%B2%B4%ED%98%95%EC%BB%A4%EB%B2%84%ED%8E%98%ED%94%8C%EB%9F%BC%EB%9D%BC%EC%9D%B8%EC%B6%9C%EA%B7%BC%EB%A3%A9%EB%A3%A8%EC%A5%AC-%EC%8A%A4%EC%BA%98%EB%9F%BD-%EB%A0%88%EC%9D%B4%EC%8A%A4-%ED%95%80%ED%84%B1-%EB%B8%94%EB%9D%BC%EC%9A%B0%EC%8A%A4/13552/category/69/display/2/"
+    },
+    "name": "[체형커버/페플럼라인/출근룩]루쥬 스캘럽 레이스 핀턱 블라우스",
+    "brand": "시크라인",
+    "category": "top",
+    "price": 39800,
+    "originalPrice": 44800,
+    "imageUrl": "https://chic-line.com/web/product/big/202607/c458d8add757e62da713dcb034d0cb3b.jpg",
+    "colors": [
+      "[CLQC-B-07]블랙"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "S,M,L,XL,XXL(55~110)",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:10.809Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "13572",
+      "productUrl": "https://chic-line.com/product/%EA%B0%84%EC%A0%88%EA%B8%B0%EC%B6%94%EC%B2%9C%EC%8B%9C%EC%96%B4%EA%B0%90%EC%86%8C%EC%9E%A5%EC%B6%94%EC%B2%9C%EB%A6%AC%EC%97%94%EC%A5%B4-%ED%95%98%ED%94%84%EB%84%A5-%EC%89%AC%ED%8F%B0-%EB%B8%94%EB%9D%BC%EC%9A%B0%EC%8A%A4/13572/category/69/display/2/"
+    },
+    "name": "[간절기추천/시어감/소장추천]리엔쥴 하프넥 쉬폰 블라우스",
+    "brand": "시크라인",
+    "category": "top",
+    "price": 37800,
+    "originalPrice": 42800,
+    "imageUrl": "https://chic-line.com/web/product/big/202608/d1783caf4327c44102cb6c6421c41fcf.webp",
+    "colors": [
+      "[CLQC-B-21]베이지",
+      "[CLQC-B-21]블루"
+    ],
+    "sizes": [
+      "F",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "F,XL,XXL(55~110)",
+    "rating": 3,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": 3,
+        "text": "보통",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-28T00:00:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:12.565Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "13178",
+      "productUrl": "https://chic-line.com/product/%ED%99%9C%EC%9A%A9%EB%A7%8C%EC%A0%90%ED%9B%84%EA%B8%B0%EA%B2%80%EC%A6%9D%EB%A7%8C%EB%8A%A5%EC%BD%94%EB%94%94%EC%84%BC%EC%8B%9C%EC%98%A8-%ED%8E%98%ED%94%8C%EB%9F%BC-%EB%B2%A0%EC%8A%A4%ED%8A%B8/13178/category/69/display/2/"
+    },
+    "name": "[활용만점/후기검증/만능코디]센시온 페플럼 베스트",
+    "brand": "시크라인",
+    "category": "top",
+    "price": 39800,
+    "originalPrice": 44800,
+    "imageUrl": "https://chic-line.com/web/product/big/202602/e9c5ac2fcd09135fc5c3810e8a8be42f.webp",
+    "colors": [
+      "[CLQA-B-02]블랙"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "S,M,L,XL,XXL(55~110)",
+    "rating": 4.4,
+    "reviewCount": 25,
+    "reviews": [
+      {
+        "rating": 4,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-27T00:00:00+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-18T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-14T00:00:00+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-27T00:00:00+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-22T00:00:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:14.364Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "13646",
+      "productUrl": "https://chic-line.com/product/3%EC%9D%BC%EB%A7%8C%EC%B6%94%EA%B0%80%ED%95%A0%EC%9D%B8%ED%99%9C%EC%9A%A9%EB%8F%84%ED%95%98%EA%B0%9D%EB%A3%A9%EC%B6%9C%EA%B7%BC%EB%A3%A9%EC%A0%9C%EC%95%84%EB%82%98-%EC%99%80%EC%9D%B4%EB%93%9C-%ED%94%8C%EB%9E%AB%EC%B9%B4%EB%9D%BC-%EB%B8%94%EB%9D%BC%EC%9A%B0%EC%8A%A4/13646/category/69/display/2/"
+    },
+    "name": "[3일만추가할인][활용도↑/하객룩/출근룩]제아나 와이드 플랫카라 블라우스",
+    "brand": "시크라인",
+    "category": "top",
+    "price": 37600,
+    "originalPrice": 44800,
+    "imageUrl": "https://chic-line.com/web/product/big/202609/8631dda25d43b5585a78c06c62db461a.webp",
+    "colors": [
+      "[CLQC-B-27]네이비",
+      "[CLQC-B-27]아이보리"
+    ],
+    "sizes": [
+      "F",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "F,XL,XXL(55~110)",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:16.141Z"
+  },
+  {
+    "source": {
+      "shopId": "chicline",
+      "shopName": "시크라인",
+      "sourceProductId": "13326",
+      "productUrl": "https://chic-line.com/product/1%EC%B2%9C%EC%9E%A5%EB%8F%8C%ED%8C%8C%EC%B2%B4%ED%98%95%EC%BB%A4%EB%B2%84%EB%A3%A8%EC%B9%B4%EB%B2%A1-%ED%8A%B8%EC%9C%84%EB%93%9C-%ED%8E%98%ED%94%8C%EB%9F%BC-%EB%B8%94%EB%9D%BC%EC%9A%B0%EC%8A%A4/13326/category/69/display/2/"
+    },
+    "name": "[1천장돌파/체형커버]루카벡 트위드 페플럼 블라우스",
+    "brand": "시크라인",
+    "category": "top",
+    "price": 39800,
+    "originalPrice": 44800,
+    "imageUrl": "https://chic-line.com/web/product/big/202604/e1294adfbd3f819b68510dffba3175a7.webp",
+    "colors": [
+      "[CLQB-B-41]블랙"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "S,M,L,XL,XXL(55~110)",
+    "rating": 4.7,
+    "reviewCount": 20,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-23T00:00:00+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "착용했을때 여성미 강조되어서 좋아요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-15T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-04T00:00:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-26T00:00:00+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "만족",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-25T00:00:00+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:17.904Z"
+  }
+]

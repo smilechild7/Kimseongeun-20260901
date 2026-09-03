@@ -1,0 +1,2526 @@
+[
+  {
+    "source": {
+      "shopId": "hotping",
+      "shopName": "핫핑",
+      "sourceProductId": "43133",
+      "productUrl": "https://hotping.co.kr/product/detail.html?product_no=43133&cate_no=27"
+    },
+    "name": "[팔뚝살커버/구김ZERO][MADE] 라비크 링클주름 카라 반팔 러플가디건 블라우스(44~110) (여름니트-여름가디건-여름블라우스-빅사이즈블라우스-빅사이즈반팔가디건-링클소재-러플블라우스)",
+    "brand": "핫핑",
+    "category": "outerwear",
+    "price": 23800,
+    "originalPrice": null,
+    "imageUrl": "https://hotping.co.kr/web/product/big/202405/a4ba8e0db3166c08ae231a05f60791f4.jpg",
+    "colors": [
+      "화이트",
+      "라이트옐로우(L.yellow)",
+      "블랙"
+    ],
+    "sizes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "클로징해서 블라우스처럼, 오픈하여 가디건같이 툭- 걸쳐줘도 멋스러울 여름블라우스! 잔잔한 링클주름으로 포인트되면서 캐주얼룩부터 러블리룩까지 다양한 스타일리이 가능해요.",
+    "rating": 4.9,
+    "reviewCount": 705,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "가디건 팔뚝살 가리기에너무 좋아요.\n부드럽고 다른색도 재구매하려구요",
+        "optionText": "타입: 화이트(white)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/82/63/image1/d9b62552f191aca8.webp"
+        ],
+        "createdAt": "2026-09-01T00:48:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이런스타일처음 샀는데 맘에들어서 좋았어요 널널히 잘맞았어요",
+        "optionText": "타입: 블랙(black)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-25T14:03:52+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "1사이즈였어도 맞았을 거 같기는 한데 좀 더 넉넉하게 입고 싶어서 2사이즈로 샀어요. 회사갈 때도 입고 밖에 나갈 때도 입기 괜찮아요. 나머지 색상도 다 샀어요.",
+        "optionText": "타입: 라이트옐로우(L.yellow)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/76/89/image1/4f032b06d74ea616.webp"
+        ],
+        "createdAt": "2026-08-23T17:53:37+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "1사이즈였어도 맞았을 거 같기는 한데 좀 더 넉넉하게 입고 싶어서 2사이즈로 샀어요. 회사갈 때도 입고 밖에 나갈 때도 입기 괜찮아요. 나머지 색상도 다 샀어요.",
+        "optionText": "타입: 화이트(white)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/76/88/image1/440a3d81b2f878c7.webp"
+        ],
+        "createdAt": "2026-08-23T17:53:21+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "1사이즈였어도 맞았을 거 같기는 한데 좀 더 넉넉하게 입고 싶어서 2사이즈로 샀어요. 회사갈 때도 입고 밖에 나갈 때도 입기 괜찮아요. 나머지 색상도 다 샀어요.",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/76/87/image1/e180f21b760f233d.webp"
+        ],
+        "createdAt": "2026-08-23T17:52:35+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "옷이 찰랑찰랑하니 좋아요~ 사이즈도 잘맞고 여름에 입기 좋아요 ㅎㅎ",
+        "optionText": "타입: 라이트옐로우(L.yellow)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-23T15:50:37+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사이즈 디자인 다잘맞아요\n(2026-08-22 09:22:09 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-23T02:42:07+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이블라우스도 너무 잘입고 다녔어요\n봄부터 여름까지\n컬러도 이쁘고 소재도 좋고\n세탁후 변형도 없고\n핫핑 옷튼튼히 잘만드는거 인정!!\n출근룩으로 활용!!",
+        "optionText": "타입: 라이트옐로우(L.yellow)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-17T19:50:46+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "옷 자첵 크기도 크고 재질도 시원해서 여름에 입기 딱 좋은 것 같아요 하지만 엄청 하얀색이라 넥라인이랑 다른곳들에 뭐가 묻을까바 조심히 입어야할것같네요 ㅋㅋㅋㅋ 잘입겠습니다 감사합니당",
+        "optionText": "타입: 화이트(white)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/70/14/image1/98bc9fa7e9afbd87.webp"
+        ],
+        "createdAt": "2026-08-13T00:42:03+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "핏이 좋아요\n차르르 떨어지는 라인이고\n부드러운소재예요\n한여름에 입어도 시원해요",
+        "optionText": "타입: 블랙(black)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-12T23:43:45+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "화사하고 너무 예뻐요!!\n날씬해보입니다! 사이즈가 여유롭네요!",
+        "optionText": "타입: 라이트옐로우(L.yellow)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/69/29/image1/cb4c7413b6f6e5b8.webp"
+        ],
+        "createdAt": "2026-08-11T19:34:11+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "받아보고 색깔도 맘에 들고 배송도 빨리와서 빨리 입어보고싶더라구요~ ^^역시 잘 산것같아요ㅎ",
+        "optionText": "타입: 라이트옐로우(L.yellow)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/68/08/image1/7b1f4ab6412b6587.webp"
+        ],
+        "createdAt": "2026-08-10T15:25:58+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "화이트색이라 뭐가 묻으니 티가 많이나요..\n소재가 좋아서 잘 지워지는 느낌이긴하지만\n다른색깔도 많이많이 만들어주셨으면 좋겠어요",
+        "optionText": "타입: 화이트(white)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-08T09:45:38+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이거이거 색깔 여러개 만들어주세요ㅠㅡㅠ\n진짜 여름에 이 옷 보다 더 좋은 옷 찾기 힘듭니당...",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-08T09:44:57+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색상도 개나리색으로 제가찾던 색이예요. 얼굴이 화사해보여요. 널널하니 몸매도 가려주고 그렇다고 뚱뚱해보이지도 않아요.\n(2026-08-02 10:15:20 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-03T02:42:59+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "몇년째 입고 있어요\n고무줄탄력이 너무 좋아서 사이즈\n하나 업에서 추가 구매합니다",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-02T15:45:20+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "팔뚝살도 잘커버되고 길이감도 적당해요 지짐이느낌의 원단으로 그리덥지 않고 좋아요 깔끔하니 출근룩으로 좋아요 상뚱이로써 상체뚱뚱이ㅎㅎ 추천드려요",
+        "optionText": "타입: 블랙(black)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-30T18:27:01+09:00"
+      },
+      {
+        "rating": 3,
+        "text": "민소배위에 입고있는데 짧은기장은 잘 안입어 버릇해서 자주는 안입혀지네요",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-29T15:24:25+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "넘 편해용 시원하고 밝은색이라 부해보일까 걱정했는데 넘 이쁘네용",
+        "optionText": "타입: 라이트옐로우(L.yellow)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/55/43/image1/cedea9610ab4450f.webp",
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/55/43/image2/3c45370667b48310.webp"
+        ],
+        "createdAt": "2026-07-29T10:17:54+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색깔 너무 예뻐요 제가 원하던 노랑노랑이라서 너무 좋아요! 감사합니다!!",
+        "optionText": "타입: 라이트옐로우(L.yellow)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-28T11:15:57+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:19.077Z"
+  },
+  {
+    "source": {
+      "shopId": "hotping",
+      "shopName": "핫핑",
+      "sourceProductId": "37790",
+      "productUrl": "https://hotping.co.kr/product/detail.html?product_no=37790&cate_no=27"
+    },
+    "name": "[활용도👍][체형커버/슬리밍효과][MADE] 러블리츠 골지니트 나시 가디건set(44~110) (나시가디건세트-골지가디건-골지나시-빅사이즈가디건-오픈가디건-리본가디건-출근룩)",
+    "brand": "핫핑",
+    "category": "outerwear",
+    "price": 29800,
+    "originalPrice": null,
+    "imageUrl": "https://hotping.co.kr/web/product/big/202412/75c07eea141a536b855327eca8a735df.jpg",
+    "colors": [
+      "블랙",
+      "베이지",
+      "아이보리"
+    ],
+    "sizes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "계절 구애없이 다양하게 활용하기 좋은 골지니트 나시+가디건 set. 루즈한 핏감에 리본 스트랩으로 여성스럽고 여리한 무드를 연출해드려요. :)",
+    "rating": 4.8,
+    "reviewCount": 399,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "나시는 딱맞습니다. 나시만 입었을 때는 흰색인데 부해 보이는 게 없습니다. 근데 가디건이 조금 큽니다. 루즈핏이라 그런가. 가디건 입으면 팔을 올릴 경우에만 옆구리가 조금 부해보입니다. 근데 팔 내리면 또 괜찮습니다.\n소재도 맘에들고, 8월 초에 입기에는 좀 덥긴 하지만 못입을 소재는 아니였습니다. 다만 봄ㅡ가을ㅡ겨울용 같은 조금 도톰한 소재입니다.",
+        "optionText": "타입: 아이보리(ivory)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-03T00:42:22+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "저는 아이보리를 구매했는데, 잘 맞았어요! 그리고 청바지랑 매치해서 입으니 진짜 예뻤어요!!",
+        "optionText": "타입: 아이보리(ivory)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-01T23:28:29+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "2사이즈는 너무 커서 1사이즈로 바꿨는데 1사이즈는 딱 핏되어서 팔뚝살이 더 부각되네요ㅠㅠ 팔뚝살 부자라..... 그냥 2사이즈로 할껄... 또 교환하기 귀찮아서 살빼서 입으려구요",
+        "optionText": "타입: 아이보리(ivory)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-29T08:02:36+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "봄 가을때 입으니 훨씬 나아요. 이뻐요~~체형커버 확실히 해주네요",
+        "optionText": "타입: 아이보리(ivory)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-25T08:25:32+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이뻐요굿입니다. 세트로입기 좋고 두께감 있어서 간절기에 딱이에요\n약간 에겐스타일이라고 생각하시면 편하겠어오",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/70/55/image1/1480150922a9041a.webp"
+        ],
+        "createdAt": "2026-05-26T19:41:43+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "조금 일찍 살 걸 그랬어요 !!\n4월 중순에 입기에는 살짝 더웠는데\n이쁘고 편안해서\n가을에 또 입을게요 감사합니다 🩷",
+        "optionText": "타입: 아이보리(ivory)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/30/43/image1/a8a10342392ada4e.webp"
+        ],
+        "createdAt": "2026-04-26T12:04:32+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "와,,,, 얼굴이 ㅅ또렷햐보이게 하는 베이지색 넘 좋아요 감사합니다 예쁜옷\n(2026-04-24 17:09:09 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-25T02:50:37+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "바스트 있는 사람이 있으니 부해 보여요.\n재질이 더워요ㅜㅜ 겨드랑이 쪽이 답답해요.\n모델분은 참 잘 어울리는데 저랑은 안어울리는 거 같아요",
+        "optionText": "타입: 아이보리(ivory)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-21T13:24:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "나시는 너무 타이트하고 가디건은 편하게 맞네요. 세트 사이즈가 좀 아쉽긴 한데 옷은 이뻐요~~",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/21/27/image1/5c088329eeeccf90.webp"
+        ],
+        "createdAt": "2026-04-19T12:57:04+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "예전에 딸아이 사주고 넘 예뻐서 제꺼도 구매했어요 배송도 빨리오고 좋아요 사이즈 고민하다가 큰사이즈로 샀는데 2로 시켰어도 잘 맞았을꺼 같아요 잘입을께요",
+        "optionText": "타입: 블랙(black)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/07/59/image1/42970b5f921f7138.webp"
+        ],
+        "createdAt": "2026-04-10T13:23:42+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "완전완전 이뻐요 사길 잘 했다고 생각합니다\n색상이랑 스타일 딱 내스타일입니다",
+        "optionText": "타입: 베이지(beige)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-07T08:16:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "평소에 핫핑 옷은 2사이즈로 사다가 최근에 살이 많이 쪄서 3사이즈 입는 편이에요. 후기에 사이즈가 크다는 평이 있어서 2사이즈 샀는데 나시는 딱 맞고 가디건은 아주 넉넉합니다.\n처음에는 아이보리라서 부해보이는 것 같기도 하고 저하고 안 어울리는 것 같아서 고민했는데 생각보다 괜찮았네요 ㅎㅎ 꽃구경 갔을 때 아주 잘 입었습니다~\n역시 빅사이즈 옷은 핫핑이 최고 예쁘네요 ㅎㅎ",
+        "optionText": "타입: 아이보리(ivory)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/00/80/image1/671f4490040ce438.webp",
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/00/80/image2/13b9fbc79a36cbf7.webp"
+        ],
+        "createdAt": "2026-04-06T13:49:24+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "찐한 베이지 컬러에요 옷이 두께감이잇어요 날이 풀려서 그런지 살짝 더운감이 잇어요",
+        "optionText": "타입: 베이지(beige)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/00/61/image1/478685c2eace2f53.webp"
+        ],
+        "createdAt": "2026-04-06T12:06:11+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "얇아서 지금날씨에 입기도 너무 이뻐요!! 가디건 잘안입었는데.. 처음으로 핫핑에서 가디곤들 구매했는데 진짜너무이뻐요👍👍👍\n이제 옷은 핫핑핫핑~",
+        "optionText": "타입: 베이지(beige)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-03T21:59:16+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "예쁩니다 천도탄탄하고 지금입기딱이예용 색두화면 ㄱ대로라 맘에듬니당",
+        "optionText": "타입: 베이지(beige)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-02T08:01:08+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "탄탄하고 좋아요\n초봄까지 입기에 딱인거 같습니다\n색도 이쁘고 착용감도 편안합니다",
+        "optionText": "타입: 아이보리(ivory)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/94/60/24/image1/b721e0f68747a68c.webp"
+        ],
+        "createdAt": "2026-03-02T16:42:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사이즈를 한치수 크게 살걸 그랬는데 아쉬워요~\n느리게 풀어봐서 교환기간이 지나서 이왕 이렇게 된거 살빼고 입도록 하려구요!\n디자인자체는 예쁩니다",
+        "optionText": "타입: 베이지(beige)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/94/12/91/image1/6aa7589021f4d57b.webp"
+        ],
+        "createdAt": "2026-01-07T23:15:56+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무이뻐요!",
+        "optionText": "타입: 베이지(beige)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-12-17T11:21:17+09:00"
+      },
+      {
+        "rating": 3,
+        "text": "나시는 겨드랑이살이 많아서 그런지 딱 맞는데 가디건은 좀 크기도하고 안이 좀 까칠해요 빳빳하다랄까.. ㅠ 부들부들할줄 알았는데ㅜ\n그래서 잘 안입어지네요..생각보다 많이 도톰합니다~\n상의 77 넘지않으면 1사이즈 괜찮을거같아요",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/93/83/51/image1/cf0812a3ca85a63b.webp"
+        ],
+        "createdAt": "2025-12-14T21:34:21+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "다른 리뷰처럼 안에 나시가 좀 쪼이긴 하는데 겉에 입는 니트는 굉장히 편하고 좋습니다! 색깔도 예뻐요👍🏻",
+        "optionText": "타입: 아이보리(ivory)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/93/61/00/image1/4748083cd20df108.webp"
+        ],
+        "createdAt": "2025-11-30T22:16:55+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:20.643Z"
+  },
+  {
+    "source": {
+      "shopId": "hotping",
+      "shopName": "핫핑",
+      "sourceProductId": "46020",
+      "productUrl": "https://hotping.co.kr/product/detail.html?product_no=46020&cate_no=27"
+    },
+    "name": "[여름자켓/고급미💛][라인감굿][MADE][LOVB] L-1443 노카라 U넥 쓰리버튼 싱글 반팔자켓(44~99) (빅사이즈자켓-여름하객룩-여름격식룩-반팔자켓-U넥자켓-쓰리버튼자켓)",
+    "brand": "핫핑",
+    "category": "outerwear",
+    "price": 56800,
+    "originalPrice": null,
+    "imageUrl": "https://hotping.co.kr/web/product/big/202505/2b01b3b73fd9c8992ff29ab11dc3800d.jpg",
+    "colors": [
+      "블랙",
+      "옐로우"
+    ],
+    "sizes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "깔끔하게 떨어지는 U넥라인 반팔 자켓! 고급스러운 디테일들로 데일리부터 하객룩까지! 여름까지 쾌적하게 즐겨보세요 :)",
+    "rating": 4.9,
+    "reviewCount": 92,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "여름 내내 정말 잘 입은 자켓이에요. 시원하기도 하고, 모양 자체가 각이 잘 잡혀 있어서, 입었을 때 세련돼 보였어요.",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-09-01T18:48:57+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "66사이즈 주문했다가 커서 55사이즈로 교환해서 너무 잘입고 있습니다",
+        "optionText": "타입: 블랙(black)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-22T08:28:06+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "하객룩으로 찰떡이라 넘 맘에들어요\n블랙도 입고싶어서 추가구매했습니당:)",
+        "optionText": "타입: 옐로우(yellow)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/65/14/image1/8b89e2b629cf8052.webp"
+        ],
+        "createdAt": "2026-08-08T05:05:23+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "아 ㅜㅜㅜㅜ분명 오프라인으로 볼때 너무이뻐서 구매했는데 검정으로 살걸 옐로우 판매자님 먄하지만 약간 밤티 ㅜㅜㅜㅜㅜ",
+        "optionText": "타입: 옐로우(yellow)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/62/41/image1/78978d1278035de5.webp"
+        ],
+        "createdAt": "2026-08-05T12:55:24+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "생각보다 더 고급스러워요. 근데 색감은 좀 더 진한것 같아 아쉬워요 그래도 마음에 듭니당.",
+        "optionText": "타입: 옐로우(yellow)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/56/81/image1/279d68961c041adc.webp"
+        ],
+        "createdAt": "2026-07-30T21:38:42+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무너무 맘에들어서 다른 색도 고민중입니다~ 원단도 탄탄하고 단추도 이뻐요. 출근, 하객용 강추입니다!",
+        "optionText": "타입: 블랙(black)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-29T16:16:06+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "원래 사이즈2를 삿는데 딱 맞고 핏도 너무 이뻤어요! 근데 계속 살이 찌고 잇어서 좀 널럴~~~하게 입고 싶어서 사이즈3으로 교환했는데 후회 없이 딱 너무 이뻤습니당.\n일단 움직을 때 꽉 안 껴서 좋앗구 기장은 엉덩이 중간까지 내랴오는데 허리 라인 한번 잡아줘서 부해보이지도 않아용. 원피스 겉에 걸쳣는데 아주 이뻐서 마음에 듭니다. 다른 컬러가 베이지 류 이면 또 살라고 햇는뎅 노란끼가 많이 드는 색감 인 것 같아서 추가 구매는 고민중이에용",
+        "optionText": "타입: 블랙(black)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-22T00:16:34+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 예쁘고 시원한 재질입니다 제가기존 반팔정장자켓이 있는데 디자인예뻐서 샀지만 재질이 더운재질인걸핫핑에 이 옷을 입고나서야 알게됐어요 디자인굿~ 소재굿~색상 굿~ 다른색상도 출시되면 색깔별로 소장하고싶을정도입니다^^",
+        "optionText": "타입: 옐로우(yellow)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/43/01/image1/931cb6ef21a85f74.webp",
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/43/01/image2/b38b349c8914aa42.webp"
+        ],
+        "createdAt": "2026-07-16T10:14:19+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "제가 입은거 보고 언니가 부탁해서 하나 더 구매했어요",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-13T12:52:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 이쁘게 잘입고 있어요~",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-13T12:51:37+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "검정 2 구매하고 지금은 3이 더 잘맞겠다 싶어서 옐로우로 3 바로 다시 구매했어요 이쁘고 좋습니다",
+        "optionText": "타입: 옐로우(yellow)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/38/34/image1/2e13fddd464b63cc.webp"
+        ],
+        "createdAt": "2026-07-13T12:47:29+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "옷이 정 말 ~~고급져요 흰색이나 다른색상도 더만들어주셨으면 좋겠어요 원단도 시원한 재질이에요",
+        "optionText": "타입: 블랙(black)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/38/26/image1/f915431a179aa6c6.webp"
+        ],
+        "createdAt": "2026-07-13T12:20:19+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "결혼식에 단정하고예쁘게입고다녀왔어요\n격식있는자리에갈때입을수있는편하면서도예쁜디자인의옷이에요^^",
+        "optionText": "타입: 블랙(black)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/37/05/image1/a6cbfc8639569913.webp"
+        ],
+        "createdAt": "2026-07-12T13:56:10+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이뻐요. 핏도예뿌고 길이도딱이에요~^^\n허리아래로내려와서 단정하고요^^\n스커트에도 정자바지에도굿~^^\n무엇보다도이가격에 이품질 짱~^\n처음구매해봤는데 생각지않게 완전 대만족요~^^\n아이보리도 주문하려고요",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-11T13:26:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "은근 신축성도 좋고 핏도 엄청 예쁘고 뱃살도 덜 나와보이고 날씬해 보여요. 근데 가슴 큰 분들은 제일 큰 사이즈 구매하셔도 예쁘게 맞지 않으실 것 같아요. 저는 팔뚝부분 좀 끼고 가슴이 좀 벌어지네여ㅠㅠ",
+        "optionText": "타입: 블랙(black)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-10T01:25:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "깔끔하고 예뻐서 잘 입을듯~\n(2026-07-06 09:07:59 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-07T02:42:13+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "깔끔하게 잘입엇어요\n다들 예쁘다고 했는데 아쉬운건 가슴쪽 윗가슴그 사이단츠가 벌어지네요",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-06T09:40:54+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "결혼식때 입을려고 급하게 주문한건데 라인이 이뻐요 검정민소매원피스나 와이드 슬랙스 데님바지에도 잘어울리네요",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-05T23:04:36+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "보자마자 고급스러워서 결혼식에 입고 가려고 구매했어요.\n노란색이 살짝 톤다운되서 진청에 입으면 캐주얼해 보이고, 검은 슬랙스에 입으면 깔끔해보여서 두루 입을 수 있을거 같아요^^",
+        "optionText": "타입: 옐로우(yellow)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-05T19:24:26+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "살이 찌고 나서는 항상 오버핏만 입었는데, 이 자켓은 라인을 예쁘게 잡아줘서 날씬해 보입니다. 핏도 너무 마음에 들어서 다른 색상도 구매하고 싶어요. 😊",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-29T14:10:21+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:22.177Z"
+  },
+  {
+    "source": {
+      "shopId": "hotping",
+      "shopName": "핫핑",
+      "sourceProductId": "44341",
+      "productUrl": "https://hotping.co.kr/product/detail.html?product_no=44341&cate_no=27"
+    },
+    "name": "[클래식무드🖤][프리미엄][MADE] 프로퍼 ich자수 오버핏 싱글 레더 블레이저 하프자켓(44~110) (가을신상-빅사이즈레더자켓-롱레더자켓-자수레더자켓-체형커버-루즈핏레더자켓)",
+    "brand": "핫핑",
+    "category": "outerwear",
+    "price": 76900,
+    "originalPrice": null,
+    "imageUrl": "https://hotping.co.kr/web/product/big/202502/4de3d0b3e7bd97a91395bcee45b506c3.jpg",
+    "colors": [
+      "블랙"
+    ],
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "은은한 광이 느껴지는 레더 소재로 더욱 멋스러운 레더 자켓 - 하프 기장감과 넉넉한 핏으로 자연스러운 체형 커버가 가능하답니다!",
+    "rating": 5,
+    "reviewCount": 48,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "날씨가 더워져서 한번밖에 못입었네요... s도 충분히 커서 오버핏 가능해요. 얼른 가을와서 입고싶네요",
+        "optionText": "타입: 블랙(black)-S",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/55/03/image1/e70254fbfb66ef59.webp"
+        ],
+        "createdAt": "2026-05-15T11:09:47+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 예쁜핏이예요\n넉넉하게 나와서 빅사이즈도 s해도 되겠네요\n점점 입을수록 몸에 맞게 이뻐지는 레더자켓임",
+        "optionText": "타입: 블랙(black)-S",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-29T14:18:21+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "상의 77-88정도 입는데 s사이즈 딱 좋아요\n냄새쪼금 나는데 입을만하고 지금 처럼 아침저녁 쌀쌀할때 걸치고 다니기 좋네요!!",
+        "optionText": "타입: 블랙(black)-S",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/18/48/image1/56ef4081e5c407f6.webp"
+        ],
+        "createdAt": "2026-04-17T14:53:09+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "진짜 잘산템이에요!!\n봄여름 내내 입으려고 샀는데 충분히 잘입을 것 같아요!",
+        "optionText": "타입: 블랙(black)-S",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-15T12:13:20+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "요즘 가죽자켓 많이 입어서 오버핏이길래 구매했어요ㅎㅎ좀 많이 오버핏입니다~~\n170인데도 길이가 길어요ㅎㅎ\n그래도 편한 오버핏으로 입기 편한거 같아요",
+        "optionText": "타입: 블랙(black)-S",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/14/13/image1/46907ccd31029e0f.webp"
+        ],
+        "createdAt": "2026-04-14T12:36:05+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "커요 77입는데 오버핏 입니다 그래도 멋스러운 옷이예요 잘입고 놀러갔다왔어요",
+        "optionText": "타입: 블랙(black)-S",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-12T23:18:57+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "99사이즈라 가죽 스타일 옷 슈퍼 뚱땡이 최홍만 되서 내내 못사입고 있었어요 내내 째려보다가 핫핑이름만 믿고 걍 질렀는데 세상에 딱 예뻐요 99사이즈 s예쁘게 맞아요 m자 얼마나 클지 감도 안잡히네요 후기열심히 보고 도박했는데 여러분 ....큽니다 아주 커요 예쁜데 커요 사진을.후기로 걍 올릴려고 막찍었는데 배 잠기고 하안참 남습니다",
+        "optionText": "타입: 블랙(black)-S",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/09/40/image1/9ad30b863a3379e1.webp"
+        ],
+        "createdAt": "2026-04-11T21:07:23+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사이즈 적당히 잘맞아요 핏도 이쁘네요 배송은 시간이 걸렸지만 옷이뻐요 잘입을게요",
+        "optionText": "타입: 블랙(black)-S",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-30T10:54:12+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 ㅇㅖ뻐요 ! ㅠ_ㅠ 요즘 날씨에 딱이라 매일매일 출근복으로 잘 입고 다닙니다 !!",
+        "optionText": "타입: 블랙(black)-M",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-25T14:37:10+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "M으로 샀다 너무 커서 반품 넣고 한사이즈 작은거로 주문했어요\n자켓 자체가 넉넉하다보니 착용시 너무 편해요\n너무 잘한것 같아요",
+        "optionText": "타입: 블랙(black)-S",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/94/79/84/image1/7cb39b7a4e80752d.webp"
+        ],
+        "createdAt": "2026-03-20T15:14:51+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "A라인이고 기장이 조금 애매하긴 하지만, 스타일이 좋아서 마음에 들어요. 접혀온 부분이 펴지는데 조금 시간이 거릴네요",
+        "optionText": "타입: 블랙(black)-S",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-17T13:11:59+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이거물건입니다 날씬해보이고 이뻐요 짱임 완전만족",
+        "optionText": "타입: 블랙(black)-M",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-14T15:00:33+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "예뻐요. 너무 크면 이상할까봐 걍 붙게 입자 하고 s 샀는데 괜탆은거 같아요. 코디만 잘하면 진짜 예쁠듯",
+        "optionText": "타입: 블랙(black)-S",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-05T15:15:20+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사이즈 엄청 넉넉해요 완전 오버핏이고 가을에 가볍게 입기 좋은거 같습니다",
+        "optionText": "타입: 블랙(black)-S",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/93/59/76/image1/8b33f24891fe70fb.webp"
+        ],
+        "createdAt": "2025-11-29T19:47:31+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가죽자켓은 처음 사봐서 걱정했어요.\n냄새도 안나고 재질도 좋아서 휘뚜루마뚜루 잘 입고다닙니다.\n처음샀을때 보다 길들어지니 더 예쁜거같아요",
+        "optionText": "타입: 블랙(black)-S",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/93/26/72/image1/fa1da080309dc180.webp"
+        ],
+        "createdAt": "2025-11-09T22:48:54+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "핏이 이쁘고 가죽도 싼 느낌이 안나서 좋아요~ 기본스타일이라 유행없이 언제든 가능 할 것 같아요!",
+        "optionText": "타입: 블랙(black)-S",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-03T15:06:47+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "핏이 너무 이쁘고 다들 볼때마다 어디서 샀냐고 자기들도 사고싶다고 그러네요 사길잘한거같아요",
+        "optionText": "타입: 블랙(black)-S",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-28T23:09:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "빠른 배송 감사합니다\n(2025-09-13 06:57:23 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/92/46/54/image1/89c792fea5ed471e.webp"
+        ],
+        "createdAt": "2025-09-14T02:34:59+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "오버사이즈 좋아하는데 딱이에요!! 이쁘게 잘 입겠습니다~",
+        "optionText": "타입: 블랙(black)-M",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-05-09T20:05:39+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "나는 M안사도 됫을것같음 그만큼 크게 잘 나온듯함디테일도 이쁘고 만족임",
+        "optionText": "타입: 블랙(black)-M",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-04-21T14:31:50+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:23.697Z"
+  },
+  {
+    "source": {
+      "shopId": "hotping",
+      "shopName": "핫핑",
+      "sourceProductId": "30137",
+      "productUrl": "https://hotping.co.kr/product/detail.html?product_no=30137&cate_no=27"
+    },
+    "name": "[🏆누적판매5만장🏆][MADE] 제스티 테일러드더블자켓(44~110) (하객룩자켓-가을-베스트-직장인룩-데일리룩-체형커버-빅사이즈자켓-아우터-간절기룩-출근룩-가을하객룩)",
+    "brand": "핫핑",
+    "category": "outerwear",
+    "price": 46900,
+    "originalPrice": null,
+    "imageUrl": "https://hotping.co.kr/web/product/big/202608/ddd6917195be43fb5e86ada52dbf7ba6.jpg",
+    "colors": [
+      "블랙",
+      "블루그레이",
+      "브라운",
+      "크림",
+      "민트",
+      "베이지",
+      "샌드베이지(s.beige)",
+      "차콜"
+    ],
+    "sizes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "모던 시크한 분위기를 풍기는 테일러드 더블자켓 - 탄탄한 조직감으로 멋스럽게 착용되며, 더블버튼으로 클래식한 매력이 느껴져요.",
+    "rating": 4.8,
+    "reviewCount": 2803,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "너무 오래 입었더니 보풀이 많이 나서 새로 샀어요! 넉넉하고 깔끔하고 봄 가을 입기 너무 좋아요. 늘 검정만 사는데 이건 블루그레이가 맘에 쏙 듭니다!",
+        "optionText": "타입: 블루그레이(blue grey)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-27T13:15:07+09:00"
+      },
+      {
+        "rating": 3,
+        "text": "핏은 예쁜데 옷이 좀 불편해요. 어깨뽕 있는 줄 모르고 시켰습니다만 그냥 입고 있습니다. 색은 예뻐요.",
+        "optionText": "타입: 반팔_차콜(charcoal)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-10T09:46:35+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "솔직히 긴팔 자켓을 너무 잘 입고 있어서 믿고 구입했는데요, 실망이 좀 커요. 어깨패드 부분 박음질이 제대로 되어있지 않아서 패드가 들어간 게 과하게 잘 보이고요, 검은 자켓인데 라인 부분만 흰색으로 마감되어 있어서 어디가서 벗지도 못하겠어요(교복자켓도 검은색 자켓은 검은색으로 마감하지 않나요?) 급하게 입고 가야해서 별도 환불없이 입었지만, 다른 분들은 조금 더 신중히 구매하시길",
+        "optionText": "타입: 반팔_블랙(black)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/66/58/image1/e27a4175b9fb2ce9.webp",
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/66/58/image2/5f71ef436a72a9bc.webp"
+        ],
+        "createdAt": "2026-08-09T18:17:50+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "핏이 넉넉하고 착용감이 좋아 기회되면 다음에 재구매 할 생각이 있어요. 주변에도 추천했어요",
+        "optionText": "타입: 베이지(beige)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-24T08:21:57+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 좋아요~~\n편하고 넉넉하고^^\n깔별로 쟁이고 싶은 제품이예요~~^^",
+        "optionText": "타입: 반팔_차콜(charcoal)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-04T19:00:15+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "봄가을에 입기 딱 좋네요 :)\n색상도 사진에 담기지않지만 너무 예쁘고좋아요!\n살쪄서 블랙만 고집했는데, 이 색상 산뜻하고 좋네요\n다들 이쁘고 잘 어울린다해요^^",
+        "optionText": "타입: 블루그레이(blue grey)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/18/52/image1/091a793e51ba4fc3.webp",
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/18/52/image2/19655b3aeff5e372.webp",
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/18/52/image3/176bfc041ce6ca38.webp"
+        ],
+        "createdAt": "2026-06-28T10:26:40+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "루즈핏~굳이 크게 살필요없응~\n어깨뽕이 있어 어깨가 넓어보이는거 빼고는 길이두 길고 전체적으로 이뻐요^^",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-25T02:23:54+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "데일리로 입기 좋고 어디에나 잘 어울려서 봄에 잘 입고 다녔습니다 잘입을게요",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-25T00:39:40+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "딱 맞습니다. 한사이즈 크게 구매할껄 .만약 큰 사이즈 샀으면 한 사이즈 작게살껄 그랬을것같습니다. 사이즈 두개 가지고 입고싶네요\n(2026-06-19 12:33:15 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-20T02:45:06+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "편하게 입을수 있을거 같아요.",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-17T08:51:46+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "다른색상이랑 세트로 두벌을 샀는데 둘다 맘에 듭니다. 편하게 입기 좋은데 예뻐요",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-12T13:57:31+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "디자인예쁘고 좋아요",
+        "optionText": "타입: 블루그레이(blue grey)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-12T13:57:01+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "옷이 크게 나왔네요~",
+        "optionText": "타입: 베이지(beige)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-12T11:12:09+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "말모말모 진짜 찐으로 이뻐요 핫핑은 사랑입니다 싸이즈도 딱이고 다른색깔 쟁여야겠어요!",
+        "optionText": "타입: 베이지(beige)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-11T17:59:40+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "잘 입고 있어요. 다른 색상도 사고픔",
+        "optionText": "타입: 블루그레이(blue grey)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-09T08:27:31+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이거 입고 면접봤다가 합격해서 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ제가 너무 만족하는 자켓입니다.\n한여름에는 어렵지만 간절기용으로도 괜춘한듯",
+        "optionText": "타입: 크림(cream)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-05T11:53:41+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "우여곡절은 있었지만~~빠른대응에 감사하고 옷은 많이맘에들고~~좋았습니당~~\n반팔버젘도 브라운이 있음 좋겠습니당~~~♡",
+        "optionText": "타입: 반팔_차콜(charcoal)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-01T14:08:35+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "안감이 있어서 한여름 자켓으로는 부적합 하네요. 카라부분이 제일 눈에 띄는 곳인데 끝 뽀족한 부분 마감이 많이 아쉬워요. 색상은 진한 브라운이 아니라 노란 빛이 올라오는 햇빛에 바랜듯한 브라운이네요.",
+        "optionText": "타입: 브라운(brown)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-30T08:32:42+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "봄에 입기 좋아요",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-24T21:08:07+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "더블버튼이 안어울리는 몸뚱아리인데\n이건 디쟈인 잘 뽑앗어요 ㅎㅎ\n소재도 좋은편이고요 가심비짱 ㅎㅎ",
+        "optionText": "타입: 베이지(beige)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-24T16:16:30+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:25.368Z"
+  },
+  {
+    "source": {
+      "shopId": "hotping",
+      "shopName": "핫핑",
+      "sourceProductId": "45506",
+      "productUrl": "https://hotping.co.kr/product/detail.html?product_no=45506&cate_no=27"
+    },
+    "name": "[여리핏세트/살안타템/여행룩추천][MADE] 카르니 브이넥 스트링가디건+유넥 나시블라우스set(44~110) (빅사이즈투피스-가디건세트-살안타템-여리핏-비치룩-체형커버-군살커버-모리걸-살안타셔츠-나시블라우스-여름블라우스)",
+    "brand": "핫핑",
+    "category": "outerwear",
+    "price": 29900,
+    "originalPrice": null,
+    "imageUrl": "https://hotping.co.kr/web/product/big/202503/d06bcc9bd294fc2b9f071f3a44b1a4bb.jpg",
+    "colors": [
+      "블랙",
+      "민트",
+      "오트베이지(O.beige)"
+    ],
+    "sizes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "손이 가는 옷이 진짜! 매일 입고 싶은 실용성 200%! 하나만 사도 두 벌을 산 듯 한 효과를 내어 드려요. 여성스러움과 편안함을 동시에 담은 그런 투피스랍니다.",
+    "rating": 4.8,
+    "reviewCount": 110,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "88사이즈 / 2사이즈 구입했어요\n근데 나시가 좀 커서 숙이면 가슴 너무 잘 보여요 ㅋㅋㅋ\n오늘 하루종일 나시 잡아 당겨 올렸네요 ㅋㅋㅋ\n가디건은 휘뚜로 마뚜루 아무데나 매치해서 잘 입어질 갓 같아요",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/73/84/image1/53ef2d4b44c94698.webp"
+        ],
+        "createdAt": "2026-08-18T18:56:36+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "잘받았어요 감사합니다",
+        "optionText": "타입: 오트베이지(O.beige)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-08T23:13:25+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이거 겁나 활용도 쩔어요 근데 왤케 저렴하지? 한여름 두개 다 입어도 전혀 안 덥고 안 답답해요 좋음!! 짱",
+        "optionText": "타입: 오트베이지(O.beige)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/62/42/image1/f59706289f896f66.webp"
+        ],
+        "createdAt": "2026-08-05T12:56:09+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "전체적으로 낙낙한 품입니다. 나시는 암홀이 깊게 파여서 단독으로 못입고 가디건 필수예요. 사진상으로 은근히 광택이 돌길래 좀더 매끄르르한 재질일줄 알았는데 오히려 결감이 느껴지는 재질이예요. 부드럽긴합니다만 밝은 색은 모시 삼베옷 같은 느낌이 들거 같아요. 가디건 단추가 밑에서 시작돼서 어깨가 잘 흘러내리는데 한칸 정도만 더 위에서 시작하면 딱 좋을거 같아요. 여분단추가 동봉되어있기는 한데 단추구멍을 뚫자니 옷이 다 풀어질거 같아서 다이소에서 똑딱이나 후크 단추 사서 달려구요~",
+        "optionText": "타입: 블랙(black)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-04T14:38:12+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사이즈가 약간 크게 나온 것 같아요 전 박시하게입는거 좋아해서 괜찮은데 약간 사이즈 걸쳐있는 분들은 한치수 작게사도 좋을 것 같아요 특히 이너가 살짝 큽니다 여성스러운 스타일이라 예쁘다고 많이들하세용",
+        "optionText": "타입: 오트베이지(O.beige)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/96/56/27/image1/863391dd8f343bdb.webp"
+        ],
+        "createdAt": "2026-07-30T07:11:39+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사이즈를 잘못선택했어요 너무커서 입을수가없어요 ㅠㅠ 이미택을떼서 교환할수도 없고 옷은 이뻐요 다시 구입해야할듯",
+        "optionText": "타입: 오트베이지(O.beige)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-12T22:36:44+09:00"
+      },
+      {
+        "rating": 2,
+        "text": "88사이즈한테도 넘크고 부해보여요.\n건조기 돌리면 줄어든대서 돌려놓긴했는데\n부해보이는거때문에 어떻게입을지 고민중이라\n아직 한번도 못입어봤네요",
+        "optionText": "타입: 민트(mint)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-09T13:00:51+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "88사이즈입니다. 3사이즈 할려다가 2사이즈로 구매하였어요. 잘 맞구요 저는 민트가 퍼스널 칼라라 찾았는데 여름철에 시원하게 가을철에도 입을 수 있일듯 합니다. 세탁해도 구김없습니다.",
+        "optionText": "타입: 민트(mint)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/90/69/image1/4714a603bdc9707e.webp"
+        ],
+        "createdAt": "2026-06-08T21:45:37+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 마음에들어서 블랙 베이지 둘다 구매!\n건조기 돌리니 근데 팔이 줄었어요.... 오히려 여름옷 같아져서 그냥 편하게 돌려입어요 ㅋㅋㅋㅋ",
+        "optionText": "타입: 블랙(black)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-06T18:40:26+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "3사이즈 구매했다가 넘크고 특히 팔길이땜에 2사이즈로 교환했어요 뱃살이 임산부배인데 맞긴하네요 민트색이랑 두벌 잘입겠습니다",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-04T19:15:01+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "여행가서 입었는너무너무 시원하고 옷이 편해요!!\n블랙으로 재주문하려고 합니다 강추 !!",
+        "optionText": "타입: 민트(mint)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/81/12/image1/1594454fe99cb745.webp"
+        ],
+        "createdAt": "2026-06-02T10:48:34+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "배송도 빠르고 옷도 잘 도착 했어요. 옷은 너무 예뻐요. 제 몸이 이상한 거겠죠. 제가 2 사이즈를 시키고 어떤 옷은 딱 맞고 어떤 옷은 넘 크고 옷은 넘 이뻐요..",
+        "optionText": "타입: 오트베이지(O.beige)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-29T05:56:28+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "여름에 시원하게 잘 입을 것 같아요.\n색상이 예상보다 연했지만 화이트톤으로 매치하면 예쁠거 같아요.",
+        "optionText": "타입: 민트(mint)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-18T16:11:11+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "루즈핏으로 입기 조아요 안에 이너나시길이가 길어요",
+        "optionText": "타입: 블랙(black)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-26T18:48:25+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "생각보다는 색상이 별로였어요 겨자색같은 느낌이랄까\n늦봄 초여름 잘 입을꺼 같습니다",
+        "optionText": "타입: 오트베이지(O.beige)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-07T08:12:45+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "살빠져 보인다는 이야기를 많이 들었네요~^^\n소라색도 한개 구매해야겠어요",
+        "optionText": "타입: 오트베이지(O.beige)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-03T16:23:42+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "1사이즈여도 사이즈긴 넉넉하네요\n전좀커서건조기에 돌렸더니 작아져서좋네요\n같이세트로 입어도되고\n따로따로 입어도되고 좋아오ㅡ\n여름에ㅡ 입기좋을꺼 같아요",
+        "optionText": "타입: 오트베이지(O.beige)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/94/68/82/image1/568cd01e3786b20d.webp"
+        ],
+        "createdAt": "2026-03-10T16:02:42+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "따뜻한나라 여행가려고 준비했는데 너무좋아요 2사이즈 샀는데 살작 큰듯한 느낌이 있지만 그래도 너무좋아요^^",
+        "optionText": "타입: 민트(mint)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-01-02T16:54:55+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "생각보다 색이 희미해서 놀랐어요. 약간 스님st...?\n일단 착용감은 편해요. 너무 파이지도 않은것도 맘에 들어요",
+        "optionText": "타입: 민트(mint)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/93/92/69/image1/08f36f6921fef52c.webp"
+        ],
+        "createdAt": "2025-12-21T21:23:37+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "여행가서 가장 잘입고 다닌 옷이에요! 발리가 엄청더웠는데 긴팔을 걸쳐도 전혀 덥지않고 오하려 햇빛을 가려줘서 살을 보호 할수 있었답니다",
+        "optionText": "타입: 블랙(black)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-24T21:22:41+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:26.890Z"
+  },
+  {
+    "source": {
+      "shopId": "hotping",
+      "shopName": "핫핑",
+      "sourceProductId": "38193",
+      "productUrl": "https://hotping.co.kr/product/detail.html?product_no=38193&cate_no=27"
+    },
+    "name": "[4계절템/7컬러🌈] 포도 루즈핏 라운드 니트가디건(44~110) (빅사이즈가디건-빅사이즈니트-라운드넥가디건-베이직가디건-기본가디건-봄니트-가을니트)",
+    "brand": "핫핑",
+    "category": "outerwear",
+    "price": 29900,
+    "originalPrice": null,
+    "imageUrl": "https://hotping.co.kr/web/product/big/202503/ccd3bea15eee77c367c5928d6a25b0e6.jpg",
+    "colors": [
+      "그린",
+      "네이비",
+      "블랙",
+      "코발트",
+      "레드",
+      "크림",
+      "브라운"
+    ],
+    "sizes": [
+      "F",
+      "2",
+      "3"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "어디든 간편하게 입기 좋은 베이직 라운드 루즈핏 니트가디건. 루즈한 핏으로 편안한 착용감은 물론, 여리한 분위기를 연출해드려요.",
+    "rating": 4.9,
+    "reviewCount": 579,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "기본템으로 필수\n사이즈도 적당하고 사무실용으로 잘입음",
+        "optionText": "타입: 블랙(black)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-28T03:43:27+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색도 이쁘고 전체적인 핏도 박시하니 이뻐요\n(2026-05-26 19:29:24 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/73/25/image1/2b37008ce31f67f2.webp"
+        ],
+        "createdAt": "2026-05-27T03:21:24+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "생각보다 두꺼워서 지금은 못입을거같아서아쉬워요톡톡하니좋은거같아요",
+        "optionText": "타입: 네이비(navy)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-20T11:15:22+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가디건 보풀도 안일어나고 예뻐요 잘 산것 같아요 사이즈를 한사이즈 작게 샀어야 했는데 좀 아쉽기는 해요",
+        "optionText": "타입: 네이비(navy)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/39/92/image1/d9d8f72217155d72.webp"
+        ],
+        "createdAt": "2026-05-03T14:55:25+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사이즈 고민하다 루즈하게 입고 싶어서 2사이즈 구매했어요 역시다 크네요 색상이 화면과 같이 너무 이쁜 파랑이예요",
+        "optionText": "타입: 코발트(cobalt)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-30T13:56:37+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "그린을 처음 도전해봤는데 예뻐요!\n블라우스,원피스에 입어도 잘어울려요~",
+        "optionText": "타입: 그린(green)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/34/53/image1/79a4d4712bc665bd.webp"
+        ],
+        "createdAt": "2026-04-28T23:11:06+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "봄 가을 입기 좋은 것 같아요~블랙이라 어디에 걸쳐도 무난하게 잘 어울립니다. 잘 입고 있어요~",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-24T12:23:07+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색상 쨍하게 이뻐요 보들보들 두께감은살짝있는데 지금 입기에 겉옷으로 입기에 너무 좋아용",
+        "optionText": "타입: 그린(green)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-24T11:15:51+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "66-77사이를 입는데 리뷰들 보고 프리사이즈 샀는데.. 작네용 ㅠ 품이 작기보단 소매길이랑 전체길이가 작았어요\n키가 171이라 그런듯! 가족에게 양보했지만 :) 컬러도 재질도 까실함 없어서 좋았습니다",
+        "optionText": "타입: 코발트(cobalt)-F",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-19T19:05:39+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "그린색 첨 입어봤는데 넘 잘 어울린다고 얘기 많이 들었어요~ 색상도 예쁘고 핏도 예뻐요\n약간 헐렁해서 부담없이 입고 다닐수 있어요\n연청롱치마랑 입었는데 예쁘네요",
+        "optionText": "타입: 그린(green)-F",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-16T08:51:23+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "지금입기에는 살짝 두꺼운 느낌있어요 아침저녁으로 쌀쌀할때 입기 괜찮을거같아요",
+        "optionText": "타입: 레드(red)-F",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-15T16:09:08+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "기본 라운드 가디건입니다\n사진과 똑같고 얇아서 봄에 잘 입고 다닐 것 같아요!\n빨리 세탁해서 입고 싶어요!",
+        "optionText": "타입: 네이비(navy)-F",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-14T17:38:16+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색감이 미쳤어요! 흰색 이너랑 입어주니까 완전 청랑 그 자체에요! 봄이랑도 여름이랑도 너무 잘 어울릴 것 같아요!",
+        "optionText": "타입: 코발트(cobalt)-3",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-13T12:33:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "초록색이라서 참으로 예뻐요. 초록색 가디건이 마음에 들고 입고 싶어서 또 구매했어요.",
+        "optionText": "타입: 그린(green)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/09/33/image1/f5c8ab86b667cede.webp"
+        ],
+        "createdAt": "2026-04-11T20:33:34+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "초록색이 마음에 들어서 구입했어요. 봄철에 초록색 가디건을 입으니까 봄 느낌이 살아나네요.",
+        "optionText": "타입: 그린(green)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/05/95/image1/930b1cd34994e27d.webp"
+        ],
+        "createdAt": "2026-04-09T15:16:42+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "데일리로 딱이에요 어디에도 잘어울려요 잘산거같아요 자주입어요! 다른색도 살까해요",
+        "optionText": "타입: 네이비(navy)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-30T01:03:39+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "딱 원하던 색감이에요 루즈핏으로 입기편하고 데일리로 좋아요 재구매각",
+        "optionText": "타입: 코발트(cobalt)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/94/90/05/image1/8ae1db102925c1b2.webp"
+        ],
+        "createdAt": "2026-03-29T19:05:40+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "지금 계절에 입기 좋아요. 아침 저녁으로 두루두루 입기 좋습니다. 편하고 좋아요~",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-28T14:50:23+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "편하게잘입어질것같아요\n(2026-03-26 15:13:06 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-27T02:46:23+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "66키로인데 넉넉하니 끼는곳없이 편해요 간절기 안에 티입고 겉옷으로 편히 입을듯 합니다 일요일인데 배송이 왔네요 기사님 쉬는날 없이 일하시는듯 맘이 안좋으네요 총알배송 원하지않아요 감사합니다 포장상태 좋아요 만족합니다\n(2026-03-22 18:07:56 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/94/83/66/image1/3165930fc729afa3.webp"
+        ],
+        "createdAt": "2026-03-23T03:23:46+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:28.512Z"
+  },
+  {
+    "source": {
+      "shopId": "hotping",
+      "shopName": "핫핑",
+      "sourceProductId": "48542",
+      "productUrl": "https://hotping.co.kr/product/detail.html?product_no=48542&cate_no=27"
+    },
+    "name": "[6컬러🌈/3색배색/간절기필수템] 에프릴 스트라이프 라운드 긴팔가디건(44~88)(빅사이즈가디건-간절기가디건-스트라이프가디건-배색가디건-패턴가디건-줄무늬가디건-체형커버-캐주얼-데일리-레이어드-꾸안꾸-스판가디건)",
+    "brand": "핫핑",
+    "category": "outerwear",
+    "price": 33800,
+    "originalPrice": null,
+    "imageUrl": "https://hotping.co.kr/web/product/big/202608/0ecfacd2b87b6bf848c864a251763c48.jpg",
+    "colors": [
+      "스카이",
+      "올리브",
+      "그레이스카이(G.sky)",
+      "(G.charcoal)"
+    ],
+    "sizes": [
+      "F"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "밋밋함은 없으면서도 캐주얼하게 즐겨질 데일리 니트 가디건! 6가지 컬러 구성으로 취향에 따라 골라입는 아이템이랍니다. 적당한 두께감과 소프트한 원단까지!",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:35:30.049Z"
+  },
+  {
+    "source": {
+      "shopId": "hotping",
+      "shopName": "핫핑",
+      "sourceProductId": "44444",
+      "productUrl": "https://hotping.co.kr/product/%EC%96%BC%EB%A6%AC%EB%B2%84%EB%93%9C-20%EC%BB%AC%EB%9F%AC%EC%B6%94%EA%B0%80%F0%9F%A4%8E%EA%B3%A0%ED%80%84%EB%A6%AC%ED%8B%B0made-%EC%BC%84%EC%A6%88%EB%B9%84-%EC%98%A4%EB%B2%84%ED%95%8F-%ED%95%98%EC%9D%B4%EB%84%A5-%EC%BD%94%ED%8A%BC-%EC%95%BC%EC%83%81-%EC%A0%90%ED%8D%BC44110-%EA%B0%80%EC%9D%84%EC%8B%A0%EC%83%81-%EC%95%BC%EC%83%81%EC%9E%90%EC%BC%93-%EA%B0%84%EC%A0%88%EA%B8%B0%EC%95%84%EC%9A%B0%ED%84%B0-%EB%B9%85%EC%82%AC%EC%9D%B4%EC%A6%88%EC%95%84%EC%9A%B0/44444/category/27/display/1/"
+    },
+    "name": "[얼리버드 20%][컬러추가🤎/고퀄리티][MADE] 켄즈비 오버핏 하이넥 코튼 야상 점퍼(44~110) (가을신상-야상자켓-간절기아우터-빅사이즈아우터-루즈핏점퍼-데일리룩-체형커버-스트링점퍼-시보리-데일리)",
+    "brand": "핫핑",
+    "category": "outerwear",
+    "price": 57900,
+    "originalPrice": null,
+    "imageUrl": "https://hotping.co.kr/web/product/big/202503/49b265ed927a3399827f1026594814c2.jpg",
+    "colors": [
+      "카키",
+      "블랙",
+      "연베이지(L.beige)"
+    ],
+    "sizes": [
+      "1",
+      "2"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "시크하면서 트린디하게 툭- 걸쳐입기 좋은 켄즈비 점퍼- 넉넉한 오버핏에 세심한 포인트들로 포인트되는 점퍼랍니다.",
+    "rating": 4.8,
+    "reviewCount": 78,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "생각보다 가볍고 박시하고 색은 사진이랑 똑같아요\n가을에는 좀 더울 것 같아서 초겨울에 열심히 입고다닐게요 이쁩니당",
+        "optionText": "타입: 블랙(black)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-26T20:47:40+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "오버핏이라 휘뚜루마뚜루 입기 좋네요. 생각보다 간절기 용으로 샀지만 따뜻합니다.",
+        "optionText": "타입: 블랙(black)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-17T15:00:54+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "진짜 요물 입니다\n사이즈가 넉넉해서 어떤 옷으로 입어도 오버핏으로 커버되고 일자 느낌이라 부해버일 줄 알았는데\n안에 옷이 조금 애매할때 와이드핏 바지나 롱스커트 위에 입으면 되게 힙하게 툭 떨어지는 느낌으로 좋아요~\n색상도 너무 찰떡으로 이뻤습니다",
+        "optionText": "타입: 연베이지(L.beige)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-14T11:47:35+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "😘퀄리티 좋은 야상 찾으시는 분들께 추천💚\n✔️사이즈\n저는 1 사이즈를 선택했는데요.\n66까지는 이쁜 오버핏으로 맞을 것 같고\n여유가 꽤 있는 편이라서 77사이즈이신분들도 맞으실 것 같아요.\n✔️두께감\n봄,가을에 손이 자주 갈 두께감의 아우터입니다.\n얇디얇은 저렴한 야생이 아니라 안감도 탄탄하게 덧대어져 있어서 왜 고퀄리티라고 써있는지 알겠더라구요.\n✔️색감\n완전 정석 카키색상입니다.\n채도는 조금 어두운편링데 저는 그래서 더욱 마음에 들었던 것 같아요.\n진짜 이쁜 카키색상이니 색상은 저믿고 구매하세요^^\n✔️디테일\n밑단에 스트링이 있어서 밑단을 스트링으로 조절하면 확실히 아방한 핏이 되어서 더욱 이쁘더라구요.\n팔꿈치 셔링 포인트도 너무 이쁘구요.\n포인트디테일이 크지는 않지만 그래서 더욱 데일리로 손이 자주 가고 코디도 어렵지 않을 것 같아요.\n✔️코디\n저는 이 야상이 스커트와 궁합이 정말 좋은 것 같아요.\n물론 바지와도 잘 어울리지만\n야상이 주는 귀여운 핏이 미니,미디,롱치마 모두 궁합이 좋은 것 같더라구요.\n한철 입을 옷이 아닌 퀄리티 좋은 야상을 찾으신다면 무조건 켄.즈.비 야상하세요.",
+        "optionText": "타입: 카키(khaki)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/72/65/image1/c89df7058e2fe1da.webp",
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/72/65/image2/b271efea31ca1b03.webp",
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/72/65/image3/31e04769062fad63.webp",
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/72/65/image4/bcf63ed11ec31567.webp"
+        ],
+        "createdAt": "2026-05-27T21:00:00+09:00"
+      },
+      {
+        "rating": 2,
+        "text": "산지 얼마 안되었고 네다섯번 입은거같아요..\n세탁도 한번 안하고 입고나면 옷장안에 넣어놨는데ㅜ\n그런데 벌써부터 노랗게 빛이 바래버리네요\n오래 햇빛에 두면 옷 색 변하는거같이 군데군데 노란 얼룩이 지고있어요ㅜㅜ 아마 이번 한철입고 못입게될거같네요\n가격이 저렴한것도 아닌데 제품의 질이 좋진 못한거같아요\n속상하네요",
+        "optionText": "타입: 카키(khaki)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/17/33/image1/cbae35f4e15c9a28.webp",
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/17/33/image2/6db5bd39950e0756.webp",
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/17/33/image3/9d151d885e24fbb5.webp"
+        ],
+        "createdAt": "2026-04-16T15:06:38+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "한사이즈 다운해서 입어도 품이 많이 큼\n허리 스트링 없이 떨어지는\n옷이라 좀 많이 부해보임\n두꺼운 면이라 무거움\n소매가 쭈글하게 잡혀있어 좀 불편함\n여름으로 가는 봄에는 좀 더움.\n가을엔 괜찮을 듯",
+        "optionText": "타입: 블랙(black)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-14T19:45:23+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "낙낙한 아우터가 필요해서 샀습니다. 1사이즈도 한 77사이즈처럼 크니 참고하세요. 제법 두꺼워서 20도 이상이면 못입을 듯합니다. 재질이 좋아서 오랫동안 입을 수 있을 것 같습니다.",
+        "optionText": "타입: 카키(khaki)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/14/57/image1/84b2caaedd4170be.webp"
+        ],
+        "createdAt": "2026-04-14T19:33:39+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "카키는 비슷한게 있어서 블랙이랑 연베이지만 주문햇는데 너무 이뻐요! 지금 딱 잘입고다닐거같아요 👍 👍 👍 👍 👍",
+        "optionText": "타입: 연베이지(L.beige)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/02/32/image1/e61ebee46d1ba255.webp"
+        ],
+        "createdAt": "2026-04-07T07:35:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "생각보다 엄청 크네요! 핏도 이쁘고 지금 딱 입기 좋아요\n진짜 완전 맘에듬!!!!!! 배송도 빠르고 👍 👍 👍 👍 👍",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/95/02/31/image1/cc8cec02fb1bb3a3.webp"
+        ],
+        "createdAt": "2026-04-07T07:34:04+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "팔이 길긴한데 편하고 이뻐요!!! 지금같은 날씨에 휘뚜루마뚜루 걸치고 다니기 딱이에요♡",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-25T18:50:16+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사이즈가 많이 크네요..\n품질은 좋아요",
+        "optionText": "타입: 블랙(black)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-24T11:32:47+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "옷이 좀 마이크게 나온듯해요.그래도 3ㆍ4월 지금입기엔 좋아요\n(2026-03-21 07:49:40 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-22T02:41:28+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "팔길이는 조금 길지만! 편하게 입을수 있을거같아용 여유핏이라 더 예뻐요\n후회없는 핫핑",
+        "optionText": "타입: 연베이지(L.beige)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-10T08:15:49+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "핏이 깔끔하게 떨어져요. 봄에 입으면 딱 좋아요. 길이가 조금만 더 길면 더 이쁠것같아요.",
+        "optionText": "타입: 블랙(black)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/94/68/17/image1/db6eac9fc36e135c.webp"
+        ],
+        "createdAt": "2026-03-10T08:07:01+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "검정색사고 맘에 들어 카키색도 구매했어요\n너무 이쁘고 루즈핏 좋아하는데\n넉넉하니 잘 맞네요\n이쁘게 입을께요",
+        "optionText": "타입: 카키(khaki)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/94/64/17/image1/cec12e31d7ca8f65.webp"
+        ],
+        "createdAt": "2026-03-06T16:52:12+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "생각보다 얇긴하지만 무심하게 툭 걸친 느낌이라 원피스에도 잘 어울려요! 좀 더 따뜻해지면 그냥 티 하나만 입어도 이쁘게썽요",
+        "optionText": "타입: 연베이지(L.beige)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-01T15:48:27+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "낙낙하니 여유핏이네요\n워낙 루즈핏을 좋아해서 전 만족",
+        "optionText": "타입: 블랙(black)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets3.cre.ma/p/hotping-co-kr/reviews/00/01/93/76/02/image1/b77c65e722e6f5c8.webp"
+        ],
+        "createdAt": "2025-12-09T17:57:06+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "요즘 교복처럼 입고 다니고 있어요 ㅎㅎ 오랜만에 핫핑에서 구매했던 건데 엄청 만족합니다~! 크고 편해요!",
+        "optionText": "타입: 연베이지(L.beige)-1",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-19T14:49:20+09:00"
+      },
+      {
+        "rating": 1,
+        "text": "진짜 너무 화가나서 리뷰씀. ☆절대 구매하지마세요☆\n배송오자마자 입고 지퍼 잠구려고 하니 지퍼 손잡이 분리됨. 어찌저찌 끼움. 또 분리됨 ㅎㅎ 애초에 약한거였음. 화가나서 입을수가없음 . ㅋㅋ너무 추워서 순간접착제로 붙혔더니 ㅋㅋ 자크가 굳어버림 ㅎㅎ 절대 사지마시길",
+        "optionText": "타입: 카키(khaki)-2",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-16T09:44:57+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이뻐요 낙낙해서 좋어요\n(2025-11-03 11:08:59 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-04T02:44:53+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:31.620Z"
+  },
+  {
+    "source": {
+      "shopId": "hotping",
+      "shopName": "핫핑",
+      "sourceProductId": "48353",
+      "productUrl": "https://hotping.co.kr/product/%EA%B0%80%EC%9D%84%F0%9F%8D%81%ED%95%98%EA%B0%9D%EB%A3%A9%EC%8A%AC%EB%A6%BC%EC%8A%A4%ED%8A%B8%EB%9D%BC%EC%9D%B4%ED%94%84madelovb-l-1480-%EB%85%B8%EC%B9%B4%EB%9D%BC-%EC%8A%A4%ED%8A%B8%EB%9D%BC%EC%9D%B4%ED%94%84-%EC%8B%B1%EA%B8%80%EC%9E%90%EC%BC%9344-99%ED%95%98%EA%B0%9D%EB%A3%A9-%EA%B2%A9%EC%8B%9D%EB%A3%A9-%EC%B2%B4%ED%98%95%EC%BB%A4%EB%B2%84-%EA%B0%84%EC%A0%88%EA%B8%B0%EC%95%84%EC%9A%B0%ED%84%B0-%EB%B9%85%EC%82%AC/48353/category/27/display/1/"
+    },
+    "name": "[가을🍁][하객룩/슬림스트라이프][MADE][LOVB] L-1480 노카라 스트라이프 싱글자켓(44-99)(하객룩-격식룩-체형커버-간절기아우터-빅사이즈자켓-오피스룩-출근룩-데일리룩-싱글자켓-가을자켓-노카라자켓-정장자켓)",
+    "brand": "핫핑",
+    "category": "outerwear",
+    "price": 71800,
+    "originalPrice": null,
+    "imageUrl": "https://hotping.co.kr/web/product/big/202609/cb1517485879754e6aaa48f1e5ad1a4b.jpg",
+    "colors": [
+      "블랙"
+    ],
+    "sizes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "수차례의 수정 끝에 완성된 프리미엄 럽 자켓, 노카라 V넥과 은은한 핀스트라이프로 세련된 무드를 선사해드리며, 데일리부터 격식룩까지 활용도 높게 즐겨져요.",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:35:33.098Z"
+  }
+]

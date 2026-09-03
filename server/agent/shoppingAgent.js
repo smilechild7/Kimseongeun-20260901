@@ -168,77 +168,91 @@ export function createShoppingAgent({
       let priorId = previousResponseId;
       let nextInput = [{ role: 'user', content: message }];
       let latestSearch = null;
+      let usageLogged = false;
 
-      for (let round = 0; round < config.maxToolRounds; round += 1) {
-        const response = await client.responses.create(
-          requestOptions({ config, input: nextInput, previousResponseId: priorId }),
-        );
-        responses.push(response);
-
-        const calls = toolCalls(response);
-        if (calls.length > 1) {
-          throw new AgentRuntimeError(
-            'multiple_tool_calls',
-            'OpenAI returned more than one tool call in a round',
+      try {
+        for (let round = 0; round < config.maxToolRounds; round += 1) {
+          const response = await client.responses.create(
+            requestOptions({ config, input: nextInput, previousResponseId: priorId }),
           );
-        }
+          responses.push(response);
 
-        if (calls.length === 0) {
-          const output = parseFinalOutput(response);
-          let result;
-          try {
-            result = buildAgentResult({
-              output,
-              responseId: response.id,
-              latestSearch,
-              repository,
-            });
-          } catch (error) {
+          const calls = toolCalls(response);
+          if (calls.length > 1) {
             throw new AgentRuntimeError(
-              'factual_validation_failed',
-              `Agent factual validation failed: ${error.message}`,
-              { cause: error },
+              'multiple_tool_calls',
+              'OpenAI returned more than one tool call in a round',
             );
           }
 
+          if (calls.length === 0) {
+            const output = parseFinalOutput(response);
+            let result;
+            try {
+              result = buildAgentResult({
+                output,
+                responseId: response.id,
+                latestSearch,
+                repository,
+              });
+            } catch (error) {
+              throw new AgentRuntimeError(
+                'factual_validation_failed',
+                `Agent factual validation failed: ${error.message}`,
+                { cause: error },
+              );
+            }
+
+            logger.log(
+              JSON.stringify({
+                event: 'agent.complete',
+                type: result.type,
+                rounds: responses.length,
+                candidateCount: latestSearch?.result.candidates.length ?? 0,
+                recommendationCount: result.products?.length ?? 0,
+                usage: usageTotals(responses),
+              }),
+            );
+            usageLogged = true;
+            return result;
+          }
+
+          if (round === config.maxToolRounds - 1) {
+            throw new AgentRuntimeError(
+              'tool_round_limit',
+              `OpenAI exceeded the ${config.maxToolRounds}-round limit`,
+            );
+          }
+
+          const call = calls[0];
+          const normalizedInput = parseToolInput(call);
+          const searchResult = search(normalizedInput);
+          latestSearch = { input: normalizedInput, result: searchResult };
+          priorId = response.id;
+          nextInput = [
+            {
+              type: 'function_call_output',
+              call_id: call.call_id,
+              output: JSON.stringify(searchResult),
+            },
+          ];
+        }
+
+        throw new AgentRuntimeError(
+          'tool_round_limit',
+          `OpenAI exceeded the ${config.maxToolRounds}-round limit`,
+        );
+      } finally {
+        if (!usageLogged && responses.length > 0) {
           logger.log(
             JSON.stringify({
-              event: 'agent.complete',
-              type: result.type,
+              event: 'agent.failed',
               rounds: responses.length,
-              candidateCount: latestSearch?.result.candidates.length ?? 0,
-              recommendationCount: result.products?.length ?? 0,
               usage: usageTotals(responses),
             }),
           );
-          return result;
         }
-
-        if (round === config.maxToolRounds - 1) {
-          throw new AgentRuntimeError(
-            'tool_round_limit',
-            `OpenAI exceeded the ${config.maxToolRounds}-round limit`,
-          );
-        }
-
-        const call = calls[0];
-        const normalizedInput = parseToolInput(call);
-        const searchResult = search(normalizedInput);
-        latestSearch = { input: normalizedInput, result: searchResult };
-        priorId = response.id;
-        nextInput = [
-          {
-            type: 'function_call_output',
-            call_id: call.call_id,
-            output: JSON.stringify(searchResult),
-          },
-        ];
       }
-
-      throw new AgentRuntimeError(
-        'tool_round_limit',
-        `OpenAI exceeded the ${config.maxToolRounds}-round limit`,
-      );
     },
   };
 }

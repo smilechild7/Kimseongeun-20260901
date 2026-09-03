@@ -1,0 +1,1477 @@
+[
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46493",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46493&cate_no=4"
+    },
+    "name": "[사전 예약 이벤트/무료배송] 로브엔 프릴 블라우스",
+    "brand": "(cn-by)12105#/C23213/광저우",
+    "category": "top",
+    "price": 54800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202608/c6f017980e41a6a259d8c697dc80b429.webp",
+    "colors": [
+      "크림화이트"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "[사전 예약 OPEN] 프리 오더 시 6,900원 상당의 헤어핀 증정 ~9/8(화)하늘하늘한 리오셀 블렌딩 소재와 프릴·레이스 디테일로, 부해 보임 없이 여리하고 로맨틱한 실루엣을 완성해 주는 블라우스",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:33:55.001Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46407",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46407&cate_no=4"
+    },
+    "name": "[무료배송] MADE. 데일리 울텐셀 베이직 티셔츠",
+    "brand": "(kr-odm)(제작)텐셀티",
+    "category": "top",
+    "price": 20900,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202608/ad336d4c310e462b276c9d60a3c90e76.webp",
+    "colors": [
+      "퓨어아이보리",
+      "샌드베이지",
+      "베이비블루",
+      "라이트그레이",
+      "스탠다드블랙"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "부드러운 텐셀·울 원단과 슬림핏으로 단독은 물론 레이어드까지 활용도 높은 베이직 티셔츠",
+    "rating": 4.8,
+    "reviewCount": 5,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "지금 입기엔 덥고 많이 선선해지면 입어야 겠....ㅠㅠ\n어여 선선한 날씨가 오기를...!\n얇아서 하나 더 주문 할까 고민 중",
+        "optionText": "색상: 퓨어아이보리 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/49/46/image1/f6af53427734ee65.webp"
+        ],
+        "createdAt": "2026-09-02T22:50:10+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "메빈 제작 베이직 티셔즈\n잘 받앗어요\n강지랑 산책 나가면서 입구 리뷰\n남겨여~~ㅎㅎ\n일단...소재가 너무 가벼워서 시원하궁\n살안타템으로 최고에요!!\n샌드베이지 넘넘 예쁘궁 고급진 느낌이에요\n소매라인두 여리여리핏이궁 이너로 입기에\n너무 만족스러운 아이에요\n전 깔별로 주문하려구여 ㅎㅎ\n전체적인 기장두 적당해서 로우팬츠에 부담없이\n코디하기 좋아요 추천합니다 ^^",
+        "optionText": "색상: 샌드베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/47/18/image1/587ea0a39fcbed49.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/47/18/image2/6ca2458cc2ff2d4c.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/47/18/image3/1d1be2c77f61fb0a.webp"
+        ],
+        "createdAt": "2026-08-24T12:42:38+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "넘맘에 들어요",
+        "optionText": "색상: 퓨어아이보리 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-22T01:34:03+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "흰색 블랙이 가장 기본티지만.. 색깔 포인트 블루\n너무 이뻐요",
+        "optionText": "색상: 베이비블루 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-19T19:25:33+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "얇은 니트티? 조금 더 쌀쌀 해지믄 입어야 할듯요 ㅋㅋ",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-19T19:24:32+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:56.588Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46458",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46458&cate_no=4"
+    },
+    "name": "[사전 예약 이벤트/무료배송] 르뮤 체크 러플 블라우스",
+    "brand": "(cn-by)1506#/C23159/광저우",
+    "category": "top",
+    "price": 39800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202608/42c8280afd4e107b9b037a6f55b2c783.webp",
+    "colors": [
+      "무드블랙"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "[사전 예약 OPEN] 프리 오더 시 6,900원 상당의 삭스 증정 ~9/7(수)차분한 미니 체크 패턴에 러플과 레이스 디테일, 밑단 스트랩으로 실루엣까지 조절할 수 있는 러블리한 무드의 세미 크롭 블라우스",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:33:58.186Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46436",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46436&cate_no=4"
+    },
+    "name": "[무료배송/다다익선] MADE. 에펠 울 텐셀 하프넥 티셔츠",
+    "brand": "(kr-oem)(제작)#JC-SPL-23581",
+    "category": "top",
+    "price": 26800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202608/1807ddb7c9b2a4177d68f69e7d61a4be.webp",
+    "colors": [
+      "더스트블루",
+      "오트베이지",
+      "크림아이보리",
+      "멜란지그레이",
+      "스탠다드블랙"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "2장 이상 담으면 10%↓ 피부에 닿는 순간 느껴지는 극강의 부드러움, 프리미엄 울텐셀 소재와 답답함 없는 하프넥으로 완성한 데일리 슬림 티셔츠",
+    "rating": 5,
+    "reviewCount": 9,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "부드럽고 예뻐요!!\n컬러도 맘에 들고~~\n또 주문해야겠어요ㅎ\n지금 입기엔 덥고 많이 선선해지면 입어야 겠다는...",
+        "optionText": "색상: 더스트블루 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-09-02T21:45:18+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "부드럽고 예뻐요!!\n또 주문해야겠어요ㅎ\n지금 입기엔 덥고 많이 선선해지면 입어야 겠다는...",
+        "optionText": "색상: 오트베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/49/34/image1/599a87b8ee476b53.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/49/34/image2/e1b5af480163b0cb.webp"
+        ],
+        "createdAt": "2026-09-02T21:43:54+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "여름에도 요런 얇은 모달 목폴라 뭔가 느낌있죠\n부들부들 시원해요\n목을 보호해줘용 다른 칼라도 탐나네여",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/49/16/image1/65777a054d479f63.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/49/16/image2/b70eb08cbb5d3074.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/49/16/image3/1ce6c6d8889143f8.webp"
+        ],
+        "createdAt": "2026-09-02T08:19:07+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "소재가 부들부들하고 얇은편이예요\n가을에 이너로 입으려구요",
+        "optionText": "색상: 오트베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/49/13/image1/70f55edc05961053.webp"
+        ],
+        "createdAt": "2026-09-02T03:01:30+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "치마랑 세트로 샀어요\n지금 환절기에 딱이구요\n부들부들 소재좋고 코디된치마랑 찰떡입니다\n고급스러워요",
+        "optionText": "색상: 오트베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/48/87/image1/ef1ef5a8fc169aca.webp"
+        ],
+        "createdAt": "2026-09-01T13:05:52+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가을까지 예쁘게입을수있을거같아요 질도좋고 색도예뻐요 블랙도 구매해야징!~ㅎ",
+        "optionText": "색상: 오트베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-28T12:08:06+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "진짜 너무 이쁘네요…색깔별로 쟁여템이예요….믿고 구매하셔도 됩니다 대박…!",
+        "optionText": "색상: 멜란지그레이 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/48/24/image1/4ed34e74c46e5953.webp"
+        ],
+        "createdAt": "2026-08-28T10:21:10+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사이즈도 핏이쁘게 잘 맞는데 무엇보다 소재가 보들보들해서 너무 좋아요!!! :) 하의 입는거에 따라 캐주얼한 느낌도 나고 격식있는 자리에도 잘 어울립니다!! 목부분도 전혀 답답함 없이 편해요 ! 완전 추천하는 옷입니다 !!",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/47/64/image1/b4645bde8d8b175a.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/47/64/image2/98bb6a5dd5e7cdfd.webp"
+        ],
+        "createdAt": "2026-08-26T15:11:02+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "메빈자체제작은 다 좋아요\n옷감 질도 좋고 디자인도 심플하면서 여기저기 매치가 잘되네요\n원단도 부들부들 예민피부도 입을수 있어요\n다른색상들도 쟁여야겠어요",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-23T12:03:30+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:33:59.848Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "45506",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=45506&cate_no=4"
+    },
+    "name": "[2천장돌파/무료배송] MADE. 레닐 셔츠 블라우스(+NEW컬러)",
+    "brand": "(TP)(cn-oem)(제작)MA-26SS-247",
+    "category": "top",
+    "price": 33800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202607/36d45cf05784642c52890504281c8de0.webp",
+    "colors": [
+      "퓨어화이트",
+      "무드차콜",
+      "소프트핑크"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "단독·레이어드 모두 자연스럽게 어울려, 출근부터 하객룩까지 코디 고민을 덜어주는 만능 셔츠 블라우스",
+    "rating": 5,
+    "reviewCount": 25,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "입었을때 핏이 너무 맘에들었어요 적당한 루즈핏이고 광택감도 은은하니 좋았어요 셔츠 하나만 입어도 꾸안꾸 느낌 낼수 있는 핏인거같아요 핑크색도 사고 싶어요!",
+        "optionText": "색상: 퓨어화이트 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-13T23:14:21+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "핑크랑둘다 샀어요 일단색상이 약간파스텔톤같고 예뻐요 핑크는 살짝 반들반들 반짝이는 재질이라 그거빼고는 핏도좋고 예쁘네요",
+        "optionText": "색상: 퓨어화이트 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-01T01:52:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "셔츠가 잘안어울려서 안입는편인데 이건 핏이좋으네요\n사이즈도 딱적당하고 색감이 아주예뻐요 다른색상도샀어요",
+        "optionText": "색상: 소프트핑크 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-01T01:51:50+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "핑크구매후 화이트도구매. 화이트구매후 핑크보니 약간 촌스러느낌. ㅋ. 글고 핑크 두번입고세탁햇는데 보풀생겼어요. 그래도 저렴한. 맛에. 화이트 무난하니 괜찮음",
+        "optionText": "색상: 퓨어화이트 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/39/19/image1/aeea93a166f7b0f3.webp"
+        ],
+        "createdAt": "2026-07-29T11:06:28+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "흰색 셔츠는 디자인별로 있는데 시원한 감이 딸어니나 싶은데 관택있어서 좋으네요 가성비 괸찮아영",
+        "optionText": "색상: 퓨어화이트 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/38/67/image1/2533a4827db793f3.webp"
+        ],
+        "createdAt": "2026-07-28T08:42:13+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "소재가 너무 고급스럽고\n반바지에 매치하니 너무 멋스럽고 이쁘네요\n다 사세요",
+        "optionText": "색상: 퓨어화이트 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-26T08:42:38+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "소재가 은은하게 비치는 소재예요\n구김이 있는 상태로 와서 사진착용후 바로 물세탁만 해서 걸어둔 상태예요",
+        "optionText": "색상: 퓨어화이트 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/34/32/image1/f440ced4ac7f781c.webp"
+        ],
+        "createdAt": "2026-07-22T09:44:47+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "살구핑크 컬러예요 이뻐요 가격대비 실용적이고. 지금입어도. 좋아요",
+        "optionText": "색상: 소프트핑크 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/33/01/image1/53649d8d156b5bc9.webp"
+        ],
+        "createdAt": "2026-07-19T19:12:02+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사진그대로이네요^^\n가볍게 입기\n딱좋을거같아요\n잘입을께요",
+        "optionText": "색상: 퓨어화이트 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-27T10:27:45+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "약간의 시스루라 조어요\n근데 세탁햇는데 구김이 넘 많이 가요 ..\n그점빼곤 옷자체는 이뻐요\n셋트에 입으니 더이쁨",
+        "optionText": "색상: 퓨어화이트 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/15/31/image1/2d02ab203235595f.webp"
+        ],
+        "createdAt": "2026-05-14T12:17:53+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "시원한재질이라 여름에도 입을수있어 좋아요\n바지든.치마든 어디든 잘어울리네요\n구김이 많이가서 그게쫌..집에다리미가없어ㅋ서\n세탁소에맡겨야하는번거로움이 있지만..\n옷이이쁴서 갠찬아요😆",
+        "optionText": "색상: 퓨어화이트 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-13T14:58:16+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이뻐요 완져누여리여리 어디든 다 잘어울려요 ㅋㅋ베송이ㅜ조금 걸렷지만 넘 마음에 들어요 완젼 고급집니다",
+        "optionText": "색상: 퓨어화이트 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/12/74/image1/883156d45ddf3aa2.webp"
+        ],
+        "createdAt": "2026-05-02T23:47:53+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "비치 긴 하지만 고급스럽고 원하던 스타일입니다\n다른색도 사고싶어요.강추입니다.",
+        "optionText": "색상: 퓨어화이트 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/11/96/image1/0c719ad41ed34552.webp"
+        ],
+        "createdAt": "2026-04-29T15:50:09+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "셔츠만 입으면 뭔가 허전해서 레이어드해서 입는게 좋아요\n코디 되어있던대로 다 사길 잘했어요ㅋ\n얇고 시원한 재질이라 여름에도 입기 좋은 셔츠에용",
+        "optionText": "색상: 퓨어화이트 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/08/47/image1/a961a887ac5d4343.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/08/47/image2/3ea29772ad9a1c4e.webp"
+        ],
+        "createdAt": "2026-04-17T10:45:11+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "오랫만에 맘에드는화이트셔츠 구매했네요 털셀이라 비침은 있지만레이어드 할거라 갠찮쿠요\n완전맘에 듭니다",
+        "optionText": "색상: 퓨어화이트 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/08/17/image1/aab0437ff76e13e1.webp"
+        ],
+        "createdAt": "2026-04-16T13:07:52+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "블라우스가 탄탄하고 예뻐요. 질감이 진짜 촤르르 떨어지는 느낌이고 활동성도 편해요! 오히려 같이 시킨 뷔스티에 보다 블라우스가 더 마음에 들었어요 :)",
+        "optionText": "색상: 퓨어화이트 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-13T08:41:39+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "많이 비치는소재에요. 살짝 박시한 느낌이구요. 나쁘지 않아요 근데 구김은 많이 가는 재질",
+        "optionText": "색상: 퓨어화이트 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/05/16/image1/0c2108cab127b215.webp"
+        ],
+        "createdAt": "2026-04-05T20:21:57+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "배송은 오래걸렷지만 블라우스 마음에듭니다\n약간의 시스루라 은근 섹시하네요\n길이감이랑 청바지에입기조아요",
+        "optionText": "색상: 퓨어화이트 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/03/78/image1/a10ca548ab5c66c1.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/03/78/image2/509a12239b3f53dd.webp"
+        ],
+        "createdAt": "2026-04-02T07:42:09+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가볍게 걸치기 좋아요 오버핏 낙낙한 사이즈\n얇고 하늘하늘 과하지 않은 광택끼 약간 있어서 멋스럽네요",
+        "optionText": "색상: 퓨어화이트 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/03/31/image1/ed312c8e4119be73.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/03/31/image2/6e01287134436d91.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/03/31/image3/d644daf234af340b.webp"
+        ],
+        "createdAt": "2026-03-31T17:56:16+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "재질도 핏도 너무 이뻐요🤍 배송도 빨랐어용! 잘입을게용",
+        "optionText": "색상: 퓨어화이트 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/02/74/image1/df350b6f051c4ea1.webp"
+        ],
+        "createdAt": "2026-03-28T19:19:29+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:02.176Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46443",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46443&cate_no=4"
+    },
+    "name": "[무료배송] MADE. 모디프 스트링 블라우스",
+    "brand": "(TP)(cn-oem)(제작)MA-26FW-309",
+    "category": "top",
+    "price": 45200,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202608/1c1cb803a6ebee83f7d16adb98945217.webp",
+    "colors": [
+      "크림아이보리",
+      "무드차콜"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "비대칭 드레이프 디자인과 투웨이 스트랩 포인트로, 무심하게 툭 걸쳐도 핀터 감성을 완성해 주는 여리핏 블라우스",
+    "rating": 5,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "잘받았어요..가슬 느낌나네요.\n무난하게 레이어드하기 좋아요..\n좀 어두워보이긴?하지만\n세련되면서 우아해보일듯요.",
+        "optionText": "색상: 무드차콜 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/48/49/image1/c040aa2723a177b1.webp"
+        ],
+        "createdAt": "2026-08-29T16:14:12+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:03.749Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46194",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46194&cate_no=4"
+    },
+    "name": "[주문대폭주/무료배송] MADE. 콤브 레이스블라우스(+긴팔ver.)",
+    "brand": "(TP)(cn-oem)(제작)MA-26SS-287",
+    "category": "top",
+    "price": 46900,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202609/d13d76b58760a70f4ea9ab59654bbf52.webp",
+    "colors": [
+      "스탠다드블랙",
+      "밀크베이지",
+      "퓨어아이보리"
+    ],
+    "sizes": [
+      "free",
+      "free(긴팔ver.)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "스퀘어넥과 레이스 디테일로 여리한 무드를 완성해주는 레아스 블라우스",
+    "rating": 4.8,
+    "reviewCount": 28,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "긴 팔도 샀네요 여름옷보다 여유가있고 뒤에 끈이 있어서\n체형대로 입어도 좋네요",
+        "optionText": "색상: 밀크베이지 / 사이즈: free(긴팔ver.)",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/48/99/image1/1f2f168798bd5923.webp"
+        ],
+        "createdAt": "2026-09-01T16:14:03+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "옷은 정말 예뻐요!!!\n저만 낑겨서 슴가 부분 쪽 벌어지나요?ㅠㅠ\n좀만 여유 있게 또는 밴딩이 짱짱하게 잘 늘어날 수 있게 제작해주셨으면 해요! 🙏ㅠㅠ",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/47/88/image1/242d295d56dc67e2.webp"
+        ],
+        "createdAt": "2026-08-27T11:15:29+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "옷은 정말 예뻐요!!!\n저만 낑겨서 슴가 부분 쪽 벌어지나요?ㅠㅠ\n좀만 여유 있게 또는 밴딩이 짱짱하게 잘 늘어날 수 있게 제작해주셨으면 해요! 🙏ㅠㅠ",
+        "optionText": "색상: 밀크베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/47/87/image1/7eefe0d49d2c150b.webp"
+        ],
+        "createdAt": "2026-08-27T11:13:49+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "바지랑 같이주문 해서입었는데 이뻐여\n어깨 길이가 살짝 짧았어도 좋았겠다 라는ㅋ 다꾸 흘려요\n단추사이 레이스가 한몫했네요~ 벌어지는거 레이스 밖으로 빼주면 안보여 좋았어요\n하루 입고 나갔는데 나중에 보니 허리ㅜ옆쪽 봉제부분이\n손바닥 반정도 뜯어져 있었네요.. 것도모르고 다녔으니.. ㅡㅡ",
+        "optionText": "색상: 밀크베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-21T08:44:37+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "예상 했던 것 만큼 예뻐요! 근데 좀 많이 파였어요. 안에 속옷 신경써서 입어야하고 단추가 많아서 채우는데 오래걸립니다",
+        "optionText": "색상: 밀크베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/45/26/image1/8a0af76f4fbd5fac.webp"
+        ],
+        "createdAt": "2026-08-18T01:53:58+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사진보다 실제로 입었을 때 핏이 훨씬 예쁜 블라우스예요🤍\n스퀘어넥이 목선이랑 쇄골라인을 시원하고 여성스럽게 보여주고, 허리라인은 자연스럽게 잡아줘서 상체 실루엣이 정말 예뻐 보여요\n특히 뒤쪽 스모크 밴딩 덕분에 몸에 들뜨지 않으면서도 답답하게 조이는 느낌 없이 편하게 착용했어요\n원단도 흐물거리지 않고 탄탄한 편이라 핏이 깔끔하게 유지되고, 앞쪽 버튼이랑 밑단 레이스 디테일까지 있어서 가까이서 봐도 예뻐요✨\n저는 화이트 팬츠랑 톤온톤으로 코디했는데 여름 데이트룩이나 휴양지룩으로 너무 잘 어울렸어요\n데님이나 스커트에 매치하면 분위기가 또 달라질 것 같아서 활용도도 높을 듯해요\n무엇보다 사진 찍었을 때 상체라인이 예쁘게 나와서 만족🤍\n여성스럽지만 과하게 꾸민 느낌은 아니라 여름에 손이 자주 갈 것 같아요!\n[리뷰어가 상품을 무상 제공받아 작성한 리뷰입니다.]",
+        "optionText": "색상: 밀크베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/44/75/image1/5f39a73b26d4551f.webp"
+        ],
+        "createdAt": "2026-08-14T09:38:35+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무이뻐요 일단사세요!\n특히 여자분들이 더더\n어디서샀냐고 이쁘다고입어보자고 난리였어요\n사실여자분들은자기보다 의상이 이쁘면 안물어보자나요근데 자기들도사고싶.,ㅎㅎ을정도니까\n더좋은건 살빠졌다고ㅋㅋ칭찬마니들음요\n핏감이좀있어요\n가슴이디컵이시면작을수도..\n저는 비 정도거든요 상체55구요\n뒷밴드가있어서그나마숨쉬어요ㅎ 라인굿\n원단굿 사세요꼭",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/44/06/image1/0f040197313209f3.webp"
+        ],
+        "createdAt": "2026-08-11T13:09:35+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "스퀘어넥이 쇄골 목을 드러내줘서 더 날씬해보이고 라인이 자연스라워서 길이감이 잇어서 날씬해보여요! 가슴은 좀 파져서 항상 조심ㅋㅋㅋㅋ연청이나 숏팬츠 입으면 한벌러도 꾸민느낌 확 나구여. 검은색 가디건 걸쳐입으면 잘 어울려서 초가을까지도 입을 것 같아요! 검은색은 또 다른 느낌으로 예쁠 것 같아서 고민되네요!!",
+        "optionText": "색상: 밀크베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/43/67/image1/52d8ebed9226432e.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/43/67/image2/9d314a0ee2391ace.webp"
+        ],
+        "createdAt": "2026-08-10T11:23:51+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "여성스럽고 날씬해보여서 데이트룩이나 약속있을때 입기좋을것같아요~ 타이트한 편이라서 몸실루엣이 예뻐보여요😀 가슴쪽이 파여있어서 속옷은 신경을 써줘야할것 같아요~ 만족입니다👍🏻\n[리뷰어가 상품을 무상 제공받아 작성한 리뷰입니다.]",
+        "optionText": "색상: 밀크베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/43/52/image1/31ba9e1f375dc567.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/43/52/image2/4cba7f28a65e20d1.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/43/52/image3/1336ba89a1cdc4da.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/43/52/image4/732fbe4090c621f1.webp"
+        ],
+        "createdAt": "2026-08-09T20:35:42+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "옷 너무 예쁘고 마음에 들어요, 엄청 핏되요\n단추 잠그는데 오래 걸리는점 빼고는요 ㅎㅎㅎ",
+        "optionText": "색상: 밀크베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/42/97/image1/10d6660fb26c7efa.webp"
+        ],
+        "createdAt": "2026-08-06T21:38:05+09:00"
+      },
+      {
+        "rating": 1,
+        "text": "음..기대한거보다 실망이ㅠ\n가슴이 좀 있다보니 사이가 다 벌어지고. 오픈해도 라인이 안 살고\n제가 가슴이 큰탓이니 어쩔수 없죠\n옷은 이쁜데..\n속상하네요",
+        "optionText": "색상: 밀크베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-31T19:12:09+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "휴가철 시원하게 입으려고 주문했는데 허리라인 날씬해보이고 이뻐요 다만 단추가 넘 많아서 하나하나씩 다 풀고 잠그고 해야 하는게 번거로움 ㅜㅜ 바로 벗어도 되는건줄 알고 주문했네요;; 그리고 제가 가슴이 큰 편은 아닌데 가슴 좀 있으신 분들은 옷이 불편할수도 있을거 같아요 전 단추 잠그는게 힘들었네요 ;; 가슴 파인도 꽤 있는 편입니다",
+        "optionText": "색상: 밀크베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/40/55/image1/546d0dd5e27e9ff7.webp"
+        ],
+        "createdAt": "2026-07-31T13:11:58+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "검정구매후 핏이너무이뻐 베이지 추가구매햇어요\n이쁜옷 할인할때 구매하니 기분이 좋으네요 청바지 정장바지 두루두루 잘어울립니다",
+        "optionText": "색상: 밀크베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-29T22:19:54+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이거 단추 10개예요 ㅋㅋ\n전부 열어서 잠그어야된다는거죠\n사이즈는 생각보다 작아요",
+        "optionText": "색상: 밀크베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/38/49/image1/956ea6f66865c58d.webp"
+        ],
+        "createdAt": "2026-07-28T02:10:45+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "아래 조금 여유있는 청바지랑 입었는데 정말 이뿌네요 여기저기 활용하기 좋은 옷이네요",
+        "optionText": "색상: 밀크베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-27T10:55:21+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "할인쿠폰으로 착한가격에 좋은상품 득템햇어요\n핏이 너무이쁘고 아담녀에게는 바지안으로 넣어서 입어도 정말이뻐요 베이지도 이쁠것같아 재구매 해볼려구요",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-27T08:17:38+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "좀작아요 ? ㅋ 단추가 좀 벌어지네요 ㅜ\n큰사이즈안만들어주시나요 ?\n환불귀찮아서 동생주려구요 ㅎㅎ",
+        "optionText": "색상: 밀크베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-25T07:56:45+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "베이지로 구매햇는데 넘맘에들어서\n블랙구매했어요\n자켓느낌의나시조끼라 차려입은듯한느낌입니다\n입고벗기가. 힘드네요",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/36/22/image1/f5f4dd62a203eaea.webp"
+        ],
+        "createdAt": "2026-07-24T13:52:18+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "넥라인이 깔끔하고 예뻐보여서 구매했어요\n단추 채우고 푸는건 좀 번거롭지만 신축성있고 핏은 예뻐요",
+        "optionText": "색상: 밀크베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/35/46/image1/e5951e170207eb46.webp"
+        ],
+        "createdAt": "2026-07-23T12:47:11+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "사이즈가 좀 작은것 같아요~B컵인데 꽉 뀌어요 55사이즈 입는데 통통55는 작을것 같아요 핏은 이쁘요^^",
+        "optionText": "색상: 밀크베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-23T12:02:53+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:05.549Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46411",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46411&cate_no=4"
+    },
+    "name": "[무료배송] MADE. 코티 헨리넥 티셔츠",
+    "brand": "(kr-odm)(제작)유즈헨리티",
+    "category": "top",
+    "price": 43900,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202608/2c94375cec525d7e33dba5d82f171730.webp",
+    "colors": [
+      "네이비",
+      "퓨어화이트"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "여리한 브이넥과 헨리넥 디테일로 단독부터 레이어드까지 활용도 높은 티셔츠",
+    "rating": 5,
+    "reviewCount": 6,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "사진보다 입어 보는게 더 이뻐요~~~아무데나 입기 좋고 꾸미지 않았는데 자연스럽게 이쁜옷!!엄청 자주 입을꺼 같아서 다른색도 구매각 입니다!",
+        "optionText": "색상: 네이비 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/47/60/image1/aeaf724bd2ce0788.webp"
+        ],
+        "createdAt": "2026-08-26T11:07:20+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "완전 기대했던 거예용 핏두 딱 예쁘고 휘뚜루마뚜루 입기 조을거같아요 배송이 빨라서 너무 조아요ㅠㅠㅠㅠ",
+        "optionText": "색상: 네이비 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/47/42/image1/356d84634dd79b25.webp"
+        ],
+        "createdAt": "2026-08-25T23:35:26+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "화이트,네이비 같이 구매했어요.\n팔이 긴편인데 소매가 길어서 너무 좋아요.\n허리부분도 여유핏이라 여리해보여요\n코디된 팬츠랑 너무 잘어울려요~~^^",
+        "optionText": "색상: 네이비 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/47/35/image1/b7ceabfda1a71acb.webp"
+        ],
+        "createdAt": "2026-08-25T12:56:51+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "코디되로 구매했어요.\n화이트 깨끗한 색상이구요\n팬츠도 예뻐요\n헨리넥이라 밋밋하지않고 예쁘네요\n네이비도 구매했어요",
+        "optionText": "색상: 퓨어화이트 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/47/34/image1/d5df1bbf80c52128.webp"
+        ],
+        "createdAt": "2026-08-25T12:55:34+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "헨리넥을 좋아하는 1인이라 ..네이비 깔끔하고 두께감두 엄청 두껍지않고 좋네요..화이트두 구매해서 모델분처럼 레이어드해서입어두 예쁠것같아용",
+        "optionText": "색상: 네이비 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-23T16:03:11+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "옷 날씬해이고 가을이너로더 좋아요 흰색도 구매하려구요",
+        "optionText": "색상: 네이비 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-22T16:35:41+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:07.156Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46402",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46402&cate_no=4"
+    },
+    "name": "[무료배송] MADE. 벨리 가디건&슬리브리스set",
+    "brand": "(kr-odm)(제작)델리홀터가디건세트",
+    "category": "top",
+    "price": 69800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202608/b86234a3bb652ef9693cfba60cda1e32.webp",
+    "colors": [
+      "스탠다드블랙",
+      "퓨어아이보리"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "어깨 패드와 골지 소재로 슬림한 실루엣을 완성하는 나시&가디건 세트",
+    "rating": 5,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "나시 셔링 때문에 허리라인이 너무 여성스러워요\n메빈자체제작 옷들은 거희 만족중이라 나오는 거느누거희ㅜ사는 편인데 이 가디건세트도 너무 만족스럽네요\n저느뉴코디그대로샀는데 너무여성스러워요",
+        "optionText": "색상: 퓨어아이보리 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-23T12:04:47+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:08.882Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "41405",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=41405&cate_no=4"
+    },
+    "name": "[3만장돌파/무료배송/다다익선/간절기]마레트 체크 셔츠",
+    "brand": "솔리드NB",
+    "category": "top",
+    "price": 16900,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202608/17b4b79085f391a3a902cf6b9184ba9c.webp",
+    "colors": [
+      "소다블루",
+      "밀키아이보리",
+      "다크그레이",
+      "라떼베이지",
+      "인디핑크"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "2장 이상 담으면 10%↓컬러감이 매력적인 데일리 체크 셔츠 #간절기템",
+    "rating": 4.9,
+    "reviewCount": 263,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "스카이블루랑 핑크색 둘다 마음에 들어서 두개다 샀어요\n루즈핏이라 편하게 입을수있고 패턴이랑 색상이 이뻐요 데일리로 자주 입네요",
+        "optionText": "색상: 인디핑크 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/49/06/image1/2291b3dc6726d504.webp"
+        ],
+        "createdAt": "2026-09-02T00:22:37+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "할인가격으로넘저렴하게잘구매했어요.인데핑크칼라여서봄.여름.가을모두잘어울리고살안타탬으로딱이네요.너무밝지않은칼라여서저는오히려입기더좋은거같아요.눈팅만하다세일기간에사서더기분좋네요.아주부드러운제질은아니지만그래서구기은덜가긴하네요.",
+        "optionText": "색상: 인디핑크 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/48/05/image1/60b247ec2c2bddaf.webp"
+        ],
+        "createdAt": "2026-08-27T18:11:21+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 편하구, 길이감도 딱 좋았어여:0❣️ 옴총 만족스러움",
+        "optionText": "색상: 라떼베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/46/97/image1/20b4911ca3065fc1.webp"
+        ],
+        "createdAt": "2026-08-23T14:14:46+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "배송 엄청 빠르고 편하게 걸쳐입기 좋아요\n블루는있어서 핑크로했는데 핑크색도 예뻐요\n초가을까지 입겠어요",
+        "optionText": "색상: 인디핑크 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/46/41/image1/b6db5f57cff6638b.webp"
+        ],
+        "createdAt": "2026-08-21T12:44:56+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "간절기아이템으로 찰떡이예요!!\n살안타게 걸처만주어도 핏이예뻐서 계속손이가는 아이템이예요~~~^^",
+        "optionText": "색상: 소다블루 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-19T11:54:27+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "소재가 두꺼워요. 그리고 아주 커요. 뒤에는 엉덩이밑 허벅지까지 다 가려져요. 쌀쌀해지면 입기 좋을것 같아요.",
+        "optionText": "색상: 소다블루 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/45/58/image1/03fa63d13244a112.webp"
+        ],
+        "createdAt": "2026-08-18T23:39:53+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "남방이 이뻐 핑크랑 소라색 두가지 다 샀어요\n빅사이즈라 루즈하게 핏 이쁘게 빠졌네요 데일리로 자주 입을려구요",
+        "optionText": "색상: 소다블루 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/44/59/image1/9b82bfd6d73a4a8c.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/44/59/image2/e4074b0a710149e3.webp"
+        ],
+        "createdAt": "2026-08-13T17:45:49+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "블루 구매하고 이번에 핑크주문했는데 이것도 핏이 이쁘고 좋아요~~ 만족!",
+        "optionText": "색상: 인디핑크 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-04T23:39:35+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "셔츠가마니입고시퍼서ㅎㅎ여름엔 나시입고 편하게즐기기에도 셔츠만하게없자나요~계속여러셔츠 주문했의요ㅎㅎ 예뻐요 마구마구 입어도되서 ㅋㅋ",
+        "optionText": "색상: 다크그레이 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/39/11/image1/eae84d0ba362bbd5.webp"
+        ],
+        "createdAt": "2026-07-29T08:24:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 이뻐요 화사하고 조아요 역시 메이빈스 너무 이뻐요",
+        "optionText": "색상: 인디핑크 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-18T14:49:40+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "얇을줄 알았는데 생각보다 두꺼워요 간절기에는 못입고 선선해지면 있어야겠네요",
+        "optionText": "색상: 소다블루 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/31/37/image1/c1fcb517307af904.webp"
+        ],
+        "createdAt": "2026-07-15T12:09:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "소매리인이 귀욤 디자인\n착용감좋고예뻐요",
+        "optionText": "색상: 밀키아이보리 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-23T12:03:06+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색감이 정말 예쁘고 여리여리한 분위기가 나서 마음에 들어요. 오버핏이라 편하게 입기 좋고, 가볍게 걸쳐도 코디가 완성되는 느낌입니다. 소재도 부드럽고 착용감이 좋아 자주 손이 갈 것 같아요. 만족합니다! 😊",
+        "optionText": "색상: 인디핑크 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/22/84/image1/fea9614479ec38a1.webp"
+        ],
+        "createdAt": "2026-06-14T10:24:47+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "살짝 힘있는 빳빳한? 린넨 소재같고 반바지나 청바지에 툭 걸쳐입으니 이쁘네요~사진에는 소매는 두번 접어놓은거에요. 다른 색상도 사고싶네요^^",
+        "optionText": "색상: 소다블루 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-13T17:19:15+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "길이가 길긴 하지민 예뻐요~ 청비지 트레이닝바지 다 어울리네요~❤️",
+        "optionText": "색상: 소다블루 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-11T09:48:59+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "소매가 사실 맘에드는건 아니지만 색상 이쁘고 생각보다 가볍고 편하게 막입을수있네요",
+        "optionText": "색상: 소다블루 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-10T14:14:40+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "소매가 너무 길지도 짧지도않아서 너무좋아요\n휘뚜루마뚜루템!",
+        "optionText": "색상: 인디핑크 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-09T04:01:29+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이뻐요 찐으루다 이뻐요 이뻐요 찐으루다 이뻐요 이뻐요 찐으루다 이뻐요 이뻐요 찐으루다 이뻐요",
+        "optionText": "색상: 밀키아이보리 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-04T18:31:25+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "요즘 너~~~무 잘 입고있어요\n딱입니다 !!!\n반팔 혹은 나시에 낮에입다가\n저녁이나 에어컨바람이 차가울때\n딱!!!\n색 다른걸로 하나 더 보고있어요~",
+        "optionText": "색상: 다크그레이 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-01T19:06:07+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "기장감이도 너무좋고 여름에 걸쳐입기 딱 좋아요~~\n마냥 얇지 않아서 에어컨 트는 실내에서 입기도 좋을것같네요\n색상도 다 이뻐요!!\n하나 더 구입 하려구용~~~",
+        "optionText": "색상: 소다블루 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-28T12:46:26+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:11.098Z"
+  }
+]

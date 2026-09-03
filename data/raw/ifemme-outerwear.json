@@ -1,0 +1,835 @@
+[
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33165",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33165&cate_no=91"
+    },
+    "name": "마르엘 네츄럴 자켓",
+    "brand": "(주)마주",
+    "category": "outerwear",
+    "price": 68400,
+    "originalPrice": 72000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/7ddeda7d4910d89a0b745a70380d7b0b.jpg",
+    "colors": [
+      "먹색톤",
+      "진베이지톤"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "자연스러운 워싱감과 등판 핀턱 디테일의 입체적인 핏^^ 간절기에 다양한 하의와 '꾸안꾸'로 걸치기 좋은 캐주얼 자켓[2C]",
+    "rating": 5,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "바스락소재이고 가볍고 스타일리쉬해요\n날좀풀림 얼른입고싶네요\n키큰저에게도 길이감좋아요\n사진과같은느낌 만족이에요",
+        "optionText": "color: 먹색톤",
+        "reviewerProfile": {
+          "heightCm": 175,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-30T12:34:29+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:43.810Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33159",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33159&cate_no=91"
+    },
+    "name": "로로 간절기 니트 자켓",
+    "brand": "(주)마주",
+    "category": "outerwear",
+    "price": 93100,
+    "originalPrice": 98000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/1e756873b0626b4a9a901116522b72d8.jpg",
+    "colors": [
+      "크림",
+      "그레이소라",
+      "핑크"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "한지 혼방 소재로 통기성이 좋고~ 앞쪽 포켓 디테일과 은은한 조직감이 더해져 심플하면서도 고급스러운 디자인[3C]",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:45.181Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "32498",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=32498&cate_no=91"
+    },
+    "name": "구H 편안한 노카라 자켓",
+    "brand": "(주)마주",
+    "category": "outerwear",
+    "price": 57950,
+    "originalPrice": 61000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202604/6af15257caa5b677f4e329efb71025d3.jpg",
+    "colors": [
+      "네이비",
+      "베이지톤"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "광택감 없는 매트한 텍스처~ 아방한 볼륨감으로 체형은 커버해주고, 입었을 때 더 세련된 핏이 살아나는 노카라 자켓",
+    "rating": 4.9,
+    "reviewCount": 26,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "디자인도 맘에 들고 편안합니다. 가을에 잘 입고 다닐거 같습니다\n(2026-08-05 19:46:35 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/78/42/image1/b8158b5beb3801c2.webp"
+        ],
+        "createdAt": "2026-08-06T03:42:08+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "간절기에 잘입을수있어 딱맘에들어요 색상도 아무옷에나 코디할수있어 좋아요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-06-04T21:44:25+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "배송이 좀느려서 ㅠㅠ\n하지만 깔끔 하며 다양하게 코디 가능한 스타일 여서 좋네요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 159,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/43/49/image1/cddae5dcbcaacc34.webp"
+        ],
+        "createdAt": "2026-05-27T17:24:34+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "노카라 자켓으로 소재 옷감 디자인 3박자가 좋은 옷입니다. 55인 저에게 조금 큰 감은 있지만 딱 좋네요.핏이 좋아요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 161,
+          "weightKg": null,
+          "usualSize": "27",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-25T14:30:59+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "좀 차려입은듯..\n오늘처럼 비오는 쌀쌀한 날씨에.. ..\n자주 손이 가는 옷이네요..맘에 들어요.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-20T18:12:07+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "안감이 있어 간절기에 좋을거같고\n소매가 조금 긴데 똑딱이 단추를 달까\n생각중이에요\n(2026-05-18 21:49:10 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-19T02:51:23+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "디자인 마음에 들고 리뷰가 좋아서 구매했는데, 받고 보니 더 좋네요. 가격 대비 소재와 스타일이 굿입니다. 지금은 좀 더울 것 같지만, 비오는 날이나 초가을에 잘 입을 듯요.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 155,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-18T22:34:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "재질도 좋고 디자인도 이쁘네요 다만 아쉬운점은 날이 이제 더워져서 가을에 입어야 되는점입니다.\n(2026-05-12 09:35:36 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-13T02:42:24+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "너무너무 이뻐요 제가 찾던 스타일 드디어 찾았어요 감사합니다",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-12T18:03:50+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "완전 맘에들어요.\n핏도좋고 편하면서 입으니까 캐쥬얼 하면서도 세미정장~",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-12T08:23:27+09:00"
+      },
+      {
+        "rating": 4,
+        "text": "심플한 쟈켓,점퍼 스타일이라서 편하게 입을려고 주문했는데 상세 싸이즈를 확인하고 주문했는데 싸이즈가 제겐 너무 큽니다.\n품도 넉넉하지만 소매통이랑 길이는 수선을 안하고는 도저히 입을수가 없네요.\n소매를 접어 입을래도 소매 통이커서 불가능해요. 팔부분만 빼곤 만족입니다.\n(2026-05-11 10:53:43 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/36/79/image1/5ddbc930671e3a59.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/36/79/image2/00465b02720911e5.webp",
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/36/79/image3/3f5f7b076bae8af2.webp"
+        ],
+        "createdAt": "2026-05-12T02:51:24+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "깔끔하고 단정한 사진과 똑같아요 봄에 가을에 간편하게 걸치시기 좋은 간절기 외투입니다",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-11T07:01:06+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가볍고 예쁘네요 노카라 별로 안좋아하지만^^ 요건 편하게 맞춤형 식으로 잘입어질거 같아요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "26",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-10T17:06:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "우와..요거 진짜 가격대비 완전 훌륭합니다…\n간절기에 입기 넘 가볍고 이뻐요b\n노카라 라서 넥라인 답답하지 않고\n얇은 스카프 하기에도 좋습니다…\n아무티에 입에도 다~ 잘 어울려요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-02T16:45:51+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "간절기에 입기 좋고 티셔츠에 그냥 뚝 걸쳐도 좋고 스카프를 해도 엫지 있어요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "31",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-02T13:46:42+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "두께가 적당해서 간절기에 자주 입겠어요. 저에게는 소매가 길어서 한번 접어 입었어요.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-01T06:37:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "캐쥬얼&세미정장 어디에도 잘 어울려서 여러가지로 입기 좋은 아이템인거 같아요~",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 155,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-30T22:31:27+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "겉옷으로 걸치기 너무 좋고 이뻐요\n딱 화면 그대로입니다\n(2026-04-29 07:31:51 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-30T02:41:40+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "편하면서도 갖춰입은듯한 느낌이 좋아요\n제겐 소매가 좀길긴하지만\n전체적으로 맘에듭니다",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/29/49/image1/ebff4e43dbac78b8.webp"
+        ],
+        "createdAt": "2026-04-27T16:57:54+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "깔끔하고 이뻐요~~~~잘 입을게요\n(2026-04-25 09:44:13 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-26T02:42:13+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:46.618Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33242",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33242&cate_no=91"
+    },
+    "name": "[블랙라벨]막스M 후드점퍼(수입한정)",
+    "brand": "(주)마주",
+    "category": "outerwear",
+    "price": 75050,
+    "originalPrice": 79000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/1194955d110088ce76fdd79d550ac5b6.jpg",
+    "colors": [],
+    "sizes": [
+      "M(55~66반)",
+      "L(77~88)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "매트하고 깔끔한 폴리 소재에 셔링과 볼륨 실루엣으로 다양한 룩에 여성스럽게 걸치기 좋은 가볍고 실용적인 루즈핏 후드 점퍼[M/L]",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:47.976Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33199",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33199&cate_no=91"
+    },
+    "name": "벤더 골조직 셔츠자켓",
+    "brand": "(주)마주",
+    "category": "outerwear",
+    "price": 66500,
+    "originalPrice": 70000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/d4f250f0e8657c4a1f03c87ded82decc.jpg",
+    "colors": [],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "탄탄한 면 100% 소재~ 배색 스티치와 카라 안쪽 페이즐리 디테일의 여유 있는 드롭숄더 핏 데님 셔츠^^",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:49.591Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "32074",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=32074&cate_no=91"
+    },
+    "name": "로제 쫀쫀한 가디건자켓",
+    "brand": "(주)마주",
+    "category": "outerwear",
+    "price": 39900,
+    "originalPrice": 42000,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202602/406a28c7bd897260b6d0a4cf8bad24f3.jpg",
+    "colors": [],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "면 특유의 자연스러운 터치감~ 탄탄한 니트 조직으로 가디건 & 가벼운 니트 아우터처럼 입을 수 있는 아이",
+    "rating": 4.8,
+    "reviewCount": 20,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "모델처럼 일자정바지랑입언ㅣ너무 예쁘요 싸이즈잘맞고 톡톡해요 길이도적당하고깔끔하고 너무잘입고있어요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 161,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-22T20:31:39+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "요즘입고 다니기 정말딱이에요!!66반 입는데 조금여유있어 좋네요~팔이 약간길지만 접어입으면 흐르지않고 원단이 탄탄하니 예뻐요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/21/89/image1/967aff8d0e5e8622.webp"
+        ],
+        "createdAt": "2026-04-12T22:14:42+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "자켓역할까지 하는 가디건입니다. 톡톡한 니트가 고곱집니다.단정한스타일 좋아하는 저에게 주변에서 잘 어울린다고 칭찬들어서 소비가 투자가되었답니다.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-09T11:35:09+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "이거 정말귀해요\n차령ㅂ은듯하지만 편하고 톡톡해요\n너무 잘입고 있어요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 163,
+          "weightKg": null,
+          "usualSize": "26",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-04T09:05:40+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "두께가 환절기인 지금 입기 좋고\n탄탄한 재질이라 외투로 적합해요\n다만 안에 받쳐입은 옷에 먼지 같은게 묻네요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-02T21:12:50+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "예뻐요. 카디건 대부분 카라없는 디자인인데 카라가 있어서 그런지 단정하고 두께도 요새같이 일교차 심할 때 입기 좋아요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 168,
+          "weightKg": null,
+          "usualSize": "30",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-02T06:11:31+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "평소 찾던 아이템이라 반가운 마음에 구입했습니다.\n디자인 색상 다 맘에 들어요.\n다른분들 리뷰에도 있었지만 소매가 엄청 길고 소매통이 많이 크네요...ㅠ\n그리고\n꽤 무겁네요...ㅠ",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 159,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-29T22:29:56+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가격대비 고급지고 간절에 입기편하고 날씬해보이네요\n청바지에 너무 잘어울리고 단정해 보입니다",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "32",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-29T22:13:15+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "요즘 입기 좋은데 소매가 넘 길어서\n살작. 접어서 입고 다니고 있네요\n가볍게 입기 좋습니딘",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 159,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-29T07:33:27+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "요즘 딱입기좋네요~가격대비 너무잘나왔어요\n동생이 예쁘다고하여 또 주문하려갑니다",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "31",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-27T15:05:10+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "팔이 좀 길어서 접어 입었어요\n다른 리뷰처럼 무게감이 좀 있지만 휘뚜루 마뚜루 막입어도 카라가 있어서 그런지 젊잖아 보여서 괜찮아요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/13/55/image1/6bf680a2567307b1.webp"
+        ],
+        "createdAt": "2026-03-26T23:12:09+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "자켓이 전체적으로 쫀쫀하면서 이뿌고 다 좋은데 팔이길어서 접어서 입어야 하네요 팔이 쫌만 짧았어면 좋았겠어요~~ 가격대비 괜찮아요 강추~~~",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 160,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-26T18:03:33+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "니트자켓이지만 톡톡하고 주머니도 있지만 늘어짐 없어서 두루두루 잘 입을것 같아요\n.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "26",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/12/00/image1/37d5c7211564de1d.webp"
+        ],
+        "createdAt": "2026-03-21T21:27:53+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "디자인 심플하고 단정하고 간절기에 입기가 참 좋네요.\n근데 살짝 옷이 무게감이 좀 느껴지네요.\n그래도 저렴해서 만족합니다.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 157,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-21T10:47:58+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "가디건이면서도 쟈켓같은 조직감이 있네요\n팔부분이 길어서 한번접어야할것같아요\n캐주얼하면서도 차려입은듯 합니다\n(2026-03-09 10:50:37 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-10T02:43:45+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "도톰하고 단정해서 출근복으로 좋아요. 소매가 야간 길지만 접어서 입어도 될것같아요. 좋습니다.",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 158,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-07T19:48:39+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사무실에 두고 입을 가디건으로 산 건데\n생각보다 품질이 넘 좋아요 ㅎㅎㅎ\n단정한데 각이 잡혀있어서 저렴해보이지 않습니다",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 156,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-02-28T21:28:15+09:00"
+      },
+      {
+        "rating": 2,
+        "text": "조금 무겁고 저한테는 팔이 너무 길어요\n교환하기 귀찬아서\n그냥 입어요",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-02-27T14:54:37+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "탄탄조직으로 가디건보다 쟈켓느낌이 나요\n요런 디자인 있으면 외투 걱정 안해도 되겠어요\n♡♡♡",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": 162,
+          "weightKg": null,
+          "usualSize": "29",
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/04/99/image1/189c31fa3d7e8bb3.webp"
+        ],
+        "createdAt": "2026-02-23T13:09:04+09:00"
+      },
+      {
+        "rating": 3,
+        "text": "너무커요소매도길고\n니트라그런점도있겠지만늘어지지않았으면좋겠네요\n(2026-02-11 18:10:18 에 등록된 네이버 페이 구매평)",
+        "optionText": null,
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets9.cre.ma/p/ifemme-co-kr/reviews/00/00/20/03/49/image1/cdea8a2bd0e560c3.webp"
+        ],
+        "createdAt": "2026-02-12T03:29:56+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:50.967Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33197",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33197&cate_no=91"
+    },
+    "name": "아르코 셔링 트렌치",
+    "brand": "(주)마주",
+    "category": "outerwear",
+    "price": 167000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/4190ac0597e0a1b1baf9554b9262485e.jpg",
+    "colors": [],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "면+나일론 혼방으로 은은하게 사그락한 터치감~ 풍성한 A라인 핏과 셔링 디테일로 체형 커버는 물론 세련된 간절기 스타일을 완성^^",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:52.325Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33186",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33186&cate_no=91"
+    },
+    "name": "브랜 블루종 자켓",
+    "brand": "(주)마주",
+    "category": "outerwear",
+    "price": 105000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/868744c9fde85294c3def2ca26d6af6a.jpg",
+    "colors": [
+      "와인",
+      "블랙"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "여유로운 루즈핏과 언발 기장으로 체형 커버까지 더해주는 감각적인 하이넥 점퍼 자켓[2C]",
+    "rating": 5,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "컬러 가을가을하네요 착용감도 좋고 두께도 지금 입기 적당해여\n넥에 스카프 디자인이 유니크해여 멋스업게 다양하게 코디 가능할거 같네요",
+        "optionText": "color: 와인",
+        "reviewerProfile": {
+          "heightCm": 165,
+          "weightKg": null,
+          "usualSize": "26",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-09-02T05:45:40+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:53.705Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33166",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33166&cate_no=91"
+    },
+    "name": "모던 카라 니트 자켓",
+    "brand": "(주)마주",
+    "category": "outerwear",
+    "price": 46000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/fd845e3ffacac34eb23024a0c9711e20.jpg",
+    "colors": [
+      "네이비",
+      "크림"
+    ],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "부드러운 촉감과 탄탄한 짜임의 래글런 핏~~ 자켓과 가디건 2way로 활용 가능한 카라 니트 가디건[2C]",
+    "rating": 5,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "예뻐요\n아주 고급스러운 소재는 아닌 것 같은데 바느질이나 핏 좋구요 다른 색상도 구입하고 싶어요",
+        "optionText": "color: 크림",
+        "reviewerProfile": {
+          "heightCm": 156,
+          "weightKg": null,
+          "usualSize": "28",
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-08-23T19:59:54+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:34:55.362Z"
+  },
+  {
+    "source": {
+      "shopId": "ifemme",
+      "shopName": "아이팜므",
+      "sourceProductId": "33164",
+      "productUrl": "https://ifemme.co.kr/product/detail.html?product_no=33164&cate_no=91"
+    },
+    "name": "[블랙라벨]아크네 빈티지 집업",
+    "brand": "(주)마주",
+    "category": "outerwear",
+    "price": 109000,
+    "originalPrice": null,
+    "imageUrl": "https://ifemme.co.kr/web/product/big/202608/3318005ed76bff6255683c7bd66d619d.jpg",
+    "colors": [],
+    "sizes": [],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "하이넥 오버핏에 데미지 디테일과 레터링 포인트~! 탄탄한 100% 코튼 블랙라벨 집업 가디건^^",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:34:56.710Z"
+  }
+]

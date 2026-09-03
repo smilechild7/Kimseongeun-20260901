@@ -7,10 +7,17 @@ export async function crawlShop({
   categoryConfig,
   limit = 10,
   requestDelayMs = 1_000,
+  excludedProductIds = new Set(),
   fetcher = fetchPage,
 }) {
   const categoryHtml = await fetcher(categoryConfig.url);
-  const productUrls = discoverProductUrls(categoryHtml, shopConfig, limit);
+  const productUrls = discoverProductUrls(
+    categoryHtml,
+    shopConfig,
+    limit,
+    categoryConfig,
+    excludedProductIds,
+  );
 
   if (productUrls.length < limit) {
     throw new Error(

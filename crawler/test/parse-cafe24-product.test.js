@@ -107,3 +107,89 @@ test('uses an explicit product-name size only when no size option exists', () =>
 
   assert.deepEqual(product.sizes, ['FREE(55-66)']);
 });
+
+test('splits composite color and size options and ignores add-product options', () => {
+  const html = `
+    <meta property="og:title" content="복합 옵션 데님">
+    <meta property="og:image" content="https://cdn.example/denim.jpg">
+    <meta property="product:price:amount" content="59000">
+    <select option_product_no="200" product_type="product_option" option_title="타입">
+      <option value="*">타입 선택</option>
+      <option value="CODE1">데님(denim)-S</option>
+      <option value="CODE2">롱_데님(denim)-M</option>
+    </select>
+    <select option_product_no="201" product_type="addproduct_option" option_title="색상">
+      <option value="아이보리">아이보리</option>
+    </select>
+  `;
+  const compositeShopConfig = {
+    ...shopConfig,
+    options: { compositeTitlePatterns: [/^타입$/i] },
+  };
+
+  const product = parseCafe24Product(html, {
+    shopConfig: compositeShopConfig,
+    categoryConfig,
+    productUrl: 'https://shop.example/product/detail.html?product_no=200',
+  });
+
+  assert.deepEqual(product.colors, ['데님']);
+  assert.deepEqual(product.sizes, ['S', 'M']);
+});
+
+test('parses slash-delimited composite options using visible labels', () => {
+  const html = `
+    <meta property="og:title" content="길이 색상 사이즈 팬츠">
+    <meta property="og:image" content="https://cdn.example/slacks.jpg">
+    <meta property="product:price:amount" content="49000">
+    <select option_product_no="300" product_type="product_option" option_title="길이/색상/사이즈">
+      <option value="P000A">숏/블루/S</option>
+      <option value="P000B">롱/블랙/2XL (+2,000원)</option>
+    </select>
+  `;
+
+  const product = parseCafe24Product(html, {
+    shopConfig,
+    categoryConfig,
+    productUrl: 'https://shop.example/product/detail.html?product_no=300',
+  });
+
+  assert.deepEqual(product.colors, ['블루', '블랙']);
+  assert.deepEqual(product.sizes, ['S', '2XL']);
+});
+
+test('uses JSON-LD name when og:title is only the shop name', () => {
+  const html = `
+    <meta property="og:title" content="Fixture Shop">
+    <meta property="og:image" content="https://cdn.example/skirt.jpg">
+    <meta property="product:price:amount" content="39000">
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"Product","name":"오간자 스커트"}
+    </script>
+  `;
+
+  const product = parseCafe24Product(html, {
+    shopConfig,
+    categoryConfig: { id: 'skirt' },
+    productUrl: 'https://shop.example/product/detail.html?product_no=400',
+  });
+
+  assert.equal(product.name, '오간자 스커트');
+});
+
+test('ignores a homepage og:image and uses the product image element', () => {
+  const html = `
+    <meta property="og:title" content="테스트 재킷">
+    <meta property="og:image" content="http://shop.example/">
+    <meta property="product:price:amount" content="79000">
+    <div class="keyImg"><img src="//cdn.example/jacket.jpg"></div>
+  `;
+
+  const product = parseCafe24Product(html, {
+    shopConfig,
+    categoryConfig: { id: 'outerwear' },
+    productUrl: 'https://shop.example/product/detail.html?product_no=300',
+  });
+
+  assert.equal(product.imageUrl, 'https://cdn.example/jacket.jpg');
+});

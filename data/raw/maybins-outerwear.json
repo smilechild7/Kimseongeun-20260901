@@ -1,0 +1,726 @@
+[
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46494",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46494&cate_no=55"
+    },
+    "name": "[사전 예약 이벤트/무료배송] MADE. 웨인 라운드 가디건",
+    "brand": "(kr-odm)(제작)로드라운드가디건",
+    "category": "outerwear",
+    "price": 34800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202609/b8f162c52b617e1e49e997770ec166c3.webp",
+    "colors": [
+      "크림아이보리",
+      "버건디",
+      "스탠다드블랙",
+      "딥네이비",
+      "올리브그린"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "[사전 예약 OPEN] 프리 오더 시 6,900원 상당의 삭스 증정 ~9/9(수)폭닥하고 도톰한 니트 조직과 군더더기 없는 스탠다드핏으로, 간절기부터 겨울까지 포근하고 클래식하게 즐기기 좋은 라운드 가디건",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:35:21.539Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46477",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46477&cate_no=55"
+    },
+    "name": "[사전 예약 이벤트/무료배송] MADE. 슈콤 하프 스트링 레더 자켓",
+    "brand": "(cn-odm)(제작)/6811#/C23163/광저우",
+    "category": "outerwear",
+    "price": 99800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202608/c0e93609518cc26eb6cd6bf236872410.webp",
+    "colors": [
+      "스탠다드블랙"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "[사전 예약 OPEN] 프리 오더 시 6,900원 상당의 삭스 증정 ~9/9(수)시크한 하이넥과 언밸런스 더블 버튼에 허리 스트링 디테일로 완성한 하프 레더 자켓",
+    "rating": 5,
+    "reviewCount": 1,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "보자마자 이건 내꺼다 !!\n1초도 고민없이 주문한 자켓\n디텔일 특이하고 부드럽고 가볍고 넘 이쁜 자켓이예요\n스프링 쪼이면 발랄하게연출되고\n다양하게 연출가능하니 만능템이예요",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-09-01T14:11:21+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:23.151Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46516",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46516&cate_no=55"
+    },
+    "name": "[사전 예약 이벤트/무료배송] MADE. 듄 플리츠 링클 가디건&타이set",
+    "brand": "(kr-oem)(제작)JC-PL-23686_1",
+    "category": "outerwear",
+    "price": 49800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202608/621e829af1634ab7d46c8429023f5ac6.webp",
+    "colors": [
+      "크림아이보리",
+      "스탠다드블랙"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "[사전 예약 OPEN] 프리 오더 시 6,900원 상당의 헤어핀 증정 ~9/15(화)자연스럽게 잡히는 슬림한 라인, 스트랩 연출까지 더해 고급스럽게 완성되는 플리츠 가디건&타이set",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:35:24.687Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "45886",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=45886&cate_no=55"
+    },
+    "name": "[무료배송] MADE. 미디엔 더블 자켓(+긴팔ver.)",
+    "brand": "볼드자켓",
+    "category": "outerwear",
+    "price": 142900,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202609/a7596964c2680cb2869d5f050cb0c5a3.webp",
+    "colors": [
+      "무드베이지",
+      "스탠다드블랙"
+    ],
+    "sizes": [
+      "free(반팔ver.)",
+      "free(긴팔ver.)"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "가볍게 걸쳐도 완성되는 클래식 무드 더블 자켓🤎",
+    "rating": 4.7,
+    "reviewCount": 6,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "고급지고 예뻐요.\n언능입어야하는데 ,곧 가을오겠어요..ㅎ\n색상도 예쁜 베이지에요..\n앞기장이 기네요.",
+        "optionText": "색상: 무드베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/46/59/image1/f7862eab11641e82.webp"
+        ],
+        "createdAt": "2026-08-22T07:37:39+09:00"
+      },
+      {
+        "rating": 3,
+        "text": "정말 많이 큽니다\n아빠옷 훔쳐입은 느낌‘s",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-28T12:06:52+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "일반적인 자켓 그냥 오프에서 봐도 10만원이 넘는데 이건 디자인도 이쁘고 핏도 좋으면서 가격까지 좋네요",
+        "optionText": "색상: 무드베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-07-27T10:54:27+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "자켓 기대만큼이뻐요^^\n고급지고 평상시에도 입으려고샀는데 결혼식에도 입어야겠어요\n메이빈스 자주이용하는데 옷이다이뽕ㆍ느",
+        "optionText": "색상: 무드베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/22/33/image1/b1f8a63da6c9ba67.webp"
+        ],
+        "createdAt": "2026-06-12T08:42:07+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "늦은후기...신상 나오자마자 구입했구여...베이지색상에 반팔이라 앞으로 입기도 넘 좋아요\n늘 이용하는 쇼핑몰이라 믿고 구매합니다",
+        "optionText": "색상: 무드베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/18/33/image1/5b6749ec54976855.webp"
+        ],
+        "createdAt": "2026-05-26T23:13:27+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "기대했던만큼 넘 예뻐요.컬러도 화면과같고 담주에 사촌동생 결혼식에 입고갈려고 부랴부랴 주문했는데 다행히 맞게 도착했네요..늘 예쁜옷은 여기 메빈이 맛집인듯요..",
+        "optionText": "색상: 무드베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-05-16T08:35:49+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:26.343Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46410",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46410&cate_no=55"
+    },
+    "name": "[무료베송] MADE. 팅그벨 브이넥 니트 가디건",
+    "brand": "(cn-odm)(제작)2333#/C23187/광저우",
+    "category": "outerwear",
+    "price": 32800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202608/c9067a8db5ef317498b2030681a784f3.webp",
+    "colors": [
+      "애플레드",
+      "무드브라운",
+      "스탠다드블랙",
+      "퓨어아이보리"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "여리한 브이넥과 잔골지 디테일로 슬림한 실루엣을 완성하는 니트 가디건",
+    "rating": 5,
+    "reviewCount": 3,
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "여러가지 주문했는데 다 맘에드네요.\n카키베이지에 레드가디건 먼저 주문했는데\n가디건 소재도 디자인도 맘에들어서\n블랙도 재구매했어요~~^^",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/49/40/image1/83676adc65b039fd.webp"
+        ],
+        "createdAt": "2026-09-02T21:48:49+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "늦게 올줄 알았는데 소재가 부드럽고 좋습니다. 화면보다 컬러감이 좋아요",
+        "optionText": "색상: 애플레드 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/48/13/image1/6645085cd8fca27a.webp"
+        ],
+        "createdAt": "2026-08-27T21:49:32+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "카키베이지 팬츠랑 같이주문했어요.\n코디대로 입으니 너무 예뻐요.\n가디건 카라부분이 여리해보여서 좋구요.\n무엇보다 소재가 부드러워서 맘에 들어요.\n블랙도 구매하고싶어요~~^^",
+        "optionText": "색상: 애플레드 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/47/93/image1/e60c2e80a4dd1f3b.webp"
+        ],
+        "createdAt": "2026-08-27T11:44:34+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:27.977Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46479",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46479&cate_no=55"
+    },
+    "name": "[무료배송] MADE. 토브 야상 점퍼",
+    "brand": "(kr-odm)(제작)기획야상점퍼",
+    "category": "outerwear",
+    "price": 89800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202609/90da5b32106f59d4dae55ce932e5dacd.webp",
+    "colors": [
+      "애쉬카키",
+      "빈티지차콜"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "하이넥과 허리 스트링, 입체적인 절개 디테일로 루즈한 실루엣부터 자연스럽게 잡힌 핏까지 다양하게 연출되는 야상 점퍼",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:35:29.591Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46510",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46510&cate_no=55"
+    },
+    "name": "[무료배송] MADE. 키켓트 하이넥 야상 자켓",
+    "brand": "(cn-odm)(제작)2675#/C23160/광저우",
+    "category": "outerwear",
+    "price": 79800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202609/38eb1b4f7201546d55f1a26f2ba00279.webp",
+    "colors": [
+      "스탠다드블랙",
+      "무드브라운",
+      "딥그레이"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "트렌치와 야상 디테일을 감각적으로 믹스한 하이넥 디자인에 세미크롭 실루엣을 더해, 비율은 길어 보이고 클래식한 무드는 살려주는 야상 자켓",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:35:31.213Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46497",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46497&cate_no=55"
+    },
+    "name": "[무료배송] MADE. 아르체 루즈 하프 트렌치 코트",
+    "brand": "(kr-oem)(제작)이프트렌치_큰라벨",
+    "category": "outerwear",
+    "price": 149800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202608/76d92b15e4c41d21f853482802a8f23c.webp",
+    "colors": [
+      "클래식블랙",
+      "초코브라운"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "코튼과 라이오셀이 블렌딩된 가볍고 실키한 원단에 내추럴 루즈핏을 더해, 무심하게 툭 걸쳐도 감성 무드를 완성해 주는 하프 트렌치 코트",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:35:33.085Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "41797",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=41797&cate_no=55"
+    },
+    "name": "[4천장돌파/무료배송/MADE]이아 오버핏 싱글 자켓(+NEW 컬러)",
+    "brand": "MA-24FW-33(제작)",
+    "category": "outerwear",
+    "price": 79800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202603/b55b257b848c06b6ad403b10690ab9de.jpg",
+    "colors": [
+      "스탠다드블랙",
+      "차콜",
+      "라이트베이지",
+      "모카베이지",
+      "딥네이비"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "퀄리티는 높이고↑가격은 낮추고↓ 가격 거품을 쫙! 빼고 제작한 기획 자켓. 하이퀄리티 자켓을 합리적인 가격대로 경험해보세요:)",
+    "rating": 4.9,
+    "reviewCount": 91,
+    "reviews": [
+      {
+        "rating": 3,
+        "text": "소재가 생각보다 얇야서 좀 어깨 패드가 보이는것같아서 반품살짝 고민했어요 키 160이하에겐 너무 작을듯해요 네이비는 살짝광택이 돌아서 진짜 좀 그긴 별로더라구요",
+        "optionText": "색상: 딥네이비 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/12/44/image1/c398e42dd8b6fe40.webp"
+        ],
+        "createdAt": "2026-05-01T14:48:02+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "키크고 어깨좀 있으신 분들이 입는게 잘 어울릴것같아요 생각보다는 소재가 얇아서 어깨패드 가 좀눈에 띄기도해요",
+        "optionText": "색상: 라이트베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/12/43/image1/3673bb93795b0a5c.webp"
+        ],
+        "createdAt": "2026-05-01T14:31:53+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "오버핏인데 너무 부해보이지 않고 라인이 이쁘게 나온것같아요.\n지금 입기 너무 좋고 예뻐요.",
+        "optionText": "색상: 모카베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/06/18/image1/3c7951788d40d7c4.webp"
+        ],
+        "createdAt": "2026-04-09T18:30:14+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "생각보다 밝은색상의네이비라 당황은했지만\n자켓은 이뻐요\n제겐 어깨가 좀 널널하니남내요\n아빠옷입은모습^^\n자켓은 제겐 살짜큰외엔디자인도그렇고 이쁘고 편해요.",
+        "optionText": "색상: 딥네이비 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-04-08T08:12:04+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "4천장 돌파라길래 눈여겨 보다가 구매\n차콜컬러 자켓이 집에 없어서 선택했고 컬러 잘 선택한 듯\n오버핏이니 큰감은 있고 원하던 디자인 및 핏\n심플하고 잘 어울립니다. 자주 입을듯!",
+        "optionText": "색상: 차콜 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/02/87/image1/15b0a7a588794149.webp"
+        ],
+        "createdAt": "2026-03-28T22:04:48+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "사놓고 모셔놨는데 오늘 드뎌 입었습니다. 우와 핏이 너무예쁘고 키도 커 보이고 날씬해보여요.\n참고로 딥네이비이고, 몸무게는 10키로나 쪄서 걱정많이했는데..앞자리가6-7로 ㅋㅋ 지금다시 다이어트 들어갔어요. 아무튼 옷 너무 예뻐용^^",
+        "optionText": "색상: 딥네이비 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-27T07:16:57+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "오버핏이 첨엔 좀 많이 오버핏이네 했지만\n너무 이쁘네요\n청바지에 잘입고 다닐듯요",
+        "optionText": "색상: 차콜 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2026-03-26T04:26:50+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "여기쟈켓은 다마음에들어요 네이비색이없어서주문했는데 어깨도크고폼도넉넉해서마음에쏙들어요",
+        "optionText": "색상: 딥네이비 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/31/00/08/image1/578024346d5f2a96.webp"
+        ],
+        "createdAt": "2026-03-18T09:01:20+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "봄에 입으려고 미리 샀어요. 나쁘진 않아요.가격도 좋구요. 간절기 멋스럽게 입기 좋을거같아요",
+        "optionText": "색상: 라이트베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/30/99/99/image1/a76cfd5aef8ad202.webp"
+        ],
+        "createdAt": "2026-03-17T21:27:07+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "색상도 이쁘고 핏도 오버핏인데 흐르는 느낌이라\n과하지 않고 예뻐요!!!\n봄에도 잘 어울리는 색상이라 잘 입고 다닐것 같아요\n가볍고 슬랙스 청바지 다 잘어울려요",
+        "optionText": "색상: 모카베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/30/99/25/image1/7cbed1c5de7b77ff.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/30/99/25/image2/c8f57d142a07bcf6.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/30/99/25/image3/60f1e70bd6b11027.webp"
+        ],
+        "createdAt": "2026-03-13T18:03:26+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "정말 맘에 들어요. 구김도 없고.. 멋스럽고 넘 이뻐요.",
+        "optionText": "색상: 차콜 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/30/95/29/image1/7ad1dd8ed41f67e3.webp"
+        ],
+        "createdAt": "2026-02-21T21:14:40+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "오버핏이라 넘 예뻐요 조금 심한오버핏감이 있긴한데\n그래서 더 좋아요 어깨가 좁은편이라 오버핏 좋아함!!",
+        "optionText": "색상: 스탠다드블랙 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/30/80/11/image1/8b67db3325e8f672.webp"
+        ],
+        "createdAt": "2025-12-17T17:11:00+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "옷이 많이 커요\n완전 오버핏\n병원에 있느라 이제서야 입게 되서 한번밖에 못입었지만 이뻐요\n살을좀빼야 핏이 더 이쁠거 같긴해요\n재질은 탄탄하고 부들한 질로 원단좋고 색은 조금더 진하길 바랬는데 차콜치고 연해요",
+        "optionText": "색상: 차콜 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/30/70/06/image1/47e6738edc489a33.webp",
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/30/70/06/image2/bd4714ae93195ff3.webp"
+        ],
+        "createdAt": "2025-11-25T22:05:17+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 사고 싶어서 바로 질렀어요, 색도 너무 예뻐요,오버핏자켓 좋아하는데 여기옷은 너무 예뻐요, 앞으로도 예쁜옷 계속 만들어주세요,자주방문할께요",
+        "optionText": "색상: 차콜 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-11-07T08:53:31+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "자켓들이 다 전부 맘에들어요~\n적당한 오버핏이라 여기저기 잘 어울려요^^\n메이빈스는 진짜 제 원픽입니다~",
+        "optionText": "색상: 차콜 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-10-29T20:41:08+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "으억\n개오버핏이긴하네요\n어깨뽕 좋아하긴 한데\n더 거대해요\n체구가 워낙작고 말라서 더 커보여요\n키큰 사람들이 입으면 개존예일듯",
+        "optionText": "색상: 라이트베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/30/57/38/image1/73a260e49dd4b488.webp"
+        ],
+        "createdAt": "2025-10-27T17:54:40+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "너무 이쁘고 가볍고 스타일 좋아 보여요^^\n어깨가 좀 넓어 보이긴 하는데 이상할 정도는 아니라서\n괜차나요ㅎㅎ",
+        "optionText": "색상: 차콜 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/30/46/30/image1/f46112daa9faf526.webp"
+        ],
+        "createdAt": "2025-09-24T12:08:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "구김이 없고 핏도 편해서 잘 입었습니다.\n여름 버전으로도 차콜 자켓이 있었으면 좋을 것 같아요.^^",
+        "optionText": "색상: 차콜 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-06-23T17:17:17+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "생각했던것보다 훨씬 더 크긴하지만 이런옷들이 입다보면 손이 더많이가고 입을수록 좋더라구요. 색상화면그대로이고 맘에듭니다",
+        "optionText": "색상: 라이트베이지 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [
+          "https://assets4.cre.ma/p/maybins-com/reviews/00/00/30/03/73/image1/ce826ace31ce9a42.webp"
+        ],
+        "createdAt": "2025-06-21T11:11:44+09:00"
+      },
+      {
+        "rating": 5,
+        "text": "동생 결혼식에 입고갈 옷 찾다가\n오랜만에 마음에 드는 자켓을 찾았네요",
+        "optionText": "색상: 차콜 / 사이즈: free",
+        "reviewerProfile": {
+          "heightCm": null,
+          "weightKg": null,
+          "usualSize": null,
+          "ageGroup": null
+        },
+        "imageUrls": [],
+        "createdAt": "2025-05-19T19:44:54+09:00"
+      }
+    ],
+    "crawledAt": "2026-09-02T23:35:34.779Z"
+  },
+  {
+    "source": {
+      "shopId": "maybins",
+      "shopName": "메이빈스",
+      "sourceProductId": "46464",
+      "productUrl": "https://maybins.com/product/detail.html?product_no=46464&cate_no=55"
+    },
+    "name": "[무료배송] MADE. 튜프 하이넥 숏 트렌치 자켓",
+    "brand": "(cn-odm)(제작)87129#/C23210/광저우",
+    "category": "outerwear",
+    "price": 124800,
+    "originalPrice": null,
+    "imageUrl": "https://maybins.com/web/product/big/202608/897befc2ae737bef08425fefde289a46.webp",
+    "colors": [
+      "무드베이지",
+      "스탠다드블랙"
+    ],
+    "sizes": [
+      "free"
+    ],
+    "sizeGuideText": null,
+    "material": null,
+    "description": "클래식한 트렌치 디테일을 풍성한 오버핏으로 세련된 아웃핏을 완성해 주는 트렌치 자켓",
+    "rating": null,
+    "reviewCount": 0,
+    "reviews": [],
+    "crawledAt": "2026-09-02T23:35:36.420Z"
+  }
+]
