@@ -992,7 +992,7 @@
 - [x] 검색창 고정·우측 내부 action overlay 적용 및 검증
 - [x] 검증된 실측 사이즈 원문을 반응형 HTML table로 렌더링
 - [x] 오수집 `sizeGuideText` 정리·crawler 재수집 차단·DB rebuild
-- [ ] reviewer 식별정보가 포함된 Git 이력 정리와 Render 재배포 확인
+- [x] reviewer 식별정보가 포함된 Git 이력 정리와 Render 재배포 확인
 - [ ] 사용자 화면 검증
 - [ ] 남은 mobile·desktop polish 항목 우선순위 확정
 
@@ -1043,6 +1043,7 @@
 | 2026-09-03 | 사이즈표 시각 검증 시도 | Browser runtime에 연결 가능한 browser가 0개라 자동 시각 검증 불가; 제가 실행한 임시 dev process는 종료했으며 source/build 검증은 완료 |
 | 2026-09-03 | Git history 개인정보 정리 | 구현 commit을 기준으로 `main` 23개 commit을 재작성해 Annanplus·Baddiary·Maybins의 과거 `sizeGuideText` 오수집 blob을 제거; tree 동일성과 정리 문구 부재를 검증한 뒤 `7c57cd0 → cad38b8` force-with-lease push 성공 |
 | 2026-09-03 | 임시 history 정리 | 원격 갱신 성공 후 local backup branch·`refs/original`·reflog·unreachable object와 임시 sanitizer를 제거해 로컬에도 이전 reviewer 식별정보 blob을 남기지 않음 |
+| 2026-09-03 | Render 배포 검증 | 외부 `/api/health` HTTP 200, local build와 일치하는 JS `index-D1betPbI.js`·CSS `index-DShAUZf1.css` 각각 HTTP 200 확인; 배포 JS에서 `실측 사이즈표` 코드 확인 |
 
 ### 변경 파일
 
@@ -1074,13 +1075,12 @@
 - 현재 blocker 없음.
 - 자동 Browser backend가 없어 실제 위치·간격의 시각 검증은 사용자 확인이 필요하다.
 - mobile·desktop의 나머지 visual polish 범위는 이후 사용자 판단으로 확정한다.
-- Git history rewrite와 GitHub `main` 강제 갱신은 완료됐다. 최종 상태 로그 push와 Render 재배포 확인이 남아 있다.
+- Git history rewrite·GitHub `main` 갱신·Render 재배포 검증까지 완료됐으며 구현 blocker는 없다.
 
 ### 다음 작업
 
-1. Git history 정리 완료 로그를 commit/push한다.
-2. Render health·최신 frontend asset을 확인한다.
-3. 사용자가 원하면 실제 Graychic 상품의 표와 mobile 가로 스크롤을 확인한다.
+1. 사용자가 원하면 실제 Graychic 상품의 표와 mobile 가로 스크롤을 확인한다.
+2. 남은 mobile·desktop polish는 사용자 우선순위에 따라 진행한다.
 
 ## Phase 0 — Skeleton / Deployment
 
