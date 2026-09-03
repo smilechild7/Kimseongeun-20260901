@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import ProductCard from '../../components/ProductCard.jsx';
+import { formatProductDisplayName } from './productName.js';
 
 const CRITERIA_LABELS = Object.freeze({
   pants: '바지',
@@ -47,14 +48,15 @@ function formatPrice(price) {
 
 function ProductSummaryRow({ controlsId, expanded, onToggle, product, rank }) {
   const [imageFailed, setImageFailed] = useState(false);
+  const displayName = formatProductDisplayName(product.name);
 
   return (
     <div
-      className="grid w-full cursor-pointer grid-cols-[4rem_minmax(0,1fr)_auto] items-center gap-3 bg-white p-2.5 text-left transition hover:bg-stone-50 sm:grid-cols-[4.5rem_minmax(0,1fr)_auto] sm:p-3"
+      className={`grid w-full cursor-pointer items-center gap-3 bg-white p-2.5 text-left transition-[grid-template-columns,background-color] duration-300 ease-out hover:bg-stone-50 motion-reduce:transition-none sm:p-3 ${expanded ? 'grid-cols-[7rem_minmax(0,1fr)_auto] sm:grid-cols-[9rem_minmax(0,1fr)_auto]' : 'grid-cols-[4rem_minmax(0,1fr)_auto] sm:grid-cols-[4.5rem_minmax(0,1fr)_auto]'}`}
       onClick={onToggle}
     >
       <a
-        className="relative block aspect-square overflow-hidden rounded-xl bg-stone-100 focus:outline-none focus:ring-2 focus:ring-orange-400"
+        className="relative block aspect-square overflow-hidden rounded-xl bg-stone-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-400"
         href={product.productUrl}
         onClick={(event) => event.stopPropagation()}
         rel="noopener noreferrer"
@@ -78,29 +80,31 @@ function ProductSummaryRow({ controlsId, expanded, onToggle, product, rank }) {
       <span className="min-w-0">
         <span className="block text-[0.68rem] font-medium text-stone-500 sm:text-xs">{product.shopName}</span>
         <a
-          className="mt-0.5 line-clamp-2 block text-sm font-semibold leading-5 text-stone-950 underline decoration-transparent underline-offset-2 hover:text-orange-700 hover:decoration-orange-300 focus:outline-none focus:ring-2 focus:ring-orange-400"
+          aria-label={`${product.name} 상품 페이지 새 탭에서 열기`}
+          className="mt-0.5 line-clamp-2 block text-sm font-semibold leading-5 text-stone-950 underline decoration-transparent underline-offset-2 hover:text-orange-700 hover:decoration-orange-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-400"
           href={product.productUrl}
           onClick={(event) => event.stopPropagation()}
           rel="noopener noreferrer"
           target="_blank"
         >
-          {product.name}
+          {displayName}
         </a>
         <span className="mt-1 block text-sm font-bold text-orange-800">{formatPrice(product.price)}</span>
       </span>
 
       <button
+        aria-label={expanded ? '상세 접기' : '상세보기'}
         aria-controls={controlsId}
         aria-expanded={expanded}
-        className="inline-flex items-center justify-center gap-1 rounded-full border border-stone-200 bg-stone-100 px-2.5 py-1.5 text-xs font-medium leading-5 text-stone-950 transition hover:bg-stone-200 focus:outline-none focus:ring-2 focus:ring-orange-400"
+        className={`inline-flex h-8 items-center justify-center overflow-hidden rounded-full border border-stone-200 bg-stone-100 text-xs font-medium leading-5 text-stone-950 transition-[width,padding,background-color] duration-300 ease-out hover:bg-stone-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 motion-reduce:transition-none ${expanded ? 'w-8 p-0' : 'w-[5.25rem] px-2.5'}`}
         onClick={(event) => {
           event.stopPropagation();
           onToggle();
         }}
         type="button"
       >
-        <span>{expanded ? '상세접기' : '상세보기'}</span>
-        <span className="grid size-3 place-items-center text-xs leading-none" aria-hidden="true">{expanded ? '↑' : '↓'}</span>
+        <span className={`overflow-hidden whitespace-nowrap transition-[max-width,opacity] duration-300 ease-out motion-reduce:transition-none ${expanded ? 'max-w-0 opacity-0' : 'max-w-14 opacity-100'}`}>상세보기</span>
+        <span className="grid size-3 shrink-0 place-items-center text-xs leading-none" aria-hidden="true">{expanded ? '↑' : '↓'}</span>
       </button>
     </div>
   );
@@ -108,7 +112,9 @@ function ProductSummaryRow({ controlsId, expanded, onToggle, product, rank }) {
 
 export default function RecommendationResult({ result }) {
   const [expandedProductId, setExpandedProductId] = useState(null);
-  const productsById = new Map(result.products.map((product) => [product.id, product]));
+  const comparisonByProductId = new Map(
+    result.comparison.map((item) => [item.productId, item]),
+  );
   const chips = criteriaChips(result.criteria);
 
   return (
@@ -130,20 +136,6 @@ export default function RecommendationResult({ result }) {
         </div>
       </section>
 
-      {result.comparison.length > 1 && (
-        <section className="ml-11 mt-5 max-w-4xl border-l-2 border-orange-400 py-1 pl-4 sm:pl-5">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-orange-700">후보 간 핵심 차이</p>
-          <ul className="mt-3 space-y-2">
-            {result.comparison.map((item, index) => (
-              <li className="text-sm leading-6 text-stone-700" key={item.productId}>
-                <span className="font-semibold text-stone-950">{index + 1}. {productsById.get(item.productId)?.name ?? item.productId}</span>
-                {' — '}{item.bestFor} <span className="text-stone-500">다만, {item.tradeoff}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
-
       <section className="ml-0 mt-7 max-w-4xl sm:ml-11" aria-label="추천 상품">
         <div className="mb-3 flex items-end justify-between gap-4">
           <div>
@@ -155,27 +147,35 @@ export default function RecommendationResult({ result }) {
         <div className="space-y-2.5">
           {result.products.map((product, index) => {
             const expanded = expandedProductId === product.id;
+            const comparison = comparisonByProductId.get(product.id);
             const detailId = `product-detail-${index + 1}`;
             const toggle = () => setExpandedProductId((current) => current === product.id ? null : product.id);
 
             return (
-              <article
-                className={`overflow-hidden rounded-2xl border transition ${expanded ? 'border-orange-400 shadow-sm' : 'border-stone-200'}`}
-                key={product.id}
-              >
-                <ProductSummaryRow
-                  controlsId={detailId}
-                  expanded={expanded}
-                  onToggle={toggle}
-                  product={product}
-                  rank={index + 1}
-                />
-                {expanded && (
-                  <div className="detail-reveal border-t border-orange-200" id={detailId}>
-                    <ProductCard onCollapse={toggle} product={product} />
-                  </div>
+              <div key={product.id}>
+                <article
+                  className={`overflow-hidden rounded-2xl border transition ${expanded ? 'border-orange-400 shadow-sm' : 'border-stone-200'}`}
+                >
+                  <ProductSummaryRow
+                    controlsId={detailId}
+                    expanded={expanded}
+                    onToggle={toggle}
+                    product={product}
+                    rank={index + 1}
+                  />
+                  {expanded && (
+                    <div className="detail-reveal border-t border-orange-200" id={detailId}>
+                      <ProductCard onCollapse={toggle} product={product} />
+                    </div>
+                  )}
+                </article>
+                {comparison && (
+                  <p className="mt-1.5 px-3 text-xs leading-5 text-stone-600">
+                    {comparison.bestFor}
+                    <span className="text-stone-500"> · 다만 {comparison.tradeoff}</span>
+                  </p>
                 )}
-              </article>
+              </div>
             );
           })}
         </div>

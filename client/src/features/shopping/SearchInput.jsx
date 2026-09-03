@@ -5,6 +5,7 @@ import {
   CATEGORY_OPTIONS,
   PRICE_OPTIONS,
   selectionSummary,
+  shouldShowOptionalFilters,
 } from './query.js';
 
 export default function SearchInput({ compact = false, disabled, onSubmit }) {
@@ -13,7 +14,16 @@ export default function SearchInput({ compact = false, disabled, onSubmit }) {
   const [maxPrice, setMaxPrice] = useState(null);
   const [size, setSize] = useState('');
   const [validationMessage, setValidationMessage] = useState('');
+  const [hasFocusWithin, setHasFocusWithin] = useState(false);
   const hasQuery = query.trim().length > 0;
+  const showFilters = shouldShowOptionalFilters({
+    category,
+    compact,
+    hasFocusWithin,
+    maxPrice,
+    query,
+    size,
+  });
 
   async function handleSubmit(event) {
     event.preventDefault();
@@ -42,6 +52,12 @@ export default function SearchInput({ compact = false, disabled, onSubmit }) {
   return (
     <form
       className={compact ? 'w-full' : 'mt-9'}
+      onBlurCapture={(event) => {
+        if (!event.currentTarget.contains(event.relatedTarget)) {
+          setHasFocusWithin(false);
+        }
+      }}
+      onFocusCapture={() => setHasFocusWithin(true)}
       onSubmit={handleSubmit}
     >
       <div
@@ -74,7 +90,7 @@ export default function SearchInput({ compact = false, disabled, onSubmit }) {
           value={query}
         />
 
-        {hasQuery && !compact && (
+        {showFilters && (
           <div className="filter-reveal order-2 grid grid-cols-2 gap-3 border-t border-stone-200 pt-3 sm:order-3 sm:basis-full sm:grid-cols-3">
             <label className="col-span-2 min-w-0 text-left sm:col-span-1">
               <span className="mb-1.5 block text-xs font-medium text-stone-500">카테고리</span>
@@ -122,7 +138,7 @@ export default function SearchInput({ compact = false, disabled, onSubmit }) {
         )}
 
         <button
-          className={`order-3 w-full border border-orange-200 bg-orange-100 font-semibold text-orange-900 transition hover:bg-orange-200 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2 disabled:cursor-not-allowed disabled:border-stone-200 disabled:bg-stone-100 disabled:text-stone-400 sm:order-2 sm:w-auto ${compact ? 'min-h-10 rounded-xl px-5 text-sm' : 'min-h-14 rounded-2xl px-7'}`}
+          className={`order-3 w-full border border-orange-200 bg-orange-100 font-semibold text-orange-900 transition hover:bg-orange-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:border-stone-200 disabled:bg-stone-100 disabled:text-stone-400 sm:order-2 sm:w-auto ${compact ? 'min-h-10 rounded-xl px-5 text-sm' : 'min-h-14 rounded-2xl px-7'}`}
           disabled={disabled || !hasQuery}
           type="submit"
         >
@@ -130,12 +146,18 @@ export default function SearchInput({ compact = false, disabled, onSubmit }) {
         </button>
       </div>
 
-      <p className="mt-3 min-h-5 px-2 text-sm text-rose-700" aria-live="polite">
-        {validationMessage}
-      </p>
+      {validationMessage && (
+        <p className="mt-3 px-2 text-sm text-rose-700" aria-live="polite">
+          {validationMessage}
+        </p>
+      )}
 
-      {!hasQuery && !compact && (
-        <p className="mt-3 px-2 text-sm text-stone-500">문장을 입력하면 카테고리·가격·사이즈 조건을 더할 수 있어요.</p>
+      {!showFilters && !compact && (
+        <p className="mt-3 px-2 text-sm text-stone-500">검색창을 누르면 카테고리·가격·사이즈 조건을 더할 수 있어요.</p>
+      )}
+
+      {showFilters && !hasQuery && (
+        <p className="mt-3 px-2 text-sm text-stone-500">검색어를 입력하면 선택한 조건과 함께 찾아드려요.</p>
       )}
     </form>
   );

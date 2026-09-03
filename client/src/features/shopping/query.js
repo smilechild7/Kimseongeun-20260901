@@ -44,3 +44,21 @@ export function selectionSummary({ category, maxPrice, size }) {
     size.trim() ? `사이즈 ${size.trim()}` : null,
   ].filter(Boolean);
 }
+
+export function shouldShowOptionalFilters({
+  category,
+  compact,
+  hasFocusWithin,
+  maxPrice,
+  query,
+  size,
+}) {
+  if (compact) return false;
+  return Boolean(
+    hasFocusWithin ||
+    query.trim() ||
+    category ||
+    maxPrice ||
+    size.trim(),
+  );
+}

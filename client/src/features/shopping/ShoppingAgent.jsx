@@ -4,6 +4,7 @@ import LoadingState from '../../components/LoadingState.jsx';
 import { ChatApiError, chatErrorMessage, postChat } from './api.js';
 import ClarificationMessage from './ClarificationMessage.jsx';
 import NoResultMessage from './NoResultMessage.jsx';
+import { formatProductDisplayName } from './productName.js';
 import RecommendationResult from './RecommendationResult.jsx';
 import { createInitialShoppingState, shoppingReducer } from './reducer.js';
 import SearchInput from './SearchInput.jsx';
@@ -44,7 +45,7 @@ function AssistantResult({ message }) {
 function previousResponseLabel(message) {
   if (message.kind === 'recommendation') {
     const products = message.data.products ?? [];
-    const firstName = products[0]?.name;
+    const firstName = formatProductDisplayName(products[0]?.name);
     return firstName
       ? `이전 추천 ${products.length}개 · ${firstName}${products.length > 1 ? ` 외 ${products.length - 1}개` : ''}`
       : '이전 추천 결과';
@@ -129,28 +130,26 @@ export default function ShoppingAgent() {
   }
 
   return (
-    <main className="min-h-screen overflow-hidden bg-stone-50 bg-[radial-gradient(circle_at_top_left,_rgba(251,146,60,0.16)_0,_transparent_38rem),radial-gradient(circle_at_top_right,_rgba(168,162,158,0.24)_0,_transparent_34rem)] text-stone-950">
+    <main className="flex min-h-screen flex-col overflow-hidden bg-stone-50 bg-[radial-gradient(circle_at_top_left,_rgba(251,146,60,0.16)_0,_transparent_38rem),radial-gradient(circle_at_top_right,_rgba(168,162,158,0.24)_0,_transparent_34rem)] text-stone-950">
 
-      <header className="relative mx-auto flex max-w-7xl items-center justify-between px-5 py-6 sm:px-8">
-        <button className="flex items-center gap-3 text-left" onClick={reset} type="button" aria-label="새 검색 시작">
+      <header className="relative mx-auto flex w-full max-w-7xl items-center justify-between px-5 py-6 sm:px-8">
+        <button className="flex items-center gap-3 rounded-xl text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2" onClick={reset} type="button" aria-label="새 검색 시작">
           <span className="grid size-10 place-items-center rounded-full bg-orange-600 text-sm font-bold text-white">AI</span>
           <span className="font-semibold tracking-tight">Shopping Decision Agent</span>
         </button>
-        {hasConversation ? (
+        {hasConversation && (
           <button
-            className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm font-semibold text-stone-700 transition hover:border-orange-400 hover:text-orange-800"
+            className="rounded-full border border-stone-300 bg-white px-4 py-2 text-sm font-semibold text-stone-700 transition hover:border-orange-400 hover:text-orange-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2"
             onClick={reset}
             type="button"
           >
             새로 찾기
           </button>
-        ) : (
-          <span className="rounded-full border border-stone-300 bg-white/70 px-3 py-1.5 text-xs font-medium text-stone-600 backdrop-blur">실제 여성 의류 상품 검색</span>
         )}
       </header>
 
       {!hasConversation ? (
-        <section className="relative mx-auto max-w-5xl px-5 pb-28 pt-16 text-center sm:px-8 lg:pt-28">
+        <section className="relative mx-auto w-full max-w-5xl px-5 pb-28 pt-16 text-center sm:px-8 lg:pt-28">
           <div className="mx-auto max-w-4xl">
             <p className="mb-5 text-sm font-semibold uppercase tracking-[0.22em] text-orange-700">Search less. Decide better.</p>
             <h1 className="text-4xl font-bold leading-[1.12] tracking-[-0.045em] sm:text-6xl">어떤 옷을 찾고 계세요?</h1>
@@ -164,7 +163,7 @@ export default function ShoppingAgent() {
           </div>
         </section>
       ) : (
-        <div className="relative mx-auto max-w-7xl px-5 pb-24 pt-8 sm:px-8">
+        <div className="relative mx-auto w-full max-w-7xl px-5 pb-24 pt-8 sm:px-8">
           {isRefinementLoading && (
             <div className="mb-6">
               <PreviousResponseSummary animate message={lastAssistantMessage} />
@@ -210,7 +209,7 @@ export default function ShoppingAgent() {
         </div>
       )}
 
-      <footer className="border-t border-stone-200 bg-white/70 px-5 py-6 text-center text-xs leading-5 text-stone-500">
+      <footer className="mt-auto border-t border-stone-200 bg-white/70 px-5 py-6 text-center text-xs leading-5 text-stone-500">
         추천은 저장된 상품 정보와 일부 구매후기를 바탕으로 합니다. 구매 전 판매 페이지의 최신 가격·옵션을 확인해주세요.
       </footer>
     </main>

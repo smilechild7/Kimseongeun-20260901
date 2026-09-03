@@ -130,7 +130,7 @@ export default function ProductCard({ onCollapse, product }) {
           </p>
           {product.sizeGuideText ? (
             <details className="mt-3 rounded-xl bg-stone-50 p-3 text-sm text-stone-700">
-              <summary className="cursor-pointer font-semibold text-stone-800">사이즈표 자세히 보기</summary>
+              <summary className="cursor-pointer rounded-lg font-semibold text-stone-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-400">사이즈표 자세히 보기</summary>
               <p className="mt-3 whitespace-pre-line leading-6">{product.sizeGuideText}</p>
             </details>
           ) : null}
@@ -165,7 +165,7 @@ export default function ProductCard({ onCollapse, product }) {
         </section>
 
         <a
-          className="mt-7 inline-flex min-h-12 items-center justify-center rounded-2xl border border-orange-200 bg-orange-100 px-5 text-sm font-bold text-orange-900 transition hover:bg-orange-200 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2"
+          className="mt-7 inline-flex min-h-12 items-center justify-center rounded-2xl border border-orange-200 bg-orange-100 px-5 text-sm font-bold text-orange-900 transition hover:bg-orange-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2"
           href={product.productUrl}
           rel="noopener noreferrer"
           target="_blank"
@@ -173,7 +173,7 @@ export default function ProductCard({ onCollapse, product }) {
           상품 보러가기 <span className="ml-2" aria-hidden="true">↗</span>
         </a>
         <button
-          className="mt-3 inline-flex min-h-11 items-center justify-center rounded-2xl border border-stone-300 bg-stone-50 px-5 text-sm font-semibold text-stone-700 transition hover:bg-stone-100 hover:text-stone-950 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:ring-offset-2"
+          className="mt-3 inline-flex min-h-11 items-center justify-center rounded-2xl border border-stone-300 bg-stone-50 px-5 text-sm font-semibold text-stone-700 transition hover:bg-stone-100 hover:text-stone-950 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2"
           onClick={onCollapse}
           type="button"
         >

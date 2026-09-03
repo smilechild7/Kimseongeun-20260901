@@ -5,6 +5,7 @@ import {
   buildChatMessage,
   CATEGORY_OPTIONS,
   selectionSummary,
+  shouldShowOptionalFilters,
 } from './query.js';
 
 test('combines free text and selected must-have conditions', () => {
@@ -52,7 +53,7 @@ test('supports every optional clothing category and leaves inference to AI by de
   );
 });
 
-test('requires natural-language input before optional selectors', () => {
+test('requires natural-language input before building a request', () => {
   assert.equal(
     buildChatMessage({ query: '', category: 'pants', maxPrice: 50000, size: 'M' }),
     null,
@@ -60,5 +61,30 @@ test('requires natural-language input before optional selectors', () => {
   assert.equal(
     buildChatMessage({ query: '  ', category: '', maxPrice: null, size: ' ' }),
     null,
+  );
+});
+
+test('reveals optional filters on focus even when the query is empty', () => {
+  const emptyForm = {
+    category: '',
+    compact: false,
+    hasFocusWithin: false,
+    maxPrice: null,
+    query: '',
+    size: '',
+  };
+
+  assert.equal(shouldShowOptionalFilters(emptyForm), false);
+  assert.equal(
+    shouldShowOptionalFilters({ ...emptyForm, hasFocusWithin: true }),
+    true,
+  );
+  assert.equal(
+    shouldShowOptionalFilters({ ...emptyForm, category: 'dress' }),
+    true,
+  );
+  assert.equal(
+    shouldShowOptionalFilters({ ...emptyForm, compact: true, hasFocusWithin: true }),
+    false,
   );
 });

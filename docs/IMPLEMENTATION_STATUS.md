@@ -3,8 +3,8 @@
 > 기준 계획: `docs/levit_problem_solver_FINAL_PLAN.md`  
 > 작업 규칙: `AGENT.md`  
 > 마지막 업데이트: 2026-09-03 (KST)
-> 현재 단계: Phase 9 — Multi-shop / Multi-category Catalog Expansion 완료
-> 다음 단계: Phase 10 — UI/UX Final Polish 준비
+> 현재 단계: Phase 10 — UI/UX Final Polish 진행 중
+> 다음 작업: Phase 10 변경 사용자 화면 검증
 
 이 문서는 구현 진행 상태, 검증 결과, 결정 사항과 blocker를 계속 기록하는 단일 상태 로그다. 작업을 시작하거나 완료할 때마다 같은 파일을 갱신한다.
 
@@ -30,7 +30,7 @@
 | 7 | Frontend | 완료 — 사용자 UI 승인·전체 회귀·Render 최종 asset 검증 통과 |
 | 8 | Final Validation / Polish | 부분 완료 — 자동 검증 기준선 commit, mobile·세부 UI는 확장 후 보류 |
 | 9 | Multi-shop / Multi-category Catalog Expansion | 완료 — 10 shops·5 categories·520 products·자연스러움 eval·optional category UI 검증 |
-| 10 | UI/UX Final Polish | 준비 — mobile·desktop layout·spacing·control style·interaction 최종 정리 |
+| 10 | UI/UX Final Polish | 진행 중 — 핵심 차이 코멘트·상품 표시명·상세 이미지 interaction 개선 |
 
 ## 결정 로그
 
@@ -94,6 +94,14 @@
 | DEC-056 | 2026-09-03 | 첫 자연스러움 실제 eval 규모 | 사용자 선택 A — local 독립 case 20개를 순차 실행하고 예상 $1.30~$2.00, 안전 예산 $2.50 승인 | 큰 50개 batch보다 실패를 prompt·audit에 빠르게 환류하며 반복하고, 원문 응답은 시스템 임시 디렉터리에만 보존 |
 | DEC-057 | 2026-09-03 | batch 1 실패 case 재실행 | 사용자 선택 A — 보정된 prompt로 실패 1건만 다시 실행하고 예상 $0.07~$0.15, 안전 상한 $0.35 승인 | 최초 실패 원인이었던 허위 tag evidence 차단 보정과 plain-text 출력, 오류 usage 계측을 실제 model에서 검증 |
 | DEC-058 | 2026-09-03 | 첫 검색 category 선택 방식 | 사용자 선택 A — 기본값은 `AI가 문장에서 판단`으로 두고 5개 category를 선택 사항으로 제공 | 자연어만으로 즉시 검색할 수 있고 사용자가 직접 선택한 경우에만 category를 필수 조건으로 전달; category가 불명확하면 Agent clarification 사용, follow-up에는 선택 UI를 표시하지 않음 |
+| DEC-059 | 2026-09-03 | 후보 간 핵심 차이 표현 | 사용자 지시에 따라 독립 비교 섹션을 제거하고 각 상품 카드 바로 아래에 짧은 비카드 코멘트로 배치; 후속 피드백으로 `ㄴ` prefix도 제거 | 상품명·섹션 제목·장식 기호의 반복을 없애고 비교 설명과 해당 상품의 공간적 연결을 강화; 서버 응답 계약과 AI 호출은 변경하지 않음 |
+| DEC-060 | 2026-09-03 | 긴 상품명 표시 규칙 | 사용자 승인 — 원본 상품명은 보존하고 화면에서만 선행 `[]`·`()`·`【】` 홍보 태그와 후행 SEO keyword block을 제거한 뒤 핵심 이름이 28자를 넘으면 `…` 처리 | 520개 상품명은 중앙값 30자·최장 253자로 홍보·검색 keyword 오염이 큼; 상품 링크의 접근성 이름과 factual source는 전체 원문을 유지하며 상품 카드와 접힌 이전 추천 요약에 같은 표시명을 사용 |
+| DEC-061 | 2026-09-03 | 상세보기 이미지 확대 | 사용자 승인 — 기존 summary thumbnail을 상세 펼침 시 mobile `64→112px(1.75x)`, desktop `72→144px(2x)`로 300ms ease-out 확대하고 접을 때 원복 | 상세 영역에 이미지를 중복 추가하지 않고 선택한 상품의 시각적 강조를 제공; grid column 전환으로 주변 정보도 함께 재배치하고 reduced-motion 환경에서는 animation 제거 |
+| DEC-062 | 2026-09-03 | hero 보조 문구 | 사용자 최신 선택 — 대체 한글 문구를 취소하고 최초의 `Search less. Decide better.` 영문 eyebrow와 원래 typography로 복원 | 한글 문구 적용 결과가 첫 화면의 의도한 분위기와 맞지 않아 최초 시각적 리듬을 최종 채택 |
+| DEC-063 | 2026-09-03 | 첫 검색 조건 필터 노출 시점 | 사용자 지시 — 검색어가 빈 문자열이어도 첫 검색창 또는 form 내부 control이 focus되면 category·price·size를 표시하고, form 밖으로 focus가 이동해도 입력·선택값이 있으면 유지 | 입력 시작 전에도 조건을 발견·선택할 수 있게 하되 자연어 필수 제출 계약과 후속 질문의 filter 미표시는 유지 |
+| DEC-064 | 2026-09-03 | 첫 화면 header badge | 사용자 승인 — `실제 여성 의류 상품 검색` badge를 제거하고 검색 전 header 우측을 비움 | hero title·설명과 정보가 중복되고 header를 복잡하게 하므로 제거; 검색 후 `새로 찾기` action은 그대로 유지 |
+| DEC-065 | 2026-09-03 | 검색 안내·상세 toggle 후속 polish | 사용자 지시 및 위임 — focus 전 안내를 `검색창을 누르면…`으로 정정하고, 빈 query로 filter가 열리면 자연어 입력 필요성을 안내하며, 빈 error 공간 제거; 펼침 시 `상세보기` chip은 300ms 동안 원형으로 축소해 `↑`만 표시 | filter-only 검색은 Agent 대화 계약을 바꾸므로 자연어 필수를 유지하고 즉시 설명; 접힘 `↓`·펼침 `↑`으로 동작 방향을 명확히 하며 `aria-label=상세 접기`와 하단 `카드 접기`도 유지 |
+| DEC-066 | 2026-09-03 | interactive focus 표현 | 사용자 위임 — text input·select는 editing focus를 계속 표시하고, link·button·details summary는 `focus-visible` ring으로 통일 | mouse click 후 주황 highlight 잔류를 전반적으로 제거하면서 keyboard `Tab` 사용자의 명확한 focus indicator는 보존 |
 
 ## Phase 1 시작 준비
 
@@ -952,6 +960,88 @@
 2. Render 배포 후 520개 catalog build와 외부 multi-category 검색을 검증한다.
 3. Phase 10 시작 전 mobile·desktop UI/UX polish 범위와 우선순위를 사용자에게 결정받는다.
 
+## Phase 10 — UI/UX Final Polish
+
+### 목표
+
+- 검색과 추천 결과의 정보 위계·간격·상호작용을 mobile과 desktop에서 최종 정리한다.
+- factual recommendation과 상세 정보 계약은 유지하면서 비교와 판단에 드는 시각적 부담을 줄인다.
+
+### 체크리스트
+
+- [x] Phase 10 시작 및 첫 polish 범위 확정
+- [x] 독립된 `후보 간 핵심 차이` 섹션 제거
+- [x] 비교 내용을 해당 상품 카드 아래의 간단한 비카드 코멘트로 이동
+- [x] 관련 자동 테스트와 production build 검증
+- [x] 상품 표시명 정리 formatter와 적용 위치 구현
+- [x] 상품 표시명 단위 테스트·전체 회귀·production build 검증
+- [x] 상세보기 mouse click 후 잔류 focus highlight 제거
+- [x] 상세보기 시 thumbnail 확대·접기 원복 animation 구현 및 build 검증
+- [x] 짧은 화면에서 안내 footer를 viewport 바닥에 배치
+- [x] 빈 첫 검색창 focus 시 조건 필터 노출·focus 이동 유지 구현 및 검증
+- [x] 중복되는 첫 화면 header badge 제거
+- [x] focus 상태별 검색 안내 정정·빈 오류 공간 제거
+- [x] 상세보기 chip 축소·label fade animation 구현 및 검증
+- [x] link·button·details의 focus-visible 표현 통일 및 검증
+- [ ] 사용자 화면 검증
+- [ ] 남은 mobile·desktop polish 항목 우선순위 확정
+
+### 구현 및 검증 기록
+
+| 시각 (KST) | 항목 | 결과 |
+|---|---|---|
+| 2026-09-03 | Phase 10 시작 | 사용자 요청으로 비교 정보 배치를 첫 polish 항목으로 시작; 구현 전 외부 작업·API 호출 없음 |
+| 2026-09-03 | 비교 코멘트 배치 | DEC-059에 따라 기존 독립 섹션과 제목을 제거하고 `productId`로 연결된 `bestFor`·`tradeoff`를 각 상품 카드 바로 아래의 비카드 한 줄 코멘트로 이동 |
+| 2026-09-03 | 자동 검증 | 최초 sandbox 실행은 localhost bind 제한으로 서버 test 4건만 `EPERM`; 권한 허용 재실행에서 전체 `npm test` 95/95, `npm run build`, `git diff --check` 통과 |
+| 2026-09-03 | 시각 검증 시도 | 연결 가능한 Browser가 0개라 자동 local 화면 검증은 수행하지 못했으며 사용자 화면 확인 대기 |
+| 2026-09-03 | 상품명 사전 감사 | raw 520개 기준 길이 `min 9/p50 30/p75 56/p90 123/p95 190/max 253`; 선행 홍보 태그와 후행 괄호·쉼표 SEO keyword가 긴 이름의 주원인임을 확인 |
+| 2026-09-03 | 표시 규칙 승인 | DEC-060의 표시 전용 정리와 28자 제한을 사용자 승인; source data·API 계약·AI 호출은 변경하지 않음 |
+| 2026-09-03 | formatter 구현 | 모든 위치의 `[]`·`【】` tag와 짧은 `()` 부가 문구를 제거하고, 3개 이상 `-` 항목 또는 40자 이상인 긴 괄호 SEO block은 그 지점 이후를 제외; 정리 후 28자를 넘는 경우만 `…` 처리 |
+| 2026-09-03 | 520개 전수 검사 | 변경 437개·28자 말줄임 20개; 빈 표시명·28자 초과·괄호 잔존 각 0건 |
+| 2026-09-03 | 상품명 자동 검증 | 신규 formatter test 3/3, 전체 `npm test` 98/98, `npm run build`, `git diff --check` 통과 |
+| 2026-09-03 | 상세 toggle focus 수정 | mouse로 `상세보기 → 상세접기` 후 `focus:ring`이 남는 현상을 `focus-visible:ring`으로 변경; keyboard focus ring은 유지 |
+| 2026-09-03 | 비교 코멘트 장식 제거 | 사용자 피드백에 따라 카드 아래 코멘트의 `ㄴ` prefix를 제거하고 `bestFor · 다만 tradeoff` 본문만 유지 |
+| 2026-09-03 | 이미지 확대 방식 승인 | DEC-061의 반응형 확대 크기와 300ms animation을 사용자 승인; 이미지 중복 추가 없이 기존 thumbnail과 grid column을 확대하는 방식 확정 |
+| 2026-09-03 | 이미지 확대 구현·검증 | 펼침 상태에서 mobile `7rem`, desktop `9rem`, 접힘 상태에서 `4rem/4.5rem` grid column을 사용하고 300ms ease-out 적용; production build에서 양쪽 grid class·transition·reduced-motion CSS 생성 및 `git diff --check` 통과 |
+| 2026-09-03 | footer 바닥 배치 | page root를 `min-h-screen` flex column으로 전환하고 footer에 `mt-auto`를 적용; 짧은 화면에서는 viewport 하단, 긴 결과에서는 콘텐츠 다음에 배치되며 fixed overlay는 사용하지 않음 |
+| 2026-09-03 | flex 너비 회귀 수정 | root flex 전환 후 `mx-auto` header가 content width로 축소된 회귀를 확인; header·첫 화면·결과 영역에 `w-full`을 명시해 기존 max-width layout을 복원하고 footer 바닥 배치는 유지 |
+| 2026-09-03 | hero 보조 문구 제거 | 사용자 피드백에 따라 첫 화면의 `Search less. Decide better.` 영문 eyebrow를 제거하고 한국어 질문 제목부터 바로 노출 |
+| 2026-09-03 | hero 보조 문구 복원 | 사용자 최신 결정으로 `당신을 위한 쇼핑 도우미입니다`를 작은 orange·tight tracking 문구로 제목 위에 추가; 중간 제안 문구는 미반영 |
+| 2026-09-03 | 조건 필터 노출 방식 확정 | DEC-063에 따라 첫 검색 form의 focus-within·query·선택값을 기준으로 optional filter visibility를 계산; 빈 query에서도 focus만으로 노출하며 compact follow-up은 제외 |
+| 2026-09-03 | focus 필터 구현·검증 | form `onFocusCapture/onBlurCapture`로 내부 focus 이동 시 필터를 유지하고 외부 이동 시 빈 form만 접음; query test 4/4, 전체 `npm test` 99/99, production build와 `git diff --check` 통과 |
+| 2026-09-03 | header badge 제거 | DEC-064에 따라 검색 전 우측 정보 badge를 제거하고 `hasConversation`일 때만 `새로 찾기` button을 렌더링 |
+| 2026-09-03 | 검색 안내 개선안 | 사용자 위임에 따라 filter-only 제출은 허용하지 않고 자연어 필수를 유지; focus 전에는 filter 발견 방법, 빈 query로 filter가 열린 뒤에는 검색어 필요성을 안내하고 validation이 없을 때 빈 영역을 제거 |
+| 2026-09-03 | 상세 toggle 축소안 | 사용자 지시에 따라 펼침 시 `상세보기` text를 fade-out/max-width 0으로 전환하고 button width를 `5.25rem→2rem`으로 축소; 접근성 이름은 `상세 접기`로 전환 |
+| 2026-09-03 | 상세 toggle 방향 수정 | 사용자 피드백에 따라 접힘 상태는 `↓`, 펼침 상태의 축소 chip은 접기를 나타내는 `↑`로 표시 |
+| 2026-09-03 | focus 표현 통일 | DEC-066에 따라 header actions·검색 submit·상품 image/name link·상세 toggle·외부 이동·카드 접기·size guide summary를 `focus-visible` ring으로 정리; input/select의 editing focus는 유지 |
+| 2026-09-03 | 후속 polish 검증 | 관련 query test 4/4, 전체 `npm test` 99/99, production build와 `git diff --check` 통과; build CSS에서 width/padding transition·label max-width/opacity·focus-visible selector 생성 확인 |
+| 2026-09-03 | commit/push 승인 | 사용자가 현재 Phase 10 UI 변경 전체의 commit과 `main` push를 요청; push 후 Render 자동 배포와 실제 mobile 확인 예정 |
+| 2026-09-03 | hero 영문 원복 | 한글 문구 확인 후 사용자 최신 지시로 최초 `Search less. Decide better.`와 uppercase·wide tracking style을 복원 |
+
+### 변경 파일
+
+- `client/src/features/shopping/RecommendationResult.jsx`
+- `client/src/features/shopping/ShoppingAgent.jsx`
+- `client/src/features/shopping/productName.js`
+- `client/src/features/shopping/productName.test.js`
+- `docs/IMPLEMENTATION_STATUS.md`
+
+### 사용자 수동 작업
+
+- 구현 전 작업 없음.
+- 구현 후 local 화면에서 비교 코멘트가 각 상품 바로 아래에 붙고, 상세 열기·접기에도 위치가 자연스러운지 확인한다.
+
+### Blocker / 미해결
+
+- 현재 blocker 없음.
+- 자동 Browser backend가 없어 실제 위치·간격의 시각 검증은 사용자 확인이 필요하다.
+- mobile·desktop의 나머지 visual polish 범위는 이후 사용자 판단으로 확정한다.
+
+### 다음 작업
+
+1. 사용자 화면 검증을 받는다.
+2. 남은 UI/UX polish 우선순위를 결정한다.
+
 ## Phase 0 — Skeleton / Deployment
 
 ### 목표
@@ -1078,3 +1168,23 @@
 | 2026-09-03 | 사용자 선택 A로 자연스러움 batch 1의 20개 local 실제 eval 실행; 19개 완료 응답 audit 통과·1개 factual validation 차단, 보수적 비용 상한 $1.6389 후 prompt·audit·오류 비용 계측 보정 |
 | 2026-09-03 | 사용자 선택 A로 실패 1건 targeted retry 실행·통과; 최신 고유 case 20/20과 누적 보수적 비용 상한 $1.7184 확인, Phase 9E 완료 |
 | 2026-09-03 | DEC-058 A안 optional category UI 구현 후 전체 test 95/95·build 통과, 사용자 desktop 기능 검증 완료로 Phase 9F와 Phase 9 완료; visual polish는 Phase 10으로 분리 |
+| 2026-09-03 | Phase 10 시작; 독립 비교 섹션을 각 추천 상품 아래의 `ㄴ` 핵심 차이 코멘트로 이동 |
+| 2026-09-03 | Phase 10 첫 polish 전체 test 95/95·production build 통과; Browser 연결 대상 부재로 사용자 시각 검증 대기 |
+| 2026-09-03 | DEC-060 상품 표시명 정리 구현; 520개 전수 검사와 전체 test 98/98·production build 통과, 사용자 시각 검증 대기 |
+| 2026-09-03 | 상세보기 toggle의 mouse focus highlight 잔류 수정; keyboard focus-visible 접근성 유지 |
+| 2026-09-03 | 상품 아래 핵심 차이 코멘트의 `ㄴ` 장식 제거 |
+| 2026-09-03 | DEC-061 상세보기 thumbnail 반응형 확대 animation 구현 시작 |
+| 2026-09-03 | 상세보기 thumbnail 확대·접기 원복 animation production build 검증 완료; 사용자 시각 확인 대기 |
+| 2026-09-03 | 안내 footer sticky-footer 구조 적용; 짧은 페이지 viewport 하단·긴 페이지 콘텐츠 다음 배치 |
+| 2026-09-03 | sticky-footer 적용으로 축소된 header·본문 폭에 `w-full`을 명시해 기존 layout 복원 |
+| 2026-09-03 | 첫 화면의 불필요한 영문 hero 보조 문구 제거 |
+| 2026-09-03 | DEC-062에 따라 한글 hero 보조 문구 `당신을 위한 쇼핑 도우미입니다`로 복원 |
+| 2026-09-03 | 사용자 최신 피드백으로 hero 보조 문구와 typography를 최초 영문 상태로 원복 |
+| 2026-09-03 | DEC-063 빈 첫 검색창 focus 기반 category·price·size 노출 구현 시작 |
+| 2026-09-03 | focus 기반 조건 필터 노출 구현 완료; 관련 4/4·전체 99/99 tests와 production build 통과 |
+| 2026-09-03 | DEC-064 첫 화면의 중복 `실제 여성 의류 상품 검색` header badge 제거 |
+| 2026-09-03 | DEC-065 검색 안내·빈 validation 공간·상세보기 축소 animation polish 시작 |
+| 2026-09-03 | DEC-066 mouse highlight 잔류 방지와 keyboard focus 보존을 위한 interactive focus-visible 통일 시작 |
+| 2026-09-03 | DEC-065~066 검색 안내·빈 validation 공간·상세 toggle 축소·focus-visible 구현 완료; 전체 99/99 tests·build 통과, 사용자 시각 검증 대기 |
+| 2026-09-03 | 사용자 요청으로 현재 Phase 10 UI 변경 commit/push 및 Render mobile 검증 단계 진입 |
+| 2026-09-03 | 펼친 상세 toggle의 화살표를 동작 의미에 맞게 `↓→↑`로 수정 |
