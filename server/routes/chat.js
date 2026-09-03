@@ -18,7 +18,8 @@ function upstreamStatus(error, hasPreviousResponseId) {
   return 502;
 }
 
-function publicError(status) {
+function publicError(error, status) {
+  if (error instanceof AgentRuntimeError) return 'agent_response_invalid';
   if (status === 400) return 'invalid_conversation_state';
   if (status === 503) return 'agent_unavailable';
   if (status === 504) return 'agent_timeout';
@@ -62,7 +63,7 @@ export function createChatRouter({
           httpStatus: status,
         }),
       );
-      response.status(status).json({ error: publicError(status) });
+      response.status(status).json({ error: publicError(error, status) });
     }
   });
 

@@ -1,11 +1,17 @@
 import { useEffect, useReducer, useRef } from 'react';
 
 import LoadingState from '../../components/LoadingState.jsx';
-import { ChatApiError, chatErrorMessage, postChat } from './api.js';
+import {
+  ChatApiError,
+  chatErrorMessage,
+  isRecoverableChatError,
+  postChat,
+} from './api.js';
 import ClarificationMessage from './ClarificationMessage.jsx';
 import NoResultMessage from './NoResultMessage.jsx';
 import { formatProductDisplayName } from './productName.js';
 import RecommendationResult from './RecommendationResult.jsx';
+import { recoveryQuestion } from './recovery.js';
 import { createInitialShoppingState, shoppingReducer } from './reducer.js';
 import SearchInput from './SearchInput.jsx';
 
@@ -112,6 +118,13 @@ export default function ShoppingAgent() {
       dispatch({ type: action, payload: result });
       return true;
     } catch (error) {
+      if (isRecoverableChatError(error)) {
+        dispatch({
+          type: 'RECEIVE_RECOVERY_CLARIFICATION',
+          payload: { message: recoveryQuestion(lastAssistantMessage) },
+        });
+        return true;
+      }
       const message = chatErrorMessage(error);
       if (error?.code === 'invalid_conversation_state') storeResponseId(null);
       if (message) dispatch({ type: 'REQUEST_FAILED', payload: message });

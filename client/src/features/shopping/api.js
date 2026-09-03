@@ -84,3 +84,7 @@ export function chatErrorMessage(error) {
   if (error?.code === 'request_cancelled') return null;
   return '검색 중 문제가 생겼어요. 잠시 후 다시 시도해주세요.';
 }
+
+export function isRecoverableChatError(error) {
+  return ['agent_response_invalid', 'invalid_response'].includes(error?.code);
+}

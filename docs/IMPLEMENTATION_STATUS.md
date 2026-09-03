@@ -106,6 +106,7 @@
 | DEC-068 | 2026-09-03 | 화살표 action visual state | 사용자 최신 지시 — 활성 button은 border 없는 36px black circle과 white arrow로 표시하고, 빈 query에서는 렌더링하지 않다가 입력 시 오른쪽에서 fade/scale animation으로 등장 | disabled placeholder가 차지하던 시각적 무게를 없애고 chat send interaction을 강화; request loading 중에는 같은 원 안의 white spinner를 유지 |
 | DEC-069 | 2026-09-03 | 화살표 action 위치 | 사용자 지시 — 검색창 폭은 고정하고 36px action을 입력 영역 오른쪽 내부에 absolute overlay로 배치 | button 등장으로 input width와 주변 layout이 움직이는 현상을 방지; input은 처음부터 우측 48px padding을 확보해 입력 text와 action이 겹치지 않음 |
 | DEC-070 | 2026-09-03 | 사이즈표 구조화·오수집 정리 | 사용자 전체 승인 — deterministic strict parser가 검증한 실측값만 반응형 HTML table로 표시하고, 검증 실패한 58개 raw 값은 `null` 처리하며 crawler 재수집도 차단; reviewer 식별정보가 포함된 기존 Git 이력은 rewrite 후 `main`을 강제 갱신 | LLM 호출·schema 변경 없이 mobile 가독성과 factual 안전성을 높임; 현재 유효한 Graychic 실측표 60개는 보존하고 상품 설명·아동 변환표·후기 오수집은 제거하며 Phase 9 이후 commit hash가 바뀔 수 있음 |
+| DEC-071 | 2026-09-03 | 검색 실패의 대화형 recovery 범위 | 사용자 선택 A — AI 응답 생성·형식·factual 검증 실패만 assistant 재질문으로 전환하고 network·timeout·rate limit·인증 장애는 실제 오류 안내 유지 | system 장애를 사용자 답변 문제처럼 숨기지 않으면서 invalid Agent response에서 대화를 끊지 않음; 직전 AI가 category를 질문했다면 한 종류를 먼저 선택하도록 deterministic하게 재질문하고 추가 OpenAI 호출은 하지 않음 |
 
 ## Phase 1 시작 준비
 
@@ -993,6 +994,7 @@
 - [x] 검증된 실측 사이즈 원문을 반응형 HTML table로 렌더링
 - [x] 오수집 `sizeGuideText` 정리·crawler 재수집 차단·DB rebuild
 - [x] reviewer 식별정보가 포함된 Git 이력 정리와 Render 재배포 확인
+- [x] AI 응답 생성·검증 실패를 문맥형 재질문으로 복구
 - [ ] 사용자 화면 검증
 - [ ] 남은 mobile·desktop polish 항목 우선순위 확정
 
@@ -1044,6 +1046,11 @@
 | 2026-09-03 | Git history 개인정보 정리 | 구현 commit을 기준으로 `main` 23개 commit을 재작성해 Annanplus·Baddiary·Maybins의 과거 `sizeGuideText` 오수집 blob을 제거; tree 동일성과 정리 문구 부재를 검증한 뒤 `7c57cd0 → cad38b8` force-with-lease push 성공 |
 | 2026-09-03 | 임시 history 정리 | 원격 갱신 성공 후 local backup branch·`refs/original`·reflog·unreachable object와 임시 sanitizer를 제거해 로컬에도 이전 reviewer 식별정보 blob을 남기지 않음 |
 | 2026-09-03 | Render 배포 검증 | 외부 `/api/health` HTTP 200, local build와 일치하는 JS `index-D1betPbI.js`·CSS `index-DShAUZf1.css` 각각 HTTP 200 확인; 배포 JS에서 `실측 사이즈표` 코드 확인 |
+| 2026-09-03 | 대화형 오류 recovery 시작 | mobile에서 category clarification에 복수 category로 답한 뒤 generic 오류 박스가 노출된 사례 확인; DEC-071 A안에 따라 AgentRuntimeError만 별도 public code로 분류하고 assistant 재질문으로 복구하는 구현 시작, 외부 작업·API 호출 없음 |
+| 2026-09-03 | 서버 오류 분류 | `AgentRuntimeError`를 HTTP 502 `agent_response_invalid`로 공개하고 SDK network·timeout·auth·conversation·rate-limit 오류와 분리; 내부 오류 상세는 기존처럼 노출하지 않음 |
+| 2026-09-03 | assistant recovery | `agent_response_invalid`와 비정상 200 response type만 오류 alert 대신 clarification message로 추가; 직전 category 질문이면 한 종류 우선 선택을 요청하고 그 외에는 조건을 짧게 다시 요청하며 기존 `previousResponseId`를 보존 |
+| 2026-09-03 | recovery 자동 검증 | API error 분류·문맥 질문·reducer conversation 보존 관련 test 8/8, 전체 `npm test` 108/108, production build 통과; 추가 OpenAI 호출 없음 |
+| 2026-09-03 | diff 검사 제한 | `git diff --check`는 이번 변경과 무관한 기존 사용자 수정 `docs/EVAL_REPORT.md`의 후행 공백 1건으로 실패; 해당 미완료 사용자 변경은 보존하고 임의 수정하지 않음 |
 
 ### 변경 파일
 
@@ -1053,6 +1060,15 @@
 - `client/src/features/shopping/productName.test.js`
 - `client/src/components/ProductCard.jsx`
 - `client/src/components/SizeGuideTable.jsx`
+- `client/src/features/shopping/api.js`
+- `client/src/features/shopping/api.test.js`
+- `client/src/features/shopping/recovery.js`
+- `client/src/features/shopping/recovery.test.js`
+- `client/src/features/shopping/reducer.js`
+- `client/src/features/shopping/reducer.test.js`
+- `client/src/features/shopping/ShoppingAgent.jsx`
+- `server/routes/chat.js`
+- `server/app.test.js`
 - `shared/sizeGuide.js`
 - `shared/sizeGuide.test.js`
 - `crawler/lib/parse-cafe24-product.js`
@@ -1069,6 +1085,7 @@
 - 구현 전 작업 없음.
 - 사이즈표 구현·데이터 정리·DB rebuild에는 필수 사용자 작업 없음.
 - Render 배포 후 사이즈표가 있는 Graychic 상품 상세에서 표 열기와 mobile 가로 스크롤을 선택적으로 확인한다.
+- 대화형 오류 recovery 구현 전 필수 사용자 작업 없음. commit/push 후 같은 category 재질문에서 두 종류를 답했을 때 오류 박스 대신 AI가 한 종류를 다시 묻는지 확인한다.
 
 ### Blocker / 미해결
 

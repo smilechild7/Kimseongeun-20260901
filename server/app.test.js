@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 
+import { AgentRuntimeError } from './agent/shoppingAgent.js';
 import { createApp } from './app.js';
 
 async function withServer(app, callback) {
@@ -50,6 +51,26 @@ test('validates chat input and does not send invalid requests to the Agent', asy
     assert.equal(valid.status, 200);
     assert.equal((await valid.json()).message, '검정 바지');
     assert.equal(calls, 1);
+  });
+});
+
+test('distinguishes invalid Agent responses from infrastructure failures', async () => {
+  const app = createApp({
+    chat: async () => {
+      throw new AgentRuntimeError('invalid_output', 'invalid Agent response');
+    },
+    logger: { error() {} },
+  });
+
+  await withServer(app, async (baseUrl) => {
+    const response = await fetch(`${baseUrl}/api/chat`, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ message: '아우터랑 바지' }),
+    });
+
+    assert.equal(response.status, 502);
+    assert.deepEqual(await response.json(), { error: 'agent_response_invalid' });
   });
 });
 

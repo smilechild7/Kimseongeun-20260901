@@ -38,3 +38,27 @@ test('records a request error and resets all conversation state', () => {
     createInitialShoppingState(),
   );
 });
+
+test('adds a recovery clarification while preserving conversation state', () => {
+  const sent = shoppingReducer(createInitialShoppingState('resp_old'), {
+    type: 'SEND_MESSAGE',
+    payload: { displayMessage: '아우터랑 바지' },
+  });
+  const recovered = shoppingReducer(sent, {
+    type: 'RECEIVE_RECOVERY_CLARIFICATION',
+    payload: { message: '먼저 찾을 한 가지를 골라주세요.' },
+  });
+
+  assert.equal(recovered.status, 'ready');
+  assert.equal(recovered.previousResponseId, 'resp_old');
+  assert.equal(recovered.error, null);
+  assert.deepEqual(recovered.messages.at(-1), {
+    role: 'assistant',
+    kind: 'clarification',
+    data: {
+      type: 'clarification',
+      message: '먼저 찾을 한 가지를 골라주세요.',
+      recovery: true,
+    },
+  });
+});

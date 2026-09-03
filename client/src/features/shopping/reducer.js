@@ -34,6 +34,24 @@ export function shoppingReducer(state, action) {
           { role: 'assistant', kind: action.payload.type, data: action.payload },
         ],
       };
+    case 'RECEIVE_RECOVERY_CLARIFICATION':
+      return {
+        ...state,
+        status: 'ready',
+        error: null,
+        messages: [
+          ...state.messages,
+          {
+            role: 'assistant',
+            kind: 'clarification',
+            data: {
+              type: 'clarification',
+              message: action.payload.message,
+              recovery: true,
+            },
+          },
+        ],
+      };
     case 'REQUEST_FAILED':
       return { ...state, status: 'error', error: action.payload };
     case 'RESET_CONVERSATION':
