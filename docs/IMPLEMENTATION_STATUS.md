@@ -1006,6 +1006,7 @@
 - [x] 이전 추천 시간순 정렬·연결된 사용자 질문 표시 및 검증
 - [x] 단독 목표 가격 ±10%·만원 단위 반올림 해석 및 검증
 - [x] recommendation·no_result·clarification 전체 대화 이력 보존 및 검증
+- [x] README를 최종 구현·배포·검증 상태와 동기화
 - [ ] 사용자 화면 검증
 - [ ] 남은 mobile·desktop polish 항목 우선순위 확정
 
@@ -1085,6 +1086,10 @@
 | 2026-09-03 | 전체 대화 이력 자동 검증 | 전체 응답 순서·loading 최신 응답·현재 응답 제외·질문 연결·no_result 보존 test 5/5, 전체 `npm test` 117/117, production build·관련 diff check 통과; 실제 화면 확인 대기 |
 | 2026-09-03 | `만원대` 가격 구간 보강 | DEC-077에 따라 `8만원대`를 80,000~89,999원 hard range로 원문에서 deterministic 처리하고 `8만원대 이하` 등 명시 경계는 기존 해석에 위임; 관련 test 16/16, 전체 `npm test` 118/118와 production build 통과, 실제 OpenAI 호출 없음 |
 | 2026-09-03 | 전체 대화 이력·가격 해석 배포 검증 | commit `f4da18f`를 `main`에 push; Render `/api/health` HTTP 200과 새 JS `index-BEMG-aqY.js`·CSS `index-C5dsB8tk.css` 전환 확인 |
+| 2026-09-03 | README 최종화 시작 | 사용자 요청에 따라 기존 Phase 9 catalog 수치를 보존하면서 현재 Agent 가격 해석·대화 이력·사이즈표·recovery·118개 테스트와 남은 범위를 실제 코드 및 상태 로그에 대조해 문서화 시작; 외부 작업·API 호출 없음 |
+| 2026-09-03 | README 최종화 완료 | Project Status·10개 shop·520 products·3,798 reviews·검증 사이즈표 60개·가격/색상 해석·대화 이력·recovery·118/118 test·20/20 자연스러움 eval·Render build와 실제 limitation을 반영; README/status 범위 `git diff --check` 및 문서 내부 상대 링크 대상 존재 확인, application code·API 호출 변경 없음 |
+| 2026-09-03 | README 설문 반영 문구 개선 | `상품 탐색이 본체`, `evidence layer`, `review signal` 표현을 조건에 맞는 상품을 먼저 찾고 실제 구매후기를 추천 확인 근거로 활용한다는 사용자 관점의 문장으로 교체; 동작·범위 변경 없음 |
+| 2026-09-03 | README 제출 전 검토 | 사용자 요청으로 현재 코드·data·평가 문서·Render를 재대조; 전체 `npm test` 118/118와 production build, live `/api/health`, 내부 상대 링크를 확인하고 첫 문장의 `evidence-based`를 실제 상품 정보와 구매후기를 근거로 찾는다는 문장으로 교체; catalog 외부 URL 전수 검사는 sandbox network 제한으로 판정 제외 |
 
 ### 변경 파일
 
