@@ -1,3 +1,5 @@
+import SizeGuideTable from './SizeGuideTable.jsx';
+
 const SIGNAL_LABELS = Object.freeze({
   similar: '사진과 비슷하다는 의견',
   different: '사진과 다르다는 의견',
@@ -128,12 +130,7 @@ export default function ProductCard({ onCollapse, product }) {
             <span className="text-stone-500">판매 사이즈</span>{' '}
             {product.sizes?.length ? product.sizes.join(' · ') : '판단할 정보가 부족해요'}
           </p>
-          {product.sizeGuideText ? (
-            <details className="mt-3 rounded-xl bg-stone-50 p-3 text-sm text-stone-700">
-              <summary className="cursor-pointer rounded-lg font-semibold text-stone-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-400">사이즈표 자세히 보기</summary>
-              <p className="mt-3 whitespace-pre-line leading-6">{product.sizeGuideText}</p>
-            </details>
-          ) : null}
+          <SizeGuideTable sizes={product.sizes} value={product.sizeGuideText} />
         </section>
 
         {availableReviewSignals.length > 0 && (

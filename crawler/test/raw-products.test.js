@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import { readdir, readFile } from 'node:fs/promises';
 import test from 'node:test';
 
+import { parseSizeGuideText } from '../../shared/sizeGuide.js';
 import { SHOPS } from '../config/shops.js';
 import {
   CATEGORY_ORDER,
@@ -140,6 +141,10 @@ test('raw catalog satisfies count, category, review, and uniqueness contracts', 
 
       if (product.sizeGuideText !== null) {
         assert.doesNotMatch(product.sizeGuideText, /(작성자|작성일|조회|평점)/u);
+        assert.ok(
+          parseSizeGuideText(product.sizeGuideText, product.sizes),
+          `${collection.fileName}:${product.source.sourceProductId}`,
+        );
       }
     }
   }

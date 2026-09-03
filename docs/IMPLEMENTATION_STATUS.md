@@ -105,6 +105,7 @@
 | DEC-067 | 2026-09-03 | 검색 submit action 배치 | 사용자 승인 — 첫 검색과 후속 질문 모두 별도 full-width text button을 제거하고 입력 행 오른쪽 내부의 원형 `→` button으로 통일; loading에는 spinner 표시 | filter 아래 button 행을 없애 mobile 높이와 시각적 무게를 줄이고 일반 chat composer interaction과 일치; 빈 query disabled·접근성 label·focus-visible은 유지 |
 | DEC-068 | 2026-09-03 | 화살표 action visual state | 사용자 최신 지시 — 활성 button은 border 없는 36px black circle과 white arrow로 표시하고, 빈 query에서는 렌더링하지 않다가 입력 시 오른쪽에서 fade/scale animation으로 등장 | disabled placeholder가 차지하던 시각적 무게를 없애고 chat send interaction을 강화; request loading 중에는 같은 원 안의 white spinner를 유지 |
 | DEC-069 | 2026-09-03 | 화살표 action 위치 | 사용자 지시 — 검색창 폭은 고정하고 36px action을 입력 영역 오른쪽 내부에 absolute overlay로 배치 | button 등장으로 input width와 주변 layout이 움직이는 현상을 방지; input은 처음부터 우측 48px padding을 확보해 입력 text와 action이 겹치지 않음 |
+| DEC-070 | 2026-09-03 | 사이즈표 구조화·오수집 정리 | 사용자 전체 승인 — deterministic strict parser가 검증한 실측값만 반응형 HTML table로 표시하고, 검증 실패한 58개 raw 값은 `null` 처리하며 crawler 재수집도 차단; reviewer 식별정보가 포함된 기존 Git 이력은 rewrite 후 `main`을 강제 갱신 | LLM 호출·schema 변경 없이 mobile 가독성과 factual 안전성을 높임; 현재 유효한 Graychic 실측표 60개는 보존하고 상품 설명·아동 변환표·후기 오수집은 제거하며 Phase 9 이후 commit hash가 바뀔 수 있음 |
 
 ## Phase 1 시작 준비
 
@@ -989,6 +990,9 @@
 - [x] 첫 검색·후속 질문 action을 입력창 우측 원형 화살표로 통일
 - [x] 36px black action·빈 query 숨김·오른쪽 등장 animation 적용 및 검증
 - [x] 검색창 고정·우측 내부 action overlay 적용 및 검증
+- [x] 검증된 실측 사이즈 원문을 반응형 HTML table로 렌더링
+- [x] 오수집 `sizeGuideText` 정리·crawler 재수집 차단·DB rebuild
+- [ ] reviewer 식별정보가 포함된 Git 이력 정리와 Render 재배포 확인
 - [ ] 사용자 화면 검증
 - [ ] 남은 mobile·desktop polish 항목 우선순위 확정
 
@@ -1030,6 +1034,13 @@
 | 2026-09-03 | 내부 action build 검증 | production build와 `git diff --check` 통과; compiled CSS에서 absolute position·right 6px·right padding 48px·entrance keyframe 생성 확인 |
 | 2026-09-03 | 최종 polish push 승인 | 사용자가 현재 UI 수준을 MVP 마감선으로 승인하고 화살표 검색 action 변경의 commit/push 요청; Render 배포 후 mobile smoke check만 대기 |
 | 2026-09-03 | hero 영문 원복 | 한글 문구 확인 후 사용자 최신 지시로 최초 `Search less. Decide better.`와 uppercase·wide tracking style을 복원 |
+| 2026-09-03 | 사이즈표 개선 시작 | raw 520개 감사 결과 non-null 118개 중 Graychic 실측표 60개, 무관한 아동 국제 사이즈표 50개, 상품 설명 6개, reviewer 식별정보가 섞인 후기 2개 확인; DEC-070 전체 범위를 사용자 승인받아 구현 시작 |
+| 2026-09-03 | strict size guide parser | circled header·일반 HTML table·판매 option size·row별 치수 개수를 deterministic하게 교차 검증하고 front/back 총장 표기만 한 cell로 병합; 실제 raw 기준 Graychic 60/60 통과, 오수집 58/58 거부 |
+| 2026-09-03 | 사이즈표 UI | 검증 성공 시에만 `details` 내부의 semantic `table`로 표시; `caption`·column/row scope·keyboard focus를 제공하고 mobile은 horizontal scroll과 sticky size column 적용, raw text fallback은 제거 |
+| 2026-09-03 | crawler·raw 정리 | product parser가 strict 검증을 통과한 후보만 저장하도록 변경; 9개 raw file의 오수집 58개를 `null` 처리해 non-null 60개 전부 parseable 상태로 정리 |
+| 2026-09-03 | DB rebuild | `npm run db:build` 후 10 shops·520 products·3,798 reviews·520 enrichments 유지, `npm run db:inspect` integrity `ok` 확인 |
+| 2026-09-03 | 사이즈표 자동 검증 | parser/crawler 신규 test 포함 전체 `npm test` 103/103, `npm run build`, `git diff --check` 통과; 최초 sandbox 4건은 localhost bind `EPERM`이었고 권한 허용 재실행에서 통과 |
+| 2026-09-03 | 사이즈표 시각 검증 시도 | Browser runtime에 연결 가능한 browser가 0개라 자동 시각 검증 불가; 제가 실행한 임시 dev process는 종료했으며 source/build 검증은 완료 |
 
 ### 변경 파일
 
@@ -1037,23 +1048,37 @@
 - `client/src/features/shopping/ShoppingAgent.jsx`
 - `client/src/features/shopping/productName.js`
 - `client/src/features/shopping/productName.test.js`
+- `client/src/components/ProductCard.jsx`
+- `client/src/components/SizeGuideTable.jsx`
+- `shared/sizeGuide.js`
+- `shared/sizeGuide.test.js`
+- `crawler/lib/parse-cafe24-product.js`
+- `crawler/test/parse-cafe24-product.test.js`
+- `crawler/test/raw-products.test.js`
+- `data/raw/annanplus-{dress,outerwear}.json`
+- `data/raw/baddiary-{pants,top,dress,skirt,outerwear}.json`
+- `data/raw/maybins-{pants,top}.json`
+- `docs/levit_problem_solver_FINAL_PLAN.md`
 - `docs/IMPLEMENTATION_STATUS.md`
 
 ### 사용자 수동 작업
 
 - 구현 전 작업 없음.
-- 구현 후 local 화면에서 비교 코멘트가 각 상품 바로 아래에 붙고, 상세 열기·접기에도 위치가 자연스러운지 확인한다.
+- 사이즈표 구현·데이터 정리·DB rebuild에는 필수 사용자 작업 없음.
+- Render 배포 후 사이즈표가 있는 Graychic 상품 상세에서 표 열기와 mobile 가로 스크롤을 선택적으로 확인한다.
 
 ### Blocker / 미해결
 
 - 현재 blocker 없음.
 - 자동 Browser backend가 없어 실제 위치·간격의 시각 검증은 사용자 확인이 필요하다.
 - mobile·desktop의 나머지 visual polish 범위는 이후 사용자 판단으로 확정한다.
+- reviewer 식별정보가 포함된 이전 raw blob을 제거하기 위한 Git history rewrite와 Render 재배포가 남아 있다.
 
 ### 다음 작업
 
-1. 사용자 화면 검증을 받는다.
-2. 남은 UI/UX polish 우선순위를 결정한다.
+1. 사이즈표 변경을 commit한 뒤 승인된 Git history rewrite로 이전 raw blob을 제거한다.
+2. rewritten `main`을 push하고 Render health·frontend asset을 확인한다.
+3. 사용자가 원하면 실제 Graychic 상품의 표와 mobile 가로 스크롤을 확인한다.
 
 ## Phase 0 — Skeleton / Deployment
 

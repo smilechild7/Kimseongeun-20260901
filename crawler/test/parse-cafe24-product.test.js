@@ -64,6 +64,29 @@ test('parses factual Cafe24 product fields including options and size guide text
   });
 });
 
+test('rejects a dimension-like description that is not a structured size table', () => {
+  const html = `
+    <meta property="og:title" content="설명 오수집 방지 팬츠">
+    <meta property="og:image" content="https://cdn.example/pants.jpg">
+    <meta property="product:price:amount" content="40000">
+    <select option_product_no="101" option_title="size">
+      <option value="S">S</option>
+      <option value="M">M</option>
+    </select>
+    <div id="prdDetail">
+      <table><tr><td>MD comment 허리와 힙이 여유 있고 총장이 긴 디자인 100 110</td></tr></table>
+    </div>
+  `;
+
+  const product = parseCafe24Product(html, {
+    shopConfig,
+    categoryConfig,
+    productUrl: 'https://shop.example/product/detail.html?product_no=101',
+  });
+
+  assert.equal(product.sizeGuideText, null);
+});
+
 test('keeps sizeGuideText null when only an image guide is available', () => {
   const html = `
     <meta property="og:title" content="이미지 사이즈표 팬츠">

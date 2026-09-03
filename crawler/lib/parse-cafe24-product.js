@@ -1,5 +1,6 @@
 import * as cheerio from 'cheerio';
 
+import { isValidSizeGuideText } from '../../shared/sizeGuide.js';
 import { extractSourceProductId } from './product-url.js';
 
 function cleanText(value) {
@@ -236,7 +237,7 @@ function basicInfoValue($, labelPattern) {
   return result;
 }
 
-function extractSizeGuideText($, selectors = []) {
+function extractSizeGuideText($, selectors = [], sizes = []) {
   const candidateSelectors = [
     ...selectors,
     '#prdDetail table',
@@ -267,7 +268,9 @@ function extractSizeGuideText($, selectors = []) {
         numberCount >= 2 &&
         ((/cm/i.test(text) && dimensionCount >= 1) || dimensionCount >= 3)
       ) {
-        return text;
+        if (isValidSizeGuideText(text, sizes)) {
+          return text;
+        }
       }
     }
   }
@@ -325,6 +328,7 @@ export function parseCafe24Product(
     sourceProductId,
     shopConfig.options,
   );
+  const sizes = optionSizes.length > 0 ? optionSizes : extractSizesFromName(name);
 
   return {
     source: {
@@ -347,10 +351,11 @@ export function parseCafe24Product(
       sourceProductId,
       shopConfig.options,
     ),
-    sizes: optionSizes.length > 0 ? optionSizes : extractSizesFromName(name),
+    sizes,
     sizeGuideText: extractSizeGuideText(
       $,
       shopConfig.selectors?.sizeGuideText ?? [],
+      sizes,
     ),
     material: basicInfoValue($, /^(소재|material)$/i),
     description: cleanText(
