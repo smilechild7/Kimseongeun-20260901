@@ -102,6 +102,9 @@
 | DEC-064 | 2026-09-03 | 첫 화면 header badge | 사용자 승인 — `실제 여성 의류 상품 검색` badge를 제거하고 검색 전 header 우측을 비움 | hero title·설명과 정보가 중복되고 header를 복잡하게 하므로 제거; 검색 후 `새로 찾기` action은 그대로 유지 |
 | DEC-065 | 2026-09-03 | 검색 안내·상세 toggle 후속 polish | 사용자 지시 및 위임 — focus 전 안내를 `검색창을 누르면…`으로 정정하고, 빈 query로 filter가 열리면 자연어 입력 필요성을 안내하며, 빈 error 공간 제거; 펼침 시 `상세보기` chip은 300ms 동안 원형으로 축소해 `↑`만 표시 | filter-only 검색은 Agent 대화 계약을 바꾸므로 자연어 필수를 유지하고 즉시 설명; 접힘 `↓`·펼침 `↑`으로 동작 방향을 명확히 하며 `aria-label=상세 접기`와 하단 `카드 접기`도 유지 |
 | DEC-066 | 2026-09-03 | interactive focus 표현 | 사용자 위임 — text input·select는 editing focus를 계속 표시하고, link·button·details summary는 `focus-visible` ring으로 통일 | mouse click 후 주황 highlight 잔류를 전반적으로 제거하면서 keyboard `Tab` 사용자의 명확한 focus indicator는 보존 |
+| DEC-067 | 2026-09-03 | 검색 submit action 배치 | 사용자 승인 — 첫 검색과 후속 질문 모두 별도 full-width text button을 제거하고 입력 행 오른쪽 내부의 원형 `→` button으로 통일; loading에는 spinner 표시 | filter 아래 button 행을 없애 mobile 높이와 시각적 무게를 줄이고 일반 chat composer interaction과 일치; 빈 query disabled·접근성 label·focus-visible은 유지 |
+| DEC-068 | 2026-09-03 | 화살표 action visual state | 사용자 최신 지시 — 활성 button은 border 없는 36px black circle과 white arrow로 표시하고, 빈 query에서는 렌더링하지 않다가 입력 시 오른쪽에서 fade/scale animation으로 등장 | disabled placeholder가 차지하던 시각적 무게를 없애고 chat send interaction을 강화; request loading 중에는 같은 원 안의 white spinner를 유지 |
+| DEC-069 | 2026-09-03 | 화살표 action 위치 | 사용자 지시 — 검색창 폭은 고정하고 36px action을 입력 영역 오른쪽 내부에 absolute overlay로 배치 | button 등장으로 input width와 주변 layout이 움직이는 현상을 방지; input은 처음부터 우측 48px padding을 확보해 입력 text와 action이 겹치지 않음 |
 
 ## Phase 1 시작 준비
 
@@ -983,6 +986,9 @@
 - [x] focus 상태별 검색 안내 정정·빈 오류 공간 제거
 - [x] 상세보기 chip 축소·label fade animation 구현 및 검증
 - [x] link·button·details의 focus-visible 표현 통일 및 검증
+- [x] 첫 검색·후속 질문 action을 입력창 우측 원형 화살표로 통일
+- [x] 36px black action·빈 query 숨김·오른쪽 등장 animation 적용 및 검증
+- [x] 검색창 고정·우측 내부 action overlay 적용 및 검증
 - [ ] 사용자 화면 검증
 - [ ] 남은 mobile·desktop polish 항목 우선순위 확정
 
@@ -1016,6 +1022,13 @@
 | 2026-09-03 | focus 표현 통일 | DEC-066에 따라 header actions·검색 submit·상품 image/name link·상세 toggle·외부 이동·카드 접기·size guide summary를 `focus-visible` ring으로 정리; input/select의 editing focus는 유지 |
 | 2026-09-03 | 후속 polish 검증 | 관련 query test 4/4, 전체 `npm test` 99/99, production build와 `git diff --check` 통과; build CSS에서 width/padding transition·label max-width/opacity·focus-visible selector 생성 확인 |
 | 2026-09-03 | commit/push 승인 | 사용자가 현재 Phase 10 UI 변경 전체의 commit과 `main` push를 요청; push 후 Render 자동 배포와 실제 mobile 확인 예정 |
+| 2026-09-03 | 검색 action 재구성 | DEC-067에 따라 SearchInput의 query와 원형 action을 단일 flex row로 묶고 optional filter grid를 아래 row로 분리; main `48px`, compact `40px`, loading spinner·aria-label 구성 |
+| 2026-09-03 | 검색 action 자동 검증 | query/filter 관련 test 4/4, production build와 `git diff --check` 통과; 실제 mobile 시각 검증과 새 변경 commit/push는 대기 |
+| 2026-09-03 | action visual 재정의 | DEC-068에 따라 main/compact 공통 `size-9`, `bg-black`, borderless, white arrow로 통일; `hasQuery || loading`일 때만 렌더링하고 200ms translateX·scale·opacity entrance 적용 |
+| 2026-09-03 | action visual 검증 | query 관련 test 4/4, production build와 `git diff --check` 통과; compiled CSS에서 36px size·black/white color·`submit-action-enter` keyframe 생성 확인 |
+| 2026-09-03 | action 내부 배치 | DEC-069에 따라 query row를 relative container로 전환하고 input `w-full`·`pr-12`를 상시 적용; action은 `absolute right-1.5 inset-y-0 my-auto`로 중앙 배치해 등장 전후 검색창 크기를 고정 |
+| 2026-09-03 | 내부 action build 검증 | production build와 `git diff --check` 통과; compiled CSS에서 absolute position·right 6px·right padding 48px·entrance keyframe 생성 확인 |
+| 2026-09-03 | 최종 polish push 승인 | 사용자가 현재 UI 수준을 MVP 마감선으로 승인하고 화살표 검색 action 변경의 commit/push 요청; Render 배포 후 mobile smoke check만 대기 |
 | 2026-09-03 | hero 영문 원복 | 한글 문구 확인 후 사용자 최신 지시로 최초 `Search less. Decide better.`와 uppercase·wide tracking style을 복원 |
 
 ### 변경 파일
@@ -1187,4 +1200,11 @@
 | 2026-09-03 | DEC-066 mouse highlight 잔류 방지와 keyboard focus 보존을 위한 interactive focus-visible 통일 시작 |
 | 2026-09-03 | DEC-065~066 검색 안내·빈 validation 공간·상세 toggle 축소·focus-visible 구현 완료; 전체 99/99 tests·build 통과, 사용자 시각 검증 대기 |
 | 2026-09-03 | 사용자 요청으로 현재 Phase 10 UI 변경 commit/push 및 Render mobile 검증 단계 진입 |
+| 2026-09-03 | DEC-067 mobile filter 아래 full-width submit 제거와 채팅형 우측 화살표 action 구현 시작 |
+| 2026-09-03 | 첫 검색·후속 질문 우측 원형 화살표 action과 loading spinner 구현·build 검증 완료 |
+| 2026-09-03 | DEC-068 36px black/white arrow action과 활성화 entrance animation 구현 시작 |
+| 2026-09-03 | DEC-068 action visual 구현·관련 tests/build 검증 완료; local 사용자 시각 확인 대기 |
+| 2026-09-03 | DEC-069 검색창 내부 absolute action과 고정 input 폭 적용 시작 |
+| 2026-09-03 | 검색창 고정 폭·우측 내부 화살표 action 구현과 production build 검증 완료 |
+| 2026-09-03 | 사용자 판단으로 추가 polish를 중단하고 현재 UI를 최종 후보로 push·mobile smoke check 진행 |
 | 2026-09-03 | 펼친 상세 toggle의 화살표를 동작 의미에 맞게 `↓→↑`로 수정 |

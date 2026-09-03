@@ -49,6 +49,21 @@ a {
   animation: filter-reveal 180ms ease-out;
 }
 
+@keyframes submit-action-enter {
+  from {
+    opacity: 0;
+    transform: translateX(0.5rem) scale(0.82);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+.submit-action-enter {
+  animation: submit-action-enter 200ms ease-out;
+}
+
 @keyframes detail-reveal {
   from {
     opacity: 0;

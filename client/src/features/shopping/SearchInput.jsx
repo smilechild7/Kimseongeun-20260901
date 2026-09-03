@@ -24,6 +24,7 @@ export default function SearchInput({ compact = false, disabled, onSubmit }) {
     query,
     size,
   });
+  const showSubmitAction = hasQuery || disabled;
 
   async function handleSubmit(event) {
     event.preventDefault();
@@ -61,37 +62,54 @@ export default function SearchInput({ compact = false, disabled, onSubmit }) {
       onSubmit={handleSubmit}
     >
       <div
-        className={`flex flex-col gap-3 border border-stone-200 bg-white p-3 sm:flex-row sm:flex-wrap ${
+        className={`border border-stone-200 bg-white ${
           compact
             ? 'rounded-2xl p-2 shadow-sm'
-            : 'rounded-3xl shadow-[0_24px_70px_rgba(41,37,36,0.10)]'
+            : 'rounded-3xl p-3 shadow-[0_24px_70px_rgba(41,37,36,0.10)]'
         }`}
       >
-        <label className="sr-only" htmlFor={compact ? 'refine-query' : 'shopping-query'}>
-          원하는 의류 조건
-        </label>
-        <input
-          autoComplete="off"
-          className={`order-1 min-w-0 flex-1 bg-transparent outline-none placeholder:text-stone-400 focus:ring-2 focus:ring-orange-300 ${compact ? 'min-h-10 rounded-xl px-3 text-sm' : 'min-h-14 rounded-2xl px-4 text-base'}`}
-          disabled={disabled}
-          id={compact ? 'refine-query' : 'shopping-query'}
-          maxLength={700}
-          onChange={(event) => {
-            const nextQuery = event.target.value;
-            setQuery(nextQuery);
-            if (!nextQuery.trim()) {
-              setCategory('');
-              setMaxPrice(null);
-              setSize('');
-            }
-            setValidationMessage('');
-          }}
-          placeholder={compact ? '예: 1번처럼 조금 더 저렴한 걸로' : '예: 12만원 이하 결혼식 하객 원피스'}
-          value={query}
-        />
+        <div className="relative">
+          <label className="sr-only" htmlFor={compact ? 'refine-query' : 'shopping-query'}>
+            원하는 의류 조건
+          </label>
+          <input
+            autoComplete="off"
+            className={`w-full min-w-0 bg-transparent outline-none placeholder:text-stone-400 focus:ring-2 focus:ring-orange-300 ${compact ? 'min-h-10 rounded-xl pl-3 pr-12 text-sm' : 'min-h-14 rounded-2xl pl-4 pr-12 text-base'}`}
+            disabled={disabled}
+            id={compact ? 'refine-query' : 'shopping-query'}
+            maxLength={700}
+            onChange={(event) => {
+              const nextQuery = event.target.value;
+              setQuery(nextQuery);
+              if (!nextQuery.trim()) {
+                setCategory('');
+                setMaxPrice(null);
+                setSize('');
+              }
+              setValidationMessage('');
+            }}
+            placeholder={compact ? '예: 1번처럼 조금 더 저렴한 걸로' : '예: 12만원 이하 결혼식 하객 원피스'}
+            value={query}
+          />
+
+          {showSubmitAction && (
+            <button
+              aria-label={compact ? '다시 찾기' : '찾아보기'}
+              className="submit-action-enter absolute inset-y-0 right-1.5 my-auto grid size-9 place-items-center rounded-full bg-black font-bold text-white transition-colors hover:bg-stone-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2 disabled:cursor-wait"
+              disabled={disabled || !hasQuery}
+              type="submit"
+            >
+              {disabled ? (
+                <span className="size-4 animate-spin rounded-full border-2 border-white/40 border-t-white" aria-hidden="true" />
+              ) : (
+                <span className="text-lg leading-none" aria-hidden="true">→</span>
+              )}
+            </button>
+          )}
+        </div>
 
         {showFilters && (
-          <div className="filter-reveal order-2 grid grid-cols-2 gap-3 border-t border-stone-200 pt-3 sm:order-3 sm:basis-full sm:grid-cols-3">
+          <div className="filter-reveal mt-3 grid grid-cols-2 gap-3 border-t border-stone-200 pt-3 sm:grid-cols-3">
             <label className="col-span-2 min-w-0 text-left sm:col-span-1">
               <span className="mb-1.5 block text-xs font-medium text-stone-500">카테고리</span>
               <select
@@ -136,14 +154,6 @@ export default function SearchInput({ compact = false, disabled, onSubmit }) {
             </label>
           </div>
         )}
-
-        <button
-          className={`order-3 w-full border border-orange-200 bg-orange-100 font-semibold text-orange-900 transition hover:bg-orange-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-400 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:border-stone-200 disabled:bg-stone-100 disabled:text-stone-400 sm:order-2 sm:w-auto ${compact ? 'min-h-10 rounded-xl px-5 text-sm' : 'min-h-14 rounded-2xl px-7'}`}
-          disabled={disabled || !hasQuery}
-          type="submit"
-        >
-          {disabled ? '찾는 중…' : compact ? '다시 찾기' : '찾아보기'}
-        </button>
       </div>
 
       {validationMessage && (
