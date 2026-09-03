@@ -1084,6 +1084,7 @@
 | 2026-09-03 | 전체 대화 이력 구현 완료 | history helper를 모든 assistant response 대상으로 일반화하고 recommendation·no_result·clarification summary를 전부 clickable하게 변경; 펼침 시 직전 user message와 원래 AI component를 함께 복원하며 시간순·loading 열람·단일 accordion 유지 |
 | 2026-09-03 | 전체 대화 이력 자동 검증 | 전체 응답 순서·loading 최신 응답·현재 응답 제외·질문 연결·no_result 보존 test 5/5, 전체 `npm test` 117/117, production build·관련 diff check 통과; 실제 화면 확인 대기 |
 | 2026-09-03 | `만원대` 가격 구간 보강 | DEC-077에 따라 `8만원대`를 80,000~89,999원 hard range로 원문에서 deterministic 처리하고 `8만원대 이하` 등 명시 경계는 기존 해석에 위임; 관련 test 16/16, 전체 `npm test` 118/118와 production build 통과, 실제 OpenAI 호출 없음 |
+| 2026-09-03 | 전체 대화 이력·가격 해석 배포 검증 | commit `f4da18f`를 `main`에 push; Render `/api/health` HTTP 200과 새 JS `index-BEMG-aqY.js`·CSS `index-C5dsB8tk.css` 전환 확인 |
 
 ### 변경 파일
 
