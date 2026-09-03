@@ -998,6 +998,7 @@
 - [x] reviewer 식별정보가 포함된 Git 이력 정리와 Render 재배포 확인
 - [x] AI 응답 생성·검증 실패를 문맥형 재질문으로 복구
 - [x] 현재 대화의 이전 추천 목록 다시 보기 accordion 구현 및 검증
+- [x] 상품명 link hit area 축소·추천 후보 eyebrow 제거 및 검증
 - [ ] 사용자 화면 검증
 - [ ] 남은 mobile·desktop polish 항목 우선순위 확정
 
@@ -1063,6 +1064,8 @@
 | 2026-09-03 | loading 중 accordion 결함 수정 | 세 번째 대화 loading 중 첫 추천이 열리지 않는 피드백을 반영; submit 시 expansion 초기화를 제거하고 folding 중인 최신 recommendation의 disabled·render 제한도 해제해 요청 중 모든 이전 추천 열람 허용 |
 | 2026-09-03 | loading 상호작용 회귀 검증 | 전체 `npm test` 111/111, production build와 관련 파일 `git diff --check` 통과; 자동 Browser 연결 대상 부재로 실제 loading 중 click 재검증은 사용자 확인 대기 |
 | 2026-09-03 | 이전 추천 accordion 배포 검증 | commit `7faeded`를 `main`에 push; Render `/api/health` HTTP 200, 새 JS `index-BdsKzXzV.js`·CSS `index-Dn3VKe8j.css` 전환과 bundle의 이전 추천 목록·펼침 코드 반영 확인 |
+| 2026-09-03 | 추천 카드 micro polish 시작 | 사용자 피드백에 따라 상품명 오른쪽 빈 link hit area를 제거하고 추천 목록 header의 중복 `추천 후보` eyebrow를 삭제하는 작업 시작; 외부 작업·API 호출 없음 |
+| 2026-09-03 | 추천 카드 micro polish 완료 | 두 줄 말줄임 wrapper와 inline 상품 link를 분리해 실제 상품명 text만 외부 이동 영역으로 제한하고 `추천 후보` eyebrow 제거; 전체 `npm test` 111/111·production build·관련 diff check 통과 |
 
 ### 변경 파일
 
@@ -1101,6 +1104,7 @@
 - Render 배포 후 사이즈표가 있는 Graychic 상품 상세에서 표 열기와 mobile 가로 스크롤을 선택적으로 확인한다.
 - 대화형 오류 recovery 구현 전 필수 사용자 작업 없음. commit/push 후 같은 category 재질문에서 두 종류를 답했을 때 오류 박스 대신 AI가 한 종류를 다시 묻는지 확인한다.
 - 이전 추천 accordion 구현 전 필수 사용자 작업 없음. 화면에서는 추천을 두 번 이상 받은 뒤 상단의 `이전 추천 n개`를 눌러 목록 복원·단일 펼침·상품 상세보기를 확인한다.
+- 추천 카드 polish 후 상품명 오른쪽 빈 공간이 쇼핑몰로 이동하지 않고 카드 상세만 여는지, 목록 header가 한 줄로 간결해졌는지 확인한다.
 
 ### Blocker / 미해결
 

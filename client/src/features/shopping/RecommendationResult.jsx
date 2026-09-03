@@ -79,16 +79,18 @@ function ProductSummaryRow({ controlsId, expanded, onToggle, product, rank }) {
 
       <span className="min-w-0">
         <span className="block text-[0.68rem] font-medium text-stone-500 sm:text-xs">{product.shopName}</span>
-        <a
-          aria-label={`${product.name} 상품 페이지 새 탭에서 열기`}
-          className="mt-0.5 line-clamp-2 block text-sm font-semibold leading-5 text-stone-950 underline decoration-transparent underline-offset-2 hover:text-orange-700 hover:decoration-orange-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-400"
-          href={product.productUrl}
-          onClick={(event) => event.stopPropagation()}
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          {displayName}
-        </a>
+        <span className="mt-0.5 line-clamp-2 text-sm font-semibold leading-5">
+          <a
+            aria-label={`${product.name} 상품 페이지 새 탭에서 열기`}
+            className="text-stone-950 underline decoration-transparent underline-offset-2 hover:text-orange-700 hover:decoration-orange-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-400"
+            href={product.productUrl}
+            onClick={(event) => event.stopPropagation()}
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            {displayName}
+          </a>
+        </span>
         <span className="mt-1 block text-sm font-bold text-orange-800">{formatPrice(product.price)}</span>
       </span>
 
@@ -140,8 +142,7 @@ export default function RecommendationResult({ result }) {
       <section className="ml-0 mt-7 max-w-4xl sm:ml-11" aria-label="추천 상품">
         <div className="mb-3 flex items-end justify-between gap-4">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-stone-500">추천 후보</p>
-            <h3 className="mt-1 text-sm font-semibold text-stone-900">후보를 비교하고 하나씩 자세히 확인하세요</h3>
+            <h3 className="text-sm font-semibold text-stone-900">후보를 비교하고 하나씩 자세히 확인하세요</h3>
           </div>
           <span className="shrink-0 text-xs text-stone-500">{result.products.length}개</span>
         </div>
