@@ -1062,6 +1062,7 @@
 | 2026-09-03 | 이전 추천 시각 검증 제한 | Browser runtime의 연결 가능한 browser 목록이 0개라 실제 accordion 클릭·mobile 간격은 자동 확인하지 못했으며 사용자 화면 확인 대기 |
 | 2026-09-03 | loading 중 accordion 결함 수정 | 세 번째 대화 loading 중 첫 추천이 열리지 않는 피드백을 반영; submit 시 expansion 초기화를 제거하고 folding 중인 최신 recommendation의 disabled·render 제한도 해제해 요청 중 모든 이전 추천 열람 허용 |
 | 2026-09-03 | loading 상호작용 회귀 검증 | 전체 `npm test` 111/111, production build와 관련 파일 `git diff --check` 통과; 자동 Browser 연결 대상 부재로 실제 loading 중 click 재검증은 사용자 확인 대기 |
+| 2026-09-03 | 이전 추천 accordion 배포 검증 | commit `7faeded`를 `main`에 push; Render `/api/health` HTTP 200, 새 JS `index-BdsKzXzV.js`·CSS `index-Dn3VKe8j.css` 전환과 bundle의 이전 추천 목록·펼침 코드 반영 확인 |
 
 ### 변경 파일
 
